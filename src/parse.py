@@ -11,9 +11,10 @@ reg_file = 'tfs.txt'
 # X is in the form: Genes vs Tumor Sample
 # regulators is a list of regulators
 def parse_data():
-    X = [[] for x in xrange(NUM_GENES)]
+    gene_data = {} # Dictionary of cancer to matrix
     for fname in files:
         with open(directory + fname) as f:
+            X = []
             for i,line in enumerate(f):
                 # Skip title
                 if i == 0:
@@ -21,13 +22,14 @@ def parse_data():
                 vals = line.strip().split('\t') # Parse tsv
                 vals = vals[1:] # Remove name
                 vals = [float(x) for x in vals] # Convert to floats
-                X[i-1].extend(vals)
+                X.append(vals)
+            gene_data[fname.strip()[:-4]] = np.asarray(X)
 
     regulators = []
     with open(directory + reg_file) as f:
         regulators = [x.strip() for x in f]
 
-    return np.asarray(X), regulators
+    return gene_data, regulators
 
 def main():
     pass

@@ -6,7 +6,8 @@ def sample_experiment(X):
     pass
 
 def main():
-    X, regulators = parse_data()
+    gene_data, regulators = parse_data()
+    X = gene_data['BRCA']
 
 if __name__ == '__main__':
     main()
