@@ -7,5 +7,5 @@ make;
 sudo make install;
 cd ../src;
 make;
-mkdir results;
+mkdir -p results;
 ./merlin -d example/net1_expression.txt -l example/net1_transcription_factors.tsv -o results/;
