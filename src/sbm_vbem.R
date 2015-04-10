@@ -28,13 +28,21 @@ X[X != 0] <- 1 # Set all nonzero values to 1 for binary matrix
 n <- vector(mode="integer", length=Q) + 0.5
 eta <- matrix(0.5, ncol=Q, nrow=Q)
 xi <- matrix(0.5, ncol=Q, nrow=Q)
-tau <- matrix(0, ncol=Q, nrow=N) # TODO (kevintee): randomly initialize tau
+# TODO (kevintee): better initialization based on distance
+tau <- matrix(runif(Q*N), ncol=Q, nrow=N)
+for(i in 1:N){
+  normalize <- sum(tau[i,])
+  for(q in 1:Q){
+    tau[i,q] <- tau[i,q]/normalize
+  }
+}
 
 iter <- 0
 while(iter < 5){
   iter <- iter + 1
   # E-step: optimize each q(Z_i)
   # tau
+  print tau[1:10,1:10]
   oldTau <- tau
   for(i in 1:N){
     for(q in 1:Q){
@@ -112,8 +120,3 @@ while(iter < 5){
     }
   }
 }
-
-
-
-
-
