@@ -14,7 +14,7 @@ rawData <- rawData[,-1] # Remove first column
 EPSILON <- 1e-6 # Threshold for termination
 Q <- 10 # Number of classes
 N <- 100 # Number of genes
-LAMBDA <- 0.5 # Sparsity for binary matrix
+LAMBDA <- 0.3 # Sparsity for binary matrix
 
 rawData <- rawData[1:N,] # Just take 100 for now for speed
 
@@ -42,7 +42,7 @@ while(iter < 5){
   iter <- iter + 1
   # E-step: optimize each q(Z_i)
   # tau
-  print tau[1:10,1:10]
+  #print(tau[1:10,1:10])
   oldTau <- tau
   for(i in 1:N){
     for(q in 1:Q){
