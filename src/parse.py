@@ -1,6 +1,7 @@
 # Parses TCGA data from `data/` directory
 
 import numpy as np
+import pdb
 
 NUM_GENES = 8499
 
@@ -30,6 +31,54 @@ def parse_data():
         regulators = [x.strip() for x in f]
 
     return gene_data, regulators
+
+
+### for example converts BRCA.txt to BRCA_reformatted.txt New format
+"""
+    every gene expression data file is in the form:
+    Name exp1 exp2 ...
+    G1 valG1 valG1 valG1 ...
+    G2 valG2 valG2 valG2 ...
+
+    We want to convert that into the following format:
+    G1     G2      G3    ...
+    valG1  valG2   valG3 ...
+    valG1  valG2   valG3 ... 
+    ...
+
+"""
+
+def reformat_data():
+    gene_data = {} # Dictionary of cancer to matrix
+    for fname in files:
+        with open(directory + fname) as f:
+            X = []
+            gene_names = []
+            for i,line in enumerate(f):
+                # Skip title
+                if i == 0:
+                    continue
+                vals = line.strip().split('\t') # Parse tsv
+                gene_names.append(vals[0])
+                vals = vals[1:] # Remove name
+                vals = [float(x) for x in vals] # Convert to floats
+                X.append(vals)
+            label = fname.strip()[:-4]
+            gene_data[label] = np.asarray(X)
+            first_string = '' + gene_names[0]
+
+            with open(directory + fname[:-4] + '_reformatted.txt', 'wb') as f_out:
+                for gene_name in gene_names[1:]:
+                    first_string += ' %s' %(gene_name)
+                f_out.write(first_string + '\n')
+                next_string = ''
+                height, width = gene_data[label].shape
+                for i in range(width):
+                    exp_string = ''
+                    for j in range(height):
+                        exp_string += '%s ' %(str(gene_data[label][j, i]))
+                    f_out.write(exp_string[:-1] + '\n')
+
 
 def main():
     pass

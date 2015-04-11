@@ -73,7 +73,7 @@ else
 
   if test -f "$progdir/$program"; then
     # Add our own library path to DYLD_LIBRARY_PATH
-    DYLD_LIBRARY_PATH="/Users/michaelliang/projects/gpdream/modules/merlin/src/gsl-1.9/.libs:/Users/michaelliang/projects/gpdream/modules/merlin/src/gsl-1.9/cblas/.libs:$DYLD_LIBRARY_PATH"
+    DYLD_LIBRARY_PATH="/Users/michaelliang/cs294/Predicting-Gene-Networks/src/gpdream/modules/Merlin/gsl-1.9/.libs:/Users/michaelliang/cs294/Predicting-Gene-Networks/src/gpdream/modules/Merlin/gsl-1.9/cblas/.libs:$DYLD_LIBRARY_PATH"
 
     # Some systems cannot cope with colon-terminated DYLD_LIBRARY_PATH
     # The second colon is a workaround for a bug in BeOS R4 sed
