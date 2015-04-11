@@ -28,6 +28,7 @@ X[X != 0] <- 1 # Set all nonzero values to 1 for binary matrix
 n <- vector(mode="integer", length=Q) + 0.5
 eta <- matrix(0.5, ncol=Q, nrow=Q)
 xi <- matrix(0.5, ncol=Q, nrow=Q)
+oldTau <- matrix(0, ncol=Q, nrow=N)
 # TODO (kevintee): better initialization based on distance
 tau <- matrix(runif(Q*N), ncol=Q, nrow=N)
 for(i in 1:N){
