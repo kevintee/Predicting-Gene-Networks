@@ -40,16 +40,34 @@ for(i in 1:N){
 iter <- 0
 while(iter < 5){
   iter <- iter + 1
+  # M-step: optimize q(\alpha), q(\pi)
+  # n
+  n <- n + apply(tau, 1, sum)
+
+  # eta
+  nonDiagX <- X
+  diag(nonDiagX) <- 0
+  total <- t(tau)%*%nonDiagX%*%tau
+  print(total)
+  diag(total) <- diag(total)/2
+  eta <- eta + total
+
+  # xi
+  nonDiagX <- 1-X
+  diag(nonDiagX) <- 0
+  total <- t(tau)%*%nonDiagX%*%tau
+  diag(total) = diag(total)/2
+  xi <- xi + total
+
   # E-step: optimize each q(Z_i)
   # tau
-  #print(tau[1:10,1:10])
   oldTau <- tau
   for(i in 1:N){
     for(q in 1:Q){
       total <- 0
-      for(j in 1:N){
-        for(l in 1:Q){
-          if(i != j){
+      if(i != j){
+        for(j in 1:N){
+          for(l in 1:Q){
             total <- total + oldTau[j,l]*(digamma(xi[q,l])-digamma(eta[q,l]+xi[q,l])+X[i,j]*(digamma(eta[q,l])-digamma(xi[q,l])))
           }
         }
@@ -60,63 +78,6 @@ while(iter < 5){
     normalize <- sum(tau[i,])
     for(q in 1:Q){
       tau[i,q] <- tau[i,q]/normalize
-    }
-  }
-  
-  
-  # M-step: optimize q(\alpha), q(\pi)
-  # n
-  n <- n + apply(tau, 1, sum)
-  
-  # eta
-  for(q in 1:Q){
-    total <- 0
-    for(i in 1:N){
-      if(i > 1){
-        for(j in 1:(i-1)){
-          total <- total + X[i,j]*tau[i,q]*tau[j,q]
-        }
-      }
-    }
-    eta[q,q] <- eta[q,q] + total
-  }
-  for(q in 1:Q){
-    for(l in 1:Q){
-      total <- 0
-      for(i in 1:N){
-        for(j in 1:N){
-          if(i != j){
-            total <- total + X[i,j]*tau[i,q]*tau[j,l]
-          }
-        }
-      }
-      eta[q,l] <- eta[q,l] + total
-    }
-  }
-  
-  # xi
-  for(q in 1:Q){
-    total = 0
-    for(i in 1:N){
-      if(i > 1){
-        for(j in 1:(i-1)){
-          total <- total + (1-X[i,j])*tau[i,q]*tau[j,q]
-        }
-      }
-    }
-    xi[q,q] = xi[q,q] + total
-  }
-  for(q in 1:Q){
-    for(l in 1:Q){
-      total <- 0
-      for(i in 1:N){
-        for(j in 1:N){
-          if(i != j){
-            total <- total + (1-X[i,j])*tau[i,q]*tau[j,l]
-          }
-        }
-      }
-      xi[q,l] <- xi[q,l] + total
     }
   }
 }
