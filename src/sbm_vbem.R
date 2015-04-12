@@ -37,6 +37,7 @@ for(i in 1:N){
     tau[i,q] <- tau[i,q]/normalize
   }
 }
+ones <- matrix(1, ncol=N, nrow=N)
 
 while(sum(abs(oldTau-tau)) > EPSILON){
   # M-step: optimize q(\alpha), q(\pi)
@@ -60,7 +61,6 @@ while(sum(abs(oldTau-tau)) > EPSILON){
   # E-step: optimize each q(Z_i)
   # tau
   oldTau <- tau
-  ones <- matrix(1, ncol=N, nrow=N)
   alphaTerm <- digamma(replicate(Q, n)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
   piTerm <- ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
   tau <- exp(alphaTerm+piTerm)
