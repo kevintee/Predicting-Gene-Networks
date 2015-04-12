@@ -64,8 +64,8 @@ while(iter < 100){
   # tau
   oldTau <- tau
   ones <- matrix(1, ncol=N, nrow=N)
-  alphaTerm = digamma(replicate(Q, n)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
-  piTerm = ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
+  alphaTerm <- digamma(replicate(Q, n)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
+  piTerm <- ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
   tau <- exp(alphaTerm+piTerm)
   for(i in 1:N){
     # Normalize tau
