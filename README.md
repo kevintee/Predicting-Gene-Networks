@@ -5,7 +5,7 @@ STATS 245F
 
 Michael Liang  
 Kevin Tee  
-Jonathan Kim
+Jonathan Kim  
 Amelia Wallace
 
 TODO
