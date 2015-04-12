@@ -39,8 +39,9 @@ for(i in 1:N){
 }
 
 iter <- 0
-while(iter < 5){
+while(iter < 100){
   iter <- iter + 1
+
   # M-step: optimize q(\alpha), q(\pi)
   # n
   n <- n + apply(tau, 1, sum)
@@ -49,7 +50,6 @@ while(iter < 5){
   nonDiagX <- X
   diag(nonDiagX) <- 0
   total <- t(tau)%*%nonDiagX%*%tau
-  print(total)
   diag(total) <- diag(total)/2
   eta <- eta + total
 
@@ -63,22 +63,16 @@ while(iter < 5){
   # E-step: optimize each q(Z_i)
   # tau
   oldTau <- tau
+  ones <- matrix(1, ncol=N, nrow=N)
+  alphaTerm = digamma(replicate(Q, n)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
+  piTerm = ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
+  tau <- exp(alphaTerm+piTerm)
   for(i in 1:N){
-    for(q in 1:Q){
-      total <- 0
-      if(i != j){
-        for(j in 1:N){
-          for(l in 1:Q){
-            total <- total + oldTau[j,l]*(digamma(xi[q,l])-digamma(eta[q,l]+xi[q,l])+X[i,j]*(digamma(eta[q,l])-digamma(xi[q,l])))
-          }
-        }
-      }
-      tau[i,q] <- exp(digamma(n[q])-digamma(sum(n)) + total)
-    }
     # Normalize tau
     normalize <- sum(tau[i,])
     for(q in 1:Q){
       tau[i,q] <- tau[i,q]/normalize
     }
-  }
+  } 
+  print(tau[1:10,1:10])
 }
