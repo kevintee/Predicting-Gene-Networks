@@ -63,8 +63,5 @@ while(sum(abs(oldTau-tau)) > EPSILON){
 }
 
 # Print out readable results
-THRESHOLD = 0.01
-tau[tau < THRESHOLD] = 0
-tau[tau > 1-THRESHOLD] = 1
 tau <- round(tau, digits=2)
 print(tau)
