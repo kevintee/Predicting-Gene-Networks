@@ -11,7 +11,7 @@ rawData <- read.table(fileName, header=T, sep="\t")
 rawData <- rawData[,-1] # Remove first column
 
 # Define constants
-EPSILON <- 1e-6 # Threshold for termination
+EPSILON <- 1e-2 # Threshold for termination
 Q <- 10 # Number of classes
 N <- 100 # Number of genes
 LAMBDA <- 0.3 # Sparsity for binary matrix
@@ -38,10 +38,7 @@ for(i in 1:N){
   }
 }
 
-iter <- 0
-while(iter < 100){
-  iter <- iter + 1
-
+while(sum(abs(oldTau-tau)) > EPSILON){
   # M-step: optimize q(\alpha), q(\pi)
   # n
   n <- n + apply(tau, 1, sum)
