@@ -31,12 +31,7 @@ xi <- matrix(0.5, ncol=Q, nrow=Q)
 oldTau <- matrix(0, ncol=Q, nrow=N)
 # TODO (kevintee): better initialization based on distance
 tau <- matrix(runif(Q*N), ncol=Q, nrow=N)
-for(i in 1:N){
-  normalize <- sum(tau[i,])
-  for(q in 1:Q){
-    tau[i,q] <- tau[i,q]/normalize
-  }
-}
+tau <- tau/rowSums(tau) # Normalize
 ones <- matrix(1, ncol=N, nrow=N)
 
 while(sum(abs(oldTau-tau)) > EPSILON){
@@ -64,12 +59,7 @@ while(sum(abs(oldTau-tau)) > EPSILON){
   alphaTerm <- digamma(replicate(Q, n)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
   piTerm <- ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
   tau <- exp(alphaTerm+piTerm)
-  for(i in 1:N){
-    # Normalize tau
-    normalize <- sum(tau[i,])
-    for(q in 1:Q){
-      tau[i,q] <- tau[i,q]/normalize
-    }
-  } 
-  print(tau[1:10,1:10])
+  tau <- tau/rowSums(tau) # Normalize
 }
+
+print(tau)
