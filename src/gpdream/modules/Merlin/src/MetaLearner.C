@@ -509,8 +509,10 @@ MetaLearner::doCrossValidation(int foldCnt)
 	}
 	for(int f=foldBegin;f<foldEnd;f++)
 	{	
+		cout << "fold info : " << foldBegin << " ( " << foldEnd << endl;
 		for(map<int,EvidenceManager*>::iterator eIter=evMgrSet.begin();eIter!=evMgrSet.end();eIter++)
 		{
+			cout << "within forloop" << endl;
 			EvidenceManager* evMgr=eIter->second;
 			evMgr->splitData(f);
 			if(random)
@@ -559,6 +561,7 @@ MetaLearner::doCrossValidation(int foldCnt)
 			sprintf(foldOutputDirCmd,"mkdir %s",outputDir);
 			system(foldOutputDirCmd);
 		}
+		cout << "after forloop" << endl;
 		clearFoldSpecData();
 		//start(f);
 		start_gradualMBIncrease(f);
@@ -573,6 +576,7 @@ MetaLearner::doCrossValidation(int foldCnt)
 		{
 			getPredictionError_Holdout(f);
 		}
+		cout << "done" << endl;
 	}
 	gsl_rng_free(r);
 
@@ -603,17 +607,21 @@ MetaLearner::start(int f)
 	initEdgePriorMeta_Motif();
 	initEdgePriorMeta_ChIP();
 	initEdgeSet(false);
+	cout << "1111" << endl;
 	initPhysicalDegree();
+	cout << "1112" << endl;
 	int i=0;
 	VSET& varSet=varManager->getVariableSet();
+	cout << "1113" << endl;
 	for(VSET_ITER vIter=varSet.begin();vIter!=varSet.end();vIter++)
 	{
 		idVidMap[i]=vIter->first;
 		i++;
 	}
+	cout << "1114" << endl;
 	if(strlen(trueGraphFName)==0)
 	{
-		
+		cout << "1115" << endl;
 		double currGlobalScore=getInitPLLScore();
 		double initScore=getInitPrior();
 		//currGlobalScore=currGlobalScore+initScore;
@@ -621,8 +629,10 @@ MetaLearner::start(int f)
 		int moduleiter=0;
 		bool notConvergedTop=true;
 		double scorePremodule=currGlobalScore;
+		cout << "1116" << endl;
 		while(moduleiter<10 && notConvergedTop)
 		{
+			cout << "1117" << moduleiter << endl;
 			int subiter=0;
 			while(subiter<varSet.size())
 			{
@@ -698,17 +708,21 @@ MetaLearner::start_gradualMBIncrease(int f)
 	initEdgePriorMeta_Motif();
 	initEdgePriorMeta_ChIP();
 	initEdgeSet(false);
+	cout << "2222" << endl;
 	initPhysicalDegree();
+	cout << "2223" << endl;
 	int i=0;
 	VSET& varSet=varManager->getVariableSet();
+	cout << "2224" << endl;
 	for(VSET_ITER vIter=varSet.begin();vIter!=varSet.end();vIter++)
 	{
 		idVidMap[i]=vIter->first;
 		i++;
 	}
+	cout << "2225" << endl;
 	if(strlen(trueGraphFName)==0)
 	{
-		
+		cout << "2226" << endl;
 		double currGlobalScore=getInitPLLScore();
 		double initScore=getInitPrior();
 		//currGlobalScore=currGlobalScore+initScore;
@@ -716,26 +730,33 @@ MetaLearner::start_gradualMBIncrease(int f)
 		int moduleiter=0;
 		bool notConvergedTop=true;
 		vector<int> randOrder;
+		cout << "2227" << endl;	
 		while(moduleiter<1 && notConvergedTop)
 		{
 			int iter=0;
+			//cout << "iteration number " << moduleiter << endl;
 			bool notConverged=true;
 			while(notConverged && iter<50)
 			{
+				cout << "iter number " << iter << endl;
 				int attemptedMoves=0;
 				int subiter=0;
 				double scorePremodule=currGlobalScore;
 				EvidenceManager* evMgr=evMgrSet.begin()->second;
+				cout << "iter0" << endl;
 				randOrder.clear();
-				evMgr->populateRandIntegers(rnd,randOrder,varSet.size(),varSet.size());				
+				evMgr->populateRandIntegers(rnd,randOrder,varSet.size(),varSet.size());
+				cout << "iter1" << endl;
 				struct timeval begintime;
 				struct timeval endtime;
 				struct timezone begintimezone;
 				struct timezone endtimezone;
 				gettimeofday(&begintime,&begintimezone);
+				cout << "iter2" << endl;
 				while(subiter<varSet.size())
 				//while(notConverged && subiter<6000)
 				{
+					cout << "iter3." << subiter << "out of" << varSet.size() << endl;
 					int rID=randOrder[subiter];
 					if(idVidMap.find(rID)==idVidMap.end())
 					{
@@ -814,6 +835,7 @@ MetaLearner::start_gradualMBIncrease(int f)
 			}
 			moduleiter++;
 		}
+		cout << "2229" << endl;
 		cout <<"Final Score " << currGlobalScore << endl;
 		finalScores[f]=currGlobalScore;
 	}
@@ -835,6 +857,7 @@ MetaLearner::start_gradualMBIncrease_RankRegulators(int f)
 	initEdgePriorMeta_Motif();
 	initEdgePriorMeta_ChIP();
 	initEdgeSet(false);
+	cout << "3332" << endl;
 	initPhysicalDegree();
 	int i=0;
 	VSET& varSet=varManager->getVariableSet();
@@ -1189,9 +1212,11 @@ MetaLearner::initEdgeSet(bool validation)
 	int r=restrictedVarList.size();
 	int expEdgeCnt=((r*(r-1))/2) + (r*(n-r)) ;
 	cout <<"Inited " << edgeConditionMap.size() << " edges. Expected " << expEdgeCnt << endl;
-	testedEdges.clear();	
+	testedEdges.clear();
+	cout << "finished clearing edges" << endl;
 	for(map<int,FactorGraph*>::iterator gIter=fgGraphSet.begin();gIter!=fgGraphSet.end();gIter++)
 	{
+		cout << "inside second for loop" << endl;
 		FactorGraph* condspecGraph=gIter->second;
 		PotentialManager* potMgr=potMgrSet[gIter->first];
 		//Init the potentials
@@ -1204,6 +1229,7 @@ MetaLearner::initEdgeSet(bool validation)
 			potMgr->populatePotential(sFactor->potFunc,random);
 			sFactor->potFunc->initMBCovMean();
 		}
+		cout << "finished second for loop" << endl;
 	}
 	return 0;
 }
