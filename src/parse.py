@@ -69,14 +69,14 @@ def reformat_data():
 
             with open(directory + fname[:-4] + '_reformatted.txt', 'wb') as f_out:
                 for gene_name in gene_names[1:]:
-                    first_string += ' %s' %(gene_name)
+                    first_string += '\t%s' %(gene_name)
                 f_out.write(first_string + '\n')
                 next_string = ''
                 height, width = gene_data[label].shape
                 for i in range(width):
                     exp_string = ''
                     for j in range(height):
-                        exp_string += '%s ' %(str(2.0**(gene_data[label][j, i])))
+                        exp_string += '%s\t' %(str(2.0**(gene_data[label][j, i])))
                     f_out.write(exp_string[:-1] + '\n')
 
 

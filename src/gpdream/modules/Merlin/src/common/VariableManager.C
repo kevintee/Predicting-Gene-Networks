@@ -27,6 +27,7 @@ VariableManager::readVariables(const char* aFName)
 	if(inFile.good())
 	{
 		inFile.getline(buffer,400000);
+		cout << "#" << strlen(buffer) << endl;
 
 		if(strlen(buffer)<=0)
 		{
@@ -48,6 +49,7 @@ VariableManager::readVariables(const char* aFName)
 			varNameIDMap[varKey]=tokCnt;
 			tokCnt++;
 			tok=strtok(NULL,"\t");
+			cout << "tokCnt is: " << tokCnt << endl;
 		}
 	}
 
