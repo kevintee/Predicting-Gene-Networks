@@ -3,4 +3,4 @@
 
 
 mkdir -p results;
-./gpdream/modules/Merlin/src/merlin -d $1 -l $2 -o results
+./gpdream/modules/Merlin/src/merlin -d data/BRCA_reformatted.txt -l data/tfs.txt -o results

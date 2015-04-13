@@ -76,7 +76,7 @@ def reformat_data():
                 for i in range(width):
                     exp_string = ''
                     for j in range(height):
-                        exp_string += '%s ' %(str(gene_data[label][j, i]))
+                        exp_string += '%s ' %(str(2.0**(gene_data[label][j, i])))
                     f_out.write(exp_string[:-1] + '\n')
 
 
