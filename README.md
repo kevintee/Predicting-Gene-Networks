@@ -1,7 +1,5 @@
-Final Project 
-CS 294-108 Spring 2015
-STATS 245F
-
+Final Project: CS 294-108, Stat 245F  
+Spring 2015 
 
 Michael Liang  
 Kevin Tee  

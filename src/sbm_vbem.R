@@ -11,9 +11,9 @@ rawData <- read.table(fileName, header=T, sep="\t")
 rawData <- rawData[,-1] # Remove first column
 
 # Define constants
-EPSILON <- 1e-2 # Threshold for termination
+EPSILON <- 1e-0 # Threshold for termination
 Q <- 10 # Number of classes
-N <- 100 # Number of genes
+N <- 1000 # Number of genes
 LAMBDA <- 0.3 # Sparsity for binary matrix
 
 rawData <- rawData[1:N,] # Just take 100 for now for speed
@@ -60,6 +60,7 @@ while(sum(abs(oldTau-tau)) > EPSILON){
   piTerm <- ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
   tau <- exp(alphaTerm+piTerm)
   tau <- tau/rowSums(tau) # Normalize
+  tau[is.na(tau)] <- 1/Q
 }
 
 # Print out readable results
