@@ -3,7 +3,7 @@ import networkx as nx
 
 
 """
-from: 
+from:
 http://stackoverflow.com/questions/17381006/large-graph-visualization-with-python-and-networkx
 """
 

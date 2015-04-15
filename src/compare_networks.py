@@ -9,7 +9,7 @@ import parse_modules
 import graph_io
 
 """ Compare two networks (without modules)
-    
+
     - Look @ the differences/similarities
     Measures:
 
