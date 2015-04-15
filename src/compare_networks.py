@@ -41,6 +41,8 @@ def compare_modules(m_g0, g_m0, m_g1, g_m1, g0, g1):
     print top_module_genes0 == top_module_genes1
 
     print 'saving the two biggest modoles'
+
+    #todo get this to display the same graph, since edgelist is the same?
     graph_io.save_graph(H0, '../results/Merlin/h0.png')
     graph_io.save_graph(H1, '../results/Merlin/h1.png')
 
