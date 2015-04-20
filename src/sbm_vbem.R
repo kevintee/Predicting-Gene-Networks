@@ -16,7 +16,7 @@ Q <- 10 # Number of classes
 N <- 1000 # Number of genes
 LAMBDA <- 0.3 # Sparsity for binary matrix
 
-rawData <- rawData[1:N,] # Just take 100 for now for speed
+rawData <- rawData[1:N,] # Take N for speed
 
 # Generate binary matrix via correlation cutoff
 # TODO(kevintee): better way of generating binary matrix
