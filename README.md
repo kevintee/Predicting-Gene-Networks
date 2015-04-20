@@ -4,7 +4,8 @@ Spring 2015
 Michael Liang  
 Kevin Tee  
 Jonathan Kim  
-Amelia Wallace
+Amelia Wallace  
+Ling Shen
 
 TODO
 - reformat .txt file.
