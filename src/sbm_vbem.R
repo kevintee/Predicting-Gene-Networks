@@ -1,5 +1,5 @@
-# Variational Bayes EM for Stochastic Block Model
-# Based on Latouche et al., 2010
+# Predicting Cancer Regulatory Networks
+# Variational Bayes EM for Stochastic Block Model (Latouche et al., 2010)
 
 # Set working directory
 setwd("/Users/kevintee/Downloads/Predicting-Gene-Networks/src/")
@@ -18,11 +18,12 @@ LAMBDA <- 0.3 # Sparsity for binary matrix
 
 rawData <- rawData[1:N,] # Take N for speed
 
-# Generate binary matrix via correlation cutoff
-# TODO(kevintee): better way of generating binary matrix
-X <- cor(t(rawData), t(rawData))
-X[abs(X) < LAMBDA] <- 0 # Remove uncorrelated values
-X[X != 0] <- 1 # Set all nonzero values to 1 for binary matrix
+# Sample covariance
+X <- cov(t(rawData), t(rawData))
+
+# Remove uncorrelated values and set all nonzero values to 1
+X[abs(X) < LAMBDA] <- 0
+X[X != 0] <- 1
 
 # Initialization
 n <- vector(mode="integer", length=Q) + 0.5
