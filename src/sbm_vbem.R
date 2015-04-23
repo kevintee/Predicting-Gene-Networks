@@ -29,7 +29,6 @@ X <- cor(t(rawData), t(rawData))
 
 # Remove uncorrelated values and set all nonzero values to 1
 X[abs(X) < LAMBDA] <- 0
-weights <- X
 X[X != 0] <- 1
 
 # Initialization
@@ -73,8 +72,7 @@ while(sum(abs(oldTau-tau)) > EPSILON){
 
 # Write weights of nonzero gene-gene edges
 weightFile <- paste("../results/sbm/", cancer, "_weights.txt", sep="")
-weights <- round(weights, digits=3)
-write.table(weights, file=weightFile, quote=FALSE, col.names=FALSE, row.names=FALSE)
+write.table(X, file=weightFile, quote=FALSE, col.names=FALSE, row.names=FALSE)
 
 # Get cluster assignments
 clusters <- matrix(0, ncol=2, nrow=N)
