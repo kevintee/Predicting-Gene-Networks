@@ -19,12 +19,13 @@ rawData <- rawData[,-1] # Remove first column
 EPSILON <- 1e-0 # Threshold for termination
 Q <- 100 # Number of classes
 N <- 1000 # Number of genes
-LAMBDA <- 0.5 # Sparsity for binary matrix
+LAMBDA <- 0.3 # Sparsity for binary matrix
 
 rawData <- rawData[1:N,] # Take N for speed
 
-# Sample covariance
-X <- cov(t(rawData), t(rawData))
+# Correlation
+# TODO(kevintee): http://www.sumsar.net/blog/2013/08/bayesian-estimation-of-correlation/
+X <- cor(t(rawData), t(rawData))
 
 # Remove uncorrelated values and set all nonzero values to 1
 X[abs(X) < LAMBDA] <- 0
