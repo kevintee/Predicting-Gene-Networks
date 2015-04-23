@@ -4,9 +4,12 @@
 # Set working directory
 setwd("/Users/kevintee/Downloads/Predicting-Gene-Networks/src/")
 
+# Cancer Type
+cancer <- "KIRC"
+
 # Read in files
 # X is in the form: Genes vs Tumor Sample
-fileName <- "data/KIRC.txt"
+fileName <- paste("data/", cancer, ".txt", sep="")
 rawData <- read.table(fileName, header=TRUE, sep="\t")
 genes <- rawData[1] # Gene Names
 genes <- matrix(genes[,c("Name")]) # Convert from dataframe to matrix
@@ -68,7 +71,7 @@ while(sum(abs(oldTau-tau)) > EPSILON){
 }
 
 # Write weights of nonzero gene-gene edges
-weightFile <- "../results/sbm/KIRC_weights.txt"
+weightFile <- paste("../results/sbm/", cancer, "_weights.txt", sep="")
 weights <- round(weights, digits=3)
 write.table(weights, file=weightFile, quote=FALSE, col.names=FALSE, row.names=FALSE)
 
@@ -79,5 +82,5 @@ for(i in 1:N){
 }
 
 # Write clusters
-clusterFile <- "../results/sbm/KIRC_cluster.txt"
+clusterFile <- paste("../results/sbm/", cancer, "_cluster.txt", sep="")
 write.table(clusters, file=clusterFile, quote=FALSE, sep='\t', col.names=FALSE, row.names=FALSE)
