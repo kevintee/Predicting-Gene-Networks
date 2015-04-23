@@ -4,7 +4,7 @@ import os
 import argparse
 import sys
 
-import parse_modules
+import parse
 import graph_io
 
 """ Compare two networks (without modules)
@@ -70,8 +70,8 @@ def main():
     g0 = nx.read_weighted_edgelist(net0_fname, delimiter='\t')
     g1 = nx.read_weighted_edgelist(net1_fname, delimiter='\t')
 
-    m_g0, g_m0 = parse_modules.parse_module(mod0_fname)
-    m_g1, g_m1 = parse_modules.parse_module(mod1_fname)
+    m_g0, g_m0 = parse.parse_module(mod0_fname)
+    m_g1, g_m1 = parse.parse_module(mod1_fname)
 
     compare_modules(m_g0, g_m0, m_g1, g_m1, g0, g1)
     #pdb.set_trace()
