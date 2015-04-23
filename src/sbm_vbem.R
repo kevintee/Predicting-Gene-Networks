@@ -8,13 +8,15 @@ setwd("/Users/kevintee/Downloads/Predicting-Gene-Networks/src/")
 # X is in the form: Genes vs Tumor Sample
 fileName <- "data/KIRC.txt"
 rawData <- read.table(fileName, header=T, sep="\t")
+genes <- rawData[1] # Gene Names
+genes <- matrix(genes[,c("Name")]) # Convert from dataframe to matrix
 rawData <- rawData[,-1] # Remove first column
 
 # Define constants
 EPSILON <- 1e-0 # Threshold for termination
-Q <- 10 # Number of classes
+Q <- 100 # Number of classes
 N <- 1000 # Number of genes
-LAMBDA <- 0.3 # Sparsity for binary matrix
+LAMBDA <- 0.5 # Sparsity for binary matrix
 
 rawData <- rawData[1:N,] # Take N for speed
 
@@ -64,6 +66,8 @@ while(sum(abs(oldTau-tau)) > EPSILON){
   tau[is.na(tau)] <- 1/Q
 }
 
-# Print out readable results
-tau <- round(tau, digits=2)
-print(tau)
+# Get cluster assignments
+clusters <- matrix(0, ncol=2, nrow=N)
+for(i in 1:N){
+  clusters[i,] <- c(genes[i], which.max(tau[i,]))
+}
