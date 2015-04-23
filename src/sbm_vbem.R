@@ -7,7 +7,7 @@ setwd("/Users/kevintee/Downloads/Predicting-Gene-Networks/src/")
 # Read in files
 # X is in the form: Genes vs Tumor Sample
 fileName <- "data/KIRC.txt"
-rawData <- read.table(fileName, header=T, sep="\t")
+rawData <- read.table(fileName, header=TRUE, sep="\t")
 genes <- rawData[1] # Gene Names
 genes <- matrix(genes[,c("Name")]) # Convert from dataframe to matrix
 rawData <- rawData[,-1] # Remove first column
@@ -25,6 +25,7 @@ X <- cov(t(rawData), t(rawData))
 
 # Remove uncorrelated values and set all nonzero values to 1
 X[abs(X) < LAMBDA] <- 0
+weights <- X
 X[X != 0] <- 1
 
 # Initialization
@@ -59,12 +60,17 @@ while(sum(abs(oldTau-tau)) > EPSILON){
   # E-step: optimize each q(Z_i)
   # tau
   oldTau <- tau
-  alphaTerm <- digamma(matrix(rep(n, N), ncol=Q, nrow=N, byrow=T)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
+  alphaTerm <- digamma(matrix(rep(n, N), ncol=Q, nrow=N, byrow=TRUE)) - digamma(matrix(sum(n), ncol=Q, nrow=N))
   piTerm <- ones%*%oldTau%*%(digamma(xi)-digamma(eta+xi)) + X%*%oldTau%*%(digamma(eta)-digamma(xi))
   tau <- exp(alphaTerm+piTerm)
   tau <- tau/rowSums(tau) # Normalize
   tau[is.na(tau)] <- 1/Q
 }
+
+# Write weights of nonzero gene-gene edges
+weightFile <- "../results/sbm/KIRC_weights.txt"
+weights <- round(weights, digits=3)
+write.table(weights, file=weightFile, quote=FALSE, col.names=FALSE, row.names=FALSE)
 
 # Get cluster assignments
 clusters <- matrix(0, ncol=2, nrow=N)
@@ -72,6 +78,6 @@ for(i in 1:N){
   clusters[i,] <- c(genes[i], which.max(tau[i,]))
 }
 
-# Write to file
-resultFile <- "../results/sbm/KIRC_cluster.txt"
-write.table(clusters, file=resultFile, quote=FALSE, sep='\t', col.names=F, row.names=F)
+# Write clusters
+clusterFile <- "../results/sbm/KIRC_cluster.txt"
+write.table(clusters, file=clusterFile, quote=FALSE, sep='\t', col.names=FALSE, row.names=FALSE)
