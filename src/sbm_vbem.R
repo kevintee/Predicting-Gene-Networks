@@ -71,3 +71,7 @@ clusters <- matrix(0, ncol=2, nrow=N)
 for(i in 1:N){
   clusters[i,] <- c(genes[i], which.max(tau[i,]))
 }
+
+# Write to file
+resultFile <- "../results/sbm/KIRC_cluster.txt"
+write.table(clusters, file=resultFile, quote=FALSE, sep='\t', col.names=F, row.names=F)
