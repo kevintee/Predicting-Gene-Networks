@@ -4,7 +4,6 @@ import os
 import argparse
 import sys
 
-
 import parse_modules
 import graph_io
 
@@ -46,15 +45,8 @@ def compare_modules(m_g0, g_m0, m_g1, g_m1, g0, g1):
     graph_io.save_graph(H0, '../results/Merlin/h0.png')
     graph_io.save_graph(H1, '../results/Merlin/h1.png')
 
-
-    return None
-
-
 def compare_two_networks(g0, g1): # Without module information
-
-
-    return None
-
+    pass
 
 def main():
     parser = argparse.ArgumentParser()
@@ -81,11 +73,9 @@ def main():
     m_g0, g_m0 = parse_modules.parse_module(mod0_fname)
     m_g1, g_m1 = parse_modules.parse_module(mod1_fname)
 
-
     compare_modules(m_g0, g_m0, m_g1, g_m1, g0, g1)
     #pdb.set_trace()
     #compare_two_networks(g0, g1)
-
 
 if __name__ == '__main__':
     main()
