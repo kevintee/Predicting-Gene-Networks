@@ -5,6 +5,7 @@
 setwd("/Users/kevintee/Downloads/Predicting-Gene-Networks/src/")
 
 # Cancer Type
+outputDir <- "../results/sbm/"
 cancer <- "KIRC"
 
 # Read in files
@@ -16,12 +17,10 @@ genes <- matrix(genes[,c("Name")]) # Convert from dataframe to matrix
 rawData <- rawData[,-1] # Remove first column
 
 # Define constants
-EPSILON <- 1e-0 # Threshold for termination
+EPSILON <- 1e1 # Threshold for termination
 Q <- 100 # Number of classes
-N <- 1000 # Number of genes
+N <- 8499 # Number of genes
 LAMBDA <- 0.3 # Sparsity for binary matrix
-
-rawData <- rawData[1:N,] # Take N for speed
 
 # Correlation
 # TODO(kevintee): http://www.sumsar.net/blog/2013/08/bayesian-estimation-of-correlation/
@@ -30,6 +29,7 @@ X <- cor(t(rawData), t(rawData))
 # Remove uncorrelated values and set all nonzero values to 1
 X[abs(X) < LAMBDA] <- 0
 X[X != 0] <- 1
+diag(X) <- 0 # No self edges
 
 # Initialization
 n <- vector(mode="integer", length=Q) + 0.5
@@ -71,7 +71,7 @@ while(sum(abs(oldTau-tau)) > EPSILON){
 }
 
 # Write weights of nonzero gene-gene edges
-weightFile <- paste("../results/sbm/", cancer, "_weights.txt", sep="")
+weightFile <- paste(outputDir, cancer, "_weights.txt", sep="")
 write.table(X, file=weightFile, quote=FALSE, col.names=FALSE, row.names=FALSE)
 
 # Get cluster assignments
@@ -81,5 +81,5 @@ for(i in 1:N){
 }
 
 # Write clusters
-clusterFile <- paste("../results/sbm/", cancer, "_cluster.txt", sep="")
+clusterFile <- paste(outputDir, cancer, "_cluster.txt", sep="")
 write.table(clusters, file=clusterFile, quote=FALSE, sep='\t', col.names=FALSE, row.names=FALSE)
