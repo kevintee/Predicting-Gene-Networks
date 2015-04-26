@@ -1,4 +1,4 @@
-# Parses TCGA data from `data/` directory
+# All parsing functions
 
 import numpy as np
 import pdb
@@ -144,11 +144,18 @@ def parse_chip_tf(tf_name):
     genes_regulated = list(set(genes_regulated)) # Remove duplicates
     return genes_regulated
 
-def parse_all_chip_tf():
-    pass
+def parse_all_sbm(genes, binary_matrix, tf):
+    # Find which gene it correspond to and get the matrix
+    bool_reg = []
+    for i,gene in enumerate(genes):
+        if gene == tf:
+            bool_reg = binary_matrix[i]
+            break
 
-def main():
-    pass
+    results = []
+    for x,gene in zip(bool_reg, genes):
+        if x == 1:
+            results.append(gene)
 
-if __name__ == '__main__':
-    main()
+    return results
+
