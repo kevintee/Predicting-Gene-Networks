@@ -127,7 +127,7 @@ def parse_sbm_results():
     with open(filename) as f:
         for line in f:
             line = line.strip()
-            vals = [int(x) for x in line.split(' ')]
+            vals = [int(x) for x in line.split(',')]
             binary_matrix.append(vals)
 
     return tfs, genes, binary_matrix, module_to_gene, gene_to_module
@@ -153,9 +153,8 @@ def parse_all_sbm(genes, binary_matrix, tf):
             break
 
     results = []
-    for x,gene in zip(bool_reg, genes):
-        if x == 1:
-            results.append(gene)
+    for x in bool_reg:
+        results.append(genes[x])
 
     return results
 

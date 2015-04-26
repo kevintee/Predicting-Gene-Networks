@@ -20,16 +20,14 @@ rawData <- rawData[,-1] # Remove first column
 EPSILON <- 1e1 # Threshold for termination
 Q <- 100 # Number of classes
 N <- 8499 # Number of genes
-LAMBDA <- 0.3 # Sparsity for binary matrix
+LAMBDA <- 0.75 # Sparsity for binary matrix
 
 # Correlation
-# TODO(kevintee): http://www.sumsar.net/blog/2013/08/bayesian-estimation-of-correlation/
-X <- cor(t(rawData), t(rawData))
+X <- cor(t(rawData), t(rawData), method="spearman")
 
 # Remove uncorrelated values and set all nonzero values to 1
 X[abs(X) < LAMBDA] <- 0
 X[X != 0] <- 1
-diag(X) <- 0 # No self edges
 
 # Initialization
 n <- vector(mode="integer", length=Q) + 0.5
@@ -42,6 +40,7 @@ tau <- tau/rowSums(tau) # Normalize
 ones <- matrix(1, ncol=N, nrow=N)
 
 while(sum(abs(oldTau-tau)) > EPSILON){
+  print(sum(abs(oldTau-tau))) # Print progress
   # M-step: optimize q(\alpha), q(\pi)
   # n
   n <- n + apply(tau, 2, sum)
@@ -72,7 +71,11 @@ while(sum(abs(oldTau-tau)) > EPSILON){
 
 # Write weights of nonzero gene-gene edges
 weightFile <- paste(outputDir, cancer, "_weights.txt", sep="")
-write.table(X, file=weightFile, quote=FALSE, col.names=FALSE, row.names=FALSE)
+binaryMatrix <- vector(mode="character", length=N)
+for(i in 1:N){
+  binaryMatrix[i] <- paste(which(X[i,]!=0, arr.ind=TRUE), collapse=",")
+}
+writeLines(binaryMatrix, weightFile)
 
 # Get cluster assignments
 clusters <- matrix(0, ncol=2, nrow=N)
