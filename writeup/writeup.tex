@@ -211,7 +211,27 @@ In mean field variational inference, we assume that $q(Z, \alpha, \pi)$ can be f
 \[
 q(Z, \alpha, \pi) = q(\alpha)q(\pi)q(Z) = q(\alpha)q(\pi)\displaystyle\prod_{i=1}^{n}q(Z_i)
 \]
-Using a variational Bayesian EM algorithm, we define the E-step to be the optimization of each $q(Z_i)$ and the M-step to be the approximations of $q(\alpha)$ and $q(\pi)$. Define $\tau_{iq}$ to be the responsibility of node $i$ belonging to class $q$ (in other words, the normalized version of $Z_{iq}$. According to variational Bayes, the optimal distribution of $
+Using a variational Bayesian EM algorithm, we define the E-step to be the optimization of each $q(Z_i)$ and the M-step to be the approximations of $q(\alpha)$ and $q(\pi)$. Define $\tau_{iq}$ to be the responsibility of node $i$ belonging to class $q$ (in other words, the normalized version of $Z_{iq}$. By variational Bayes, the optimal distribution of $q(Z_i)$ is
+\[
+\ln q(Z_i) = E_{Z^{-i}, \alpha, \pi} [ln(p(X, Z, \alpha, \pi))] + C
+\]
+\[
+= E_{Z^{-i}, \pi} [ln(p(X | Z, \pi))]  + E_{Z^{-i}, \alpha} [ln(p(Z | \alpha))] + C
+\]
+\[
+= E_{Z^{-i}, \pi} [\displaystyle\sum_{i' < j} \displaystyle\sum_{q,l} Z_{i'q}Z_{jl}(X_{i'j}\ln \pi_{ql} + (1-X_{i'j})\ln (1-\pi_{ql}))] + E_{Z^{-i}, \alpha} [\displaystyle\sum_{i' = 1}^{n} \displaystyle\sum_{q = 1}^{Q} Z_{i'q} \ln \alpha_q] + C
+\]
+\[
+= \displaystyle\sum_{q=1}^{Q} Z_{iq}(E_{\alpha_q}[ln_{\alpha_q}] + \displaystyle\sum_{j \neq i}^N \displaystyle\sum_{l = 1}^{Q} \tau_{jl}(X_{ij}(E_{\pi_{ql}}[\ln \pi_{ql}] - E_{\pi_{ql}}[\ln(1-\pi_{ql})]) + E_{\pi_{ql}}[\ln(1-\pi_{ql})])) + C
+\]
+Using $E_y[\ln y] = \psi(a) - \psi(a+b)$ when $y \sim Beta(a,b)$,
+\[
+= \displaystyle\sum_{q=1}^{Q} Z_{iq}(\psi(n_q) - \psi(\displaystyle\sum_{l=1}^{N} n_l) + \displaystyle\sum_{j \neq i}^N \displaystyle\sum_{l = 1}^{Q} \tau_{jl}(X_{ij}(\psi(\eta_{ql}) - \psi(\xi_{ql})) + \psi(\xi_{ql}) - \psi(\eta_{ql} + \xi_{ql}))) + C
+\]
+Taking the exponent and normalizing, we obtain the following multinomial distribution by pattern matching:
+\[
+\tau_{iq} = Ce^{\phi(n_q) - \phi(\sum_{l=1}^{Q} n_l)}\displaystyle\prod_{j \neq i}^{N} \displaystyle\prod_{l=1}^{Q} e^{\tau_{jl}(\psi(\xi_{ql}) - \psi(\eta_{ql}+\xi_{ql}) + X_{ij}(\psi(\eta_{ql}) - \psi(\xi_{ql}))}
+\]
 
 \section*{Results}
 
