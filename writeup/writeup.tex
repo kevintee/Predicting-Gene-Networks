@@ -195,6 +195,24 @@ In the case of a directed graph, the condition is $i \neq j$ as opposed to $i < 
 
 \subsection*{Estimation Using Variational Bayes EM}
 
+The distribution $p(Z, \alpha, \pi | X)$ is intractable, so we propose an approximation to this distribution using variational inference. The marginal log-likelihood can be decomposed into two terms, the second of which being the KL divergence.
+\[
+\ln p(X) = \mathcal{L}(q(Z, \alpha, \pi) + KL(q(Z, \alpha, \pi) || p(Z, \alpha, \pi, X))
+\]
+where
+\[
+\mathcal{L}(q(Z, \alpha, \pi) = \displaystyle\sum_{Z} \displaystyle\int \displaystyle\int q(Z, \alpha, \pi) \ln(\displaystyle\frac{P(X, Z, \alpha, \pi)}{q(Z, \alpha, \pi)}) d\alpha d\pi
+\]
+and
+\[
+KL(q(Z, \alpha, \pi) || p(Z, \alpha, \pi, X)) = -\displaystyle\sum_{Z} \displaystyle\int \displaystyle\int q(Z, \alpha, \pi) \ln(\displaystyle\frac{P(Z, \alpha, \pi | X)}{q(Z, \alpha, \pi)}) d\alpha d\pi
+\]
+In mean field variational inference, we assume that $q(Z, \alpha, \pi)$ can be factorized such that
+\[
+q(Z, \alpha, \pi) = q(\alpha)q(\pi)q(Z) = q(\alpha)q(\pi)\displaystyle\prod_{i=1}^{n}q(Z_i)
+\]
+Using a variational Bayesian EM algorithm, we define the E-step to be the optimization of each $q(Z_i)$ and the M-step to be the approximations of $q(\alpha)$ and $q(\pi)$. Define $\tau_{iq}$ to be the responsibility of node $i$ belonging to class $q$ (in other words, the normalized version of $Z_{iq}$. According to variational Bayes, the optimal distribution of $
+
 \section*{Results}
 
 \section*{Discussion}
