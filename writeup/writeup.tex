@@ -134,9 +134,30 @@ High-throughput technologies have produced enormous amount of genome-wide gene e
 
 In this paper, we aim to compare two methods using ChIP-seq data as gold standard and validate the clustering of genes into modules using Gene Ontology. The first method is modular regulatory network learning with per gene information (MERLIN), which assumes a conditional Gaussian distribution for the conditional relationships between regulators and genes and is based on a probabilistic graphical model representation of a regulatory network. The second method is based on stochastic block model, a generative Bayesian approach that learns clusters as latent variables.  Both methods will be applied to the publicly available breast tumor microarray data from the TCGA database to infer GRN. We will investigate the differences in the regulatory networks inferred from these two methods based on the established cancer pathway databases and Gene-Ontology analysis. 
 
-\section*{Methodology}
+\section*{Methodology} We investigated 6 cancers: BRCA, COAD, KIRC, LUSC, OV, and UCEC, with the microarray gene expression platform obtained from the TCGA data portal. A corresponding data matrix with rows representing genes and columns representing patient samples was then generated for each cancer data set. These data values were Lowess-normalized, $\log 2$ transformed ratio values comparing expression in the respective patient samples to measurements of the Stratagene Universal Human Reference. There were a total of 8499 genes in these experiments. We direct the reader to the appendix for derivations. 
 
-\subsection*{Example}
+\subsection*{Covariance Estimation}
+Typically, in gene co-expression networks, the pairwise co-expression measure is determined through some metric of correlation (Pearson, Spearman, etc.). In our approach, we estimate the covariance matrix using an inverse Wishart prior. The sample covariance is estimated as follows, where $n$ is the number of patient samples:
+\[
+\Sigma = \displaystyle\frac{1}{n}\displaystyle\sum_{i=1}^{n} (X_i - E[X])(X_i - E[X])^T
+\]
+Note that this is an unbiased estimate of the covariance matrix. However, since the number of patient samples is less than the number of genes (the dimension), the sample covariance is not necessarily positive semi definite. This leads to problems when applying an inverse Wishart prior, which requires the covariance matrix to be PSD. To combat this issue, we add a diagonal matrix to the covariance matrix, where $\lambda$ is defined as the absolute value of the largest non-positive eigenvalue. 
+\[
+\Sigma = \Sigma + \lambda I
+\]
+The inverse Wishart distribution is defined as 
+\[
+X \sim \mathcal{W}({\mathbf \Psi}^{-1}, \nu) = \frac{\left|{\mathbf\Psi}\right|^{\frac{\nu}{2}}}{2^{\frac{\nu p}{2}}\Gamma_p(\frac{\nu}{2})} \left|\mathbf{X}\right|^{-\frac{\nu+p+1}{2}}e^{-\frac{1}{2}tr({\mathbf\Psi}\mathbf{X}^{-1})}
+\]
+which is conjugate to the normal distribution with known mean and unknown covariance. Therefore, it leads to a relatively simple posterior update:
+\[
+X | \Sigma \sim \mathcal{W}(\mathbf\Psi + \displaystyle\sum_{i=1}^{n} (X_i - E[X])(X_i - E[X])^T, n + \nu)
+\]
+For choice of hyperparameters, $\nu$ is set to the number of genes to be weakly informative, and $\mathbf \Psi$ is set to the identity. 
+
+\subsection*{Learning Clusters with Stochastic Block Models}
+
+\section*{Results}
 
 \section*{Discussion}
 
