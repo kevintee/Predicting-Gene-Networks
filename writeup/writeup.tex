@@ -83,7 +83,7 @@
 \normalsize{Department of Computer Science}\\
 \normalsize{University of California, Berkeley}\\
 \\
-\normalsize\texttt{\{kevintee,michaelliang\}@berkeley.edu} 
+\normalsize\texttt{\{kevintee,liangmichael\}@berkeley.edu} 
 }
 
 % Include the date command, but leave its argument blank.
@@ -155,7 +155,45 @@ X | \Sigma \sim \mathcal{W}(\mathbf\Psi + \displaystyle\sum_{i=1}^{n} (X_i - E[X
 \]
 For choice of hyperparameters, $\nu$ is set to the number of genes to be weakly informative, and $\mathbf \Psi$ is set to the identity. 
 
-\subsection*{Learning Clusters with Stochastic Block Models}
+\subsection*{Building Clusters with Stochastic Block Models}
+
+Given the covariance matrix, a threshold is set where the absolute value of every element above that threshold is set to 1, otherwise it is set to 0. We define this new matrix to be the binary matrix, a square matrix with dimension equal to the number of genes.
+
+To learn clusters, we use a method called Stochastic Block Model (SBM), a generative model which associates each vertex of a network to a latent variable $Z_i$ drawn from a multinomial distribution such that $Z_{iq} = 1$ if vertex $i$ belongs to class $q$. There are a total of $Q$ classes, corresponding to the number of clusters in our model. Since $p(Z_i | \alpha)$ is a multinomial distribution, we place a Dirichlet prior on $\alpha$. Therefore,
+\[
+\alpha \sim Dir(n^0)
+\]
+\[
+Z_i \sim Multinomial(\alpha)
+\]
+where $n^0 = (n_1^0, ... , n_Q^0)$, and $n_q^0, \forall q$, a non-informative Jeffreys prior. Note that the $0$ corresponds to the initial condition of $n$, which will be updated with more iterations. 
+
+The edges are drawn from a Bernoulli distribution, with a Beta prior to model the connectivity matrix, $\pi$, a $Q$ x $Q$ matrix of connection probabilities between clusters (classes). Therefore,
+\[
+\pi \sim Beta(\eta^0, \xi^0)
+\]
+\[
+X_{ij} | (Z_{iq}Z_{jl} = 1) \sim Bernoulli(\pi_{ql})
+\]
+where $\eta_{ql}^0 = \xi_{ql}^0 = 1/2, \forall q,l$, again non informative hyperparameters for the Beta distribution. 
+
+Considering an undirected graph without self loops, we arrive at the following conditional probabilities:
+\[
+P(Z | \alpha) = \displaystyle\prod_{i = 1}^{N} \displaystyle\prod_{q = 1}^{Q} \alpha_q^{Z_{iq}}
+\]
+and
+\[
+P(X | Z, \pi) = \displaystyle\prod_{i < j} P(X_{ij} | Z_i, Z_j, \pi)
+\]
+\[
+ = \displaystyle\prod_{i < j} \displaystyle\prod_{q,l} Bernoulli(X_{ij} | \pi_{ql})^{Z_{iq}Z_{jl}}
+\]
+\[
+ = \displaystyle\prod_{i < j} \displaystyle\prod_{q,l} (\pi_{ql}^{X_{ij}} (1-\pi_{ql})^{1-X_{ij}})^{Z_{iq}Z_{jl}}
+\]
+In the case of a directed graph, the condition is $i \neq j$ as opposed to $i < j$. 
+
+\subsection*{Estimation Using Variational Bayes EM}
 
 \section*{Results}
 
