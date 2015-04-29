@@ -145,9 +145,8 @@ def parse_chip_seq():
     genes_regulated = defaultdict(list)
     with open(filename) as f:
         for line in f:
-            line = line.strip()
-            line = line.split('\t')
-            tf, gene = line[0], line[1]
+            vals = line.strip().split('\t')
+            tf, gene = vals[0], vals[1]
             genes_regulated[tf].append(gene)
 
     return genes_regulated
