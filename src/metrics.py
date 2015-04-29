@@ -1,7 +1,7 @@
 # Add your metrics here
 
 import scipy.stats
-from parse import parse_sbm_results, parse_chip_tf, parse_all_sbm
+from parse import parse_sbm_results, parse_chip_seq
 
 key_tf = 'TFAP2A'
 
@@ -12,11 +12,10 @@ def score_gene_weights(test_vals, true_vals):
     #return scipy.stats.hypergeom.cdf
 
 def evaluate_network():
-    tfs, genes, sbm_dict, sbm_module_to_gene, \
+    tfs, genes, sbm_results, sbm_module_to_gene, \
         sbm_gene_to_module = parse_sbm_results()
 
-    sbm_results = parse_all_sbm(genes, sbm_binary_matrix, key_tf)
-    chip_results = parse_chip_tf(key_tf)
+    chip_results = parse_chip_seq()
     return score_gene_weights(sbm_results, chip_results)
 
 def main():

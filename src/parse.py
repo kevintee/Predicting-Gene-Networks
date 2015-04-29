@@ -1,5 +1,6 @@
 # All parsing functions
 
+from collections import defaultdict
 import numpy as np
 import pdb
 
@@ -138,29 +139,16 @@ def parse_sbm_results():
 
     return tfs, genes, genes_regulated, module_to_gene, gene_to_module
 
-# This method parses the true transcription factor regulation
-def parse_chip_tf(tf_name):
-    genes_regulated = []
-    with open('../results/tfs/' + tf_name + '.csv') as f:
+# This method parses the true ChIP-seq data
+def parse_chip_seq():
+    filename = '../results/chipseq/MSig.txt'
+    genes_regulated = defaultdict(list)
+    with open(filename) as f:
         for line in f:
             line = line.strip()
-            line = line.split(',')
-            genes_regulated.append(line[-1])
+            line = line.split('\t')
+            tf, gene = line[0], line[1]
+            genes_regulated[tf].append(gene)
 
-    genes_regulated = list(set(genes_regulated)) # Remove duplicates
     return genes_regulated
-
-def parse_all_sbm(genes, binary_matrix, tf):
-    # Find which gene it correspond to and get the matrix
-    bool_reg = []
-    for i,gene in enumerate(genes):
-        if gene == tf:
-            bool_reg = binary_matrix[i]
-            break
-
-    results = []
-    for x in bool_reg:
-        results.append(genes[x])
-
-    return results
 
