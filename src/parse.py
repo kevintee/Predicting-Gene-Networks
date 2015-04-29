@@ -130,7 +130,13 @@ def parse_sbm_results():
             vals = [int(x) for x in line.split(',')]
             binary_matrix.append(vals)
 
-    return tfs, genes, binary_matrix, module_to_gene, gene_to_module
+    genes_regulated = {}
+    for gene,regulated in zip(genes, binary_matrix):
+        if gene in tfs:
+            reg = [genes[x] for x in regulated]
+            genes_regulated[gene] = reg
+
+    return tfs, genes, genes_regulated, module_to_gene, gene_to_module
 
 # This method parses the true transcription factor regulation
 def parse_chip_tf(tf_name):
