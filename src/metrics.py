@@ -19,13 +19,14 @@ def remove_unique_genes(sbm_results, chip_results):
     # Remove all results that aren't in either of the two sets
     sbm_modified = {}
     chip_modified = {}
+    keys = set(sbm_results.keys()) & set(chip_results.keys())
     for k,v in sbm_results.items():
-        if k in overlapping_genes:
+        if k in overlapping_genes and k in keys:
             v = list(set(v) & overlapping_genes)
             sbm_modified[k] = v
 
     for k,v in chip_results.items():
-        if k in overlapping_genes:
+        if k in overlapping_genes and k in keys:
             v = list(set(v) & overlapping_genes)
             chip_modified[k] = v
 
