@@ -251,6 +251,37 @@ After taking the exponent and normalizing, we obtain the following update for $n
 n_q = n_q^0 + \displaystyle\sum_{i=1}^{N} \tau_{iq}
 \]
 
+The optimal distribution for $q(\pi)$ is
+\[
+\ln q(\pi) = E_{Z, \alpha}[\ln p(X, Z, \alpha, \pi)] + C
+\]
+\[
+= E_{Z}[\ln p(X | Z, \pi)] + \ln p(\pi) + C
+\]
+\[
+= \displaystyle\sum_{i < j}^{N} \displaystyle\sum_{q,l}^{Q} \tau_{iq}\tau_{jl} (X_{ij} \ln \pi_{ql} + (1-X_{ij}) \ln (1-\pi_{ql})) + \displaystyle\sum_{q \leq l}^{Q} ((\eta_{ql}^0 - 1)\ln \pi_{ql} + \ln \pi_{ql} + (\xi_{ql}^0 - 1) \ln (1 - \pi_{ql})) + C
+\]
+\[
+= \displaystyle\sum_{q < l} ((\eta_{ql}^0 - 1 + \displaystyle\sum_{i \neq j}^{N} \tau_{iq}\tau_{jl}X_{ij}) \ln \pi_{ql} + (\xi_{ql}^0 - 1 + \displaystyle\sum_{i \neq j}^{N} \tau_{iq}\tau_{jl}(1-X_{ij})) \ln (1 - \pi_{ql})
+\]
+\[
++ \displaystyle\sum_{q = 1} ((\eta_{qq}^0 - 1 + \displaystyle\sum_{i < j}^{N} \tau_{iq}\tau_{jl}X_{ij}) \ln \pi_{qq} + (\xi_{qq}^0 - 1 + \displaystyle\sum_{i < j}^{N} \tau_{iq}\tau_{jq}(1-X_{ij})) \ln (1 - \pi_{qq})
+\]
+After taking the exponent and normalizing, we obtain the following update for $\eta$ and $\xi$ by pattern matching to the Beta distribution:
+\[
+\eta_{ql} = \eta_{ql}^0 + \displaystyle\sum_{i \neq j}^{N} X_{ij} \tau_{iq} \tau_{jl}, q \neq l
+\]
+\[
+\eta_{qq} = \eta_{qq}^0 + \displaystyle\sum_{i < j}^{N} X_{ij} \tau_{iq} \tau_{jq}, \forall q
+\]
+and
+\[
+\xi_{ql} = \xi_{ql}^0 + \displaystyle\sum_{i \neq j}^{N} (1-X_{ij}) \tau_{iq} \tau_{jl}, q \neq l
+\]
+\[
+\xi_{qq} = \xi_{qq}^0 + \displaystyle\sum_{i < j}^{N} (1-X_{ij}) \tau_{iq} \tau_{jq}, \forall q
+\]
+
 
 \section*{Results}
 
