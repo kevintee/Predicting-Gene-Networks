@@ -233,6 +233,25 @@ Taking the exponent and normalizing, we obtain the following multinomial distrib
 \tau_{iq} = Ce^{\phi(n_q) - \phi(\sum_{l=1}^{Q} n_l)}\displaystyle\prod_{j \neq i}^{N} \displaystyle\prod_{l=1}^{Q} e^{\tau_{jl}(\psi(\xi_{ql}) - \psi(\eta_{ql}+\xi_{ql}) + X_{ij}(\psi(\eta_{ql}) - \psi(\xi_{ql}))}
 \]
 
+The optimal distribution for $q(\alpha)$ is
+\[
+\ln q(\alpha) = E_{Z, \pi}[\ln p(X, Z, \alpha, \pi)] + C
+\]
+\[
+= E_{Z}[\ln p(Z | \alpha)] + \ln p(\alpha) + C
+\]
+\[
+= \displaystyle\sum_{i = 1}^{N} \displaystyle\sum_{q=1}^{Q} \tau_{iq} \ln \alpha_q + \displaystyle\sum_{q=1}^{Q} (n_q^0 - 1) \ln \alpha_q + C
+\]
+\[
+= \displaystyle\sum_{q = 1}^{Q}(n_q^0 - 1 + \displaystyle\sum_{i=1}^{N} \tau_{iq})\ln \alpha_q + C
+\]
+After taking the exponent and normalizing, we obtain the following update for $n_q$ by pattern matching to the Dirichlet distribution:
+\[
+n_q = n_q^0 + \displaystyle\sum_{i=1}^{N} \tau_{iq}
+\]
+
+
 \section*{Results}
 
 \section*{Discussion}
