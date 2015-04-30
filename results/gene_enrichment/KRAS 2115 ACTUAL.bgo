@@ -1,0 +1,76 @@
+File created with bingo (c) on Apr 29, 2015 at 6:35:48 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+PTGES3	HOOK1	KRAS	MAP3K2	IL6ST	ZNF800	HTLF	CLIP1	ZNF124	DOCK7	ATP10D	HPRT1	CPT1A	
+
+No annotations were retrieved for the following entities:
+
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+6006	2.7629E-4	2.7185E-2	3	146	13	14306	glucose metabolic process	PTGES3|IL6ST|CPT1A
+5977	4.7194E-4	2.7185E-2	2	36	13	14306	glycogen metabolic process	PTGES3|IL6ST
+6073	4.9865E-4	2.7185E-2	2	37	13	14306	cellular glucan metabolic process	PTGES3|IL6ST
+44042	4.9865E-4	2.7185E-2	2	37	13	14306	glucan metabolic process	PTGES3|IL6ST
+19318	5.5311E-4	2.7185E-2	3	185	13	14306	hexose metabolic process	PTGES3|IL6ST|CPT1A
+6641	6.4301E-4	2.7185E-2	2	42	13	14306	triglyceride metabolic process	IL6ST|CPT1A
+6112	7.0576E-4	2.7185E-2	2	44	13	14306	energy reserve metabolic process	PTGES3|IL6ST
+6639	8.3982E-4	2.7185E-2	2	48	13	14306	acylglycerol metabolic process	IL6ST|CPT1A
+5996	8.6813E-4	2.7185E-2	3	216	13	14306	monosaccharide metabolic process	PTGES3|IL6ST|CPT1A
+6638	8.7511E-4	2.7185E-2	2	49	13	14306	neutral lipid metabolic process	IL6ST|CPT1A
+1932	8.7984E-4	2.7185E-2	3	217	13	14306	regulation of protein amino acid phosphorylation	IL6ST|MAP3K2|DOCK7
+45196	9.0871E-4	2.7185E-2	1	1	13	14306	establishment or maintenance of neuroblast polarity	DOCK7
+45200	9.0871E-4	2.7185E-2	1	1	13	14306	establishment of neuroblast polarity	DOCK7
+70106	9.0871E-4	2.7185E-2	1	1	13	14306	interleukin-27-mediated signaling pathway	IL6ST
+70104	9.0871E-4	2.7185E-2	1	1	13	14306	negative regulation of interleukin-6-mediated signaling pathway	IL6ST
+70103	9.0871E-4	2.7185E-2	1	1	13	14306	regulation of interleukin-6-mediated signaling pathway	IL6ST
+42325	9.3588E-4	2.7185E-2	4	518	13	14306	regulation of phosphorylation	KRAS|IL6ST|MAP3K2|DOCK7
+80090	9.3606E-4	2.7185E-2	9	3554	13	14306	regulation of primary metabolic process	KRAS|IL6ST|MAP3K2|ZNF800|HTLF|DOCK7|ZNF124|HPRT1|CPT1A
+6662	9.4781E-4	2.7185E-2	2	51	13	14306	glycerol ether metabolic process	IL6ST|CPT1A
+18904	1.0233E-3	2.7185E-2	2	53	13	14306	organic ether metabolic process	IL6ST|CPT1A
+44264	1.0621E-3	2.7185E-2	2	54	13	14306	cellular polysaccharide metabolic process	PTGES3|IL6ST
+51174	1.1086E-3	2.7185E-2	4	542	13	14306	regulation of phosphorus metabolic process	KRAS|IL6ST|MAP3K2|DOCK7
+19220	1.1086E-3	2.7185E-2	4	542	13	14306	regulation of phosphate metabolic process	KRAS|IL6ST|MAP3K2|DOCK7
+31323	1.3843E-3	3.2530E-2	9	3736	13	14306	regulation of cellular metabolic process	KRAS|IL6ST|MAP3K2|ZNF800|HTLF|DOCK7|ZNF124|HPRT1|CPT1A
+19221	1.7779E-3	3.4375E-2	2	70	13	14306	cytokine-mediated signaling pathway	KRAS|IL6ST
+45915	1.8167E-3	3.4375E-2	1	2	13	14306	positive regulation of catecholamine metabolic process	HPRT1
+45964	1.8167E-3	3.4375E-2	1	2	13	14306	positive regulation of dopamine metabolic process	HPRT1
+23036	1.8285E-3	3.4375E-2	2	71	13	14306	initiation of signal transduction	KRAS|IL6ST
+23038	1.8285E-3	3.4375E-2	2	71	13	14306	signal initiation by diffusible mediator	KRAS|IL6ST
+23049	1.8285E-3	3.4375E-2	2	71	13	14306	signal initiation by protein/peptide mediator	KRAS|IL6ST
+19222	2.0060E-3	3.6496E-2	9	3919	13	14306	regulation of metabolic process	KRAS|IL6ST|MAP3K2|ZNF800|HTLF|DOCK7|ZNF124|HPRT1|CPT1A
+10646	2.5152E-3	4.3893E-2	5	1154	13	14306	regulation of cell communication	KRAS|IL6ST|MAP3K2|DOCK7|CPT1A
+42510	2.7238E-3	4.3893E-2	1	3	13	14306	regulation of tyrosine phosphorylation of Stat1 protein	IL6ST
+42511	2.7238E-3	4.3893E-2	1	3	13	14306	positive regulation of tyrosine phosphorylation of Stat1 protein	IL6ST
+46100	2.7238E-3	4.3893E-2	1	3	13	14306	hypoxanthine metabolic process	HPRT1
+48861	3.6303E-3	4.4993E-2	1	4	13	14306	leukemia inhibitory factor signaling pathway	IL6ST
+33240	3.6303E-3	4.4993E-2	1	4	13	14306	positive regulation of cellular amine metabolic process	HPRT1
+32863	3.6303E-3	4.4993E-2	1	4	13	14306	activation of Rac GTPase activity	DOCK7
+35022	3.6303E-3	4.4993E-2	1	4	13	14306	positive regulation of Rac protein signal transduction	KRAS
+6166	3.6303E-3	4.4993E-2	1	4	13	14306	purine ribonucleoside salvage	HPRT1
+70389	3.6303E-3	4.4993E-2	1	4	13	14306	chaperone cofactor-dependent protein refolding	PTGES3
+14742	3.6303E-3	4.4993E-2	1	4	13	14306	positive regulation of muscle hypertrophy	IL6ST
+60430	3.6303E-3	4.4993E-2	1	4	13	14306	lung saccule development	PTGES3
+43174	3.6303E-3	4.4993E-2	1	4	13	14306	nucleoside salvage	HPRT1
+10613	3.6303E-3	4.4993E-2	1	4	13	14306	positive regulation of cardiac muscle hypertrophy	IL6ST
+16043	3.6696E-3	4.4993E-2	7	2563	13	14306	cellular component organization	HOOK1|PTGES3|KRAS|CLIP1|DOCK7|HPRT1|CPT1A
+51260	3.8749E-3	4.6114E-2	2	104	13	14306	protein homooligomerization	HPRT1|CPT1A
+31399	3.9246E-3	4.6114E-2	3	366	13	14306	regulation of protein modification process	IL6ST|MAP3K2|DOCK7
+9966	4.0852E-3	4.6240E-2	4	773	13	14306	regulation of signal transduction	KRAS|IL6ST|MAP3K2|DOCK7
+43406	4.1716E-3	4.6240E-2	2	108	13	14306	positive regulation of MAP kinase activity	KRAS|MAP3K2
+23051	4.1813E-3	4.6240E-2	4	778	13	14306	regulation of signaling process	KRAS|IL6ST|MAP3K2|DOCK7
+44262	4.3613E-3	4.6514E-2	3	380	13	14306	cellular carbohydrate metabolic process	PTGES3|IL6ST|CPT1A
+51481	4.5359E-3	4.6514E-2	1	5	13	14306	reduction of cytosolic calcium ion concentration	IL6ST
+70120	4.5359E-3	4.6514E-2	1	5	13	14306	ciliary neurotrophic factor-mediated signaling pathway	IL6ST
+43101	4.5359E-3	4.6514E-2	1	5	13	14306	purine salvage	HPRT1
+5976	4.6360E-3	4.6691E-2	2	114	13	14306	polysaccharide metabolic process	PTGES3|IL6ST
