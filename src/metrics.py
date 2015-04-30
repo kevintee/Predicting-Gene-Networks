@@ -4,6 +4,7 @@ import math
 import scipy.stats
 from itertools import chain
 from parse import parse_sbm_results, parse_chip_seq
+from plots import plot_p_vals
 
 def score_gene_weights(test_vals, true_vals, genes):
     keys = set(test_vals.keys()) & set(true_vals.keys())
@@ -62,7 +63,7 @@ def evaluate_network():
 
 def main():
     p_vals = evaluate_network()
-    print bin_results(p_vals)
+    plot_p_vals(p_vals)
 
 if __name__ == '__main__':
     main()
