@@ -134,7 +134,7 @@ def parse_sbm_results():
     genes_regulated = {}
     for gene,regulated in zip(genes, binary_matrix):
         if gene in tfs:
-            reg = [genes[x] for x in regulated]
+            reg = [genes[x-1] for x in regulated]
             genes_regulated[gene] = reg
 
     return tfs, genes, genes_regulated, module_to_gene, gene_to_module
