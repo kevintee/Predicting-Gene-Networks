@@ -128,7 +128,7 @@ def parse_sbm_results():
     with open(filename) as f:
         for line in f:
             line = line.strip()
-            vals = [int(x) for x in line.split(',')]
+            vals = [int(x) for x in line.split(',') if x is not '']
             binary_matrix.append(vals)
 
     genes_regulated = {}

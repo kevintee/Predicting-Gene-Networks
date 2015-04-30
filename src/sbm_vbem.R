@@ -20,7 +20,7 @@ rawData <- rawData[,-1] # Remove first column
 EPSILON <- 1e1 # Threshold for termination
 Q <- 100 # Number of classes
 N <- 8499 # Number of genes
-LAMBDA <- 0.75 # Sparsity for binary matrix
+LAMBDA <- 0.8 # Sparsity for binary matrix
 
 # Correlation
 X <- cor(t(rawData), t(rawData), method="spearman")

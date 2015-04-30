@@ -19,6 +19,16 @@ def score_gene_weights(test_vals, true_vals, genes):
             p_vals.append(p_val)
     return p_vals
 
+def bin_results(p_vals):
+    bins = [0]*10
+    for p_val in p_vals:
+        i = 0
+        while p_val < 1 and p_val != 0:
+            i += 1
+            p_val *= 10
+        bins[i] += 1
+    return bins
+
 # This method makes the 'universe' of both the SBM and ChIP-seq results the same
 def remove_unique_genes(sbm_results, chip_results):
     # First get the intersection of the two sets
@@ -51,7 +61,8 @@ def evaluate_network():
     return score_gene_weights(sbm_results, chip_results, genes)
 
 def main():
-    print evaluate_network()
+    p_vals = evaluate_network()
+    print bin_results(p_vals)
 
 if __name__ == '__main__':
     main()
