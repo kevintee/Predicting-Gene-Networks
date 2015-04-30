@@ -151,3 +151,14 @@ def parse_chip_seq():
 
     return genes_regulated
 
+def parse_merlin():
+    filename = '../results/fold14/prediction_k300.txt'
+    genes_regulated = defaultdict(list)
+    with open(filename) as f:
+        for line in f:
+            vals = line.strip().split('\t')
+            tf, gene = vals[0], vals[1]
+            genes_regulated[tf].append(gene)
+
+    return genes_regulated
+

@@ -3,7 +3,7 @@
 import math
 import scipy.stats
 from itertools import chain
-from parse import parse_sbm_results, parse_chip_seq
+from parse import parse_sbm_results, parse_chip_seq, parse_merlin
 from plots import plot_p_vals
 
 def score_gene_weights(test_vals, true_vals, genes):
@@ -56,14 +56,24 @@ def evaluate_network():
             sbm_gene_to_module = parse_sbm_results()
 
     chip_results = parse_chip_seq()
+    merlin_results = parse_merlin()
+
+    # Compare to SBM
     sbm_results, chip_results, genes = \
             remove_unique_genes(sbm_results, chip_results)
 
-    return score_gene_weights(sbm_results, chip_results, genes)
+    p_vals = score_gene_weights(sbm_results, chip_results, genes)
+    plot_p_vals(p_vals, 'Stochastic Block Model')
+
+    # Compare to MERLIN
+    merlin_results, chip_results, genes = \
+            remove_unique_genes(merlin_results, chip_results)
+
+    p_vals = score_gene_weights(merlin_results, chip_results, genes)
+    plot_p_vals(p_vals, 'MERLIN')
 
 def main():
-    p_vals = evaluate_network()
-    plot_p_vals(p_vals)
+    evaluate_network()
 
 if __name__ == '__main__':
     main()
