@@ -136,7 +136,7 @@ In this paper, we aim to compare two methods using ChIP-seq data as gold standar
 
 \section*{Methodology} We investigated 6 cancers: BRCA, COAD, KIRC, LUSC, OV, and UCEC, with the microarray gene expression platform obtained from the TCGA data portal. A corresponding data matrix with rows representing genes and columns representing patient samples was then generated for each cancer data set. These data values were Lowess-normalized, $\log 2$ transformed ratio values comparing expression in the respective patient samples to measurements of the Stratagene Universal Human Reference. There were a total of 8499 genes in these experiments. We direct the reader to the appendix for derivations. 
 
-\subsection*{Covariance Estimation}
+\subsection*{Covariance/Correlation Estimation}
 Typically, in gene co-expression networks, the pairwise co-expression measure is determined through some metric of correlation (Pearson, Spearman, etc.). In our approach, we estimate the covariance matrix using an inverse Wishart prior. The sample covariance is estimated as follows, where $n$ is the number of patient samples:
 \[
 \Sigma = \displaystyle\frac{1}{n}\displaystyle\sum_{i=1}^{n} (X_i - E[X])(X_i - E[X])^T
@@ -145,19 +145,15 @@ Note that this is an unbiased estimate of the covariance matrix. However, since 
 \[
 \Sigma = \Sigma + \lambda I
 \]
-The inverse Wishart distribution is defined as 
+Alternatively, we can also use the inverse covariance matrix, or a correlation based method. With some experimentation, we found that the Pearson correlation coefficient works best, or 
 \[
-X \sim \mathcal{W}({\mathbf \Psi}^{-1}, \nu) = \frac{\left|{\mathbf\Psi}\right|^{\frac{\nu}{2}}}{2^{\frac{\nu p}{2}}\Gamma_p(\frac{\nu}{2})} \left|\mathbf{X}\right|^{-\frac{\nu+p+1}{2}}e^{-\frac{1}{2}tr({\mathbf\Psi}\mathbf{X}^{-1})}
+ \rho_{X,Y}={\mathrm{cov}(X,Y) \over \sigma_X \sigma_Y} 
 \]
-which is conjugate to the normal distribution with known mean and unknown covariance. Therefore, it leads to a relatively simple posterior update:
-\[
-X | \Sigma \sim \mathcal{W}(\mathbf\Psi + \displaystyle\sum_{i=1}^{n} (X_i - E[X])(X_i - E[X])^T, n + \nu)
-\]
-For choice of hyperparameters, $\nu$ is set to the number of genes to be weakly informative, and $\mathbf \Psi$ is set to the identity. 
+where cov is the covariance and $\sigma$ is the standard deviation. 
 
 \subsection*{Building Clusters with Stochastic Block Models}
 
-Given the covariance matrix, a threshold is set where the absolute value of every element above that threshold is set to 1, otherwise it is set to 0. We define this new matrix to be the binary matrix, a square matrix with dimension equal to the number of genes.
+Given the covariance or correlation matrix, a threshold is set where the absolute value of every element above that threshold is set to 1, otherwise it is set to 0. We define this new matrix to be the binary matrix, a square matrix with dimension equal to the number of genes. In this case, we set the threshold to be 0.9. 
 
 To learn clusters, we use a method called Stochastic Block Model (SBM), a generative model which associates each vertex of a network to a latent variable $Z_i$ drawn from a multinomial distribution such that $Z_{iq} = 1$ if vertex $i$ belongs to class $q$. There are a total of $Q$ classes, corresponding to the number of clusters in our model. Since $p(Z_i | \alpha)$ is a multinomial distribution, we place a Dirichlet prior on $\alpha$. Therefore,
 \[
@@ -314,6 +310,9 @@ where $N$ is the total number of items in the universe, $K$ of which are "succes
 To compare results, we have included histograms (for approximately 110 transcription factors) from both MERLIN and our stochastic block model in Figure 1. Note that the average p-value in the Stochastic Block Model is lower than MERLIN, indicating our method outperforms MERLIN. 
 
 \section*{Discussion}
+
+\subsection*{Flexibility of Stochastic Block Model for Clustering}
+Using Stochastic Block Model gives a certain flexibility for defining models. Unlike hierarchical clustering, which is rigid and difficult to tune, our model can adapt to user constraints in a number of ways. The input is a binary matrix, which means any method to generate such a binary matrix can be adopted, from simple correlation to more complex models defined by the user. While some may argue that this divides the problem into two parts that may be better suited together, we provide a level of abstraction for generating this binary matrix and clustering. Additionally, our model has learned the transition matrix, priors on cluster assignments, etc. from the data. It is possible to predefine some of these quantities given prior information, allowing for a richer set of models suited to the task at hand. 
 
 \subsection*{Acknowledgements}
 We would like to thank Nir Yosef for his support and suggestions on the project, as well as Amelia Wallace, Ling Shen, and Jonathan Kim for their input several parts of the project. We would also like to thank Michael Cole for his discussion and suggestions on estimating the covariance and inverse covariance matrix. 
