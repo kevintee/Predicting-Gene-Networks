@@ -284,8 +284,34 @@ and
 
 We run updates for the variational E and M step until $|\tau^{(t+1)} - \tau^{(t)}| < \epsilon$, which we define to be 0.01. 
 
-
 \section*{Results}
+We validate our results in two ways: using ChIP-seq data to validate the genes each transcription factor regulates and using Gene Ontology to validate the functional importance of certain clusters learned by each model.
+
+For ChIP-seq data, we use data from ChipBase, an online database listing genes regulated by certain transcription factors. Because the universe of transcription factors and genes is different from our dataset and the online dataset, we take the intersection of possible genes and transcription factors into account when testing for significance. To test for significance, we use the hypergeometric test. The hypergeometric distribution is
+\[
+P(X=k) = {{{K \choose k} {{N-K} \choose {n-k}}}\over {N \choose n}}
+\]
+where $N$ is the total number of items in the universe, $K$ of which are "successes", and one draws $n$ items. The pmf finds the probability that there are $k$ out of the $n$ "successes" of the items chosen. In our case, the "universe" is the ChIP-seq data, and selecting $n$ items is analogous to the genes we predict to be regulated by a given transcription factor. Calculating $P(X=k)$, we hope that our value will be very close to 0, indicating that it is not selected by chance, but rather by some underlying process or algorithm. 
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{./plots/chip_seq_merlin.png}
+  \caption{ChIP-seq: MERLIN}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{./plots/chip_seq_sbm.png}
+  \caption{ChIP-seq: Stochastic Block Model}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{The figure shows the p-values of transcription factors for each method}
+\label{chipseq}
+\end{figure}
+
+To compare results, we have included histograms (for approximately 110 transcription factors) from both MERLIN and our stochastic block model in Figure 1. Note that the average p-value in the Stochastic Block Model is lower than MERLIN, indicating our method outperforms MERLIN. 
 
 \section*{Discussion}
 
