@@ -1,0 +1,20 @@
+File created with bingo (c) on May 4, 2015 at 9:09:08 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+TRPM4	TMEM16A	FOXA2	LOC91461	MLPH	PALMD	CITED4	ATP2C2	C1ORF64	FAAH	TFF3	CREB3L4	MTUS1	MGST2	
+
+No annotations were retrieved for the following entities:
+CT45-6	KIAA1324L	LOC91461	CXORF22	DPY19L2	SPINK6	TMEM55A	ANKRD45	C1ORF64	EFCAB1	LOC399947	C11ORF70	MAP6	C10ORF30	MTUS1	RP13-36C9.6	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set

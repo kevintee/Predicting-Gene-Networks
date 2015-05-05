@@ -1,0 +1,152 @@
+File created with bingo (c) on May 4, 2015 at 9:11:48 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+HOXA2	HOXA3	HOXA4	HOXA7	CTDSP1	
+
+No annotations were retrieved for the following entities:
+C6ORF141	PRR16	PNMA2	REP15	FAM110B	SIDT1	SHE	FAM124B	TMEM140	CCDC141	CTTNBP2	SH3YL1	C1ORF75	PPAPDC3	GAB3	LILRA4	WDR76	TMEM149	NLF1	NLF2	TMEM185B	C9ORF46	LOC389199	PLS3	HFM1	MTERFD1	TMEFF2	C7ORF31	NUDT18	GBP5	NUDT12	CSAG3A	NUDT14	NUDT15	FLJ21963	PKHD1L1	PRKCDBP	TMEM130	C14ORF44	PIK3IP1	TOX3	TMEM133	LRCH2	FBXL8	C14ORF101	BTN3A3	BIN2	LQK1	LMNB1	PABPC5	C1ORF131	FAM19A3	RP4-691N24.1	MAGEA3	C1ORF135	CD68	KBTBD3	LYL1	CD69	FAM92A1	HLA-DRB6	SMA4	WDHD1	C1ORF59	C4ORF12	FLJ12993	C18ORF51	GPR156	FLJ45803	GPR158	KIAA1383	CXORF22	CCDC83	C3ORF28	C15ORF38	NCKAP1L	SLAMF8	SMYD2	MGC34800	C18ORF54	CAMK2N2	SYNGR4	GPR153	FAM64A	C1ORF64	WSCD1	LOC441150	ALG10	MAP6	DHX40	FAM54A	BTBD11	GYPC	WASF4	GREB1	POTE15	NUDT9P1	LOC347273	RG9MTD2	ANKRD10	C22ORF27	SPINK6	FLJ39779	CFHR3	DLEU1	MGC45922	EPSTI1	FBXL17	ZCCHC13	KIAA1324L	LOC91461	MGC10701	ANKRD21	METTL2A	LRRC25	BRWD3	ANKRD29	CCDC109B	UMODL1	DOK6	DOK7	YPEL1	GPR180	KIAA1958	LRRC32	P15RS	LRRC39	FAM46B	ITM2A	KIAA1432	C12ORF48	ANKRD34	KIRREL	KLC1	ANKRD37	ARMCX3	ARMCX2	RFPL2	THAP2	C12ORF5	ARMCX1	GALNT13	GALNT14	FLJ21986	C1ORF162	LOC541471	C10ORF38	LOC93349	C1ORF218	SAMD3	FEM1C	ANKRD45	P2RY10	PRELID2	FBLN2	LAYN	TMTC1	PSITPTE22	C14ORF129	SVIP	LOC374569	LOC541469	FCGR2A	KIAA1545	TMTC4	CSAG1	ZMYND15	TP53INP2	MAGED4B	FAM126B	TEX11	C8ORF42	CXORF9	TRIM52	IL17RD	MKRN3	MMRN2	KRT81	FAM49A	C8ORF46	TRIM43	ZNF185	MOP-1	SLMO2	RP11-679B17.1	TBC1D3P2	SPATA22	MTUS1	GUSBL1	CT45-6	MS4A7	C6ORF48	CHP2	B3GNTL1	MRGPRF	FLJ31438	LOC201175	FAM118B	CLEC12B	CD300LF	FAM38B	PCCB	FAM86A	GBP1	LOC344405	CYORF15B	CYORF15A	CCDC18	PAQR6	C20ORF174	LRIG1	TCL1B	ASTN2	TRIM74	EFCAB1	OTUD7A	PALB2	RP13-36C9.6	HAVCR2	LOC221091	PALM2-AKAP2	PHACTR3	MRPS23	KIAA1586	ZMYM5	MYO1G	SPPL2B	LOC439951	DOCK5	KRT222P	LOC339483	TRAF3IP3	FLJ45717	C20ORF94	CLEC14A	HINT3	C13ORF18	UBXD3	C5ORF20	NIPSNAP3A	DPY19L2	SH2D4A	TSPAN10	CELP	TRIM7	EVI2B	ALS2CR11	C2ORF32	UNQ6975	LAIR1	HMGCLL1	FAM24B	NOS1AP	C17ORF60	PPAP2C	
+MYCT1	GPRASP2	TMEM71	FAM62C	C9ORF82	FLJ37078	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	C11ORF70	FLJ13195	LOC133874	SHCBP1	KIAA0240	C16ORF59	CXORF57	HYLS1	KIAA0825	LOC201725	CABP7	PLVAP	TMEM159	NSUN7	SMOC2	FLJ37464	N4BP3	C1QTNF5	LRP5L	C2ORF15	CALML4	MARVELD3	MCM3APAS	C16ORF24	C9ORF58	MS4A6A	TMEM45A	GIMAP2	C9ORF68	MGC102966	MS4A4A	CENPN	C13ORF27	RNASE1	GIMAP6	CENPQ	C9ORF62	TMC5	GIMAP8	FAM9A	LOC152485	FAM9B	TMEM169	TMBIM1	CENPK	SAMSN1	C20ORF46	TMEM55A	GIMAP1	C3ORF54	HCG_1990170	C5ORF34	C3ORF52	C3ORF59	CCDC70	CEP68	MYPN	ARPM1	LOC399947	METRNL	C10ORF30	CYB5D1	C6ORF173	C13ORF31	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+48704	1.4462E-9	2.8635E-7	4	60	5	14173	embryonic skeletal system morphogenesis	HOXA2|HOXA3|HOXA4|HOXA7
+48706	5.1809E-9	5.1291E-7	4	82	5	14173	embryonic skeletal system development	HOXA2|HOXA3|HOXA4|HOXA7
+48705	2.2684E-8	1.4972E-6	4	118	5	14173	skeletal system morphogenesis	HOXA2|HOXA3|HOXA4|HOXA7
+48562	4.5259E-8	2.2403E-6	4	140	5	14173	embryonic organ morphogenesis	HOXA2|HOXA3|HOXA4|HOXA7
+9952	5.6632E-8	2.2426E-6	4	148	5	14173	anterior/posterior pattern formation	HOXA2|HOXA3|HOXA4|HOXA7
+3002	2.4052E-7	7.3338E-6	4	212	5	14173	regionalization	HOXA2|HOXA3|HOXA4|HOXA7
+48568	2.5928E-7	7.3338E-6	4	216	5	14173	embryonic organ development	HOXA2|HOXA3|HOXA4|HOXA7
+7389	6.6332E-7	1.6417E-5	4	273	5	14173	pattern specification process	HOXA2|HOXA3|HOXA4|HOXA7
+1501	1.4517E-6	3.1244E-5	4	332	5	14173	skeletal system development	HOXA2|HOXA3|HOXA4|HOXA7
+48598	1.5780E-6	3.1244E-5	4	339	5	14173	embryonic morphogenesis	HOXA2|HOXA3|HOXA4|HOXA7
+43009	2.0289E-6	3.4983E-5	4	361	5	14173	chordate embryonic development	HOXA2|HOXA3|HOXA4|HOXA7
+9792	2.1202E-6	3.4983E-5	4	365	5	14173	embryonic development ending in birth or egg hatching	HOXA2|HOXA3|HOXA4|HOXA7
+9790	1.5991E-5	2.4355E-4	4	606	5	14173	embryonic development	HOXA2|HOXA3|HOXA4|HOXA7
+9887	1.9497E-5	2.7574E-4	4	637	5	14173	organ morphogenesis	HOXA2|HOXA3|HOXA4|HOXA7
+6355	3.3156E-5	4.3766E-4	5	1803	5	14173	regulation of transcription, DNA-dependent	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+51252	3.7919E-5	4.6925E-4	5	1852	5	14173	regulation of RNA metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+45449	2.1438E-4	2.4969E-3	5	2618	5	14173	regulation of transcription	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+9653	2.5452E-4	2.7997E-3	4	1220	5	14173	anatomical structure morphogenesis	HOXA2|HOXA3|HOXA4|HOXA7
+10556	3.4132E-4	3.5569E-3	5	2873	5	14173	regulation of macromolecule biosynthetic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+10468	3.7273E-4	3.6901E-3	5	2924	5	14173	regulation of gene expression	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+19219	4.2948E-4	3.7297E-3	5	3008	5	14173	regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+31326	4.3450E-4	3.7297E-3	5	3015	5	14173	regulation of cellular biosynthetic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+51171	4.4764E-4	3.7297E-3	5	3033	5	14173	regulation of nitrogen compound metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+9889	4.5209E-4	3.7297E-3	5	3039	5	14173	regulation of biosynthetic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+45656	7.0547E-4	4.6561E-3	1	2	5	14173	negative regulation of monocyte differentiation	HOXA7
+21658	7.0547E-4	4.6561E-3	1	2	5	14173	rhombomere 3 morphogenesis	HOXA2
+21615	7.0547E-4	4.6561E-3	1	2	5	14173	glossopharyngeal nerve morphogenesis	HOXA3
+21568	7.0547E-4	4.6561E-3	1	2	5	14173	rhombomere 2 development	HOXA2
+21593	7.0547E-4	4.6561E-3	1	2	5	14173	rhombomere morphogenesis	HOXA2
+21563	7.0547E-4	4.6561E-3	1	2	5	14173	glossopharyngeal nerve development	HOXA3
+60255	7.5720E-4	4.8363E-3	5	3369	5	14173	regulation of macromolecule metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+80090	9.7691E-4	5.6620E-3	5	3545	5	14173	regulation of primary metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+35284	1.0581E-3	5.6620E-3	1	3	5	14173	brain segmentation	HOXA2
+35283	1.0581E-3	5.6620E-3	1	3	5	14173	central nervous system segmentation	HOXA2
+45605	1.0581E-3	5.6620E-3	1	3	5	14173	negative regulation of epidermal cell differentiation	HOXA7
+45617	1.0581E-3	5.6620E-3	1	3	5	14173	negative regulation of keratinocyte differentiation	HOXA7
+10159	1.0581E-3	5.6620E-3	1	3	5	14173	specification of organ position	HOXA3
+48513	1.1430E-3	5.8288E-3	4	1791	5	14173	organ development	HOXA2|HOXA3|HOXA4|HOXA7
+1525	1.1481E-3	5.8288E-3	2	154	5	14173	angiogenesis	HOXA3|HOXA7
+31323	1.2499E-3	6.1871E-3	5	3724	5	14173	regulation of cellular metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+6357	1.3408E-3	6.4752E-3	3	746	5	14173	regulation of transcription from RNA polymerase II promoter	HOXA2|HOXA7|CTDSP1
+45683	1.4105E-3	6.4950E-3	1	4	5	14173	negative regulation of epidermis development	HOXA7
+21569	1.4105E-3	6.4950E-3	1	4	5	14173	rhombomere 3 development	HOXA2
+19222	1.5869E-3	7.1410E-3	5	3906	5	14173	regulation of metabolic process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+45655	2.1152E-3	9.1046E-3	1	6	5	14173	regulation of monocyte differentiation	HOXA7
+60017	2.1152E-3	9.1046E-3	1	6	5	14173	parathyroid gland development	HOXA3
+48514	2.3887E-3	9.9703E-3	2	223	5	14173	blood vessel morphogenesis	HOXA3|HOXA7
+2686	2.4674E-3	9.9703E-3	1	7	5	14173	negative regulation of leukocyte migration	HOXA7
+21546	2.4674E-3	9.9703E-3	1	7	5	14173	rhombomere development	HOXA2
+45596	2.6934E-3	1.0666E-2	2	237	5	14173	negative regulation of cell differentiation	HOXA2|HOXA7
+48703	2.8195E-3	1.0946E-2	1	8	5	14173	embryonic viscerocranium morphogenesis	HOXA2
+1568	3.4306E-3	1.3063E-2	2	268	5	14173	blood vessel development	HOXA3|HOXA7
+30857	3.5234E-3	1.3081E-2	1	10	5	14173	negative regulation of epithelial cell differentiation	HOXA7
+1944	3.6347E-3	1.3081E-2	2	276	5	14173	vasculature development	HOXA3|HOXA7
+48731	3.6452E-3	1.3081E-2	4	2417	5	14173	system development	HOXA2|HOXA3|HOXA4|HOXA7
+2076	3.8751E-3	1.3081E-2	1	11	5	14173	osteoblast development	HOXA2
+7379	3.8751E-3	1.3081E-2	1	11	5	14173	segment specification	HOXA2
+21602	3.8751E-3	1.3081E-2	1	11	5	14173	cranial nerve morphogenesis	HOXA3
+122	3.8978E-3	1.3081E-2	2	286	5	14173	negative regulation of transcription from RNA polymerase II promoter	HOXA2|HOXA7
+51093	4.0599E-3	1.3284E-2	2	292	5	14173	negative regulation of developmental process	HOXA2|HOXA7
+45616	4.2268E-3	1.3284E-2	1	12	5	14173	regulation of keratinocyte differentiation	HOXA7
+8045	4.2268E-3	1.3284E-2	1	12	5	14173	motor axon guidance	HOXA2
+1953	4.2268E-3	1.3284E-2	1	12	5	14173	negative regulation of cell-matrix adhesion	HOXA7
+42474	4.5784E-3	1.4165E-2	1	13	5	14173	middle ear morphogenesis	HOXA2
+30878	4.9299E-3	1.5017E-2	1	14	5	14173	thyroid gland development	HOXA3
+48856	5.1959E-3	1.5588E-2	4	2651	5	14173	anatomical structure development	HOXA2|HOXA3|HOXA4|HOXA7
+45604	5.2813E-3	1.5607E-2	1	15	5	14173	regulation of epidermal cell differentiation	HOXA7
+48645	5.9838E-3	1.7171E-2	1	17	5	14173	organ formation	HOXA3
+10812	5.9838E-3	1.7171E-2	1	17	5	14173	negative regulation of cell-substrate adhesion	HOXA7
+48646	6.7952E-3	1.9221E-2	2	380	5	14173	anatomical structure formation involved in morphogenesis	HOXA3|HOXA7
+45944	7.0766E-3	1.9735E-2	2	388	5	14173	positive regulation of transcription from RNA polymerase II promoter	HOXA2|HOXA7
+45892	7.3634E-3	1.9898E-2	2	396	5	14173	negative regulation of transcription, DNA-dependent	HOXA2|HOXA7
+21545	7.3876E-3	1.9898E-2	1	21	5	14173	cranial nerve development	HOXA3
+51253	7.6187E-3	1.9898E-2	2	403	5	14173	negative regulation of RNA metabolic process	HOXA2|HOXA7
+45682	7.7383E-3	1.9898E-2	1	22	5	14173	regulation of epidermis development	HOXA7
+2762	7.7383E-3	1.9898E-2	1	22	5	14173	negative regulation of myeloid leukocyte differentiation	HOXA7
+1974	7.7383E-3	1.9898E-2	1	22	5	14173	blood vessel remodeling	HOXA3
+7275	7.9426E-3	2.0020E-2	4	2963	5	14173	multicellular organismal development	HOXA2|HOXA3|HOXA4|HOXA7
+48701	8.0889E-3	2.0020E-2	1	23	5	14173	embryonic cranial skeleton morphogenesis	HOXA2
+48538	8.0889E-3	2.0020E-2	1	23	5	14173	thymus development	HOXA3
+21675	9.8404E-3	2.4054E-2	1	28	5	14173	nerve development	HOXA3
+45665	1.0540E-2	2.5451E-2	1	30	5	14173	negative regulation of neuron differentiation	HOXA2
+32502	1.0976E-2	2.6185E-2	4	3227	5	14173	developmental process	HOXA2|HOXA3|HOXA4|HOXA7
+1709	1.1240E-2	2.6333E-2	1	32	5	14173	cell fate determination	HOXA2
+16481	1.1305E-2	2.6333E-2	2	494	5	14173	negative regulation of transcription	HOXA2|HOXA7
+45893	1.1527E-2	2.6538E-2	2	499	5	14173	positive regulation of transcription, DNA-dependent	HOXA2|HOXA7
+51254	1.1796E-2	2.6845E-2	2	505	5	14173	positive regulation of RNA metabolic process	HOXA2|HOXA7
+30856	1.1939E-2	2.6863E-2	1	34	5	14173	regulation of epithelial cell differentiation	HOXA7
+1952	1.2288E-2	2.7338E-2	1	35	5	14173	regulation of cell-matrix adhesion	HOXA7
+45638	1.2638E-2	2.7497E-2	1	36	5	14173	negative regulation of myeloid cell differentiation	HOXA7
+1649	1.2638E-2	2.7497E-2	1	36	5	14173	osteoblast differentiation	HOXA2
+10629	1.3952E-2	2.9793E-2	2	551	5	14173	negative regulation of gene expression	HOXA2|HOXA7
+2685	1.4034E-2	2.9793E-2	1	40	5	14173	regulation of leukocyte migration	HOXA7
+45934	1.4197E-2	2.9793E-2	2	556	5	14173	negative regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	HOXA2|HOXA7
+45595	1.4295E-2	2.9793E-2	2	558	5	14173	regulation of cell differentiation	HOXA2|HOXA7
+51172	1.4492E-2	2.9891E-2	2	562	5	14173	negative regulation of nitrogen compound metabolic process	HOXA2|HOXA7
+45941	1.5092E-2	3.0807E-2	2	574	5	14173	positive regulation of transcription	HOXA2|HOXA7
+50794	1.5851E-2	3.2025E-2	5	6188	5	14173	regulation of cellular process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+10558	1.6065E-2	3.2130E-2	2	593	5	14173	negative regulation of macromolecule biosynthetic process	HOXA2|HOXA7
+2761	1.6474E-2	3.2519E-2	1	47	5	14173	regulation of myeloid leukocyte differentiation	HOXA7
+10628	1.6588E-2	3.2519E-2	2	603	5	14173	positive regulation of gene expression	HOXA2|HOXA7
+31327	1.7012E-2	3.3006E-2	2	611	5	14173	negative regulation of cellular biosynthetic process	HOXA2|HOXA7
+7162	1.7170E-2	3.3006E-2	1	49	5	14173	negative regulation of cell adhesion	HOXA7
+9890	1.7548E-2	3.3409E-2	2	621	5	14173	negative regulation of biosynthetic process	HOXA2|HOXA7
+48771	1.9256E-2	3.6174E-2	1	55	5	14173	tissue remodeling	HOXA3
+45935	1.9428E-2	3.6174E-2	2	655	5	14173	positive regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	HOXA2|HOXA7
+10810	1.9603E-2	3.6174E-2	1	56	5	14173	regulation of cell-substrate adhesion	HOXA7
+30902	2.0297E-2	3.6174E-2	1	58	5	14173	hindbrain development	HOXA2
+10557	2.0516E-2	3.6174E-2	2	674	5	14173	positive regulation of macromolecule biosynthetic process	HOXA2|HOXA7
+50789	2.0539E-2	3.6174E-2	5	6517	5	14173	regulation of biological process	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+51173	2.0632E-2	3.6174E-2	2	676	5	14173	positive regulation of nitrogen compound metabolic process	HOXA2|HOXA7
+35282	2.0645E-2	3.6174E-2	1	59	5	14173	segmentation	HOXA2
+9953	2.0645E-2	3.6174E-2	1	59	5	14173	dorsal/ventral pattern formation	HOXA2
+48522	2.2684E-2	3.9398E-2	3	2007	5	14173	positive regulation of cellular process	HOXA2|HOXA3|HOXA7
+42471	2.3071E-2	3.9597E-2	1	66	5	14173	ear morphogenesis	HOXA2
+31328	2.3198E-2	3.9597E-2	2	719	5	14173	positive regulation of cellular biosynthetic process	HOXA2|HOXA7
+30336	2.3764E-2	4.0063E-2	1	68	5	14173	negative regulation of cell migration	HOXA7
+9891	2.3876E-2	4.0063E-2	2	730	5	14173	positive regulation of biosynthetic process	HOXA2|HOXA7
+40013	2.5493E-2	4.2063E-2	1	73	5	14173	negative regulation of locomotion	HOXA7
+51271	2.5493E-2	4.2063E-2	1	73	5	14173	negative regulation of cellular component movement	HOXA7
+45637	2.6875E-2	4.3261E-2	1	77	5	14173	regulation of myeloid cell differentiation	HOXA7
+35270	2.6875E-2	4.3261E-2	1	77	5	14173	endocrine system development	HOXA3
+51216	2.6875E-2	4.3261E-2	1	77	5	14173	cartilage development	HOXA3
+65007	2.7309E-2	4.3606E-2	5	6899	5	14173	biological regulation	HOXA2|HOXA3|HOXA4|HOXA7|CTDSP1
+31324	2.7590E-2	4.3703E-2	2	788	5	14173	negative regulation of cellular metabolic process	HOXA2|HOXA7
+50793	2.8121E-2	4.4190E-2	2	796	5	14173	regulation of developmental process	HOXA2|HOXA7
+10605	2.8656E-2	4.4677E-2	2	804	5	14173	negative regulation of macromolecule metabolic process	HOXA2|HOXA7
+48518	2.9610E-2	4.5803E-2	3	2211	5	14173	positive regulation of biological process	HOXA2|HOXA3|HOXA7
+2683	3.2042E-2	4.8802E-2	1	92	5	14173	negative regulation of immune system process	HOXA7
+7411	3.2042E-2	4.8802E-2	1	92	5	14173	axon guidance	HOXA2
+9892	3.2951E-2	4.9804E-2	2	866	5	14173	negative regulation of metabolic process	HOXA2|HOXA7

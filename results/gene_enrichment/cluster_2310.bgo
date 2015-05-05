@@ -1,0 +1,61 @@
+File created with bingo (c) on May 4, 2015 at 9:09:05 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+FGF19	EPHA7	KRT27	ADAM23	SPINK6	
+
+No annotations were retrieved for the following entities:
+CT45-6	KIAA1324L	LOC399947	SPINK6	RP13-36C9.6	TMEM55A	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+70858	5.6439E-4	3.3014E-2	1	2	4	14173	negative regulation of bile acid biosynthetic process	FGF19
+48731	8.4404E-4	3.3014E-2	4	2417	4	14173	system development	FGF19|EPHA7|KRT27|ADAM23
+70857	8.4650E-4	3.3014E-2	1	3	4	14173	regulation of bile acid biosynthetic process	FGF19
+48755	8.4650E-4	3.3014E-2	1	3	4	14173	branching morphogenesis of a nerve	EPHA7
+48856	1.2218E-3	3.5420E-2	4	2651	4	14173	anatomical structure development	FGF19|EPHA7|KRT27|ADAM23
+7169	1.4099E-3	3.5420E-2	2	220	4	14173	transmembrane receptor protein tyrosine kinase signaling pathway	FGF19|EPHA7
+7275	1.9071E-3	3.5420E-2	4	2963	4	14173	multicellular organismal development	FGF19|EPHA7|KRT27|ADAM23
+10894	1.9743E-3	3.5420E-2	1	7	4	14173	negative regulation of steroid biosynthetic process	FGF19
+7399	2.0435E-3	3.5420E-2	3	1158	4	14173	nervous system development	FGF19|EPHA7|ADAM23
+32502	2.6836E-3	4.1865E-2	4	3227	4	14173	developmental process	FGF19|EPHA7|KRT27|ADAM23
+45939	3.3828E-3	4.5124E-2	1	12	4	14173	negative regulation of steroid metabolic process	FGF19
+7167	3.4711E-3	4.5124E-2	2	347	4	14173	enzyme linked receptor protein signaling pathway	FGF19|EPHA7
+31290	4.2271E-3	4.7034E-2	1	15	4	14173	retinal ganglion cell axon guidance	EPHA7
+51055	5.0709E-3	4.7034E-2	1	18	4	14173	negative regulation of lipid biosynthetic process	FGF19
+31069	5.3521E-3	4.7034E-2	1	19	4	14173	hair follicle morphogenesis	KRT27
+43525	5.6332E-3	4.7034E-2	1	20	4	14173	positive regulation of neuron apoptosis	EPHA7
+46330	6.1952E-3	4.7034E-2	1	22	4	14173	positive regulation of JNK cascade	FGF19
+1755	6.4761E-3	4.7034E-2	1	23	4	14173	neural crest cell migration	FGF19
+46326	6.4761E-3	4.7034E-2	1	23	4	14173	positive regulation of glucose import	FGF19
+6928	6.5364E-3	4.7034E-2	2	479	4	14173	cellular component movement	FGF19|EPHA7
+10828	6.7570E-3	4.7034E-2	1	24	4	14173	positive regulation of glucose transport	FGF19
+48730	6.7570E-3	4.7034E-2	1	24	4	14173	epidermis morphogenesis	KRT27
+50810	7.8798E-3	4.7034E-2	1	28	4	14173	regulation of steroid biosynthetic process	FGF19
+70304	7.8798E-3	4.7034E-2	1	28	4	14173	positive regulation of stress-activated protein kinase signaling cascade	FGF19
+46324	8.7213E-3	4.7034E-2	1	31	4	14173	regulation of glucose import	FGF19
+32501	9.0130E-3	4.7034E-2	4	4368	4	14173	multicellular organismal process	FGF19|EPHA7|KRT27|ADAM23
+8543	9.5622E-3	4.7034E-2	1	34	4	14173	fibroblast growth factor receptor signaling pathway	FGF19
+10827	9.5622E-3	4.7034E-2	1	34	4	14173	regulation of glucose transport	FGF19
+14032	9.5622E-3	4.7034E-2	1	34	4	14173	neural crest cell development	FGF19
+70374	9.5622E-3	4.7034E-2	1	34	4	14173	positive regulation of ERK1 and ERK2 cascade	FGF19
+14033	9.8424E-3	4.7034E-2	1	35	4	14173	neural crest cell differentiation	FGF19
+1667	1.0123E-2	4.7034E-2	1	36	4	14173	ameboidal cell migration	FGF19
+45833	1.1243E-2	4.7034E-2	1	40	4	14173	negative regulation of lipid metabolic process	FGF19
+48468	1.1322E-2	4.7034E-2	2	635	4	14173	cell development	FGF19|EPHA7
+22404	1.1802E-2	4.7034E-2	1	42	4	14173	molting cycle process	KRT27
+22405	1.1802E-2	4.7034E-2	1	42	4	14173	hair cycle process	KRT27
+1942	1.1802E-2	4.7034E-2	1	42	4	14173	hair follicle development	KRT27
+70372	1.1802E-2	4.7034E-2	1	42	4	14173	regulation of ERK1 and ERK2 cascade	FGF19
+42303	1.2362E-2	4.7034E-2	1	44	4	14173	molting cycle	KRT27
+19218	1.2362E-2	4.7034E-2	1	44	4	14173	regulation of steroid metabolic process	FGF19
+42633	1.2362E-2	4.7034E-2	1	44	4	14173	hair cycle	KRT27

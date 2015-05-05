@@ -23,9 +23,10 @@ def parse_module(fname):
 	return module_id_to_genes, gene_to_module_id
 
 def main():
+	# module_id_to_genes, _ = parse_module('fold14/modules.txt')
 	module_id_to_genes, _ = parse_module('sbm/UCEC_cluster.txt')
 	for cluster_id, genes in module_id_to_genes.iteritems():
-		if len(genes) < 5:
+		if len(genes) < 20:
 			continue
 		print 'cluster_%s' %(cluster_id)
 		for gene in genes:

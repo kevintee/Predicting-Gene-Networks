@@ -1,0 +1,52 @@
+File created with bingo (c) on May 4, 2015 at 9:09:07 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+LST1	FOXJ1	ICAM2	ABI3	IL4I1	WAS	CLEC10A	CFP	LSP1	C1QB	LILRA2	ITGAX	NUPR1	CD300A	CSF3R	SLC43A2	CD14	TYROBP	
+
+No annotations were retrieved for the following entities:
+CT45-6	KIAA1324L	CXORF22	DPY19L2	SPINK6	TMEM55A	ANKRD45	EFCAB1	LOC399947	C11ORF70	MAP6	C10ORF30	RP13-36C9.6	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+6952	1.9983E-8	7.8135E-6	9	624	18	14173	defense response	LSP1|CFP|C1QB|LILRA2|CSF3R|CLEC10A|WAS|CD14|TYROBP
+6955	6.2504E-6	1.2220E-3	7	621	18	14173	immune response	CFP|C1QB|LST1|FOXJ1|CLEC10A|WAS|CD14
+45087	5.0017E-5	6.5189E-3	4	167	18	14173	innate immune response	CFP|C1QB|CLEC10A|CD14
+2376	9.7594E-5	8.3448E-3	7	949	18	14173	immune system process	CFP|C1QB|LST1|FOXJ1|CLEC10A|WAS|CD14
+6950	1.2309E-4	8.3448E-3	9	1772	18	14173	response to stress	LSP1|CFP|C1QB|LILRA2|CSF3R|CLEC10A|WAS|CD14|TYROBP
+6959	1.2805E-4	8.3448E-3	3	79	18	14173	humoral immune response	CFP|C1QB|FOXJ1
+50672	7.3876E-4	2.4883E-2	2	32	18	14173	negative regulation of lymphocyte proliferation	LST1|FOXJ1
+32945	7.3876E-4	2.4883E-2	2	32	18	14173	negative regulation of mononuclear cell proliferation	LST1|FOXJ1
+70664	7.3876E-4	2.4883E-2	2	32	18	14173	negative regulation of leukocyte proliferation	LST1|FOXJ1
+6956	1.2131E-3	2.4883E-2	2	41	18	14173	complement activation	CFP|C1QB
+2508	1.2700E-3	2.4883E-2	1	1	18	14173	central tolerance induction	FOXJ1
+2713	1.2700E-3	2.4883E-2	1	1	18	14173	negative regulation of B cell mediated immunity	FOXJ1
+2646	1.2700E-3	2.4883E-2	1	1	18	14173	regulation of central tolerance induction	FOXJ1
+2648	1.2700E-3	2.4883E-2	1	1	18	14173	positive regulation of central tolerance induction	FOXJ1
+2635	1.2700E-3	2.4883E-2	1	1	18	14173	negative regulation of germinal center formation	FOXJ1
+2924	1.2700E-3	2.4883E-2	1	1	18	14173	negative regulation of humoral immune response mediated by circulating immunoglobulin	FOXJ1
+2890	1.2700E-3	2.4883E-2	1	1	18	14173	negative regulation of immunoglobulin mediated immune response	FOXJ1
+2895	1.2700E-3	2.4883E-2	1	1	18	14173	regulation of central B cell tolerance induction	FOXJ1
+2897	1.2700E-3	2.4883E-2	1	1	18	14173	positive regulation of central B cell tolerance induction	FOXJ1
+2541	1.2728E-3	2.4883E-2	2	42	18	14173	activation of plasma proteins involved in acute inflammatory response	CFP|C1QB
+50896	1.4775E-3	2.7509E-2	11	3615	18	14173	response to stimulus	LSP1|CFP|C1QB|LST1|LILRA2|FOXJ1|CSF3R|CLEC10A|WAS|CD14|TYROBP
+2682	1.8230E-3	3.2400E-2	4	430	18	14173	regulation of immune system process	CFP|C1QB|LST1|FOXJ1
+51250	1.9455E-3	3.3074E-2	2	52	18	14173	negative regulation of lymphocyte activation	LST1|FOXJ1
+2695	2.3329E-3	3.8007E-2	2	57	18	14173	negative regulation of leukocyte activation	LST1|FOXJ1
+2663	2.5385E-3	3.8175E-2	1	2	18	14173	positive regulation of B cell tolerance induction	FOXJ1
+2661	2.5385E-3	3.8175E-2	1	2	18	14173	regulation of B cell tolerance induction	FOXJ1
+6968	2.6669E-3	3.8621E-2	2	61	18	14173	cellular defense response	LSP1|TYROBP
+50866	2.8419E-3	3.9685E-2	2	63	18	14173	negative regulation of cell activation	LST1|FOXJ1
+50776	3.2420E-3	4.3711E-2	3	240	18	14173	regulation of immune response	CFP|C1QB|FOXJ1
+33085	3.8055E-3	4.6498E-2	1	3	18	14173	negative regulation of T cell differentiation in the thymus	FOXJ1
+2507	3.8055E-3	4.6498E-2	1	3	18	14173	tolerance induction	FOXJ1
+71223	3.8055E-3	4.6498E-2	1	3	18	14173	cellular response to lipoteichoic acid	CD14

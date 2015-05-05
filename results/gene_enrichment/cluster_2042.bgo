@@ -1,0 +1,71 @@
+File created with bingo (c) on May 4, 2015 at 9:09:15 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+ACTA1	FBXO17	HSPB7	RYR2	RFPL2	CPEB1	
+
+No annotations were retrieved for the following entities:
+C13ORF18	GREB1	C22ORF27	SPINK6	DPY19L2	IL17RD	MKRN3	TRIM43	EFCAB1	RFPL2	SMA4	C12ORF5	C9ORF58	RP13-36C9.6	MTUS1	C18ORF51	UNQ6975	CT45-6	TMEFF2	KIAA1324L	CXORF22	LOC91461	TMC5	ZMYM5	FLJ21963	TMEM169	SMYD2	TMEM55A	ANKRD45	C1ORF64	C3ORF59	LAYN	ARPM1	METRNL	C11ORF70	LOC399947	C10ORF30	MAP6	BTBD11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+44057	1.0520E-4	1.8874E-2	3	315	5	14173	regulation of system process	HSPB7|RYR2|CPEB1
+8016	3.2696E-4	1.8874E-2	2	82	5	14173	regulation of heart contraction	HSPB7|RYR2
+43503	3.5278E-4	1.8874E-2	1	1	5	14173	skeletal muscle fiber adaptation	ACTA1
+8627	3.5278E-4	1.8874E-2	1	1	5	14173	induction of apoptosis by ionic changes	RYR2
+14808	7.0547E-4	2.3261E-2	1	2	5	14173	release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	RYR2
+10881	7.0547E-4	2.3261E-2	1	2	5	14173	regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion	RYR2
+10882	1.0581E-3	2.3261E-2	1	3	5	14173	regulation of cardiac muscle contraction by calcium ion signaling	RYR2
+70296	1.0581E-3	2.3261E-2	1	3	5	14173	sarcoplasmic reticulum calcium ion transport	RYR2
+10038	1.1481E-3	2.3261E-2	2	154	5	14173	response to metal ion	ACTA1|RYR2
+6936	1.1929E-3	2.3261E-2	2	157	5	14173	muscle contraction	ACTA1|RYR2
+43501	1.4105E-3	2.3261E-2	1	4	5	14173	skeletal muscle adaptation	ACTA1
+10880	1.4105E-3	2.3261E-2	1	4	5	14173	regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	RYR2
+3012	1.4131E-3	2.3261E-2	2	171	5	14173	muscle system process	ACTA1|RYR2
+30240	1.7629E-3	2.6233E-2	1	5	5	14173	skeletal muscle thin filament assembly	ACTA1
+14866	2.1152E-3	2.6233E-2	1	6	5	14173	skeletal myofibril assembly	ACTA1
+14888	2.1152E-3	2.6233E-2	1	6	5	14173	striated muscle adaptation	ACTA1
+10033	2.1202E-3	2.6233E-2	3	873	5	14173	response to organic substance	ACTA1|HSPB7|RYR2
+7130	2.4674E-3	2.6233E-2	1	7	5	14173	synaptonemal complex assembly	CPEB1
+31000	2.4674E-3	2.6233E-2	1	7	5	14173	response to caffeine	RYR2
+51775	2.4674E-3	2.6233E-2	1	7	5	14173	response to redox state	RYR2
+10035	2.7610E-3	2.6233E-2	2	240	5	14173	response to inorganic substance	ACTA1|RYR2
+5513	2.8195E-3	2.6233E-2	1	8	5	14173	detection of calcium ion	RYR2
+70193	2.8195E-3	2.6233E-2	1	8	5	14173	synaptonemal complex organization	CPEB1
+9991	3.3555E-3	2.6929E-2	2	265	5	14173	response to extracellular stimulus	ACTA1|RYR2
+32026	3.5234E-3	2.6929E-2	1	10	5	14173	response to magnesium ion	RYR2
+55117	3.5234E-3	2.6929E-2	1	10	5	14173	regulation of cardiac muscle contraction	RYR2
+10226	3.5234E-3	2.6929E-2	1	10	5	14173	response to lithium ion	ACTA1
+14074	3.5234E-3	2.6929E-2	1	10	5	14173	response to purine	RYR2
+51239	3.8011E-3	2.7643E-2	3	1068	5	14173	regulation of multicellular organismal process	HSPB7|RYR2|CPEB1
+43500	3.8751E-3	2.7643E-2	1	11	5	14173	muscle adaptation	ACTA1
+7129	4.5784E-3	2.7994E-2	1	13	5	14173	synapsis	CPEB1
+51209	4.5784E-3	2.7994E-2	1	13	5	14173	release of sequestered calcium ion into cytosol	RYR2
+70192	4.5784E-3	2.7994E-2	1	13	5	14173	chromosome organization involved in meiosis	CPEB1
+51283	4.5784E-3	2.7994E-2	1	13	5	14173	negative regulation of sequestering of calcium ion	RYR2
+51282	4.5784E-3	2.7994E-2	1	13	5	14173	regulation of sequestering of calcium ion	RYR2
+30239	5.9838E-3	3.4609E-2	1	17	5	14173	myofibril assembly	ACTA1
+60048	5.9838E-3	3.4609E-2	1	17	5	14173	cardiac muscle contraction	RYR2
+51279	6.3349E-3	3.5675E-2	1	18	5	14173	regulation of release of sequestered calcium ion into cytosol	RYR2
+60402	6.6859E-3	3.6687E-2	1	19	5	14173	calcium ion transport into cytosol	RYR2
+60401	7.3876E-3	3.7641E-2	1	21	5	14173	cytosolic calcium ion transport	RYR2
+3015	7.3876E-3	3.7641E-2	1	21	5	14173	heart process	RYR2
+60047	7.3876E-3	3.7641E-2	1	21	5	14173	heart contraction	RYR2
+9628	7.6556E-3	3.8100E-2	2	404	5	14173	response to abiotic stimulus	ACTA1|HSPB7
+31032	8.0889E-3	3.9341E-2	1	23	5	14173	actomyosin structure organization	ACTA1
+6942	8.4394E-3	4.0134E-2	1	24	5	14173	regulation of striated muscle contraction	RYR2
+42221	9.2434E-3	4.3002E-2	3	1457	5	14173	response to chemical stimulus	ACTA1|HSPB7|RYR2
+48741	9.8404E-3	4.4805E-2	1	28	5	14173	skeletal muscle fiber development	ACTA1
+65008	1.0813E-2	4.7561E-2	3	1540	5	14173	regulation of biological quality	ACTA1|RYR2|CPEB1
+10927	1.0890E-2	4.7561E-2	1	31	5	14173	cellular component assembly involved in morphogenesis	ACTA1
+10522	1.1240E-2	4.8106E-2	1	32	5	14173	regulation of calcium ion transport into cytosol	RYR2
+9593	1.1589E-2	4.8630E-2	1	33	5	14173	detection of chemical stimulus	RYR2

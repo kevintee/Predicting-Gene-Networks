@@ -1,0 +1,139 @@
+File created with bingo (c) on May 4, 2015 at 9:09:04 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+DCDC2	ECHDC2	RIPK2	ANXA4	DPP4	
+
+No annotations were retrieved for the following entities:
+CT45-6	KIAA1324L	LOC399947	RP13-36C9.6	TMEM55A	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+2822	1.3110E-4	1.8591E-2	2	52	5	14173	regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	RIPK2|DPP4
+2819	1.3623E-4	1.8591E-2	2	53	5	14173	regulation of adaptive immune response	RIPK2|DPP4
+50870	3.0346E-4	1.8591E-2	2	79	5	14173	positive regulation of T cell activation	RIPK2|DPP4
+51251	5.5635E-4	1.8591E-2	2	107	5	14173	positive regulation of lymphocyte activation	RIPK2|DPP4
+2696	6.8762E-4	1.8591E-2	2	119	5	14173	positive regulation of leukocyte activation	RIPK2|DPP4
+42110	6.9918E-4	1.8591E-2	2	120	5	14173	T cell activation	RIPK2|DPP4
+33091	7.0547E-4	1.8591E-2	1	2	5	14173	positive regulation of immature T cell proliferation	RIPK2
+70673	7.0547E-4	1.8591E-2	1	2	5	14173	response to interleukin-18	RIPK2
+70671	7.0547E-4	1.8591E-2	1	2	5	14173	response to interleukin-12	RIPK2
+50863	7.4634E-4	1.8591E-2	2	124	5	14173	regulation of T cell activation	RIPK2|DPP4
+50867	7.4634E-4	1.8591E-2	2	124	5	14173	positive regulation of cell activation	RIPK2|DPP4
+34134	1.0581E-3	1.9313E-2	1	3	5	14173	toll-like receptor 2 signaling pathway	RIPK2
+70427	1.0581E-3	1.9313E-2	1	3	5	14173	nucleotide-binding oligomerization domain containing 1 signaling pathway	RIPK2
+10716	1.0581E-3	1.9313E-2	1	3	5	14173	negative regulation of extracellular matrix disassembly	DPP4
+10715	1.0581E-3	1.9313E-2	1	3	5	14173	regulation of extracellular matrix disassembly	DPP4
+51249	1.2385E-3	1.9313E-2	2	160	5	14173	regulation of lymphocyte activation	RIPK2|DPP4
+33083	1.4105E-3	1.9313E-2	1	4	5	14173	regulation of immature T cell proliferation	RIPK2
+33632	1.4105E-3	1.9313E-2	1	4	5	14173	regulation of cell-cell adhesion mediated by integrin	DPP4
+2827	1.4105E-3	1.9313E-2	1	4	5	14173	positive regulation of T-helper 1 type immune response	RIPK2
+2694	1.6162E-3	1.9313E-2	2	183	5	14173	regulation of leukocyte activation	RIPK2|DPP4
+46649	1.7048E-3	1.9313E-2	2	188	5	14173	lymphocyte activation	RIPK2|DPP4
+34142	1.7629E-3	1.9313E-2	1	5	5	14173	toll-like receptor 4 signaling pathway	RIPK2
+70423	1.7629E-3	1.9313E-2	1	5	5	14173	nucleotide-binding oligomerization domain containing signaling pathway	RIPK2
+70431	1.7629E-3	1.9313E-2	1	5	5	14173	nucleotide-binding oligomerization domain containing 2 signaling pathway	RIPK2
+45627	1.7629E-3	1.9313E-2	1	5	5	14173	positive regulation of T-helper 1 cell differentiation	RIPK2
+50865	1.8326E-3	1.9313E-2	2	195	5	14173	regulation of cell activation	RIPK2|DPP4
+6916	1.9842E-3	1.9985E-2	2	203	5	14173	anti-apoptosis	RIPK2|ANXA4
+1961	2.1152E-3	1.9985E-2	1	6	5	14173	positive regulation of cytokine-mediated signaling pathway	RIPK2
+70391	2.1152E-3	1.9985E-2	1	6	5	14173	response to lipoteichoic acid	RIPK2
+45625	2.4674E-3	2.1809E-2	1	7	5	14173	regulation of T-helper 1 cell differentiation	RIPK2
+32743	2.4674E-3	2.1809E-2	1	7	5	14173	positive regulation of interleukin-2 production	RIPK2
+45321	2.6488E-3	2.2073E-2	2	235	5	14173	leukocyte activation	RIPK2|DPP4
+50776	2.7610E-3	2.2073E-2	2	240	5	14173	regulation of immune response	RIPK2|DPP4
+46641	2.8195E-3	2.2073E-2	1	8	5	14173	positive regulation of alpha-beta T cell proliferation	RIPK2
+45624	2.8195E-3	2.2073E-2	1	8	5	14173	positive regulation of T-helper cell differentiation	RIPK2
+2825	3.1715E-3	2.4128E-2	1	9	5	14173	regulation of T-helper 1 type immune response	RIPK2
+2684	3.4558E-3	2.4128E-2	2	269	5	14173	positive regulation of immune system process	RIPK2|DPP4
+43372	3.5234E-3	2.4128E-2	1	10	5	14173	positive regulation of CD4-positive, alpha beta T cell differentiation	RIPK2
+1775	3.6606E-3	2.4128E-2	2	277	5	14173	cell activation	RIPK2|DPP4
+33628	3.8751E-3	2.4128E-2	1	11	5	14173	regulation of cell adhesion mediated by integrin	DPP4
+31663	3.8751E-3	2.4128E-2	1	11	5	14173	lipopolysaccharide-mediated signaling pathway	RIPK2
+16477	3.9246E-3	2.4128E-2	2	287	5	14173	cell migration	DCDC2|DPP4
+46640	4.2268E-3	2.4128E-2	1	12	5	14173	regulation of alpha-beta T cell proliferation	RIPK2
+45622	4.2268E-3	2.4128E-2	1	12	5	14173	regulation of T-helper cell differentiation	RIPK2
+43330	4.2268E-3	2.4128E-2	1	12	5	14173	response to exogenous dsRNA	RIPK2
+31294	4.2268E-3	2.4128E-2	1	12	5	14173	lymphocyte costimulation	DPP4
+31295	4.2268E-3	2.4128E-2	1	12	5	14173	T cell costimulation	DPP4
+32494	4.2268E-3	2.4128E-2	1	12	5	14173	response to peptidoglycan	RIPK2
+32874	4.5784E-3	2.5015E-2	1	13	5	14173	positive regulation of stress-activated MAPK cascade	RIPK2
+48870	4.8579E-3	2.5015E-2	2	320	5	14173	cell motility	DCDC2|DPP4
+51674	4.8579E-3	2.5015E-2	2	320	5	14173	localization of cell	DCDC2|DPP4
+43370	4.9299E-3	2.5015E-2	1	14	5	14173	regulation of CD4-positive, alpha beta T cell differentiation	RIPK2
+32729	4.9299E-3	2.5015E-2	1	14	5	14173	positive regulation of interferon-gamma production	RIPK2
+32760	4.9299E-3	2.5015E-2	1	14	5	14173	positive regulation of tumor necrosis factor production	RIPK2
+2224	5.6326E-3	2.7560E-2	1	16	5	14173	toll-like receptor signaling pathway	RIPK2
+32722	5.6326E-3	2.7560E-2	1	16	5	14173	positive regulation of chemokine production	RIPK2
+2709	5.9838E-3	2.8268E-2	1	17	5	14173	regulation of T cell mediated immunity	DPP4
+32872	5.9838E-3	2.8268E-2	1	17	5	14173	regulation of stress-activated MAPK cascade	RIPK2
+71222	6.3349E-3	2.9420E-2	1	18	5	14173	cellular response to lipopolysaccharide	RIPK2
+46638	6.6859E-3	3.0031E-2	1	19	5	14173	positive regulation of alpha-beta T cell differentiation	RIPK2
+2221	6.6859E-3	3.0031E-2	1	19	5	14173	pattern recognition receptor signaling pathway	RIPK2
+43066	6.7952E-3	3.0031E-2	2	380	5	14173	negative regulation of apoptosis	RIPK2|ANXA4
+43069	6.9705E-3	3.0316E-2	2	385	5	14173	negative regulation of programmed cell death	RIPK2|ANXA4
+60548	7.2553E-3	3.0670E-2	2	393	5	14173	negative regulation of cell death	RIPK2|ANXA4
+2758	7.3876E-3	3.0670E-2	1	21	5	14173	innate immune response-activating signal transduction	RIPK2
+71219	7.3876E-3	3.0670E-2	1	21	5	14173	cellular response to molecule of bacterial origin	RIPK2
+46635	7.7383E-3	3.0729E-2	1	22	5	14173	positive regulation of alpha-beta T cell activation	RIPK2
+2218	7.7383E-3	3.0729E-2	1	22	5	14173	activation of innate immune response	RIPK2
+46330	7.7383E-3	3.0729E-2	1	22	5	14173	positive regulation of JNK cascade	RIPK2
+32755	8.0889E-3	3.0783E-2	1	23	5	14173	positive regulation of interleukin-6 production	RIPK2
+42098	8.0889E-3	3.0783E-2	1	23	5	14173	T cell proliferation	RIPK2
+1959	8.0889E-3	3.0783E-2	1	23	5	14173	regulation of cytokine-mediated signaling pathway	RIPK2
+46637	8.4394E-3	3.1248E-2	1	24	5	14173	regulation of alpha-beta T cell differentiation	RIPK2
+32642	8.4394E-3	3.1248E-2	1	24	5	14173	regulation of chemokine production	RIPK2
+2682	8.6417E-3	3.1571E-2	2	430	5	14173	regulation of immune system process	RIPK2|DPP4
+50852	8.7898E-3	3.1689E-2	1	25	5	14173	T cell receptor signaling pathway	RIPK2
+43542	9.1401E-3	3.1747E-2	1	26	5	14173	endothelial cell migration	DPP4
+40011	9.1557E-3	3.1747E-2	2	443	5	14173	locomotion	DCDC2|DPP4
+2824	9.4903E-3	3.1747E-2	1	27	5	14173	positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	RIPK2
+22407	9.8404E-3	3.1747E-2	1	28	5	14173	regulation of cell-cell adhesion	DPP4
+43331	9.8404E-3	3.1747E-2	1	28	5	14173	response to dsRNA	RIPK2
+50830	9.8404E-3	3.1747E-2	1	28	5	14173	defense response to Gram-positive bacterium	RIPK2
+2821	9.8404E-3	3.1747E-2	1	28	5	14173	positive regulation of adaptive immune response	RIPK2
+70304	9.8404E-3	3.1747E-2	1	28	5	14173	positive regulation of stress-activated protein kinase signaling cascade	RIPK2
+8284	9.8486E-3	3.1747E-2	2	460	5	14173	positive regulation of cell proliferation	RIPK2|DPP4
+45582	1.0190E-2	3.2094E-2	1	29	5	14173	positive regulation of T cell differentiation	RIPK2
+70555	1.0190E-2	3.2094E-2	1	29	5	14173	response to interleukin-1	RIPK2
+6928	1.0651E-2	3.3163E-2	2	479	5	14173	cellular component movement	DCDC2|DPP4
+32663	1.0890E-2	3.3475E-2	1	31	5	14173	regulation of interleukin-2 production	RIPK2
+46634	1.1240E-2	3.3475E-2	1	32	5	14173	regulation of alpha-beta T cell activation	RIPK2
+45621	1.1240E-2	3.3475E-2	1	32	5	14173	positive regulation of lymphocyte differentiation	RIPK2
+32649	1.1240E-2	3.3475E-2	1	32	5	14173	regulation of interferon-gamma production	RIPK2
+70374	1.1939E-2	3.5175E-2	1	34	5	14173	positive regulation of ERK1 and ERK2 cascade	RIPK2
+32680	1.2288E-2	3.5819E-2	1	35	5	14173	regulation of tumor necrosis factor production	RIPK2
+50851	1.2638E-2	3.6450E-2	1	36	5	14173	antigen receptor-mediated signaling pathway	RIPK2
+48583	1.2900E-2	3.6819E-2	2	529	5	14173	regulation of response to stimulus	RIPK2|DPP4
+46651	1.3336E-2	3.7671E-2	1	38	5	14173	lymphocyte proliferation	RIPK2
+32943	1.4034E-2	3.9238E-2	1	40	5	14173	mononuclear cell proliferation	RIPK2
+70661	1.4383E-2	3.9807E-2	1	41	5	14173	leukocyte proliferation	RIPK2
+2429	1.4731E-2	3.9964E-2	1	42	5	14173	immune response-activating cell surface receptor signaling pathway	RIPK2
+70372	1.4731E-2	3.9964E-2	1	42	5	14173	regulation of ERK1 and ERK2 cascade	RIPK2
+32675	1.5080E-2	4.0509E-2	1	43	5	14173	regulation of interleukin-6 production	RIPK2
+42102	1.5429E-2	4.1043E-2	1	44	5	14173	positive regulation of T cell proliferation	RIPK2
+6950	1.6043E-2	4.2079E-2	3	1772	5	14173	response to stress	RIPK2|DCDC2|DPP4
+2768	1.6125E-2	4.2079E-2	1	46	5	14173	immune response-regulating cell surface receptor signaling pathway	RIPK2
+2706	1.7518E-2	4.4392E-2	1	50	5	14173	regulation of lymphocyte mediated immunity	DPP4
+45580	1.7518E-2	4.4392E-2	1	50	5	14173	regulation of T cell differentiation	RIPK2
+45089	1.7518E-2	4.4392E-2	1	50	5	14173	positive regulation of innate immune response	RIPK2
+6952	1.7711E-2	4.4392E-2	2	624	5	14173	defense response	RIPK2|DCDC2
+71216	1.7865E-2	4.4392E-2	1	51	5	14173	cellular response to biotic stimulus	RIPK2
+48523	1.7984E-2	4.4392E-2	3	1846	5	14173	negative regulation of cellular process	RIPK2|ANXA4|DPP4
+2757	1.9603E-2	4.7958E-2	1	56	5	14173	immune response-activating signal transduction	RIPK2
+51092	1.9950E-2	4.8361E-2	1	57	5	14173	positive regulation of NF-kappaB transcription factor activity	RIPK2
+45619	2.0297E-2	4.8361E-2	1	58	5	14173	regulation of lymphocyte differentiation	RIPK2
+1764	2.0297E-2	4.8361E-2	1	58	5	14173	neuron migration	DCDC2
+2703	2.0991E-2	4.9132E-2	1	60	5	14173	regulation of leukocyte mediated immunity	DPP4
+45088	2.1338E-2	4.9132E-2	1	61	5	14173	regulation of innate immune response	RIPK2
+2764	2.1338E-2	4.9132E-2	1	61	5	14173	immune response-regulating signaling pathway	RIPK2
+6968	2.1338E-2	4.9132E-2	1	61	5	14173	cellular defense response	DCDC2

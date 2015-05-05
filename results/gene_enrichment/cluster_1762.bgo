@@ -1,0 +1,68 @@
+File created with bingo (c) on May 4, 2015 at 9:09:44 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+TMEM56	KLHL5	ATP1A2	CSRP2	ZNF570	NANP	ATP6V0A2	TMEM45A	
+
+No annotations were retrieved for the following entities:
+PRR16	PNMA2	REP15	FAM110B	CXORF9	IL17RD	SHE	MKRN3	TMEM140	MMRN2	C1ORF75	C8ORF46	GAB3	TRIM43	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	LOC389199	C9ORF46	TMEM185B	SPATA22	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	TMEFF2	NUDT18	C7ORF31	C6ORF48	NUDT15	FLJ21963	PRKCDBP	LOC201175	PIK3IP1	FAM118B	FBXL8	CLEC12B	CD300LF	BIN2	GBP1	CYORF15B	LQK1	LRIG1	C1ORF131	ASTN2	FAM19A3	MAGEA3	CD68	CD69	LYL1	FAM92A1	EFCAB1	OTUD7A	SMA4	HLA-DRB6	RP13-36C9.6	HAVCR2	GPR156	C18ORF51	KIAA1586	CCDC83	CXORF22	ZMYM5	SPPL2B	NCKAP1L	LOC439951	SMYD2	DOCK5	MGC34800	CAMK2N2	C18ORF54	GPR153	SYNGR4	FAM64A	WSCD1	C1ORF64	LOC441150	TRAF3IP3	FLJ45717	DHX40	MAP6	CLEC14A	BTBD11	C13ORF18	GREB1	UBXD3	LOC347273	C5ORF20	C22ORF27	SPINK6	DPY19L2	TSPAN10	DLEU1	TRIM7	CELP	MGC45922	EVI2B	FBXL17	UNQ6975	LAIR1	KIAA1324L	HMGCLL1	PPAP2C	C17ORF60	LOC91461	GPRASP2	MYCT1	TMEM71	FAM62C	METTL2A	ANKRD21	FLJ37078	LRRC25	BRWD3	CCDC109B	CLECL1	C3ORF33	TMEM182	DOK6	ZNF711	COMMD2	C11ORF70	P15RS	KIAA0825	LOC201725	PLVAP	LRRC39	FLJ37464	KIAA1432	C1QTNF5	KLC1	MARVELD3	RFPL2	C12ORF5	C9ORF58	MS4A6A	GALNT13	TMEM45A	MS4A4A	MGC102966	C1ORF162	RNASE1	GIMAP6	GIMAP8	TMC5	C9ORF62	CENPQ	TMEM169	SAMSN1	CENPK	GIMAP1	TMEM55A	ANKRD45	C3ORF52	C3ORF59	LAYN	MYPN	PSITPTE22	ARPM1	METRNL	LOC399947	FCGR2A	C10ORF30	KIAA1545	FAM126B	MAGED4B	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+34220	2.8470E-4	1.4107E-2	2	53	7	14173	ion transmembrane transport	ATP1A2|ATP6V0A2
+15992	3.5300E-4	1.4107E-2	2	59	7	14173	proton transport	ATP1A2|ATP6V0A2
+6818	3.7738E-4	1.4107E-2	2	61	7	14173	hydrogen transport	ATP1A2|ATP6V0A2
+46380	4.9390E-4	1.4107E-2	1	1	7	14173	N-acetylneuraminate biosynthetic process	NANP
+6754	8.2027E-4	1.4107E-2	2	90	7	14173	ATP biosynthetic process	ATP1A2|ATP6V0A2
+44283	9.7286E-4	1.4107E-2	3	444	7	14173	small molecule biosynthetic process	ATP1A2|ATP6V0A2|NANP
+6054	9.8758E-4	1.4107E-2	1	2	7	14173	N-acetylneuraminate metabolic process	NANP
+46034	1.0114E-3	1.4107E-2	2	100	7	14173	ATP metabolic process	ATP1A2|ATP6V0A2
+9206	1.0114E-3	1.4107E-2	2	100	7	14173	purine ribonucleoside triphosphate biosynthetic process	ATP1A2|ATP6V0A2
+9201	1.0316E-3	1.4107E-2	2	101	7	14173	ribonucleoside triphosphate biosynthetic process	ATP1A2|ATP6V0A2
+9145	1.0316E-3	1.4107E-2	2	101	7	14173	purine nucleoside triphosphate biosynthetic process	ATP1A2|ATP6V0A2
+9142	1.0726E-3	1.4107E-2	2	103	7	14173	nucleoside triphosphate biosynthetic process	ATP1A2|ATP6V0A2
+9205	1.2665E-3	1.4107E-2	2	112	7	14173	purine ribonucleoside triphosphate metabolic process	ATP1A2|ATP6V0A2
+9199	1.2890E-3	1.4107E-2	2	113	7	14173	ribonucleoside triphosphate metabolic process	ATP1A2|ATP6V0A2
+9144	1.3810E-3	1.4107E-2	2	117	7	14173	purine nucleoside triphosphate metabolic process	ATP1A2|ATP6V0A2
+9152	1.4045E-3	1.4107E-2	2	118	7	14173	purine ribonucleotide biosynthetic process	ATP1A2|ATP6V0A2
+46349	1.4811E-3	1.4107E-2	1	3	7	14173	amino sugar biosynthetic process	NANP
+9141	1.5993E-3	1.4107E-2	2	126	7	14173	nucleoside triphosphate metabolic process	ATP1A2|ATP6V0A2
+9260	1.6245E-3	1.4107E-2	2	127	7	14173	ribonucleotide biosynthetic process	ATP1A2|ATP6V0A2
+9150	1.7534E-3	1.4465E-2	2	132	7	14173	purine ribonucleotide metabolic process	ATP1A2|ATP6V0A2
+6164	1.9143E-3	1.5041E-2	2	138	7	14173	purine nucleotide biosynthetic process	ATP1A2|ATP6V0A2
+9259	2.0536E-3	1.5402E-2	2	143	7	14173	ribonucleotide metabolic process	ATP1A2|ATP6V0A2
+51481	2.4674E-3	1.6963E-2	1	5	7	14173	reduction of cytosolic calcium ion concentration	ATP1A2
+45988	2.4674E-3	1.6963E-2	1	5	7	14173	negative regulation of striated muscle contraction	ATP1A2
+6163	2.9543E-3	1.9498E-2	2	172	7	14173	purine nucleotide metabolic process	ATP1A2|ATP6V0A2
+9165	3.1253E-3	1.9834E-2	2	177	7	14173	nucleotide biosynthetic process	ATP1A2|ATP6V0A2
+34404	3.3726E-3	1.9874E-2	2	184	7	14173	nucleobase, nucleoside and nucleotide biosynthetic process	ATP1A2|ATP6V0A2
+34654	3.3726E-3	1.9874E-2	2	184	7	14173	nucleobase, nucleoside, nucleotide and nucleic acid biosynthetic process	ATP1A2|ATP6V0A2
+44065	3.9453E-3	2.1699E-2	1	8	7	14173	regulation of respiratory system process	ATP1A2
+2087	3.9453E-3	2.1699E-2	1	8	7	14173	regulation of respiratory gaseous exchange by neurological system process	ATP1A2
+1504	4.4376E-3	2.2188E-2	1	9	7	14173	neurotransmitter uptake	ATP1A2
+15988	4.4376E-3	2.2188E-2	1	9	7	14173	energy coupled proton transport, against electrochemical gradient	ATP1A2
+15991	4.4376E-3	2.2188E-2	1	9	7	14173	ATP hydrolysis coupled proton transport	ATP1A2
+45932	5.4214E-3	2.5558E-2	1	11	7	14173	negative regulation of muscle contraction	ATP1A2
+43576	5.4214E-3	2.5558E-2	1	11	7	14173	regulation of respiratory gaseous exchange	ATP1A2
+45822	5.9130E-3	2.7101E-2	1	12	7	14173	negative regulation of heart contraction	ATP1A2
+15672	7.3344E-3	3.2585E-2	2	274	7	14173	monovalent inorganic cation transport	ATP1A2|ATP6V0A2
+9117	7.7018E-3	3.2585E-2	2	281	7	14173	nucleotide metabolic process	ATP1A2|ATP6V0A2
+6753	7.7018E-3	3.2585E-2	2	281	7	14173	nucleoside phosphate metabolic process	ATP1A2|ATP6V0A2
+45445	8.8582E-3	3.6319E-2	1	18	7	14173	myoblast differentiation	CSRP2
+55086	9.0247E-3	3.6319E-2	2	305	7	14173	nucleobase, nucleoside and nucleotide metabolic process	ATP1A2|ATP6V0A2
+2026	9.3484E-3	3.6726E-2	1	19	7	14173	regulation of the force of heart contraction	ATP1A2
+44271	1.0383E-2	3.9841E-2	2	328	7	14173	cellular nitrogen compound biosynthetic process	ATP1A2|ATP6V0A2
+46483	1.0938E-2	4.1017E-2	2	337	7	14173	heterocycle metabolic process	ATP1A2|ATP6V0A2
+8542	1.1796E-2	4.2312E-2	1	24	7	14173	visual learning	ATP1A2
+6942	1.1796E-2	4.2312E-2	1	24	7	14173	regulation of striated muscle contraction	ATP1A2
+6040	1.2774E-2	4.4843E-2	1	26	7	14173	amino sugar metabolic process	NANP
+7632	1.3262E-2	4.5588E-2	1	27	7	14173	visual behavior	ATP1A2

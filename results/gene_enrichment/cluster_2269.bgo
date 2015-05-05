@@ -1,0 +1,94 @@
+File created with bingo (c) on May 4, 2015 at 9:09:06 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+ATP6V0E2	GLT25D2	HEY2	MCC	ATP6V0A4	
+
+No annotations were retrieved for the following entities:
+CT45-6	KIAA1324L	CXORF22	DPY19L2	SPINK6	TMEM55A	ANKRD45	EFCAB1	LOC399947	C11ORF70	MAP6	C10ORF30	RP13-36C9.6	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+15988	3.5811E-6	3.6348E-4	2	9	5	14173	energy coupled proton transport, against electrochemical gradient	ATP6V0E2|ATP6V0A4
+15991	3.5811E-6	3.6348E-4	2	9	5	14173	ATP hydrolysis coupled proton transport	ATP6V0E2|ATP6V0A4
+6885	5.5608E-5	2.8842E-3	2	34	5	14173	regulation of pH	ATP6V0E2|ATP6V0A4
+55067	8.5248E-5	2.8842E-3	2	42	5	14173	monovalent inorganic cation homeostasis	ATP6V0E2|ATP6V0A4
+15985	8.5248E-5	2.8842E-3	2	42	5	14173	energy coupled proton transport, down electrochemical gradient	ATP6V0E2|ATP6V0A4
+15986	8.5248E-5	2.8842E-3	2	42	5	14173	ATP synthesis coupled proton transport	ATP6V0E2|ATP6V0A4
+34220	1.3623E-4	3.9505E-3	2	53	5	14173	ion transmembrane transport	ATP6V0E2|ATP6V0A4
+15992	1.6900E-4	4.0759E-3	2	59	5	14173	proton transport	ATP6V0E2|ATP6V0A4
+6818	1.8070E-4	4.0759E-3	2	61	5	14173	hydrogen transport	ATP6V0E2|ATP6V0A4
+6754	3.9386E-4	6.5421E-3	2	90	5	14173	ATP biosynthetic process	ATP6V0E2|ATP6V0A4
+46034	4.8610E-4	6.5421E-3	2	100	5	14173	ATP metabolic process	ATP6V0E2|ATP6V0A4
+9206	4.8610E-4	6.5421E-3	2	100	5	14173	purine ribonucleoside triphosphate biosynthetic process	ATP6V0E2|ATP6V0A4
+9201	4.9585E-4	6.5421E-3	2	101	5	14173	ribonucleoside triphosphate biosynthetic process	ATP6V0E2|ATP6V0A4
+9145	4.9585E-4	6.5421E-3	2	101	5	14173	purine nucleoside triphosphate biosynthetic process	ATP6V0E2|ATP6V0A4
+6119	5.0569E-4	6.5421E-3	2	102	5	14173	oxidative phosphorylation	ATP6V0E2|ATP6V0A4
+9142	5.1564E-4	6.5421E-3	2	103	5	14173	nucleoside triphosphate biosynthetic process	ATP6V0E2|ATP6V0A4
+9205	6.0939E-4	6.8630E-3	2	112	5	14173	purine ribonucleoside triphosphate metabolic process	ATP6V0E2|ATP6V0A4
+9199	6.2028E-4	6.8630E-3	2	113	5	14173	ribonucleoside triphosphate metabolic process	ATP6V0E2|ATP6V0A4
+9144	6.6479E-4	6.8630E-3	2	117	5	14173	purine nucleoside triphosphate metabolic process	ATP6V0E2|ATP6V0A4
+9152	6.7616E-4	6.8630E-3	2	118	5	14173	purine ribonucleotide biosynthetic process	ATP6V0E2|ATP6V0A4
+9141	7.7050E-4	7.2223E-3	2	126	5	14173	nucleoside triphosphate metabolic process	ATP6V0E2|ATP6V0A4
+9260	7.8271E-4	7.2223E-3	2	127	5	14173	ribonucleotide biosynthetic process	ATP6V0E2|ATP6V0A4
+9150	8.4521E-4	7.4599E-3	2	132	5	14173	purine ribonucleotide metabolic process	ATP6V0E2|ATP6V0A4
+6164	9.2332E-4	7.8097E-3	2	138	5	14173	purine nucleotide biosynthetic process	ATP6V0E2|ATP6V0A4
+9259	9.9099E-4	8.0468E-3	2	143	5	14173	ribonucleotide metabolic process	ATP6V0E2|ATP6V0A4
+10633	1.0581E-3	8.2609E-3	1	3	5	14173	negative regulation of epithelial cell migration	MCC
+7035	1.4105E-3	1.0364E-2	1	4	5	14173	vacuolar acidification	ATP6V0E2
+6163	1.4295E-3	1.0364E-2	2	172	5	14173	purine nucleotide metabolic process	ATP6V0E2|ATP6V0A4
+9165	1.5130E-3	1.0591E-2	2	177	5	14173	nucleotide biosynthetic process	ATP6V0E2|ATP6V0A4
+34654	1.6337E-3	1.0698E-2	2	184	5	14173	nucleobase, nucleoside, nucleotide and nucleic acid biosynthetic process	ATP6V0E2|ATP6V0A4
+34404	1.6337E-3	1.0698E-2	2	184	5	14173	nucleobase, nucleoside and nucleotide biosynthetic process	ATP6V0E2|ATP6V0A4
+45746	1.7629E-3	1.1184E-2	1	5	5	14173	negative regulation of Notch signaling pathway	HEY2
+8653	2.8195E-3	1.6353E-2	1	8	5	14173	lipopolysaccharide metabolic process	GLT25D2
+9103	2.8195E-3	1.6353E-2	1	8	5	14173	lipopolysaccharide biosynthetic process	GLT25D2
+60045	2.8195E-3	1.6353E-2	1	8	5	14173	positive regulation of cardiac muscle cell proliferation	HEY2
+35467	3.3059E-3	1.8642E-2	2	263	5	14173	negative regulation of signaling pathway	HEY2|MCC
+15672	3.5832E-3	1.9598E-2	2	274	5	14173	monovalent inorganic cation transport	ATP6V0E2|ATP6V0A4
+9117	3.7652E-3	1.9598E-2	2	281	5	14173	nucleotide metabolic process	ATP6V0E2|ATP6V0A4
+6753	3.7652E-3	1.9598E-2	2	281	5	14173	nucleoside phosphate metabolic process	ATP6V0E2|ATP6V0A4
+55080	3.8711E-3	1.9646E-2	2	285	5	14173	cation homeostasis	ATP6V0E2|ATP6V0A4
+55086	4.4219E-3	1.9967E-2	2	305	5	14173	nucleobase, nucleoside and nucleotide metabolic process	ATP6V0E2|ATP6V0A4
+55021	4.5784E-3	1.9967E-2	1	13	5	14173	regulation of cardiac muscle tissue growth	HEY2
+55024	4.5784E-3	1.9967E-2	1	13	5	14173	regulation of cardiac muscle tissue development	HEY2
+10632	4.5784E-3	1.9967E-2	1	13	5	14173	regulation of epithelial cell migration	MCC
+51452	4.5784E-3	1.9967E-2	1	13	5	14173	intracellular pH reduction	ATP6V0E2
+60043	4.5784E-3	1.9967E-2	1	13	5	14173	regulation of cardiac muscle cell proliferation	HEY2
+6091	4.6229E-3	1.9967E-2	2	312	5	14173	generation of precursor metabolites and energy	ATP6V0E2|ATP6V0A4
+60420	4.9299E-3	2.0208E-2	1	14	5	14173	regulation of heart growth	HEY2
+45851	4.9299E-3	2.0208E-2	1	14	5	14173	pH reduction	ATP6V0E2
+44271	5.0984E-3	2.0208E-2	2	328	5	14173	cellular nitrogen compound biosynthetic process	ATP6V0E2|ATP6V0A4
+10648	5.1288E-3	2.0208E-2	2	329	5	14173	negative regulation of cell communication	HEY2|MCC
+8593	5.2813E-3	2.0208E-2	1	15	5	14173	regulation of Notch signaling pathway	HEY2
+51453	5.2813E-3	2.0208E-2	1	15	5	14173	regulation of intracellular pH	ATP6V0E2
+46483	5.3755E-3	2.0208E-2	2	337	5	14173	heterocycle metabolic process	ATP6V0E2|ATP6V0A4
+30641	5.9838E-3	2.2086E-2	1	17	5	14173	regulation of cellular pH	ATP6V0E2
+50801	7.6924E-3	2.7559E-2	2	405	5	14173	ion homeostasis	ATP6V0E2|ATP6V0A4
+30004	7.7383E-3	2.7559E-2	1	22	5	14173	cellular monovalent inorganic cation homeostasis	ATP6V0E2
+33692	9.1401E-3	3.1112E-2	1	26	5	14173	cellular polysaccharide biosynthetic process	GLT25D2
+90090	9.1401E-3	3.1112E-2	1	26	5	14173	negative regulation of canonical Wnt receptor signaling pathway	MCC
+44283	9.1958E-3	3.1112E-2	2	444	5	14173	small molecule biosynthetic process	ATP6V0E2|ATP6V0A4
+46620	1.0890E-2	3.6241E-2	1	31	5	14173	regulation of organ growth	HEY2
+6812	1.2022E-2	3.9362E-2	2	510	5	14173	cation transport	ATP6V0E2|ATP6V0A4
+50680	1.2288E-2	3.9596E-2	1	35	5	14173	negative regulation of epithelial cell proliferation	MCC
+48878	1.2853E-2	4.0769E-2	2	528	5	14173	chemical homeostasis	ATP6V0E2|ATP6V0A4
+60828	1.3685E-2	4.2496E-2	1	39	5	14173	regulation of canonical Wnt receptor signaling pathway	MCC
+44249	1.3816E-2	4.2496E-2	3	1680	5	14173	cellular biosynthetic process	GLT25D2|ATP6V0E2|ATP6V0A4
+55085	1.4741E-2	4.4663E-2	2	567	5	14173	transmembrane transport	ATP6V0E2|ATP6V0A4
+1570	1.6125E-2	4.7857E-2	1	46	5	14173	vasculogenesis	HEY2
+271	1.6474E-2	4.7857E-2	1	47	5	14173	polysaccharide biosynthetic process	GLT25D2
+9058	1.6502E-2	4.7857E-2	3	1790	5	14173	biosynthetic process	GLT25D2|ATP6V0E2|ATP6V0A4
+16202	1.7518E-2	4.9009E-2	1	50	5	14173	regulation of striated muscle tissue development	HEY2
+48638	1.7518E-2	4.9009E-2	1	50	5	14173	regulation of developmental growth	HEY2
+7588	1.7865E-2	4.9009E-2	1	51	5	14173	excretion	ATP6V0A4
+48634	1.7865E-2	4.9009E-2	1	51	5	14173	regulation of muscle organ development	HEY2

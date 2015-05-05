@@ -1,0 +1,61 @@
+File created with bingo (c) on May 4, 2015 at 9:09:02 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+KIAA1324L	SNCAIP	TUBB2B	ULK1	PCSK5	MAP3K12	
+
+No annotations were retrieved for the following entities:
+CT45-6	KIAA1324L	LOC399947	RP13-36C9.6	TMEM55A	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+46777	3.1120E-4	2.7317E-2	2	80	5	14173	protein amino acid autophosphorylation	ULK1|MAP3K12
+21933	3.5278E-4	2.7317E-2	1	1	5	14173	radial glia guided migration of granule cell	ULK1
+2001	3.5278E-4	2.7317E-2	1	1	5	14173	renin secretion into blood stream	PCSK5
+48670	7.0547E-4	2.7317E-2	1	2	5	14173	regulation of collateral sprouting	ULK1
+48671	7.0547E-4	2.7317E-2	1	2	5	14173	negative regulation of collateral sprouting	ULK1
+1999	7.0547E-4	2.7317E-2	1	2	5	14173	renal response to blood flow involved in circulatory renin-angiotensin regulation of systemic arterial blood pressure	PCSK5
+21932	1.0581E-3	2.7317E-2	1	3	5	14173	hindbrain radial glia guided cell migration	ULK1
+21707	1.0581E-3	2.7317E-2	1	3	5	14173	cerebellar granule cell differentiation	ULK1
+21684	1.0581E-3	2.7317E-2	1	3	5	14173	cerebellar granular layer formation	ULK1
+21683	1.0581E-3	2.7317E-2	1	3	5	14173	cerebellar granular layer morphogenesis	ULK1
+21681	1.0581E-3	2.7317E-2	1	3	5	14173	cerebellar granular layer development	ULK1
+19067	1.4105E-3	3.0815E-2	1	4	5	14173	viral assembly, maturation, egress, and release	PCSK5
+32455	1.4105E-3	3.0815E-2	1	4	5	14173	nerve growth factor processing	PCSK5
+90083	1.7629E-3	3.3378E-2	1	5	5	14173	regulation of inclusion body assembly	SNCAIP
+21535	1.7629E-3	3.3378E-2	1	5	5	14173	cell migration in hindbrain	ULK1
+51386	2.1152E-3	3.7545E-2	1	6	5	14173	regulation of nerve growth factor receptor signaling pathway	ULK1
+16572	2.4674E-3	4.1220E-2	1	7	5	14173	histone phosphorylation	MAP3K12
+1991	2.8195E-3	4.4485E-2	1	8	5	14173	regulation of systemic arterial blood pressure by circulatory renin-angiotensin	PCSK5
+6465	3.1715E-3	4.5164E-2	1	9	5	14173	signal peptide processing	PCSK5
+48675	3.5234E-3	4.5164E-2	1	10	5	14173	axon extension	ULK1
+21697	3.5234E-3	4.5164E-2	1	10	5	14173	cerebellar cortex formation	ULK1
+10506	3.5234E-3	4.5164E-2	1	10	5	14173	regulation of autophagy	ULK1
+21533	3.8751E-3	4.5164E-2	1	11	5	14173	cell differentiation in hindbrain	ULK1
+16477	3.9246E-3	4.5164E-2	2	287	5	14173	cell migration	TUBB2B|ULK1
+48640	4.2268E-3	4.5164E-2	1	12	5	14173	negative regulation of developmental growth	ULK1
+3081	4.2268E-3	4.5164E-2	1	12	5	14173	regulation of systemic arterial blood pressure by renin-angiotensin	PCSK5
+21696	4.5784E-3	4.5164E-2	1	13	5	14173	cerebellar cortex morphogenesis	ULK1
+48870	4.8579E-3	4.5164E-2	2	320	5	14173	cell motility	TUBB2B|ULK1
+51674	4.8579E-3	4.5164E-2	2	320	5	14173	localization of cell	TUBB2B|ULK1
+48588	4.9299E-3	4.5164E-2	1	14	5	14173	developmental cell growth	ULK1
+42089	4.9299E-3	4.5164E-2	1	14	5	14173	cytokine biosynthetic process	PCSK5
+21695	5.2813E-3	4.5451E-2	1	15	5	14173	cerebellar cortex development	ULK1
+42107	5.2813E-3	4.5451E-2	1	15	5	14173	cytokine metabolic process	PCSK5
+16486	5.6326E-3	4.5705E-2	1	16	5	14173	peptide hormone processing	PCSK5
+48566	5.6326E-3	4.5705E-2	1	16	5	14173	embryonic digestive tract development	PCSK5
+31623	6.3349E-3	4.8743E-2	1	18	5	14173	receptor internalization	ULK1
+21587	6.6859E-3	4.8743E-2	1	19	5	14173	cerebellum morphogenesis	ULK1
+43043	6.6859E-3	4.8743E-2	1	19	5	14173	peptide biosynthetic process	PCSK5
+18107	7.0368E-3	4.8743E-2	1	20	5	14173	peptidyl-threonine phosphorylation	MAP3K12
+42417	7.0368E-3	4.8743E-2	1	20	5	14173	dopamine metabolic process	SNCAIP
+46928	7.0368E-3	4.8743E-2	1	20	5	14173	regulation of neurotransmitter secretion	SNCAIP

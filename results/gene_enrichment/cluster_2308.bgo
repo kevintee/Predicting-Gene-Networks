@@ -1,0 +1,401 @@
+File created with bingo (c) on May 4, 2015 at 9:09:26 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+TNF	SLC4A11	CSF1	RELB	TICAM1	NFKB1	TNFAIP3	KDELR1	TNFAIP2	SOD2	
+
+No annotations were retrieved for the following entities:
+C13ORF18	GREB1	LOC347273	C22ORF27	DPY19L2	SPINK6	IL17RD	MKRN3	TSPAN10	TRIM43	CELP	MOP-1	MGC45922	NLF1	EVI2B	NLF2	TMEM185B	C9ORF46	LOC389199	FBXL17	MTUS1	CT45-6	UNQ6975	TMEFF2	NUDT18	KIAA1324L	LOC91461	FLJ21963	LOC201175	FBXL8	C11ORF70	LQK1	KIAA1432	C1QTNF5	LYL1	MARVELD3	EFCAB1	OTUD7A	SMA4	RFPL2	C12ORF5	C9ORF58	RP13-36C9.6	MGC102966	C18ORF51	GPR156	CXORF22	C9ORF62	TMC5	ZMYM5	SPPL2B	LOC439951	TMEM169	SMYD2	MGC34800	CAMK2N2	SYNGR4	GPR153	TMEM55A	ANKRD45	C1ORF64	LAYN	C3ORF59	LOC441150	PSITPTE22	FLJ45717	ARPM1	LOC399947	METRNL	MAP6	C10ORF30	KIAA1545	FAM126B	BTBD11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+45429	5.7707E-7	4.6136E-4	3	25	10	14173	positive regulation of nitric oxide biosynthetic process	TNF|TICAM1|SOD2
+45428	1.1253E-6	4.6136E-4	3	31	10	14173	regulation of nitric oxide biosynthetic process	TNF|TICAM1|SOD2
+30656	2.6864E-6	5.5072E-4	2	4	10	14173	regulation of vitamin metabolic process	TNF|NFKB1
+60556	2.6864E-6	5.5072E-4	2	4	10	14173	regulation of vitamin D biosynthetic process	TNF|NFKB1
+2274	4.5816E-6	7.5138E-4	3	49	10	14173	myeloid leukocyte activation	CSF1|TICAM1|RELB
+60558	6.7110E-6	9.1717E-4	2	6	10	14173	regulation of calcidiol 1-monooxygenase activity	TNF|NFKB1
+6916	8.0208E-6	9.3958E-4	4	203	10	14173	anti-apoptosis	TNF|NFKB1|TNFAIP3|SOD2
+45080	1.2518E-5	1.2831E-3	2	8	10	14173	positive regulation of chemokine biosynthetic process	TNF|TICAM1
+6915	2.2023E-5	1.6783E-3	5	570	10	14173	apoptosis	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+9893	2.2103E-5	1.6783E-3	6	1018	10	14173	positive regulation of metabolic process	TNF|CSF1|TICAM1|RELB|NFKB1|SOD2
+12501	2.3959E-5	1.6783E-3	5	580	10	14173	programmed cell death	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+45073	2.4561E-5	1.6783E-3	2	11	10	14173	regulation of chemokine biosynthetic process	TNF|TICAM1
+1775	2.7328E-5	1.7238E-3	4	277	10	14173	cell activation	TNF|CSF1|TICAM1|RELB
+10744	4.0591E-5	2.3775E-3	2	14	10	14173	positive regulation of macrophage derived foam cell differentiation	CSF1|NFKB1
+45599	5.3486E-5	2.9239E-3	2	16	10	14173	negative regulation of fat cell differentiation	TNF|SOD2
+8219	5.9327E-5	2.9611E-3	5	700	10	14173	cell death	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+16265	6.1389E-5	2.9611E-3	5	705	10	14173	death	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+43122	8.2436E-5	3.7554E-3	3	128	10	14173	regulation of I-kappaB kinase/NF-kappaB cascade	TNF|TICAM1|TNFAIP3
+43066	9.3976E-5	4.0537E-3	4	380	10	14173	negative regulation of apoptosis	TNF|NFKB1|TNFAIP3|SOD2
+43069	9.8871E-5	4.0537E-3	4	385	10	14173	negative regulation of programmed cell death	TNF|NFKB1|TNFAIP3|SOD2
+60548	1.0709E-4	4.1815E-3	4	393	10	14173	negative regulation of cell death	TNF|NFKB1|TNFAIP3|SOD2
+32755	1.1247E-4	4.1921E-3	2	23	10	14173	positive regulation of interleukin-6 production	TNF|TICAM1
+32642	1.2265E-4	4.3727E-3	2	24	10	14173	regulation of chemokine production	TNF|TICAM1
+45670	1.3326E-4	4.5029E-3	2	25	10	14173	regulation of osteoclast differentiation	TNF|CSF1
+10743	1.5580E-4	4.5029E-3	2	27	10	14173	regulation of macrophage derived foam cell differentiation	CSF1|NFKB1
+42981	1.5679E-4	4.5029E-3	5	858	10	14173	regulation of apoptosis	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+43067	1.6385E-4	4.5029E-3	5	866	10	14173	regulation of programmed cell death	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+45598	1.6772E-4	4.5029E-3	2	28	10	14173	regulation of fat cell differentiation	TNF|SOD2
+10883	1.6772E-4	4.5029E-3	2	28	10	14173	regulation of lipid storage	TNF|NFKB1
+50810	1.6772E-4	4.5029E-3	2	28	10	14173	regulation of steroid biosynthetic process	TNF|NFKB1
+10941	1.7023E-4	4.5029E-3	5	873	10	14173	regulation of cell death	TNF|TICAM1|NFKB1|TNFAIP3|SOD2
+32768	1.9287E-4	4.9423E-3	2	30	10	14173	regulation of monooxygenase activity	TNF|NFKB1
+10604	2.4276E-4	6.0321E-3	5	941	10	14173	positive regulation of macromolecule metabolic process	TNF|CSF1|TICAM1|RELB|NFKB1
+2376	2.5265E-4	6.0933E-3	5	949	10	14173	immune system process	TNF|CSF1|TICAM1|RELB|SOD2
+31325	2.7471E-4	6.4360E-3	5	966	10	14173	positive regulation of cellular metabolic process	TNF|CSF1|TICAM1|NFKB1|SOD2
+2573	3.1076E-4	7.0656E-3	2	38	10	14173	myeloid leukocyte differentiation	CSF1|RELB
+2263	3.2743E-4	7.0656E-3	2	39	10	14173	cell activation involved in immune response	TICAM1|RELB
+2366	3.2743E-4	7.0656E-3	2	39	10	14173	leukocyte activation involved in immune response	TICAM1|RELB
+45833	3.4453E-4	7.2440E-3	2	40	10	14173	negative regulation of lipid metabolic process	TNF|NFKB1
+9611	3.8003E-4	7.7906E-3	4	546	10	14173	response to wounding	TNF|TICAM1|NFKB1|SOD2
+32675	3.9841E-4	7.8105E-3	2	43	10	14173	regulation of interleukin-6 production	TNF|TICAM1
+45595	4.1293E-4	7.8105E-3	4	558	10	14173	regulation of cell differentiation	TNF|CSF1|NFKB1|SOD2
+19218	4.1723E-4	7.8105E-3	2	44	10	14173	regulation of steroid metabolic process	TNF|NFKB1
+32268	4.2147E-4	7.8105E-3	4	561	10	14173	regulation of cellular protein metabolic process	TNF|CSF1|TICAM1|NFKB1
+51341	4.3647E-4	7.8105E-3	2	45	10	14173	regulation of oxidoreductase activity	TNF|NFKB1
+65009	4.3815E-4	7.8105E-3	5	1067	10	14173	regulation of molecular function	TNF|CSF1|TICAM1|NFKB1|SOD2
+2761	4.7623E-4	8.2560E-3	2	47	10	14173	regulation of myeloid leukocyte differentiation	TNF|CSF1
+30097	4.8328E-4	8.2560E-3	3	233	10	14173	hemopoiesis	CSF1|RELB|SOD2
+45321	4.9551E-4	8.2922E-3	3	235	10	14173	leukocyte activation	CSF1|TICAM1|RELB
+10628	5.5484E-4	8.5083E-3	4	603	10	14173	positive regulation of gene expression	TNF|CSF1|RELB|NFKB1
+42108	5.6085E-4	8.5083E-3	2	51	10	14173	positive regulation of cytokine biosynthetic process	TNF|TICAM1
+48534	6.5823E-4	8.5083E-3	3	259	10	14173	hemopoietic or lymphoid organ development	CSF1|RELB|SOD2
+46890	6.7615E-4	8.5083E-3	2	56	10	14173	regulation of lipid biosynthetic process	TNF|NFKB1
+51246	6.7914E-4	8.5083E-3	4	636	10	14173	regulation of protein metabolic process	TNF|CSF1|TICAM1|NFKB1
+51092	7.0047E-4	8.5083E-3	2	57	10	14173	positive regulation of NF-kappaB transcription factor activity	TNF|TICAM1
+61048	7.0557E-4	8.5083E-3	1	1	10	14173	negative regulation of branching involved in lung morphogenesis	TNF
+45994	7.0557E-4	8.5083E-3	1	1	10	14173	positive regulation of translational initiation by iron	TNF
+45063	7.0557E-4	8.5083E-3	1	1	10	14173	T-helper 1 cell differentiation	RELB
+2756	7.0557E-4	8.5083E-3	1	1	10	14173	MyD88-independent toll-like receptor signaling pathway	TICAM1
+3068	7.0557E-4	8.5083E-3	1	1	10	14173	regulation of systemic arterial blood pressure by acetylcholine	SOD2
+3069	7.0557E-4	8.5083E-3	1	1	10	14173	vasodilation by acetylcholine involved in regulation of systemic arterial blood pressure	SOD2
+3070	7.0557E-4	8.5083E-3	1	1	10	14173	regulation of systemic arterial blood pressure by neurotransmitter	SOD2
+60611	7.0557E-4	8.5083E-3	1	1	10	14173	mammary gland fat development	CSF1
+48773	7.0557E-4	8.5083E-3	1	1	10	14173	erythrophore differentiation	SOD2
+46713	7.0557E-4	8.5083E-3	1	1	10	14173	boron transport	SLC4A11
+1315	7.0557E-4	8.5083E-3	1	1	10	14173	age-dependent response to reactive oxygen species	SOD2
+9401	7.0557E-4	8.5083E-3	1	1	10	14173	phosphoenolpyruvate-dependent sugar phosphotransferase system	SLC4A11
+2037	7.0557E-4	8.5083E-3	1	1	10	14173	negative regulation of L-glutamate transport	TNF
+2520	7.8374E-4	9.3140E-3	3	275	10	14173	immune system development	CSF1|RELB|SOD2
+9967	8.0043E-4	9.3765E-3	3	277	10	14173	positive regulation of signal transduction	TNF|CSF1|TICAM1
+51240	8.2589E-4	9.5384E-3	3	280	10	14173	positive regulation of multicellular organismal process	TNF|CSF1|TICAM1
+23056	8.4315E-4	9.6025E-3	3	282	10	14173	positive regulation of signaling process	TNF|CSF1|TICAM1
+51173	8.5527E-4	9.6071E-3	4	676	10	14173	positive regulation of nitrogen compound metabolic process	TNF|TICAM1|NFKB1|SOD2
+32270	9.2367E-4	1.0235E-2	3	291	10	14173	positive regulation of cellular protein metabolic process	TNF|CSF1|TICAM1
+32946	9.6674E-4	1.0570E-2	2	67	10	14173	positive regulation of mononuclear cell proliferation	CSF1|TICAM1
+70665	9.9566E-4	1.0743E-2	2	68	10	14173	positive regulation of leukocyte proliferation	CSF1|TICAM1
+45785	1.0547E-3	1.1198E-2	2	70	10	14173	positive regulation of cell adhesion	TNF|CSF1
+51247	1.0787E-3	1.1198E-2	3	307	10	14173	positive regulation of protein metabolic process	TNF|CSF1|TICAM1
+31328	1.0788E-3	1.1198E-2	4	719	10	14173	positive regulation of cellular biosynthetic process	TNF|TICAM1|NFKB1|SOD2
+9891	1.1421E-3	1.1706E-2	4	730	10	14173	positive regulation of biosynthetic process	TNF|TICAM1|NFKB1|SOD2
+6954	1.2161E-3	1.2146E-2	3	320	10	14173	inflammatory response	TNF|TICAM1|NFKB1
+10627	1.2718E-3	1.2146E-2	3	325	10	14173	regulation of intracellular protein kinase cascade	TNF|TICAM1|TNFAIP3
+45637	1.2746E-3	1.2146E-2	2	77	10	14173	regulation of myeloid cell differentiation	TNF|CSF1
+42035	1.2746E-3	1.2146E-2	2	77	10	14173	regulation of cytokine biosynthetic process	TNF|TICAM1
+22612	1.3411E-3	1.2146E-2	2	79	10	14173	gland morphogenesis	TNF|CSF1
+10957	1.4107E-3	1.2146E-2	1	2	10	14173	negative regulation of vitamin D biosynthetic process	NFKB1
+6447	1.4107E-3	1.2146E-2	1	2	10	14173	regulation of translational initiation by iron	TNF
+2439	1.4107E-3	1.2146E-2	1	2	10	14173	chronic inflammatory response to antigenic stimulus	TNF
+60557	1.4107E-3	1.2146E-2	1	2	10	14173	positive regulation of vitamin D biosynthetic process	TNF
+34116	1.4107E-3	1.2146E-2	1	2	10	14173	positive regulation of heterotypic cell-cell adhesion	TNF
+46136	1.4107E-3	1.2146E-2	1	2	10	14173	positive regulation of vitamin metabolic process	TNF
+46137	1.4107E-3	1.2146E-2	1	2	10	14173	negative regulation of vitamin metabolic process	NFKB1
+42488	1.4107E-3	1.2146E-2	1	2	10	14173	positive regulation of odontogenesis of dentine-containing tooth	CSF1
+42482	1.4107E-3	1.2146E-2	1	2	10	14173	positive regulation of odontogenesis	CSF1
+2036	1.4107E-3	1.2146E-2	1	2	10	14173	regulation of L-glutamate transport	TNF
+9966	1.4219E-3	1.2146E-2	4	774	10	14173	regulation of signal transduction	TNF|CSF1|TICAM1|TNFAIP3
+23051	1.4565E-3	1.2313E-2	4	779	10	14173	regulation of signaling process	TNF|CSF1|TICAM1|TNFAIP3
+31349	1.5145E-3	1.2511E-2	2	84	10	14173	positive regulation of defense response	TNF|TICAM1
+32582	1.5504E-3	1.2511E-2	2	85	10	14173	negative regulation of gene-specific transcription	TNF|NFKB1
+90047	1.5504E-3	1.2511E-2	2	85	10	14173	positive regulation of transcription regulator activity	TNF|TICAM1
+51091	1.5504E-3	1.2511E-2	2	85	10	14173	positive regulation of transcription factor activity	TNF|TICAM1
+51094	1.5748E-3	1.2511E-2	3	350	10	14173	positive regulation of developmental process	TNF|CSF1|NFKB1
+50793	1.5787E-3	1.2511E-2	4	796	10	14173	regulation of developmental process	TNF|CSF1|NFKB1|SOD2
+51235	1.5867E-3	1.2511E-2	2	86	10	14173	maintenance of location	TNF|KDELR1
+48518	1.7023E-3	1.3294E-2	6	2211	10	14173	positive regulation of biological process	TNF|CSF1|TICAM1|RELB|NFKB1|SOD2
+43523	1.8523E-3	1.3877E-2	2	93	10	14173	regulation of neuron apoptosis	TNF|SOD2
+30099	1.8918E-3	1.3877E-2	2	94	10	14173	myeloid cell differentiation	CSF1|RELB
+43388	1.9722E-3	1.3877E-2	2	96	10	14173	positive regulation of DNA binding	TNF|TICAM1
+42127	1.9889E-3	1.3877E-2	4	847	10	14173	regulation of cell proliferation	TNF|CSF1|TICAM1|SOD2
+32944	2.0129E-3	1.3877E-2	2	97	10	14173	regulation of mononuclear cell proliferation	CSF1|TICAM1
+35468	2.0244E-3	1.3877E-2	3	382	10	14173	positive regulation of signaling pathway	TNF|CSF1|TICAM1
+70663	2.0541E-3	1.3877E-2	2	98	10	14173	regulation of leukocyte proliferation	CSF1|TICAM1
+10956	2.1154E-3	1.3877E-2	1	3	10	14173	negative regulation of calcidiol 1-monooxygenase activity	NFKB1
+70587	2.1154E-3	1.3877E-2	1	3	10	14173	regulation of cell-cell adhesion involved in gastrulation	TNF
+6927	2.1154E-3	1.3877E-2	1	3	10	14173	transformed cell apoptosis	TNF
+60559	2.1154E-3	1.3877E-2	1	3	10	14173	positive regulation of calcidiol 1-monooxygenase activity	TNF
+60555	2.1154E-3	1.3877E-2	1	3	10	14173	induction of necroptosis by extracellular signals	TNF
+60553	2.1154E-3	1.3877E-2	1	3	10	14173	induction of necroptosis	TNF
+60545	2.1154E-3	1.3877E-2	1	3	10	14173	positive regulation of necroptosis	TNF
+60544	2.1154E-3	1.3877E-2	1	3	10	14173	regulation of necroptosis	TNF
+60612	2.1154E-3	1.3877E-2	1	3	10	14173	adipose tissue development	CSF1
+34114	2.1154E-3	1.3877E-2	1	3	10	14173	regulation of heterotypic cell-cell adhesion	TNF
+7571	2.1154E-3	1.3877E-2	1	3	10	14173	age-dependent general metabolic decline	SOD2
+1306	2.1154E-3	1.3877E-2	1	3	10	14173	age-dependent response to oxidative stress	SOD2
+30730	2.1154E-3	1.3877E-2	1	3	10	14173	sequestering of triglyceride	TNF
+1819	2.3095E-3	1.5030E-2	2	104	10	14173	positive regulation of cytokine production	TNF|TICAM1
+65008	2.3710E-3	1.5309E-2	5	1540	10	14173	regulation of biological quality	SLC4A11|TNF|CSF1|KDELR1|SOD2
+10647	2.5654E-3	1.6163E-2	3	415	10	14173	positive regulation of cell communication	TNF|CSF1|TICAM1
+8624	2.5792E-3	1.6163E-2	2	110	10	14173	induction of apoptosis by extracellular signals	TNF|TICAM1
+50790	2.5930E-3	1.6163E-2	4	910	10	14173	regulation of catalytic activity	TNF|CSF1|NFKB1|SOD2
+51099	2.6722E-3	1.6163E-2	2	112	10	14173	positive regulation of binding	TNF|TICAM1
+45657	2.8196E-3	1.6163E-2	1	4	10	14173	positive regulation of monocyte differentiation	CSF1
+10940	2.8196E-3	1.6163E-2	1	4	10	14173	positive regulation of necrotic cell death	TNF
+2294	2.8196E-3	1.6163E-2	1	4	10	14173	CD4-positive, alpha-beta T cell differentiation involved in immune response	RELB
+32800	2.8196E-3	1.6163E-2	1	4	10	14173	receptor biosynthetic process	TNF
+61046	2.8196E-3	1.6163E-2	1	4	10	14173	regulation of branching involved in lung morphogenesis	TNF
+2740	2.8196E-3	1.6163E-2	1	4	10	14173	negative regulation of cytokine secretion involved in immune response	TNF
+60763	2.8196E-3	1.6163E-2	1	4	10	14173	mammary duct terminal end bud growth	CSF1
+42487	2.8196E-3	1.6163E-2	1	4	10	14173	regulation of odontogenesis of dentine-containing tooth	CSF1
+42093	2.8196E-3	1.6163E-2	1	4	10	14173	T-helper cell differentiation	RELB
+51798	2.8196E-3	1.6163E-2	1	4	10	14173	positive regulation of hair follicle development	TNF
+44070	2.8196E-3	1.6163E-2	1	4	10	14173	regulation of anion transport	TNF
+51956	2.8196E-3	1.6163E-2	1	4	10	14173	negative regulation of amino acid transport	TNF
+2682	2.8384E-3	1.6163E-2	3	430	10	14173	regulation of immune system process	TNF|CSF1|TICAM1
+43123	2.8631E-3	1.6191E-2	2	116	10	14173	positive regulation of I-kappaB kinase/NF-kappaB cascade	TNF|TICAM1
+2521	3.4202E-3	1.8402E-2	2	127	10	14173	leukocyte differentiation	CSF1|RELB
+8284	3.4376E-3	1.8402E-2	3	460	10	14173	positive regulation of cell proliferation	TNF|CSF1|TICAM1
+2292	3.5234E-3	1.8402E-2	1	5	10	14173	T cell differentiation involved in immune response	RELB
+2293	3.5234E-3	1.8402E-2	1	5	10	14173	alpha-beta T cell differentiation involved in immune response	RELB
+2287	3.5234E-3	1.8402E-2	1	5	10	14173	alpha-beta T cell activation involved in immune response	RELB
+70265	3.5234E-3	1.8402E-2	1	5	10	14173	necrotic cell death	TNF
+2739	3.5234E-3	1.8402E-2	1	5	10	14173	regulation of cytokine secretion involved in immune response	TNF
+3032	3.5234E-3	1.8402E-2	1	5	10	14173	detection of oxygen	SOD2
+60664	3.5234E-3	1.8402E-2	1	5	10	14173	epithelial cell proliferation involved in salivary gland morphogenesis	TNF
+3085	3.5234E-3	1.8402E-2	1	5	10	14173	negative regulation of systemic arterial blood pressure	SOD2
+51797	3.5234E-3	1.8402E-2	1	5	10	14173	regulation of hair follicle development	TNF
+42117	3.5234E-3	1.8402E-2	1	5	10	14173	monocyte activation	CSF1
+35466	3.7189E-3	1.9301E-2	4	1004	10	14173	regulation of signaling pathway	TNF|CSF1|TICAM1|TNFAIP3
+19216	3.7439E-3	1.9308E-2	2	133	10	14173	regulation of lipid metabolic process	TNF|NFKB1
+90046	4.1970E-3	2.0150E-2	2	141	10	14173	regulation of transcription regulator activity	TNF|TICAM1
+51090	4.1970E-3	2.0150E-2	2	141	10	14173	regulation of transcription factor activity	TNF|TICAM1
+45651	4.2267E-3	2.0150E-2	1	6	10	14173	positive regulation of macrophage differentiation	CSF1
+45655	4.2267E-3	2.0150E-2	1	6	10	14173	regulation of monocyte differentiation	CSF1
+10939	4.2267E-3	2.0150E-2	1	6	10	14173	regulation of necrotic cell death	TNF
+10893	4.2267E-3	2.0150E-2	1	6	10	14173	positive regulation of steroid biosynthetic process	TNF
+2437	4.2267E-3	2.0150E-2	1	6	10	14173	inflammatory response to antigenic stimulus	TNF
+32364	4.2267E-3	2.0150E-2	1	6	10	14173	oxygen homeostasis	SOD2
+45071	4.2267E-3	2.0150E-2	1	6	10	14173	negative regulation of viral genome replication	TNF
+50901	4.2267E-3	2.0150E-2	1	6	10	14173	leukocyte tethering or rolling	TNF
+42634	4.2267E-3	2.0150E-2	1	6	10	14173	regulation of hair cycle	TNF
+46325	4.2267E-3	2.0150E-2	1	6	10	14173	negative regulation of glucose import	TNF
+15701	4.2267E-3	2.0150E-2	1	6	10	14173	bicarbonate transport	SLC4A11
+9615	4.2553E-3	2.0170E-2	2	142	10	14173	response to virus	TNF|TICAM1
+48513	4.6576E-3	2.1053E-2	5	1791	10	14173	organ development	TNF|CSF1|RELB|TNFAIP2|SOD2
+30155	4.7358E-3	2.1053E-2	2	150	10	14173	regulation of cell adhesion	TNF|CSF1
+33365	4.7976E-3	2.1053E-2	2	151	10	14173	protein localization in organelle	TNF|KDELR1
+45672	4.9296E-3	2.1053E-2	1	7	10	14173	positive regulation of osteoclast differentiation	CSF1
+10894	4.9296E-3	2.1053E-2	1	7	10	14173	negative regulation of steroid biosynthetic process	NFKB1
+6621	4.9296E-3	2.1053E-2	1	7	10	14173	protein retention in ER lumen	KDELR1
+10829	4.9296E-3	2.1053E-2	1	7	10	14173	negative regulation of glucose transport	TNF
+32372	4.9296E-3	2.1053E-2	1	7	10	14173	negative regulation of sterol transport	NFKB1
+32375	4.9296E-3	2.1053E-2	1	7	10	14173	negative regulation of cholesterol transport	NFKB1
+2544	4.9296E-3	2.1053E-2	1	7	10	14173	chronic inflammatory response	TNF
+43367	4.9296E-3	2.1053E-2	1	7	10	14173	CD4-positive, alpha beta T cell differentiation	RELB
+45359	4.9296E-3	2.1053E-2	1	7	10	14173	positive regulation of interferon-beta biosynthetic process	TICAM1
+45357	4.9296E-3	2.1053E-2	1	7	10	14173	regulation of interferon-beta biosynthetic process	TICAM1
+35437	4.9296E-3	2.1053E-2	1	7	10	14173	maintenance of protein localization in endoplasmic reticulum	KDELR1
+71451	4.9296E-3	2.1053E-2	1	7	10	14173	cellular response to superoxide	SOD2
+71450	4.9296E-3	2.1053E-2	1	7	10	14173	cellular response to oxygen radical	SOD2
+48525	4.9296E-3	2.1053E-2	1	7	10	14173	negative regulation of viral reproduction	TNF
+51955	4.9296E-3	2.1053E-2	1	7	10	14173	regulation of amino acid transport	TNF
+19430	4.9296E-3	2.1053E-2	1	7	10	14173	removal of superoxide radicals	SOD2
+51101	5.5016E-3	2.2987E-2	2	162	10	14173	regulation of DNA binding	TNF|TICAM1
+31347	5.5679E-3	2.2987E-2	2	163	10	14173	regulation of defense response	TNF|TICAM1
+50665	5.6320E-3	2.2987E-2	1	8	10	14173	hydrogen peroxide biosynthetic process	SOD2
+45948	5.6320E-3	2.2987E-2	1	8	10	14173	positive regulation of translational initiation	TNF
+32891	5.6320E-3	2.2987E-2	1	8	10	14173	negative regulation of organic acid transport	TNF
+43496	5.6320E-3	2.2987E-2	1	8	10	14173	regulation of protein homodimerization activity	TICAM1
+10470	5.6320E-3	2.2987E-2	1	8	10	14173	regulation of gastrulation	TNF
+33483	5.6320E-3	2.2987E-2	1	8	10	14173	gas homeostasis	SOD2
+51051	5.6345E-3	2.2987E-2	2	164	10	14173	negative regulation of transport	TNF|NFKB1
+10646	6.2164E-3	2.4616E-2	4	1157	10	14173	regulation of cell communication	TNF|CSF1|TICAM1|TNFAIP3
+45684	6.3340E-3	2.4616E-2	1	9	10	14173	positive regulation of epidermis development	TNF
+30225	6.3340E-3	2.4616E-2	1	9	10	14173	macrophage differentiation	CSF1
+30316	6.3340E-3	2.4616E-2	1	9	10	14173	osteoclast differentiation	CSF1
+51023	6.3340E-3	2.4616E-2	1	9	10	14173	regulation of immunoglobulin secretion	TNF
+43011	6.3340E-3	2.4616E-2	1	9	10	14173	myeloid dendritic cell differentiation	RELB
+31620	6.3340E-3	2.4616E-2	1	9	10	14173	regulation of fever	TNF
+31622	6.3340E-3	2.4616E-2	1	9	10	14173	positive regulation of fever	TNF
+48147	6.3340E-3	2.4616E-2	1	9	10	14173	negative regulation of fibroblast proliferation	SOD2
+1976	6.3340E-3	2.4616E-2	1	9	10	14173	neurological system process involved in regulation of systemic arterial blood pressure	SOD2
+45649	7.0355E-3	2.5755E-2	1	10	10	14173	regulation of macrophage differentiation	CSF1
+2281	7.0355E-3	2.5755E-2	1	10	10	14173	macrophage activation involved in immune response	TICAM1
+32715	7.0355E-3	2.5755E-2	1	10	10	14173	negative regulation of interleukin-6 production	TNF
+303	7.0355E-3	2.5755E-2	1	10	10	14173	response to superoxide	SOD2
+60693	7.0355E-3	2.5755E-2	1	10	10	14173	regulation of branching involved in salivary gland morphogenesis	TNF
+51044	7.0355E-3	2.5755E-2	1	10	10	14173	positive regulation of membrane protein ectodomain proteolysis	TNF
+43124	7.0355E-3	2.5755E-2	1	10	10	14173	negative regulation of I-kappaB kinase/NF-kappaB cascade	TNFAIP3
+55093	7.0355E-3	2.5755E-2	1	10	10	14173	response to hyperoxia	SOD2
+50710	7.0355E-3	2.5755E-2	1	10	10	14173	negative regulation of cytokine secretion	TNF
+31650	7.0355E-3	2.5755E-2	1	10	10	14173	regulation of heat generation	TNF
+31652	7.0355E-3	2.5755E-2	1	10	10	14173	positive regulation of heat generation	TNF
+1773	7.0355E-3	2.5755E-2	1	10	10	14173	myeloid dendritic cell activation	RELB
+42088	7.0355E-3	2.5755E-2	1	10	10	14173	T-helper 1 type immune response	RELB
+10468	7.4580E-3	2.6996E-2	6	2924	10	14173	regulation of gene expression	TNF|CSF1|TICAM1|RELB|NFKB1|SOD2
+9653	7.5161E-3	2.6996E-2	4	1220	10	14173	anatomical structure morphogenesis	TNF|CSF1|TNFAIP2|SOD2
+48522	7.6763E-3	2.6996E-2	5	2007	10	14173	positive regulation of cellular process	TNF|CSF1|TICAM1|NFKB1|SOD2
+33209	7.7366E-3	2.6996E-2	1	11	10	14173	tumor necrosis factor-mediated signaling pathway	TNF
+32769	7.7366E-3	2.6996E-2	1	11	10	14173	negative regulation of monooxygenase activity	NFKB1
+305	7.7366E-3	2.6996E-2	1	11	10	14173	response to oxygen radical	SOD2
+45123	7.7366E-3	2.6996E-2	1	11	10	14173	cellular extravasation	TNF
+31663	7.7366E-3	2.6996E-2	1	11	10	14173	lipopolysaccharide-mediated signaling pathway	TICAM1
+31293	7.7366E-3	2.6996E-2	1	11	10	14173	membrane protein intracellular domain proteolysis	NFKB1
+42481	7.7366E-3	2.6996E-2	1	11	10	14173	regulation of odontogenesis	CSF1
+51881	7.7366E-3	2.6996E-2	1	11	10	14173	regulation of mitochondrial membrane potential	SOD2
+48732	7.8811E-3	2.7384E-2	2	195	10	14173	gland development	TNF|CSF1
+6955	7.9734E-3	2.7587E-2	3	621	10	14173	immune response	TNF|TICAM1|RELB
+6952	8.0806E-3	2.7841E-2	3	624	10	14173	defense response	TNF|TICAM1|NFKB1
+70536	8.4373E-3	2.8589E-2	1	12	10	14173	protein K63-linked deubiquitination	TNFAIP3
+45939	8.4373E-3	2.8589E-2	1	12	10	14173	negative regulation of steroid metabolic process	NFKB1
+43330	8.4373E-3	2.8589E-2	1	12	10	14173	response to exogenous dsRNA	TICAM1
+51953	8.4373E-3	2.8589E-2	1	12	10	14173	negative regulation of amine transport	TNF
+1817	8.5171E-3	2.8741E-2	2	203	10	14173	regulation of cytokine production	TNF|TICAM1
+65007	8.6029E-3	2.8911E-2	9	6899	10	14173	biological regulation	SLC4A11|TNF|CSF1|TICAM1|RELB|NFKB1|TNFAIP3|KDELR1|SOD2
+35239	8.6796E-3	2.8932E-2	2	205	10	14173	tube morphogenesis	CSF1|SOD2
+51098	8.6796E-3	2.8932E-2	2	205	10	14173	regulation of binding	TNF|TICAM1
+44093	8.7794E-3	2.9146E-2	3	643	10	14173	positive regulation of molecular function	TNF|CSF1|TICAM1
+42346	9.1375E-3	3.0213E-2	1	13	10	14173	positive regulation of NF-kappaB import into nucleus	TNF
+32583	9.3438E-3	3.0771E-2	2	213	10	14173	regulation of gene-specific transcription	TNF|NFKB1
+2286	9.8373E-3	3.1266E-2	1	14	10	14173	T cell activation involved in immune response	RELB
+10888	9.8373E-3	3.1266E-2	1	14	10	14173	negative regulation of lipid storage	TNF
+10884	9.8373E-3	3.1266E-2	1	14	10	14173	positive regulation of lipid storage	NFKB1
+32760	9.8373E-3	3.1266E-2	1	14	10	14173	positive regulation of tumor necrosis factor production	TICAM1
+22409	9.8373E-3	3.1266E-2	1	14	10	14173	positive regulation of cell-cell adhesion	TNF
+51043	9.8373E-3	3.1266E-2	1	14	10	14173	regulation of membrane protein ectodomain proteolysis	TNF
+50931	9.8373E-3	3.1266E-2	1	14	10	14173	pigment cell differentiation	SOD2
+8625	9.8373E-3	3.1266E-2	1	14	10	14173	induction of apoptosis via death domain receptors	TNF
+42554	9.8373E-3	3.1266E-2	1	14	10	14173	superoxide anion generation	SOD2
+10557	9.9958E-3	3.1647E-2	3	674	10	14173	positive regulation of macromolecule biosynthetic process	TNF|TICAM1|NFKB1
+10740	1.0205E-2	3.2000E-2	2	223	10	14173	positive regulation of intracellular protein kinase cascade	TNF|TICAM1
+32369	1.0537E-2	3.2000E-2	1	15	10	14173	negative regulation of lipid transport	NFKB1
+32481	1.0537E-2	3.2000E-2	1	15	10	14173	positive regulation of type I interferon production	TICAM1
+45069	1.0537E-2	3.2000E-2	1	15	10	14173	regulation of viral genome replication	TNF
+32092	1.0537E-2	3.2000E-2	1	15	10	14173	positive regulation of protein binding	TICAM1
+50995	1.0537E-2	3.2000E-2	1	15	10	14173	negative regulation of lipid catabolic process	TNF
+60444	1.0537E-2	3.2000E-2	1	15	10	14173	branching involved in mammary gland duct morphogenesis	CSF1
+46632	1.0537E-2	3.2000E-2	1	15	10	14173	alpha-beta T cell differentiation	RELB
+48873	1.0537E-2	3.2000E-2	1	15	10	14173	homeostasis of number of cells within a tissue	CSF1
+51354	1.0537E-2	3.2000E-2	1	15	10	14173	negative regulation of oxidoreductase activity	NFKB1
+9651	1.0537E-2	3.2000E-2	1	15	10	14173	response to salt stress	TNF
+31401	1.1010E-2	3.3141E-2	2	232	10	14173	positive regulation of protein modification process	TNF|TICAM1
+9617	1.1010E-2	3.3141E-2	2	232	10	14173	response to bacterium	TNF|TICAM1
+2224	1.1235E-2	3.3141E-2	1	16	10	14173	toll-like receptor signaling pathway	TICAM1
+32722	1.1235E-2	3.3141E-2	1	16	10	14173	positive regulation of chemokine production	TNF
+45940	1.1235E-2	3.3141E-2	1	16	10	14173	positive regulation of steroid metabolic process	TNF
+50709	1.1235E-2	3.3141E-2	1	16	10	14173	negative regulation of protein secretion	TNF
+70972	1.1235E-2	3.3141E-2	1	16	10	14173	protein localization in endoplasmic reticulum	KDELR1
+1954	1.1235E-2	3.3141E-2	1	16	10	14173	positive regulation of cell-matrix adhesion	CSF1
+45596	1.1469E-2	3.3589E-2	2	237	10	14173	negative regulation of cell differentiation	TNF|SOD2
+45860	1.1469E-2	3.3589E-2	2	237	10	14173	positive regulation of protein kinase activity	TNF|CSF1
+50776	1.1749E-2	3.4285E-2	2	240	10	14173	regulation of immune response	TNF|TICAM1
+32648	1.1934E-2	3.4336E-2	1	17	10	14173	regulation of interferon-beta production	TICAM1
+32770	1.1934E-2	3.4336E-2	1	17	10	14173	positive regulation of monooxygenase activity	TNF
+2675	1.1934E-2	3.4336E-2	1	17	10	14173	positive regulation of acute inflammatory response	TNF
+42311	1.1934E-2	3.4336E-2	1	17	10	14173	vasodilation	SOD2
+33674	1.2317E-2	3.5315E-2	2	246	10	14173	positive regulation of kinase activity	TNF|CSF1
+32879	1.2578E-2	3.5352E-2	3	733	10	14173	regulation of localization	TNF|CSF1|NFKB1
+19915	1.2632E-2	3.5352E-2	1	18	10	14173	lipid storage	TNF
+2718	1.2632E-2	3.5352E-2	1	18	10	14173	regulation of cytokine production involved in immune response	TNF
+51055	1.2632E-2	3.5352E-2	1	18	10	14173	negative regulation of lipid biosynthetic process	NFKB1
+42993	1.2632E-2	3.5352E-2	1	18	10	14173	positive regulation of transcription factor import into nucleus	TNF
+71222	1.2632E-2	3.5352E-2	1	18	10	14173	cellular response to lipopolysaccharide	TICAM1
+42116	1.2632E-2	3.5352E-2	1	18	10	14173	macrophage activation	TICAM1
+51347	1.3192E-2	3.6192E-2	2	255	10	14173	positive regulation of transferase activity	TNF|CSF1
+6357	1.3195E-2	3.6192E-2	3	746	10	14173	regulation of transcription from RNA polymerase II promoter	TNF|NFKB1|SOD2
+2221	1.3329E-2	3.6192E-2	1	19	10	14173	pattern recognition receptor signaling pathway	TICAM1
+2285	1.3329E-2	3.6192E-2	1	19	10	14173	lymphocyte activation involved in immune response	RELB
+32479	1.3329E-2	3.6192E-2	1	19	10	14173	regulation of type I interferon production	TICAM1
+33619	1.3329E-2	3.6192E-2	1	19	10	14173	membrane protein proteolysis	NFKB1
+60560	1.3329E-2	3.6192E-2	1	19	10	14173	developmental growth involved in morphogenesis	CSF1
+46631	1.3329E-2	3.6192E-2	1	19	10	14173	alpha-beta T cell activation	RELB
+46579	1.3329E-2	3.6192E-2	1	19	10	14173	positive regulation of Ras protein signal transduction	CSF1
+45597	1.3390E-2	3.6237E-2	2	257	10	14173	positive regulation of cell differentiation	CSF1|NFKB1
+42493	1.3489E-2	3.6386E-2	2	258	10	14173	response to drug	TNF|SOD2
+2275	1.4026E-2	3.7222E-2	1	20	10	14173	myeloid cell activation involved in immune response	TICAM1
+32890	1.4026E-2	3.7222E-2	1	20	10	14173	regulation of organic acid transport	TNF
+43525	1.4026E-2	3.7222E-2	1	20	10	14173	positive regulation of neuron apoptosis	TNF
+2763	1.4026E-2	3.7222E-2	1	20	10	14173	positive regulation of myeloid leukocyte differentiation	CSF1
+51057	1.4026E-2	3.7222E-2	1	20	10	14173	positive regulation of small GTPase mediated signal transduction	CSF1
+9987	1.4600E-2	3.8327E-2	10	9289	10	14173	cellular process	SLC4A11|TNF|CSF1|TICAM1|RELB|NFKB1|TNFAIP3|TNFAIP2|KDELR1|SOD2
+42592	1.4635E-2	3.8327E-2	3	775	10	14173	homeostatic process	SLC4A11|CSF1|SOD2
+45776	1.4723E-2	3.8327E-2	1	21	10	14173	negative regulation of blood pressure	SOD2
+2758	1.4723E-2	3.8327E-2	1	21	10	14173	innate immune response-activating signal transduction	TICAM1
+71219	1.4723E-2	3.8327E-2	1	21	10	14173	cellular response to molecule of bacterial origin	TICAM1
+1836	1.4723E-2	3.8327E-2	1	21	10	14173	release of cytochrome c from mitochondria	SOD2
+48584	1.4917E-2	3.8709E-2	2	272	10	14173	positive regulation of response to stimulus	TNF|TICAM1
+60255	1.5325E-2	3.9389E-2	6	3369	10	14173	regulation of macromolecule metabolic process	TNF|CSF1|TICAM1|RELB|NFKB1|SOD2
+2218	1.5419E-2	3.9389E-2	1	22	10	14173	activation of innate immune response	TICAM1
+45682	1.5419E-2	3.9389E-2	1	22	10	14173	regulation of epidermis development	TNF
+60603	1.5419E-2	3.9389E-2	1	22	10	14173	mammary gland duct morphogenesis	CSF1
+46330	1.5419E-2	3.9389E-2	1	22	10	14173	positive regulation of JNK cascade	TNF
+50673	1.6115E-2	4.0288E-2	1	23	10	14173	epithelial cell proliferation	TNF
+48066	1.6115E-2	4.0288E-2	1	23	10	14173	developmental pigmentation	SOD2
+32374	1.6115E-2	4.0288E-2	1	23	10	14173	regulation of cholesterol transport	NFKB1
+32371	1.6115E-2	4.0288E-2	1	23	10	14173	regulation of sterol transport	NFKB1
+51607	1.6115E-2	4.0288E-2	1	23	10	14173	defense response to virus	TICAM1
+46889	1.6115E-2	4.0288E-2	1	23	10	14173	positive regulation of lipid biosynthetic process	TNF
+42307	1.6115E-2	4.0288E-2	1	23	10	14173	positive regulation of protein import into nucleus	TNF
+55080	1.6300E-2	4.0626E-2	2	285	10	14173	cation homeostasis	SLC4A11|SOD2
+122	1.6409E-2	4.0773E-2	2	286	10	14173	negative regulation of transcription from RNA polymerase II promoter	TNF|NFKB1
+45840	1.6810E-2	4.1148E-2	1	24	10	14173	positive regulation of mitosis	TNF
+14823	1.6810E-2	4.1148E-2	1	24	10	14173	response to activity	SOD2
+2637	1.6810E-2	4.1148E-2	1	24	10	14173	regulation of immunoglobulin production	TNF
+40018	1.6810E-2	4.1148E-2	1	24	10	14173	positive regulation of multicellular organism growth	CSF1
+51785	1.6810E-2	4.1148E-2	1	24	10	14173	positive regulation of nuclear division	TNF
+48731	1.6990E-2	4.1465E-2	5	2417	10	14173	system development	TNF|CSF1|RELB|TNFAIP2|SOD2
+51093	1.7067E-2	4.1528E-2	2	292	10	14173	negative regulation of developmental process	TNF|SOD2
+42345	1.7505E-2	4.2469E-2	1	25	10	14173	regulation of NF-kappaB import into nucleus	TNF
+35295	1.8076E-2	4.2885E-2	2	301	10	14173	tube development	CSF1|SOD2
+22603	1.8189E-2	4.2885E-2	2	302	10	14173	regulation of anatomical structure morphogenesis	TNF|CSF1
+10332	1.8200E-2	4.2885E-2	1	26	10	14173	response to gamma radiation	SOD2
+43271	1.8200E-2	4.2885E-2	1	26	10	14173	negative regulation of ion transport	TNF
+6801	1.8200E-2	4.2885E-2	1	26	10	14173	superoxide metabolic process	SOD2
+50806	1.8200E-2	4.2885E-2	1	26	10	14173	positive regulation of synaptic transmission	TNF
+7435	1.8200E-2	4.2885E-2	1	26	10	14173	salivary gland morphogenesis	TNF
+42743	1.8200E-2	4.2885E-2	1	26	10	14173	hydrogen peroxide metabolic process	SOD2
+70936	1.8200E-2	4.2885E-2	1	26	10	14173	protein K48-linked ubiquitination	TNFAIP3
+30890	1.8200E-2	4.2885E-2	1	26	10	14173	positive regulation of B cell proliferation	TICAM1
+7159	1.8894E-2	4.3889E-2	1	27	10	14173	leukocyte cell-cell adhesion	TNF
+2673	1.8894E-2	4.3889E-2	1	27	10	14173	regulation of acute inflammatory response	TNF
+3044	1.8894E-2	4.3889E-2	1	27	10	14173	regulation of systemic arterial blood pressure mediated by a chemical signal	SOD2
+6749	1.8894E-2	4.3889E-2	1	27	10	14173	glutathione metabolic process	SOD2
+48678	1.8894E-2	4.3889E-2	1	27	10	14173	response to axon injury	SOD2
+70304	1.9587E-2	4.4865E-2	1	28	10	14173	positive regulation of stress-activated protein kinase signaling cascade	TNF
+22407	1.9587E-2	4.4865E-2	1	28	10	14173	regulation of cell-cell adhesion	TNF
+43331	1.9587E-2	4.4865E-2	1	28	10	14173	response to dsRNA	TICAM1
+50792	1.9587E-2	4.4865E-2	1	28	10	14173	regulation of viral reproduction	TNF
+7431	1.9587E-2	4.4865E-2	1	28	10	14173	salivary gland development	TNF
+80090	1.9738E-2	4.5084E-2	6	3545	10	14173	regulation of primary metabolic process	TNF|CSF1|TICAM1|RELB|NFKB1|SOD2
+8637	2.0280E-2	4.5578E-2	1	29	10	14173	apoptotic mitochondrial changes	SOD2
+50715	2.0280E-2	4.5578E-2	1	29	10	14173	positive regulation of cytokine secretion	TNF
+51289	2.0280E-2	4.5578E-2	1	29	10	14173	protein homotetramerization	SOD2
+51353	2.0280E-2	4.5578E-2	1	29	10	14173	positive regulation of oxidoreductase activity	TNF
+51971	2.0280E-2	4.5578E-2	1	29	10	14173	positive regulation of transmission of nerve impulse	TNF
+6917	2.0288E-2	4.5578E-2	2	320	10	14173	induction of apoptosis	TNF|TICAM1
+12502	2.0407E-2	4.5721E-2	2	321	10	14173	induction of programmed cell death	TNF|TICAM1
+80134	2.0527E-2	4.5864E-2	2	322	10	14173	regulation of response to stress	TNF|TICAM1
+45995	2.0973E-2	4.6231E-2	1	30	10	14173	regulation of embryonic development	TNF
+60688	2.0973E-2	4.6231E-2	1	30	10	14173	regulation of morphogenesis of a branching structure	TNF
+60443	2.0973E-2	4.6231E-2	1	30	10	14173	mammary gland morphogenesis	CSF1
+48661	2.0973E-2	4.6231E-2	1	30	10	14173	positive regulation of smooth muscle cell proliferation	TNF
+46824	2.0973E-2	4.6231E-2	1	30	10	14173	positive regulation of nucleocytoplasmic transport	TNF
+60	2.1665E-2	4.7375E-2	1	31	10	14173	protein import into nucleus, translocation	TNF
+31646	2.1665E-2	4.7375E-2	1	31	10	14173	positive regulation of neurological system process	TNF
+46324	2.1665E-2	4.7375E-2	1	31	10	14173	regulation of glucose import	TNF
+45727	2.2357E-2	4.8628E-2	1	32	10	14173	positive regulation of translation	TNF
+50994	2.2357E-2	4.8628E-2	1	32	10	14173	regulation of lipid catabolic process	TNF
+30154	2.2460E-2	4.8723E-2	4	1670	10	14173	cell differentiation	CSF1|RELB|TNFAIP2|SOD2
+10811	2.3049E-2	4.9606E-2	1	33	10	14173	positive regulation of cell-substrate adhesion	CSF1
+9593	2.3049E-2	4.9606E-2	1	33	10	14173	detection of chemical stimulus	SOD2
+30888	2.3049E-2	4.9606E-2	1	33	10	14173	regulation of B cell proliferation	TICAM1

@@ -1,0 +1,195 @@
+File created with bingo (c) on May 4, 2015 at 9:11:12 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+HES1	LIF	MAFF	GDF15	ERRFI1	
+
+No annotations were retrieved for the following entities:
+PRR16	PNMA2	REP15	FAM110B	SIDT1	SHE	TMEM140	CCDC141	CTTNBP2	SH3YL1	C1ORF75	PPAPDC3	GAB3	LILRA4	WDR76	TMEM149	NLF1	NLF2	TMEM185B	C9ORF46	LOC389199	PLS3	HFM1	MTERFD1	TMEFF2	C7ORF31	NUDT18	GBP5	NUDT12	CSAG3A	NUDT14	NUDT15	FLJ21963	PRKCDBP	C14ORF44	PIK3IP1	TMEM133	FBXL8	C14ORF101	BIN2	LQK1	LMNB1	PABPC5	C1ORF131	FAM19A3	RP4-691N24.1	MAGEA3	C1ORF135	CD68	KBTBD3	LYL1	CD69	FAM92A1	HLA-DRB6	SMA4	C1ORF59	C4ORF12	FLJ12993	C18ORF51	GPR156	KIAA1383	CXORF22	CCDC83	C15ORF38	NCKAP1L	SLAMF8	SMYD2	MGC34800	C18ORF54	CAMK2N2	SYNGR4	GPR153	FAM64A	C1ORF64	WSCD1	LOC441150	ALG10	MAP6	DHX40	BTBD11	GYPC	GREB1	POTE15	NUDT9P1	LOC347273	RG9MTD2	ANKRD10	C22ORF27	SPINK6	FLJ39779	DLEU1	MGC45922	EPSTI1	FBXL17	ZCCHC13	KIAA1324L	LOC91461	MGC10701	ANKRD21	METTL2A	LRRC25	BRWD3	ANKRD29	CCDC109B	UMODL1	DOK6	YPEL1	GPR180	LRRC32	P15RS	LRRC39	FAM46B	ITM2A	KIAA1432	ANKRD34	KIRREL	KLC1	ANKRD37	ARMCX3	ARMCX2	RFPL2	THAP2	C12ORF5	ARMCX1	GALNT13	GALNT14	FLJ21986	C1ORF162	C1ORF218	SAMD3	FEM1C	ANKRD45	P2RY10	PRELID2	LAYN	TMTC1	PSITPTE22	C14ORF129	SVIP	LOC374569	LOC541469	FCGR2A	KIAA1545	TMTC4	CSAG1	ZMYND15	TP53INP2	MAGED4B	FAM126B	TEX11	CXORF9	TRIM52	IL17RD	MKRN3	MMRN2	FAM49A	C8ORF46	TRIM43	ZNF185	MOP-1	SLMO2	RP11-679B17.1	TBC1D3P2	SPATA22	MTUS1	CT45-6	MS4A7	C6ORF48	CHP2	B3GNTL1	FLJ31438	LOC201175	FAM118B	CLEC12B	CD300LF	FAM38B	PCCB	FAM86A	GBP1	LOC344405	CYORF15B	CYORF15A	CCDC18	PAQR6	C20ORF174	LRIG1	TCL1B	ASTN2	EFCAB1	OTUD7A	RP13-36C9.6	HAVCR2	LOC221091	PALM2-AKAP2	PHACTR3	MRPS23	KIAA1586	ZMYM5	MYO1G	SPPL2B	LOC439951	DOCK5	KRT222P	LOC339483	TRAF3IP3	FLJ45717	CLEC14A	HINT3	C13ORF18	UBXD3	C5ORF20	NIPSNAP3A	DPY19L2	SH2D4A	TSPAN10	CELP	TRIM7	EVI2B	ALS2CR11	C2ORF32	UNQ6975	LAIR1	HMGCLL1	FAM24B	NOS1AP	C17ORF60	PPAP2C	MYCT1	GPRASP2	TMEM71	FAM62C	C9ORF82	FLJ37078	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	C11ORF70	FLJ13195	LOC133874	KIAA0240	C16ORF59	CXORF57	HYLS1	KIAA0825	LOC201725	CABP7	PLVAP	NSUN7	SMOC2	FLJ37464	N4BP3	C1QTNF5	LRP5L	
+C2ORF15	CALML4	MARVELD3	MCM3APAS	C9ORF58	MS4A6A	TMEM45A	MGC102966	MS4A4A	C13ORF27	RNASE1	GIMAP6	CENPQ	C9ORF62	TMC5	GIMAP8	FAM9A	LOC152485	FAM9B	TMEM169	TMBIM1	CENPK	SAMSN1	TMEM55A	GIMAP1	C3ORF52	C3ORF59	CEP68	MYPN	ARPM1	LOC399947	METRNL	C10ORF30	CYB5D1	C6ORF173	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+60426	1.4927E-6	4.0245E-4	2	6	5	14173	lung vasculature development	LIF|ERRFI1
+30324	3.5815E-6	4.0245E-4	3	102	5	14173	lung development	LIF|HES1|ERRFI1
+30323	3.9090E-6	4.0245E-4	3	105	5	14173	respiratory tube development	LIF|HES1|ERRFI1
+60541	4.8781E-6	4.0245E-4	3	113	5	14173	respiratory system development	LIF|HES1|ERRFI1
+45604	1.0436E-5	6.3347E-4	2	15	5	14173	regulation of epidermal cell differentiation	MAFF|ERRFI1
+45595	1.1518E-5	6.3347E-4	4	558	5	14173	regulation of cell differentiation	LIF|HES1|MAFF|ERRFI1
+45682	2.2936E-5	1.0813E-3	2	22	5	14173	regulation of epidermis development	MAFF|ERRFI1
+1701	3.4133E-5	1.3750E-3	3	216	5	14173	in utero embryonic development	LIF|HES1|MAFF
+48286	3.7500E-5	1.3750E-3	2	28	5	14173	lung alveolus development	LIF|ERRFI1
+50793	4.7186E-5	1.5571E-3	4	796	5	14173	regulation of developmental process	LIF|HES1|MAFF|ERRFI1
+35295	9.1889E-5	2.7567E-3	3	301	5	14173	tube development	LIF|HES1|ERRFI1
+51239	1.5074E-4	3.8424E-3	4	1068	5	14173	regulation of multicellular organismal process	LIF|HES1|MAFF|ERRFI1
+43009	1.5776E-4	3.8424E-3	3	361	5	14173	chordate embryonic development	LIF|HES1|MAFF
+9792	1.6301E-4	3.8424E-3	3	365	5	14173	embryonic development ending in birth or egg hatching	LIF|HES1|MAFF
+50730	2.8828E-4	6.3421E-3	2	77	5	14173	regulation of peptidyl-tyrosine phosphorylation	LIF|ERRFI1
+10552	5.0569E-4	1.0430E-2	2	102	5	14173	positive regulation of gene-specific transcription from RNA polymerase II promoter	LIF|HES1
+45632	7.0547E-4	1.0938E-2	1	2	5	14173	negative regulation of mechanoreceptor differentiation	HES1
+45608	7.0547E-4	1.0938E-2	1	2	5	14173	negative regulation of auditory receptor cell differentiation	HES1
+45835	7.0547E-4	1.0938E-2	1	2	5	14173	negative regulation of meiosis	LIF
+21558	7.0547E-4	1.0938E-2	1	2	5	14173	trochlear nerve development	HES1
+21557	7.0547E-4	1.0938E-2	1	2	5	14173	oculomotor nerve development	HES1
+9790	7.2917E-4	1.0938E-2	3	606	5	14173	embryonic development	LIF|HES1|MAFF
+43193	9.2332E-4	1.2470E-2	2	138	5	14173	positive regulation of gene-specific transcription	LIF|HES1
+60708	1.0581E-3	1.2470E-2	1	3	5	14173	spongiotrophoblast differentiation	LIF
+45607	1.0581E-3	1.2470E-2	1	3	5	14173	regulation of auditory receptor cell differentiation	HES1
+45631	1.0581E-3	1.2470E-2	1	3	5	14173	regulation of mechanoreceptor differentiation	HES1
+42668	1.0581E-3	1.2470E-2	1	3	5	14173	auditory receptor cell fate determination	HES1
+21555	1.0581E-3	1.2470E-2	1	3	5	14173	midbrain-hindbrain boundary morphogenesis	HES1
+10551	1.1629E-3	1.3233E-2	2	155	5	14173	regulation of gene-specific transcription from RNA polymerase II promoter	LIF|HES1
+48861	1.4105E-3	1.3299E-2	1	4	5	14173	leukemia inhibitory factor signaling pathway	LIF
+60164	1.4105E-3	1.3299E-2	1	4	5	14173	regulation of timing of neuron differentiation	HES1
+9912	1.4105E-3	1.3299E-2	1	4	5	14173	auditory receptor cell fate commitment	HES1
+60462	1.4105E-3	1.3299E-2	1	4	5	14173	lung lobe development	LIF
+60463	1.4105E-3	1.3299E-2	1	4	5	14173	lung lobe morphogenesis	LIF
+60120	1.4105E-3	1.3299E-2	1	4	5	14173	inner ear receptor cell fate commitment	HES1
+21903	1.7629E-3	1.4189E-2	1	5	5	14173	rostrocaudal neural tube patterning	HES1
+48644	1.7629E-3	1.4189E-2	1	5	5	14173	muscle organ morphogenesis	LIF
+30917	1.7629E-3	1.4189E-2	1	5	5	14173	midbrain-hindbrain boundary development	HES1
+43589	1.7629E-3	1.4189E-2	1	5	5	14173	skin morphogenesis	ERRFI1
+31953	1.7629E-3	1.4189E-2	1	5	5	14173	negative regulation of protein amino acid autophosphorylation	ERRFI1
+7175	1.7629E-3	1.4189E-2	1	5	5	14173	negative regulation of epidermal growth factor receptor activity	ERRFI1
+45651	2.1152E-3	1.4851E-2	1	6	5	14173	positive regulation of macrophage differentiation	LIF
+60707	2.1152E-3	1.4851E-2	1	6	5	14173	trophoblast giant cell differentiation	LIF
+48664	2.1152E-3	1.4851E-2	1	6	5	14173	neuron fate determination	HES1
+40034	2.1152E-3	1.4851E-2	1	6	5	14173	regulation of development, heterochronic	HES1
+61099	2.1152E-3	1.4851E-2	1	6	5	14173	negative regulation of protein tyrosine kinase activity	ERRFI1
+48505	2.1152E-3	1.4851E-2	1	6	5	14173	regulation of timing of cell differentiation	HES1
+32583	2.1819E-3	1.5001E-2	2	213	5	14173	regulation of gene-specific transcription	LIF|HES1
+1932	2.2842E-3	1.5383E-2	2	218	5	14173	regulation of protein amino acid phosphorylation	LIF|ERRFI1
+21783	2.4674E-3	1.5965E-2	1	7	5	14173	preganglionic parasympathetic nervous system development	HES1
+42059	2.4674E-3	1.5965E-2	1	7	5	14173	negative regulation of epidermal growth factor receptor signaling pathway	ERRFI1
+45596	2.6934E-3	1.7093E-2	2	237	5	14173	negative regulation of cell differentiation	LIF|HES1
+50732	2.8195E-3	1.7555E-2	1	8	5	14173	negative regulation of peptidyl-tyrosine phosphorylation	ERRFI1
+60712	3.1715E-3	1.9029E-2	1	9	5	14173	spongiotrophoblast layer development	LIF
+70373	3.1715E-3	1.9029E-2	1	9	5	14173	negative regulation of ERK1 and ERK2 cascade	LIF
+35467	3.3059E-3	1.9378E-2	2	263	5	14173	negative regulation of signaling pathway	LIF|ERRFI1
+45649	3.5234E-3	1.9378E-2	1	10	5	14173	regulation of macrophage differentiation	LIF
+7567	3.5234E-3	1.9378E-2	1	10	5	14173	parturition	MAFF
+40020	3.5234E-3	1.9378E-2	1	10	5	14173	regulation of meiosis	LIF
+31952	3.5234E-3	1.9378E-2	1	10	5	14173	regulation of protein amino acid autophosphorylation	ERRFI1
+1944	3.6347E-3	1.9663E-2	2	276	5	14173	vasculature development	LIF|ERRFI1
+60706	3.8751E-3	1.9674E-2	1	11	5	14173	cell differentiation involved in embryonic placenta development	LIF
+60428	3.8751E-3	1.9674E-2	1	11	5	14173	lung epithelium development	ERRFI1
+42517	3.8751E-3	1.9674E-2	1	11	5	14173	positive regulation of tyrosine phosphorylation of Stat3 protein	LIF
+48486	3.8751E-3	1.9674E-2	1	11	5	14173	parasympathetic nervous system development	HES1
+51093	4.0599E-3	2.0300E-2	2	292	5	14173	negative regulation of developmental process	LIF|HES1
+45616	4.2268E-3	2.0513E-2	1	12	5	14173	regulation of keratinocyte differentiation	ERRFI1
+51445	4.2268E-3	2.0513E-2	1	12	5	14173	regulation of meiotic cell cycle	LIF
+46697	4.5784E-3	2.1897E-2	1	13	5	14173	decidualization	LIF
+33138	4.9299E-3	2.3241E-2	1	14	5	14173	positive regulation of peptidyl-serine phosphorylation	LIF
+48666	5.0680E-3	2.3507E-2	2	327	5	14173	neuron development	LIF|HES1
+10648	5.1288E-3	2.3507E-2	2	329	5	14173	negative regulation of cell communication	LIF|ERRFI1
+9653	5.5721E-3	2.4393E-2	3	1220	5	14173	anatomical structure morphogenesis	LIF|HES1|ERRFI1
+42491	5.6326E-3	2.4393E-2	1	16	5	14173	auditory receptor cell differentiation	HES1
+1893	5.6326E-3	2.4393E-2	1	16	5	14173	maternal placenta development	LIF
+7176	5.6326E-3	2.4393E-2	1	16	5	14173	regulation of epidermal growth factor receptor activity	ERRFI1
+7167	5.6916E-3	2.4393E-2	2	347	5	14173	enzyme linked receptor protein signaling pathway	LIF|GDF15
+42516	5.9838E-3	2.4996E-2	1	17	5	14173	regulation of tyrosine phosphorylation of Stat3 protein	LIF
+61097	5.9838E-3	2.4996E-2	1	17	5	14173	regulation of protein tyrosine kinase activity	ERRFI1
+60135	6.3349E-3	2.5530E-2	1	18	5	14173	maternal process involved in female pregnancy	LIF
+30901	6.3349E-3	2.5530E-2	1	18	5	14173	midbrain development	HES1
+31399	6.3832E-3	2.5530E-2	2	368	5	14173	regulation of protein modification process	LIF|ERRFI1
+7166	6.4213E-3	2.5530E-2	3	1282	5	14173	cell surface receptor linked signaling pathway	LIF|HES1|GDF15
+2763	7.0368E-3	2.7088E-2	1	20	5	14173	positive regulation of myeloid leukocyte differentiation	LIF
+33135	7.0368E-3	2.7088E-2	1	20	5	14173	regulation of peptidyl-serine phosphorylation	LIF
+45944	7.0766E-3	2.7088E-2	2	388	5	14173	positive regulation of transcription from RNA polymerase II promoter	LIF|HES1
+10469	7.3876E-3	2.7088E-2	1	21	5	14173	regulation of receptor activity	ERRFI1
+7224	7.3876E-3	2.7088E-2	1	21	5	14173	smoothened signaling pathway	HES1
+21545	7.3876E-3	2.7088E-2	1	21	5	14173	cranial nerve development	HES1
+21532	7.3876E-3	2.7088E-2	1	21	5	14173	neural tube patterning	HES1
+60425	7.7383E-3	2.7458E-2	1	22	5	14173	lung morphogenesis	LIF
+60113	7.7383E-3	2.7458E-2	1	22	5	14173	inner ear receptor cell differentiation	HES1
+1974	7.7383E-3	2.7458E-2	1	22	5	14173	blood vessel remodeling	LIF
+7275	7.9426E-3	2.7519E-2	4	2963	5	14173	multicellular organismal development	LIF|HES1|MAFF|ERRFI1
+42531	8.0889E-3	2.7519E-2	1	23	5	14173	positive regulation of tyrosine phosphorylation of STAT protein	LIF
+21575	8.0889E-3	2.7519E-2	1	23	5	14173	hindbrain morphogenesis	HES1
+48483	8.0889E-3	2.7519E-2	1	23	5	14173	autonomic nervous system development	HES1
+48730	8.4394E-3	2.7850E-2	1	24	5	14173	epidermis morphogenesis	ERRFI1
+19827	8.4394E-3	2.7850E-2	1	24	5	14173	stem cell maintenance	LIF
+42058	8.4394E-3	2.7850E-2	1	24	5	14173	regulation of epidermal growth factor receptor signaling pathway	ERRFI1
+7566	9.1401E-3	2.9052E-2	1	26	5	14173	embryo implantation	LIF
+48864	9.1401E-3	2.9052E-2	1	26	5	14173	stem cell development	LIF
+42490	9.1401E-3	2.9052E-2	1	26	5	14173	mechanoreceptor differentiation	HES1
+30182	9.1557E-3	2.9052E-2	2	443	5	14173	neuron differentiation	LIF|HES1
+46427	9.4903E-3	2.9827E-2	1	27	5	14173	positive regulation of JAK-STAT cascade	LIF
+21675	9.8404E-3	3.0374E-2	1	28	5	14173	nerve development	HES1
+8284	9.8486E-3	3.0374E-2	2	460	5	14173	positive regulation of cell proliferation	LIF|HES1
+21983	1.0190E-2	3.1137E-2	1	29	5	14173	pituitary gland development	HES1
+45665	1.0540E-2	3.1621E-2	1	30	5	14173	negative regulation of neuron differentiation	HES1
+42509	1.0540E-2	3.1621E-2	1	30	5	14173	regulation of tyrosine phosphorylation of STAT protein	LIF
+46888	1.0890E-2	3.2341E-2	1	31	5	14173	negative regulation of hormone secretion	LIF
+32502	1.0976E-2	3.2341E-2	4	3227	5	14173	developmental process	LIF|HES1|MAFF|ERRFI1
+1709	1.1240E-2	3.2824E-2	1	32	5	14173	cell fate determination	HES1
+45893	1.1527E-2	3.3257E-2	2	499	5	14173	positive regulation of transcription, DNA-dependent	LIF|HES1
+43409	1.1589E-2	3.3257E-2	1	33	5	14173	negative regulation of MAPKKK cascade	LIF
+51254	1.1796E-2	3.3388E-2	2	505	5	14173	positive regulation of RNA metabolic process	LIF|HES1
+43588	1.1939E-2	3.3388E-2	1	34	5	14173	skin development	ERRFI1
+30856	1.1939E-2	3.3388E-2	1	34	5	14173	regulation of epithelial cell differentiation	ERRFI1
+48863	1.2288E-2	3.4077E-2	1	35	5	14173	stem cell differentiation	LIF
+42325	1.2481E-2	3.4184E-2	2	520	5	14173	regulation of phosphorylation	LIF|ERRFI1
+31100	1.2638E-2	3.4184E-2	1	36	5	14173	organ regeneration	LIF
+46425	1.2638E-2	3.4184E-2	1	36	5	14173	regulation of JAK-STAT cascade	LIF
+60255	1.2913E-2	3.4562E-2	4	3369	5	14173	regulation of macromolecule metabolic process	LIF|HES1|MAFF|ERRFI1
+45639	1.2987E-2	3.4562E-2	1	37	5	14173	positive regulation of myeloid cell differentiation	LIF
+21536	1.3336E-2	3.5207E-2	1	38	5	14173	diencephalon development	HES1
+51174	1.3661E-2	3.5282E-2	2	545	5	14173	regulation of phosphorus metabolic process	LIF|ERRFI1
+19220	1.3661E-2	3.5282E-2	2	545	5	14173	regulation of phosphate metabolic process	LIF|ERRFI1
+48663	1.3685E-2	3.5282E-2	1	39	5	14173	neuron fate commitment	HES1
+10948	1.4383E-2	3.6383E-2	1	41	5	14173	negative regulation of cell cycle process	LIF
+1933	1.4383E-2	3.6383E-2	1	41	5	14173	negative regulation of protein amino acid phosphorylation	ERRFI1
+32268	1.4443E-2	3.6383E-2	2	561	5	14173	regulation of cellular protein metabolic process	LIF|ERRFI1
+70372	1.4731E-2	3.6829E-2	1	42	5	14173	regulation of ERK1 and ERK2 cascade	LIF
+45941	1.5092E-2	3.7447E-2	2	574	5	14173	positive regulation of transcription	LIF|HES1
+80090	1.5637E-2	3.8510E-2	4	3545	5	14173	regulation of primary metabolic process	LIF|HES1|MAFF|ERRFI1
+50794	1.5851E-2	3.8746E-2	5	6188	5	14173	regulation of cellular process	LIF|HES1|MAFF|GDF15|ERRFI1
+48699	1.6117E-2	3.9107E-2	2	594	5	14173	generation of neurons	LIF|HES1
+2761	1.6474E-2	3.9381E-2	1	47	5	14173	regulation of myeloid leukocyte differentiation	LIF
+48513	1.6528E-2	3.9381E-2	3	1791	5	14173	organ development	LIF|HES1|ERRFI1
+10628	1.6588E-2	3.9381E-2	2	603	5	14173	positive regulation of gene expression	LIF|HES1
+6355	1.6839E-2	3.9693E-2	3	1803	5	14173	regulation of transcription, DNA-dependent	LIF|HES1|MAFF
+7219	1.7518E-2	4.0999E-2	1	50	5	14173	Notch signaling pathway	HES1
+48523	1.7984E-2	4.1480E-2	3	1846	5	14173	negative regulation of cellular process	LIF|HES1|ERRFI1
+51252	1.8147E-2	4.1480E-2	3	1852	5	14173	regulation of RNA metabolic process	LIF|HES1|MAFF
+48468	1.8312E-2	4.1480E-2	2	635	5	14173	cell development	LIF|HES1
+51246	1.8367E-2	4.1480E-2	2	636	5	14173	regulation of protein metabolic process	LIF|ERRFI1
+9887	1.8422E-2	4.1480E-2	2	637	5	14173	organ morphogenesis	LIF|ERRFI1
+22008	1.8477E-2	4.1480E-2	2	638	5	14173	neurogenesis	LIF|HES1
+31323	1.8804E-2	4.1878E-2	4	3724	5	14173	regulation of cellular metabolic process	LIF|HES1|MAFF|ERRFI1
+10741	1.8908E-2	4.1878E-2	1	54	5	14173	negative regulation of intracellular protein kinase cascade	LIF
+48771	1.9256E-2	4.2082E-2	1	55	5	14173	tissue remodeling	LIF
+42326	1.9256E-2	4.2082E-2	1	55	5	14173	negative regulation of phosphorylation	ERRFI1
+45935	1.9428E-2	4.2180E-2	2	655	5	14173	positive regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	LIF|HES1
+1892	1.9603E-2	4.2281E-2	1	56	5	14173	embryonic placenta development	LIF
+7179	1.9950E-2	4.2315E-2	1	57	5	14173	transforming growth factor beta receptor signaling pathway	GDF15
+50731	2.0297E-2	4.2315E-2	1	58	5	14173	positive regulation of peptidyl-tyrosine phosphorylation	LIF
+30902	2.0297E-2	4.2315E-2	1	58	5	14173	hindbrain development	HES1
+10557	2.0516E-2	4.2315E-2	2	674	5	14173	positive regulation of macromolecule biosynthetic process	LIF|HES1
+50789	2.0539E-2	4.2315E-2	5	6517	5	14173	regulation of biological process	LIF|HES1|MAFF|GDF15|ERRFI1
+51173	2.0632E-2	4.2315E-2	2	676	5	14173	positive regulation of nitrogen compound metabolic process	LIF|HES1
+45936	2.0645E-2	4.2315E-2	1	59	5	14173	negative regulation of phosphate metabolic process	ERRFI1
+10563	2.0645E-2	4.2315E-2	1	59	5	14173	negative regulation of phosphorus metabolic process	ERRFI1
+1889	2.1685E-2	4.4173E-2	1	62	5	14173	liver development	HES1
+61008	2.2032E-2	4.4604E-2	1	63	5	14173	hepaticobiliary system development	HES1
+10553	2.2378E-2	4.4928E-2	1	64	5	14173	negative regulation of gene-specific transcription from RNA polymerase II promoter	HES1
+19222	2.2464E-2	4.4928E-2	4	3906	5	14173	regulation of metabolic process	LIF|HES1|MAFF|ERRFI1
+48519	2.3124E-2	4.5840E-2	3	2021	5	14173	negative regulation of biological process	LIF|HES1|ERRFI1
+31328	2.3198E-2	4.5840E-2	2	719	5	14173	positive regulation of cellular biosynthetic process	LIF|HES1
+9891	2.3876E-2	4.6899E-2	2	730	5	14173	positive regulation of biosynthetic process	LIF|HES1
+51048	2.4456E-2	4.7753E-2	1	70	5	14173	negative regulation of secretion	LIF
+6357	2.4877E-2	4.8290E-2	2	746	5	14173	regulation of transcription from RNA polymerase II promoter	LIF|HES1
+9888	2.5257E-2	4.8741E-2	2	752	5	14173	tissue development	LIF|ERRFI1
+21915	2.5493E-2	4.8911E-2	1	73	5	14173	neural tube development	HES1
+23033	2.5738E-2	4.9095E-2	3	2101	5	14173	signaling pathway	LIF|HES1|GDF15
+48469	2.6184E-2	4.9659E-2	1	75	5	14173	cell maturation	HES1

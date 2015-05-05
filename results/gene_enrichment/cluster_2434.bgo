@@ -1,0 +1,133 @@
+File created with bingo (c) on May 4, 2015 at 9:10:40 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+SAT1	FZR1	SH2D3A	CSNK1G2	TNC	PKP3	HDAC10	CDH1	
+
+No annotations were retrieved for the following entities:
+PRR16	PNMA2	REP15	FAM110B	SIDT1	SHE	TMEM140	CCDC141	CTTNBP2	SH3YL1	C1ORF75	PPAPDC3	GAB3	WDR76	NLF1	NLF2	TMEM185B	C9ORF46	LOC389199	HFM1	MTERFD1	TMEFF2	C7ORF31	NUDT18	GBP5	CSAG3A	NUDT15	FLJ21963	PRKCDBP	C14ORF44	PIK3IP1	TMEM133	FBXL8	C14ORF101	BIN2	LQK1	LMNB1	C1ORF131	FAM19A3	MAGEA3	C1ORF135	CD68	KBTBD3	LYL1	CD69	FAM92A1	HLA-DRB6	SMA4	C1ORF59	C4ORF12	FLJ12993	C18ORF51	GPR156	CXORF22	CCDC83	NCKAP1L	SMYD2	MGC34800	C18ORF54	CAMK2N2	SYNGR4	GPR153	FAM64A	C1ORF64	WSCD1	LOC441150	ALG10	MAP6	DHX40	BTBD11	GREB1	POTE15	LOC347273	C22ORF27	SPINK6	FLJ39779	DLEU1	MGC45922	EPSTI1	FBXL17	ZCCHC13	KIAA1324L	LOC91461	ANKRD21	METTL2A	LRRC25	BRWD3	ANKRD29	CCDC109B	UMODL1	DOK6	YPEL1	P15RS	LRRC39	ITM2A	KIAA1432	KIRREL	KLC1	ANKRD37	RFPL2	THAP2	C12ORF5	ARMCX1	GALNT13	GALNT14	C1ORF162	SAMD3	ANKRD45	P2RY10	PRELID2	LAYN	TMTC1	PSITPTE22	SVIP	FCGR2A	KIAA1545	CSAG1	ZMYND15	TP53INP2	MAGED4B	FAM126B	TEX11	CXORF9	TRIM52	IL17RD	MKRN3	MMRN2	FAM49A	C8ORF46	TRIM43	ZNF185	MOP-1	SLMO2	RP11-679B17.1	SPATA22	MTUS1	CT45-6	MS4A7	C6ORF48	CHP2	LOC201175	FAM118B	CLEC12B	CD300LF	PCCB	FAM86A	GBP1	LOC344405	CYORF15B	CCDC18	C20ORF174	LRIG1	TCL1B	ASTN2	EFCAB1	OTUD7A	RP13-36C9.6	HAVCR2	LOC221091	PHACTR3	KIAA1586	ZMYM5	SPPL2B	LOC439951	DOCK5	KRT222P	TRAF3IP3	FLJ45717	CLEC14A	C13ORF18	UBXD3	C5ORF20	NIPSNAP3A	DPY19L2	SH2D4A	TSPAN10	CELP	TRIM7	EVI2B	UNQ6975	LAIR1	HMGCLL1	FAM24B	NOS1AP	C17ORF60	PPAP2C	MYCT1	GPRASP2	TMEM71	FAM62C	FLJ37078	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	C11ORF70	LOC133874	C16ORF59	HYLS1	KIAA0825	LOC201725	PLVAP	FLJ37464	N4BP3	C1QTNF5	C2ORF15	MARVELD3	MCM3APAS	C9ORF58	MS4A6A	TMEM45A	MGC102966	MS4A4A	C13ORF27	RNASE1	GIMAP6	CENPQ	C9ORF62	TMC5	GIMAP8	LOC152485	TMEM169	TMBIM1	CENPK	SAMSN1	TMEM55A	GIMAP1	C3ORF52	C3ORF59	MYPN	ARPM1	LOC399947	METRNL	C10ORF30	C6ORF173	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+40020	1.2518E-5	2.1040E-3	2	10	8	14173	regulation of meiosis	FZR1|CDH1
+70306	1.5295E-5	2.1040E-3	2	11	8	14173	lens fiber cell differentiation	FZR1|CDH1
+51445	1.8349E-5	2.1040E-3	2	12	8	14173	regulation of meiotic cell cycle	FZR1|CDH1
+31572	5.8235E-5	5.0082E-3	2	21	8	14173	G2/M transition DNA damage checkpoint	FZR1|CDH1
+31576	8.9999E-5	6.1919E-3	2	26	8	14173	G2/M transition checkpoint	FZR1|CDH1
+2088	1.6435E-4	9.4226E-3	2	35	8	14173	lens development in camera-type eye	FZR1|CDH1
+50808	4.6941E-4	1.2985E-2	2	59	8	14173	synapse organization	TNC|CDH1
+77	5.0177E-4	1.2985E-2	2	61	8	14173	DNA damage checkpoint	FZR1|CDH1
+51436	5.3520E-4	1.2985E-2	2	63	8	14173	negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	FZR1|CDH1
+31145	5.5231E-4	1.2985E-2	2	64	8	14173	anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process	FZR1|CDH1
+60739	5.6445E-4	1.2985E-2	1	1	8	14173	mesenchymal-epithelial cell signaling involved in prostate gland development	TNC
+32972	5.6445E-4	1.2985E-2	1	1	8	14173	regulation of muscle filament sliding speed	TNC
+31570	5.6968E-4	1.2985E-2	2	65	8	14173	DNA integrity checkpoint	FZR1|CDH1
+51437	5.6968E-4	1.2985E-2	2	65	8	14173	positive regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	FZR1|CDH1
+51352	6.0522E-4	1.2985E-2	2	67	8	14173	negative regulation of ligase activity	FZR1|CDH1
+51444	6.0522E-4	1.2985E-2	2	67	8	14173	negative regulation of ubiquitin-protein ligase activity	FZR1|CDH1
+51439	6.4181E-4	1.2985E-2	2	69	8	14173	regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	FZR1|CDH1
+51443	6.7945E-4	1.2985E-2	2	71	8	14173	positive regulation of ubiquitin-protein ligase activity	FZR1|CDH1
+51351	7.3788E-4	1.3360E-2	2	74	8	14173	positive regulation of ligase activity	FZR1|CDH1
+22612	8.4050E-4	1.3768E-2	2	79	8	14173	gland morphogenesis	TNC|CDH1
+31397	8.4050E-4	1.3768E-2	2	79	8	14173	negative regulation of protein ubiquitination	FZR1|CDH1
+51438	9.0521E-4	1.4154E-2	2	82	8	14173	regulation of ubiquitin-protein ligase activity	FZR1|CDH1
+51340	9.7225E-4	1.4542E-2	2	85	8	14173	regulation of ligase activity	FZR1|CDH1
+2086	1.1286E-3	1.4933E-2	1	2	8	14173	diaphragm contraction	TNC
+71285	1.1286E-3	1.4933E-2	1	2	8	14173	cellular response to lithium ion	CDH1
+3011	1.1286E-3	1.4933E-2	1	2	8	14173	involuntary skeletal muscle contraction	TNC
+42770	1.2126E-3	1.5449E-2	2	95	8	14173	DNA damage response, signal transduction	FZR1|CDH1
+31398	1.2637E-3	1.5526E-2	2	97	8	14173	positive regulation of protein ubiquitination	FZR1|CDH1
+32386	1.3159E-3	1.5609E-2	2	99	8	14173	regulation of intracellular transport	TNC|CDH1
+75	1.5922E-3	1.7124E-2	2	109	8	14173	cell cycle checkpoint	FZR1|CDH1
+7165	1.6024E-3	1.7124E-2	5	1877	8	14173	signal transduction	FZR1|SH2D3A|CSNK1G2|TNC|CDH1
+60605	1.6925E-3	1.7124E-2	1	3	8	14173	tube lumen cavitation	CDH1
+32971	1.6925E-3	1.7124E-2	1	3	8	14173	regulation of muscle filament sliding	TNC
+60662	1.6925E-3	1.7124E-2	1	3	8	14173	salivary gland cavitation	CDH1
+43010	1.9254E-3	1.8924E-2	2	120	8	14173	camera-type eye development	FZR1|CDH1
+31396	2.0215E-3	1.9317E-2	2	123	8	14173	regulation of protein ubiquitination	FZR1|CDH1
+10564	2.5724E-3	2.2437E-2	2	139	8	14173	regulation of cell cycle process	FZR1|CDH1
+31400	2.5724E-3	2.2437E-2	2	139	8	14173	negative regulation of protein modification process	FZR1|CDH1
+43161	2.6090E-3	2.2437E-2	2	140	8	14173	proteasomal ubiquitin-dependent protein catabolic process	FZR1|CDH1
+10498	2.6090E-3	2.2437E-2	2	140	8	14173	proteasomal protein catabolic process	FZR1|CDH1
+71680	2.8195E-3	2.3093E-2	1	5	8	14173	response to indole-3-methanol	CDH1
+71681	2.8195E-3	2.3093E-2	1	5	8	14173	cellular response to indole-3-methanol	CDH1
+1654	2.9102E-3	2.3141E-2	2	148	8	14173	eye development	FZR1|CDH1
+23060	3.0271E-3	2.3141E-2	5	2155	8	14173	signal transmission	FZR1|SH2D3A|CSNK1G2|TNC|CDH1
+23046	3.0271E-3	2.3141E-2	5	2155	8	14173	signaling process	FZR1|SH2D3A|CSNK1G2|TNC|CDH1
+10038	3.1464E-3	2.3530E-2	2	154	8	14173	response to metal ion	TNC|CDH1
+43062	3.3914E-3	2.4822E-2	2	160	8	14173	extracellular structure organization	TNC|CDH1
+3016	3.9453E-3	2.7769E-2	1	7	8	14173	respiratory system process	TNC
+33554	3.9554E-3	2.7769E-2	3	620	8	14173	cellular response to stress	FZR1|SH2D3A|CDH1
+60638	4.5078E-3	3.1014E-2	1	8	8	14173	mesenchymal-epithelial cell signaling	TNC
+48732	4.9934E-3	3.3681E-2	2	195	8	14173	gland development	TNC|CDH1
+32269	5.2973E-3	3.4597E-2	2	201	8	14173	negative regulation of cellular protein metabolic process	FZR1|CDH1
+60693	5.6320E-3	3.4597E-2	1	10	8	14173	regulation of branching involved in salivary gland morphogenesis	CDH1
+71248	5.6320E-3	3.4597E-2	1	10	8	14173	cellular response to metal ion	CDH1
+71241	5.6320E-3	3.4597E-2	1	10	8	14173	cellular response to inorganic substance	CDH1
+10226	5.6320E-3	3.4597E-2	1	10	8	14173	response to lithium ion	CDH1
+7155	5.8463E-3	3.4812E-2	3	712	8	14173	cell adhesion	PKP3|TNC|CDH1
+22610	5.8694E-3	3.4812E-2	3	713	8	14173	biological adhesion	PKP3|TNC|CDH1
+51248	5.9844E-3	3.4892E-2	2	214	8	14173	negative regulation of protein metabolic process	FZR1|CDH1
+31401	7.0002E-3	3.9165E-2	2	232	8	14173	positive regulation of protein modification process	FZR1|CDH1
+7067	7.0588E-3	3.9165E-2	2	233	8	14173	mitosis	FZR1|CDH1
+280	7.0588E-3	3.9165E-2	2	233	8	14173	nuclear division	FZR1|CDH1
+3009	7.3162E-3	3.9401E-2	1	13	8	14173	skeletal muscle contraction	TNC
+87	7.4754E-3	3.9401E-2	2	240	8	14173	M phase of mitotic cell cycle	FZR1|CDH1
+10035	7.4754E-3	3.9401E-2	2	240	8	14173	response to inorganic substance	TNC|CDH1
+48285	7.5965E-3	3.9401E-2	2	242	8	14173	organelle fission	FZR1|CDH1
+31324	7.7662E-3	3.9401E-2	3	788	8	14173	negative regulation of cellular metabolic process	FZR1|HDAC10|CDH1
+1829	7.8770E-3	3.9401E-2	1	14	8	14173	trophectodermal cell differentiation	CDH1
+7423	7.9031E-3	3.9401E-2	2	247	8	14173	sensory organ development	FZR1|CDH1
+10605	8.2136E-3	4.0364E-2	3	804	8	14173	negative regulation of macromolecule metabolic process	FZR1|HDAC10|CDH1
+8272	8.4376E-3	4.0881E-2	1	15	8	14173	sulfate transport	SAT1
+43462	8.9979E-3	4.2401E-2	1	16	8	14173	regulation of ATPase activity	TNC
+15804	8.9979E-3	4.2401E-2	1	16	8	14173	neutral amino acid transport	SAT1
+16575	9.5579E-3	4.3839E-2	1	17	8	14173	histone deacetylation	HDAC10
+60048	9.5579E-3	4.3839E-2	1	17	8	14173	cardiac muscle contraction	TNC
+6511	9.9971E-3	4.3932E-2	2	279	8	14173	ubiquitin-dependent protein catabolic process	FZR1|CDH1
+9892	1.0094E-2	4.3932E-2	3	866	8	14173	negative regulation of metabolic process	FZR1|HDAC10|CDH1
+7528	1.0118E-2	4.3932E-2	1	18	8	14173	neuromuscular junction development	TNC
+42993	1.0118E-2	4.3932E-2	1	18	8	14173	positive regulation of transcription factor import into nucleus	CDH1
+43632	1.0345E-2	4.3932E-2	2	284	8	14173	modification-dependent macromolecule catabolic process	FZR1|CDH1
+19941	1.0345E-2	4.3932E-2	2	284	8	14173	modification-dependent protein catabolic process	FZR1|CDH1
+1825	1.0677E-2	4.4115E-2	1	19	8	14173	blastocyst formation	CDH1
+32270	1.0840E-2	4.4115E-2	2	291	8	14173	positive regulation of cellular protein metabolic process	FZR1|CDH1
+6950	1.1232E-2	4.4115E-2	4	1772	8	14173	response to stress	FZR1|SH2D3A|TNC|CDH1
+6281	1.1273E-2	4.4115E-2	2	297	8	14173	DNA repair	FZR1|CDH1
+43086	1.1566E-2	4.4115E-2	2	301	8	14173	negative regulation of catalytic activity	FZR1|CDH1
+50790	1.1574E-2	4.4115E-2	3	910	8	14173	regulation of catalytic activity	FZR1|TNC|CDH1
+50881	1.1795E-2	4.4115E-2	1	21	8	14173	musculoskeletal movement	TNC
+50879	1.1795E-2	4.4115E-2	1	21	8	14173	multicellular organismal movement	TNC
+3015	1.1795E-2	4.4115E-2	1	21	8	14173	heart process	TNC
+60047	1.1795E-2	4.4115E-2	1	21	8	14173	heart contraction	TNC
+51247	1.2012E-2	4.4115E-2	2	307	8	14173	positive regulation of protein metabolic process	FZR1|CDH1
+60341	1.2163E-2	4.4115E-2	2	309	8	14173	regulation of cellular localization	TNC|CDH1
+55010	1.2354E-2	4.4115E-2	1	22	8	14173	ventricular cardiac muscle tissue morphogenesis	TNC
+3229	1.2354E-2	4.4115E-2	1	22	8	14173	ventricular cardiac muscle tissue development	TNC
+6476	1.2354E-2	4.4115E-2	1	22	8	14173	protein amino acid deacetylation	HDAC10
+51603	1.2466E-2	4.4115E-2	2	313	8	14173	proteolysis involved in cellular protein catabolic process	FZR1|CDH1
+51301	1.2619E-2	4.4115E-2	2	315	8	14173	cell division	FZR1|CDH1
+44257	1.2696E-2	4.4115E-2	2	316	8	14173	cellular protein catabolic process	FZR1|CDH1
+42307	1.2912E-2	4.4418E-2	1	23	8	14173	positive regulation of protein import into nucleus	CDH1
+60740	1.3470E-2	4.5879E-2	1	24	8	14173	prostate gland epithelium morphogenesis	TNC
+3208	1.4028E-2	4.7310E-2	1	25	8	14173	cardiac ventricle morphogenesis	TNC
+51716	1.4423E-2	4.7651E-2	3	986	8	14173	cellular response to stimulus	FZR1|SH2D3A|CDH1
+7435	1.4585E-2	4.7651E-2	1	26	8	14173	salivary gland morphogenesis	CDH1
+60512	1.4585E-2	4.7651E-2	1	26	8	14173	prostate gland morphogenesis	TNC
+30163	1.4683E-2	4.7651E-2	2	341	8	14173	protein catabolic process	FZR1|CDH1
+55008	1.5143E-2	4.8232E-2	1	27	8	14173	cardiac muscle tissue morphogenesis	TNC
+60415	1.5143E-2	4.8232E-2	1	27	8	14173	muscle tissue morphogenesis	TNC
+279	1.5598E-2	4.8655E-2	2	352	8	14173	M phase	FZR1|CDH1
+7431	1.5700E-2	4.8655E-2	1	28	8	14173	salivary gland development	CDH1
+48741	1.5700E-2	4.8655E-2	1	28	8	14173	skeletal muscle fiber development	TNC
+23052	1.5870E-2	4.8743E-2	5	3123	8	14173	signaling	FZR1|SH2D3A|CSNK1G2|TNC|CDH1
+21983	1.6256E-2	4.9488E-2	1	29	8	14173	pituitary gland development	CDH1

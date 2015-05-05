@@ -1,0 +1,78 @@
+File created with bingo (c) on May 4, 2015 at 9:11:31 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+GPR158	WNT3	ADCY9	DLX4	DSCR9	ADRA1B	CBLL1	
+
+No annotations were retrieved for the following entities:
+PRR16	PNMA2	REP15	FAM110B	SIDT1	SHE	TMEM140	CCDC141	CTTNBP2	SH3YL1	C1ORF75	PPAPDC3	GAB3	LILRA4	WDR76	TMEM149	NLF1	NLF2	TMEM185B	C9ORF46	LOC389199	PLS3	HFM1	MTERFD1	TMEFF2	C7ORF31	NUDT18	GBP5	NUDT12	CSAG3A	NUDT14	NUDT15	FLJ21963	PKHD1L1	PRKCDBP	C14ORF44	PIK3IP1	TMEM133	LRCH2	FBXL8	C14ORF101	BIN2	LQK1	LMNB1	PABPC5	C1ORF131	FAM19A3	RP4-691N24.1	MAGEA3	C1ORF135	CD68	KBTBD3	LYL1	CD69	FAM92A1	HLA-DRB6	SMA4	WDHD1	C1ORF59	C4ORF12	FLJ12993	C18ORF51	GPR156	GPR158	KIAA1383	CXORF22	CCDC83	C3ORF28	C15ORF38	NCKAP1L	SLAMF8	SMYD2	MGC34800	C18ORF54	CAMK2N2	SYNGR4	GPR153	FAM64A	C1ORF64	WSCD1	LOC441150	ALG10	MAP6	DHX40	FAM54A	BTBD11	GYPC	WASF4	GREB1	POTE15	NUDT9P1	LOC347273	RG9MTD2	ANKRD10	C22ORF27	SPINK6	FLJ39779	DLEU1	MGC45922	EPSTI1	FBXL17	ZCCHC13	KIAA1324L	LOC91461	MGC10701	ANKRD21	METTL2A	LRRC25	BRWD3	ANKRD29	CCDC109B	UMODL1	DOK6	DOK7	YPEL1	GPR180	KIAA1958	LRRC32	P15RS	LRRC39	FAM46B	ITM2A	KIAA1432	C12ORF48	ANKRD34	KIRREL	KLC1	ANKRD37	ARMCX3	ARMCX2	RFPL2	THAP2	C12ORF5	ARMCX1	GALNT13	GALNT14	FLJ21986	C1ORF162	C10ORF38	C1ORF218	SAMD3	FEM1C	ANKRD45	P2RY10	PRELID2	LAYN	TMTC1	PSITPTE22	C14ORF129	SVIP	LOC374569	LOC541469	FCGR2A	KIAA1545	TMTC4	CSAG1	ZMYND15	TP53INP2	MAGED4B	FAM126B	TEX11	CXORF9	TRIM52	IL17RD	MKRN3	MMRN2	FAM49A	C8ORF46	TRIM43	ZNF185	MOP-1	SLMO2	RP11-679B17.1	TBC1D3P2	SPATA22	MTUS1	CT45-6	MS4A7	C6ORF48	CHP2	B3GNTL1	FLJ31438	LOC201175	FAM118B	CLEC12B	CD300LF	FAM38B	PCCB	FAM86A	GBP1	LOC344405	CYORF15B	CYORF15A	CCDC18	PAQR6	C20ORF174	LRIG1	TCL1B	ASTN2	EFCAB1	OTUD7A	PALB2	RP13-36C9.6	HAVCR2	LOC221091	PALM2-AKAP2	PHACTR3	MRPS23	KIAA1586	ZMYM5	MYO1G	SPPL2B	LOC439951	DOCK5	KRT222P	LOC339483	TRAF3IP3	FLJ45717	C20ORF94	CLEC14A	HINT3	C13ORF18	UBXD3	C5ORF20	NIPSNAP3A	DPY19L2	SH2D4A	TSPAN10	CELP	TRIM7	EVI2B	ALS2CR11	C2ORF32	UNQ6975	LAIR1	HMGCLL1	FAM24B	NOS1AP	C17ORF60	PPAP2C	MYCT1	GPRASP2	TMEM71	FAM62C	C9ORF82	FLJ37078	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	C11ORF70	FLJ13195	LOC133874	SHCBP1	
+KIAA0240	C16ORF59	CXORF57	HYLS1	KIAA0825	LOC201725	CABP7	PLVAP	NSUN7	SMOC2	FLJ37464	N4BP3	C1QTNF5	LRP5L	C2ORF15	CALML4	MARVELD3	MCM3APAS	C9ORF58	MS4A6A	TMEM45A	MGC102966	MS4A4A	CENPN	C13ORF27	RNASE1	GIMAP6	CENPQ	C9ORF62	TMC5	GIMAP8	FAM9A	LOC152485	FAM9B	TMEM169	TMBIM1	CENPK	SAMSN1	C20ORF46	TMEM55A	GIMAP1	C5ORF34	C3ORF52	C3ORF59	CEP68	MYPN	ARPM1	LOC399947	METRNL	C10ORF30	CYB5D1	C6ORF173	C13ORF31	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+45819	4.2334E-4	2.2318E-2	1	1	6	14173	positive regulation of glycogen catabolic process	ADRA1B
+1987	4.2334E-4	2.2318E-2	1	1	6	14173	vasoconstriction of artery involved in baroreceptor response to lowering of systemic arterial blood pressure	ADRA1B
+60064	4.2334E-4	2.2318E-2	1	1	6	14173	Spemann organizer formation at the anterior end of the primitive streak	WNT3
+60061	4.2334E-4	2.2318E-2	1	1	6	14173	Spemann organizer formation	WNT3
+7188	5.2493E-4	2.2318E-2	2	85	6	14173	G-protein signaling, coupled to cAMP nucleotide second messenger	ADCY9|ADRA1B
+19933	6.2809E-4	2.2318E-2	2	93	6	14173	cAMP-mediated signaling	ADCY9|ADRA1B
+45818	8.4653E-4	2.2318E-2	1	2	6	14173	negative regulation of glycogen catabolic process	ADRA1B
+3025	8.4653E-4	2.2318E-2	1	2	6	14173	regulation of systemic arterial blood pressure by baroreceptor feedback	ADRA1B
+1997	8.4653E-4	2.2318E-2	1	2	6	14173	positive regulation of the force of heart contraction by epinephrine-norepinephrine	ADRA1B
+1982	8.4653E-4	2.2318E-2	1	2	6	14173	baroreceptor response to decreased systemic arterial blood pressure	ADRA1B
+1978	8.4653E-4	2.2318E-2	1	2	6	14173	regulation of systemic arterial blood pressure by carotid sinus baroreceptor feedback	ADRA1B
+7187	9.7504E-4	2.3563E-2	2	116	6	14173	G-protein signaling, coupled to cyclic nucleotide second messenger	ADCY9|ADRA1B
+19935	1.2225E-3	2.4545E-2	2	130	6	14173	cyclic-nucleotide-mediated signaling	ADCY9|ADRA1B
+3099	1.2696E-3	2.4545E-2	1	3	6	14173	positive regulation of the force of heart contraction by chemical signal	ADRA1B
+1996	1.2696E-3	2.4545E-2	1	3	6	14173	positive regulation of heart rate by epinephrine-norepinephrine	ADRA1B
+3321	1.6925E-3	2.5832E-2	1	4	6	14173	positive regulation of blood pressure by epinephrine-norepinephrine	ADRA1B
+60174	1.6925E-3	2.5832E-2	1	4	6	14173	limb bud formation	WNT3
+3057	1.6925E-3	2.5832E-2	1	4	6	14173	regulation of the force of heart contraction by chemical signal	ADRA1B
+70874	1.6925E-3	2.5832E-2	1	4	6	14173	negative regulation of glycogen metabolic process	ADRA1B
+5981	2.1152E-3	2.9210E-2	1	5	6	14173	regulation of glycogen catabolic process	ADRA1B
+1993	2.1152E-3	2.9210E-2	1	5	6	14173	regulation of systemic arterial blood pressure by norepinephrine-epinephrine	ADRA1B
+48148	3.3825E-3	4.4588E-2	1	8	6	14173	behavioral response to cocaine	ADRA1B
+3084	3.8047E-3	4.4936E-2	1	9	6	14173	positive regulation of systemic arterial blood pressure	ADRA1B
+1976	3.8047E-3	4.4936E-2	1	9	6	14173	neurological system process involved in regulation of systemic arterial blood pressure	ADRA1B
+19932	3.9298E-3	4.4936E-2	2	235	6	14173	second-messenger-mediated signaling	ADCY9|ADRA1B
+10460	4.6485E-3	4.4936E-2	1	11	6	14173	positive regulation of heart rate	ADRA1B
+7512	4.6485E-3	4.4936E-2	1	11	6	14173	adult heart development	ADRA1B
+45912	4.6485E-3	4.4936E-2	1	11	6	14173	negative regulation of carbohydrate metabolic process	ADRA1B
+10677	4.6485E-3	4.4936E-2	1	11	6	14173	negative regulation of cellular carbohydrate metabolic process	ADRA1B
+70875	4.6485E-3	4.4936E-2	1	11	6	14173	positive regulation of glycogen metabolic process	ADRA1B
+42310	5.0702E-3	4.7431E-2	1	12	6	14173	vasoconstriction	ADRA1B
+60323	6.3344E-3	4.8926E-2	1	15	6	14173	head morphogenesis	WNT3
+45823	6.7555E-3	4.8926E-2	1	16	6	14173	positive regulation of heart contraction	ADRA1B
+43278	6.7555E-3	4.8926E-2	1	16	6	14173	response to morphine	ADRA1B
+14072	6.7555E-3	4.8926E-2	1	16	6	14173	response to isoquinoline alkaloid	ADRA1B
+43471	7.1765E-3	4.8926E-2	1	17	6	14173	regulation of cellular carbohydrate catabolic process	ADRA1B
+43470	7.1765E-3	4.8926E-2	1	17	6	14173	regulation of carbohydrate catabolic process	ADRA1B
+34199	7.1765E-3	4.8926E-2	1	17	6	14173	activation of protein kinase A activity	ADCY9
+32881	7.1765E-3	4.8926E-2	1	17	6	14173	regulation of polysaccharide metabolic process	ADRA1B
+70873	7.1765E-3	4.8926E-2	1	17	6	14173	regulation of glycogen metabolic process	ADRA1B
+35265	7.5973E-3	4.8926E-2	1	18	6	14173	organ growth	ADRA1B
+10907	7.5973E-3	4.8926E-2	1	18	6	14173	positive regulation of glucose metabolic process	ADRA1B
+10171	8.0180E-3	4.8926E-2	1	19	6	14173	body morphogenesis	WNT3
+2026	8.0180E-3	4.8926E-2	1	19	6	14173	regulation of the force of heart contraction	ADRA1B
+71300	8.0180E-3	4.8926E-2	1	19	6	14173	cellular response to retinoic acid	WNT3
+71299	8.4385E-3	4.8926E-2	1	20	6	14173	cellular response to vitamin A	WNT3
+45913	8.8588E-3	4.8926E-2	1	21	6	14173	positive regulation of carbohydrate metabolic process	ADRA1B
+10676	8.8588E-3	4.8926E-2	1	21	6	14173	positive regulation of cellular carbohydrate metabolic process	ADRA1B
+1975	8.8588E-3	4.8926E-2	1	21	6	14173	response to amphetamine	ADRA1B
+7223	8.8588E-3	4.8926E-2	1	21	6	14173	Wnt receptor signaling pathway, calcium modulating pathway	WNT3
+35567	9.2790E-3	4.8926E-2	1	22	6	14173	non-canonical Wnt receptor signaling pathway	WNT3
+2027	9.2790E-3	4.8926E-2	1	22	6	14173	regulation of heart rate	ADRA1B
+1974	9.2790E-3	4.8926E-2	1	22	6	14173	blood vessel remodeling	ADRA1B
+42220	9.2790E-3	4.8926E-2	1	22	6	14173	response to cocaine	ADRA1B
+14073	9.2790E-3	4.8926E-2	1	22	6	14173	response to tropane	ADRA1B
+60322	9.6991E-3	4.9346E-2	1	23	6	14173	head development	WNT3
+71295	9.6991E-3	4.9346E-2	1	23	6	14173	cellular response to vitamin	WNT3

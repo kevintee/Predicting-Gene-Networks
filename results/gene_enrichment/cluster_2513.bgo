@@ -1,0 +1,137 @@
+File created with bingo (c) on May 4, 2015 at 9:10:17 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+ITK	P2RY10	RASSF5	SLA2	HGF	
+
+No annotations were retrieved for the following entities:
+PRR16	PNMA2	REP15	FAM110B	SIDT1	SHE	TMEM140	CCDC141	C1ORF75	PPAPDC3	GAB3	WDR76	NLF1	NLF2	TMEM185B	C9ORF46	LOC389199	HFM1	MTERFD1	TMEFF2	C7ORF31	NUDT18	NUDT15	FLJ21963	PRKCDBP	PIK3IP1	FBXL8	C14ORF101	BIN2	LQK1	LMNB1	C1ORF131	FAM19A3	MAGEA3	C1ORF135	CD68	KBTBD3	LYL1	CD69	FAM92A1	HLA-DRB6	SMA4	C1ORF59	C4ORF12	FLJ12993	C18ORF51	GPR156	CXORF22	CCDC83	NCKAP1L	SMYD2	MGC34800	C18ORF54	CAMK2N2	SYNGR4	GPR153	FAM64A	C1ORF64	WSCD1	LOC441150	ALG10	MAP6	DHX40	BTBD11	GREB1	LOC347273	C22ORF27	SPINK6	DLEU1	MGC45922	EPSTI1	FBXL17	ZCCHC13	KIAA1324L	LOC91461	ANKRD21	METTL2A	LRRC25	BRWD3	CCDC109B	DOK6	YPEL1	P15RS	LRRC39	KIAA1432	KIRREL	KLC1	RFPL2	THAP2	C12ORF5	ARMCX1	GALNT13	GALNT14	C1ORF162	ANKRD45	P2RY10	PRELID2	LAYN	PSITPTE22	SVIP	FCGR2A	KIAA1545	MAGED4B	FAM126B	TEX11	CXORF9	IL17RD	MKRN3	MMRN2	FAM49A	C8ORF46	TRIM43	MOP-1	SLMO2	RP11-679B17.1	SPATA22	MTUS1	CT45-6	MS4A7	C6ORF48	LOC201175	FAM118B	CLEC12B	CD300LF	FAM86A	GBP1	CYORF15B	CCDC18	LRIG1	ASTN2	EFCAB1	OTUD7A	RP13-36C9.6	HAVCR2	LOC221091	PHACTR3	KIAA1586	ZMYM5	SPPL2B	LOC439951	DOCK5	TRAF3IP3	FLJ45717	CLEC14A	C13ORF18	UBXD3	C5ORF20	DPY19L2	TSPAN10	CELP	TRIM7	EVI2B	UNQ6975	LAIR1	HMGCLL1	C17ORF60	PPAP2C	MYCT1	GPRASP2	TMEM71	FAM62C	FLJ37078	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	C11ORF70	LOC133874	HYLS1	KIAA0825	LOC201725	PLVAP	FLJ37464	N4BP3	C1QTNF5	C2ORF15	MARVELD3	C9ORF58	MS4A6A	TMEM45A	MGC102966	MS4A4A	C13ORF27	RNASE1	GIMAP6	CENPQ	C9ORF62	TMC5	GIMAP8	LOC152485	TMEM169	CENPK	SAMSN1	TMEM55A	GIMAP1	C3ORF52	C3ORF59	MYPN	ARPM1	LOC399947	METRNL	C10ORF30	C6ORF173	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+50864	7.8847E-5	2.6181E-2	2	52	4	14173	regulation of B cell activation	SLA2|HGF
+2443	2.0176E-4	2.6181E-2	2	83	4	14173	leukocyte mediated immunity	SLA2|HGF
+48012	2.8223E-4	2.6181E-2	1	1	4	14173	hepatocyte growth factor receptor signaling pathway	HGF
+70091	2.8223E-4	2.6181E-2	1	1	4	14173	glucagon secretion	HGF
+2252	5.1024E-4	2.6181E-2	2	132	4	14173	immune effector process	SLA2|HGF
+2384	5.6439E-4	2.6181E-2	1	2	4	14173	hepatic immune response	HGF
+50849	5.6439E-4	2.6181E-2	1	2	4	14173	negative regulation of calcium-mediated signaling	SLA2
+51249	7.4868E-4	2.6181E-2	2	160	4	14173	regulation of lymphocyte activation	SLA2|HGF
+33028	8.4650E-4	2.6181E-2	1	3	4	14173	myeloid cell apoptosis	HGF
+51450	8.4650E-4	2.6181E-2	1	3	4	14173	myoblast proliferation	HGF
+45079	8.4650E-4	2.6181E-2	1	3	4	14173	negative regulation of chemokine biosynthetic process	HGF
+1780	8.4650E-4	2.6181E-2	1	3	4	14173	neutrophil homeostasis	HGF
+1781	8.4650E-4	2.6181E-2	1	3	4	14173	neutrophil apoptosis	HGF
+70102	8.4650E-4	2.6181E-2	1	3	4	14173	interleukin-6-mediated signaling pathway	HGF
+2694	9.7804E-4	2.8233E-2	2	183	4	14173	regulation of leukocyte activation	SLA2|HGF
+50865	1.1096E-3	2.8745E-2	2	195	4	14173	regulation of cell activation	SLA2|HGF
+32966	1.1285E-3	2.8745E-2	1	4	4	14173	negative regulation of collagen biosynthetic process	HGF
+2251	1.4105E-3	2.9084E-2	1	5	4	14173	organ or tissue specific immune response	HGF
+51024	1.4105E-3	2.9084E-2	1	5	4	14173	positive regulation of immunoglobulin secretion	HGF
+10713	1.4105E-3	2.9084E-2	1	5	4	14173	negative regulation of collagen metabolic process	HGF
+44252	1.4105E-3	2.9084E-2	1	5	4	14173	negative regulation of multicellular organismal metabolic process	HGF
+50776	1.6753E-3	3.0535E-2	2	240	4	14173	regulation of immune response	SLA2|HGF
+2262	1.6925E-3	3.0535E-2	1	6	4	14173	myeloid cell homeostasis	HGF
+60665	1.6925E-3	3.0535E-2	1	6	4	14173	regulation of branching involved in salivary gland morphogenesis by mesenchymal-epithelial signaling	HGF
+2548	1.9743E-3	3.2564E-2	1	7	4	14173	monocyte chemotaxis	HGF
+23034	2.0643E-3	3.2564E-2	3	1162	4	14173	intracellular signaling pathway	ITK|SLA2|HGF
+2684	2.0998E-3	3.2564E-2	2	269	4	14173	positive regulation of immune system process	SLA2|HGF
+48584	2.1464E-3	3.2564E-2	2	272	4	14173	positive regulation of response to stimulus	SLA2|HGF
+1775	2.2251E-3	3.2564E-2	2	277	4	14173	cell activation	SLA2|HGF
+60638	2.2561E-3	3.2564E-2	1	8	4	14173	mesenchymal-epithelial cell signaling	HGF
+23052	2.3539E-3	3.2879E-2	4	3123	4	14173	signaling	ITK|RASSF5|SLA2|HGF
+51023	2.5379E-3	3.4341E-2	1	9	4	14173	regulation of immunoglobulin secretion	HGF
+60693	2.8196E-3	3.6996E-2	1	10	4	14173	regulation of branching involved in salivary gland morphogenesis	HGF
+42517	3.1012E-3	3.7301E-2	1	11	4	14173	positive regulation of tyrosine phosphorylation of Stat3 protein	HGF
+45073	3.1012E-3	3.7301E-2	1	11	4	14173	regulation of chemokine biosynthetic process	HGF
+50829	3.1012E-3	3.7301E-2	1	11	4	14173	defense response to Gram-negative bacterium	HGF
+2446	3.3828E-3	3.8546E-2	1	12	4	14173	neutrophil mediated immunity	HGF
+32494	3.3828E-3	3.8546E-2	1	12	4	14173	response to peptidoglycan	HGF
+33138	3.9457E-3	4.1671E-2	1	14	4	14173	positive regulation of peptidyl-serine phosphorylation	HGF
+10888	3.9457E-3	4.1671E-2	1	14	4	14173	negative regulation of lipid storage	HGF
+50869	3.9457E-3	4.1671E-2	1	14	4	14173	negative regulation of B cell activation	SLA2
+10574	4.2271E-3	4.3207E-2	1	15	4	14173	regulation of vascular endothelial growth factor production	HGF
+45599	4.5085E-3	4.3207E-2	1	16	4	14173	negative regulation of fat cell differentiation	HGF
+32722	4.5085E-3	4.3207E-2	1	16	4	14173	positive regulation of chemokine production	HGF
+32965	4.5085E-3	4.3207E-2	1	16	4	14173	regulation of collagen biosynthetic process	HGF
+42516	4.7897E-3	4.3207E-2	1	17	4	14173	regulation of tyrosine phosphorylation of Stat3 protein	HGF
+2675	4.7897E-3	4.3207E-2	1	17	4	14173	positive regulation of acute inflammatory response	HGF
+10712	4.7897E-3	4.3207E-2	1	17	4	14173	regulation of collagen metabolic process	HGF
+2682	5.2910E-3	4.5440E-2	2	430	4	14173	regulation of immune system process	SLA2|HGF
+2444	5.3521E-3	4.5440E-2	1	19	4	14173	myeloid leukocyte mediated immunity	HGF
+31018	5.3521E-3	4.5440E-2	1	19	4	14173	endocrine pancreas development	HGF
+33135	5.6332E-3	4.5730E-2	1	20	4	14173	regulation of peptidyl-serine phosphorylation	HGF
+44246	5.6332E-3	4.5730E-2	1	20	4	14173	regulation of multicellular organismal metabolic process	HGF
+42036	5.9142E-3	4.5730E-2	1	21	4	14173	negative regulation of cytokine biosynthetic process	HGF
+50848	5.9142E-3	4.5730E-2	1	21	4	14173	regulation of calcium-mediated signaling	SLA2
+1837	5.9142E-3	4.5730E-2	1	21	4	14173	epithelial to mesenchymal transition	HGF
+51607	6.4761E-3	4.6736E-2	1	23	4	14173	defense response to virus	HGF
+32755	6.4761E-3	4.6736E-2	1	23	4	14173	positive regulation of interleukin-6 production	HGF
+42531	6.4761E-3	4.6736E-2	1	23	4	14173	positive regulation of tyrosine phosphorylation of STAT protein	HGF
+2690	6.4761E-3	4.6736E-2	1	23	4	14173	positive regulation of leukocyte chemotaxis	HGF
+32642	6.7570E-3	4.7190E-2	1	24	4	14173	regulation of chemokine production	HGF
+2637	6.7570E-3	4.7190E-2	1	24	4	14173	regulation of immunoglobulin production	HGF
+45669	7.3185E-3	4.8732E-2	1	26	4	14173	positive regulation of osteoblast differentiation	HGF
+2673	7.5992E-3	4.8732E-2	1	27	4	14173	regulation of acute inflammatory response	HGF
+46427	7.5992E-3	4.8732E-2	1	27	4	14173	positive regulation of JAK-STAT cascade	HGF
+45598	7.8798E-3	4.8732E-2	1	28	4	14173	regulation of fat cell differentiation	HGF
+10883	7.8798E-3	4.8732E-2	1	28	4	14173	regulation of lipid storage	HGF
+2688	7.8798E-3	4.8732E-2	1	28	4	14173	regulation of leukocyte chemotaxis	HGF
+50830	7.8798E-3	4.8732E-2	1	28	4	14173	defense response to Gram-positive bacterium	HGF
+48583	7.9355E-3	4.8732E-2	2	529	4	14173	regulation of response to stimulus	SLA2|HGF
+7165	8.3579E-3	4.8732E-2	3	1877	4	14173	signal transduction	ITK|RASSF5|HGF
+48661	8.4408E-3	4.8732E-2	1	30	4	14173	positive regulation of smooth muscle cell proliferation	HGF
+42509	8.4408E-3	4.8732E-2	1	30	4	14173	regulation of tyrosine phosphorylation of STAT protein	HGF
+60688	8.4408E-3	4.8732E-2	1	30	4	14173	regulation of morphogenesis of a branching structure	HGF
+30168	8.4408E-3	4.8732E-2	1	30	4	14173	platelet activation	HGF
+2687	8.7213E-3	4.8872E-2	1	31	4	14173	positive regulation of leukocyte migration	HGF
+45727	9.0017E-3	4.8872E-2	1	32	4	14173	positive regulation of translation	HGF
+6915	9.1783E-3	4.8872E-2	2	570	4	14173	apoptosis	RASSF5|HGF
+45768	9.2820E-3	4.8872E-2	1	33	4	14173	positive regulation of anti-apoptosis	HGF
+1776	9.2820E-3	4.8872E-2	1	33	4	14173	leukocyte homeostasis	HGF
+12501	9.4943E-3	4.8872E-2	2	580	4	14173	programmed cell death	RASSF5|HGF
+8543	9.5622E-3	4.8872E-2	1	34	4	14173	fibroblast growth factor receptor signaling pathway	HGF
+30072	9.8424E-3	4.8872E-2	1	35	4	14173	peptide hormone secretion	HGF
+10558	9.9126E-3	4.8872E-2	2	593	4	14173	negative regulation of macromolecule biosynthetic process	SLA2|HGF
+31100	1.0123E-2	4.8872E-2	1	36	4	14173	organ regeneration	HGF
+2790	1.0123E-2	4.8872E-2	1	36	4	14173	peptide secretion	HGF
+50851	1.0123E-2	4.8872E-2	1	36	4	14173	antigen receptor-mediated signaling pathway	SLA2
+46425	1.0123E-2	4.8872E-2	1	36	4	14173	regulation of JAK-STAT cascade	HGF
+31327	1.0506E-2	4.8872E-2	2	611	4	14173	negative regulation of cellular biosynthetic process	SLA2|HGF
+50871	1.0683E-2	4.8872E-2	1	38	4	14173	positive regulation of B cell activation	HGF
+9890	1.0842E-2	4.8872E-2	2	621	4	14173	negative regulation of biosynthetic process	SLA2|HGF
+6955	1.0842E-2	4.8872E-2	2	621	4	14173	immune response	SLA2|HGF
+6952	1.0944E-2	4.8872E-2	2	624	4	14173	defense response	ITK|HGF
+6953	1.0963E-2	4.8872E-2	1	39	4	14173	acute-phase response	HGF
+45767	1.1243E-2	4.8872E-2	1	40	4	14173	regulation of anti-apoptosis	HGF
+46879	1.1243E-2	4.8872E-2	1	40	4	14173	hormone secretion	HGF
+2700	1.1243E-2	4.8872E-2	1	40	4	14173	regulation of production of molecular mediator of immune response	HGF
+2685	1.1243E-2	4.8872E-2	1	40	4	14173	regulation of leukocyte migration	HGF
+31016	1.1522E-2	4.8872E-2	1	41	4	14173	pancreas development	HGF
+50729	1.1522E-2	4.8872E-2	1	41	4	14173	positive regulation of inflammatory response	HGF
+23033	1.1569E-2	4.8872E-2	3	2101	4	14173	signaling pathway	ITK|SLA2|HGF
+2429	1.1802E-2	4.8872E-2	1	42	4	14173	immune response-activating cell surface receptor signaling pathway	SLA2
+50921	1.1802E-2	4.8872E-2	1	42	4	14173	positive regulation of chemotaxis	HGF
+6468	1.1988E-2	4.8872E-2	2	654	4	14173	protein amino acid phosphorylation	ITK|HGF
+30595	1.2082E-2	4.8872E-2	1	43	4	14173	leukocyte chemotaxis	HGF
+32675	1.2082E-2	4.8872E-2	1	43	4	14173	regulation of interleukin-6 production	HGF
+9914	1.2362E-2	4.8872E-2	1	44	4	14173	hormone transport	HGF
+42102	1.2362E-2	4.8872E-2	1	44	4	14173	positive regulation of T cell proliferation	HGF
+23060	1.2445E-2	4.8872E-2	3	2155	4	14173	signal transmission	ITK|RASSF5|HGF
+23046	1.2445E-2	4.8872E-2	3	2155	4	14173	signaling process	ITK|RASSF5|HGF
+48660	1.2641E-2	4.8872E-2	1	45	4	14173	regulation of smooth muscle cell proliferation	HGF
+15833	1.2641E-2	4.8872E-2	1	45	4	14173	peptide transport	HGF
+2768	1.2921E-2	4.9510E-2	1	46	4	14173	immune response-regulating cell surface receptor signaling pathway	SLA2
+45667	1.3480E-2	4.9886E-2	1	48	4	14173	regulation of osteoblast differentiation	HGF
+60326	1.3480E-2	4.9886E-2	1	48	4	14173	cell chemotaxis	HGF
+48520	1.3480E-2	4.9886E-2	1	48	4	14173	positive regulation of behavior	HGF
+50714	1.3480E-2	4.9886E-2	1	48	4	14173	positive regulation of protein secretion	HGF

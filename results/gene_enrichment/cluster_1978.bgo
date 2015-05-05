@@ -1,0 +1,163 @@
+File created with bingo (c) on May 4, 2015 at 9:10:19 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://87.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://87.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+CYP3A4	CYP3A5	CYP3A7	PCSK6	PROX1	
+
+No annotations were retrieved for the following entities:
+PRR16	PNMA2	REP15	FAM110B	SIDT1	SHE	TMEM140	CCDC141	C1ORF75	PPAPDC3	GAB3	WDR76	NLF1	NLF2	TMEM185B	C9ORF46	LOC389199	HFM1	MTERFD1	TMEFF2	C7ORF31	NUDT18	NUDT15	FLJ21963	PRKCDBP	PIK3IP1	FBXL8	C14ORF101	BIN2	LQK1	LMNB1	C1ORF131	FAM19A3	MAGEA3	C1ORF135	CD68	KBTBD3	LYL1	CD69	FAM92A1	HLA-DRB6	SMA4	C1ORF59	C4ORF12	FLJ12993	C18ORF51	GPR156	CXORF22	CCDC83	NCKAP1L	SMYD2	MGC34800	C18ORF54	CAMK2N2	SYNGR4	GPR153	FAM64A	C1ORF64	WSCD1	LOC441150	ALG10	MAP6	DHX40	BTBD11	GREB1	LOC347273	C22ORF27	SPINK6	DLEU1	MGC45922	EPSTI1	FBXL17	ZCCHC13	KIAA1324L	LOC91461	ANKRD21	METTL2A	LRRC25	BRWD3	CCDC109B	DOK6	YPEL1	P15RS	LRRC39	KIAA1432	KIRREL	KLC1	RFPL2	THAP2	C12ORF5	ARMCX1	GALNT13	GALNT14	C1ORF162	ANKRD45	P2RY10	PRELID2	LAYN	PSITPTE22	SVIP	FCGR2A	KIAA1545	MAGED4B	FAM126B	TEX11	CXORF9	IL17RD	MKRN3	MMRN2	FAM49A	C8ORF46	TRIM43	MOP-1	SLMO2	RP11-679B17.1	SPATA22	MTUS1	CT45-6	MS4A7	C6ORF48	LOC201175	FAM118B	CLEC12B	CD300LF	FAM86A	GBP1	CYORF15B	CCDC18	LRIG1	ASTN2	EFCAB1	OTUD7A	RP13-36C9.6	HAVCR2	LOC221091	PHACTR3	KIAA1586	ZMYM5	SPPL2B	LOC439951	DOCK5	TRAF3IP3	FLJ45717	CLEC14A	C13ORF18	UBXD3	C5ORF20	DPY19L2	TSPAN10	CELP	TRIM7	EVI2B	UNQ6975	LAIR1	HMGCLL1	C17ORF60	PPAP2C	MYCT1	GPRASP2	TMEM71	FAM62C	FLJ37078	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	C11ORF70	LOC133874	HYLS1	KIAA0825	LOC201725	PLVAP	FLJ37464	N4BP3	C1QTNF5	C2ORF15	MARVELD3	C9ORF58	MS4A6A	TMEM45A	MGC102966	MS4A4A	C13ORF27	RNASE1	GIMAP6	CENPQ	C9ORF62	TMC5	GIMAP8	LOC152485	TMEM169	CENPK	SAMSN1	TMEM55A	GIMAP1	C3ORF52	C3ORF59	MYPN	ARPM1	LOC399947	METRNL	C10ORF30	C6ORF173	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+9822	2.9867E-7	1.0693E-4	2	3	5	14173	alkaloid catabolic process	CYP3A4|CYP3A5
+9820	2.0895E-6	3.7403E-4	2	7	5	14173	alkaloid metabolic process	CYP3A4|CYP3A5
+70989	4.4757E-6	4.0057E-4	2	10	5	14173	oxidative demethylation	CYP3A4|CYP3A5
+42737	4.4757E-6	4.0057E-4	2	10	5	14173	drug catabolic process	CYP3A4|CYP3A5
+70988	2.7397E-5	1.6347E-3	2	24	5	14173	demethylation	CYP3A4|CYP3A5
+17144	2.7397E-5	1.6347E-3	2	24	5	14173	drug metabolic process	CYP3A4|CYP3A5
+19748	1.7480E-4	8.9400E-3	2	60	5	14173	secondary metabolic process	CYP3A4|CYP3A5
+44270	2.1814E-4	9.7618E-3	2	67	5	14173	cellular nitrogen compound catabolic process	CYP3A4|CYP3A5
+60414	3.5278E-4	1.0822E-2	1	1	5	14173	aorta smooth muscle tissue morphogenesis	PROX1
+60421	3.5278E-4	1.0822E-2	1	1	5	14173	positive regulation of heart growth	PROX1
+43049	3.5278E-4	1.0822E-2	1	1	5	14173	otic placode formation	PROX1
+42445	5.7728E-4	1.0822E-2	2	109	5	14173	hormone metabolic process	CYP3A4|PCSK6
+55005	7.0547E-4	1.0822E-2	1	2	5	14173	ventricular cardiac myofibril development	PROX1
+46619	7.0547E-4	1.0822E-2	1	2	5	14173	optic placode formation involved in camera-type eye	PROX1
+60838	7.0547E-4	1.0822E-2	1	2	5	14173	lymphatic endothelial cell fate commitment	PROX1
+1743	7.0547E-4	1.0822E-2	1	2	5	14173	optic placode formation	PROX1
+60850	7.0547E-4	1.0822E-2	1	2	5	14173	regulation of transcription involved in cell fate commitment	PROX1
+60849	7.0547E-4	1.0822E-2	1	2	5	14173	regulation of transcription involved in lymphatic endothelial cell fate commitment	PROX1
+32898	7.0547E-4	1.0822E-2	1	2	5	14173	neurotrophin production	PCSK6
+32902	7.0547E-4	1.0822E-2	1	2	5	14173	nerve growth factor production	PCSK6
+70858	7.0547E-4	1.0822E-2	1	2	5	14173	negative regulation of bile acid biosynthetic process	PROX1
+60059	7.0547E-4	1.0822E-2	1	2	5	14173	embryonic retina morphogenesis in camera-type eye	PROX1
+6730	7.7050E-4	1.0822E-2	2	126	5	14173	one-carbon metabolic process	CYP3A4|CYP3A5
+55114	8.6779E-4	1.0822E-2	3	643	5	14173	oxidation reduction	CYP3A4|CYP3A5|CYP3A7
+48845	1.0581E-3	1.0822E-2	1	3	5	14173	venous blood vessel morphogenesis	PROX1
+72148	1.0581E-3	1.0822E-2	1	3	5	14173	epithelial cell fate commitment	PROX1
+60839	1.0581E-3	1.0822E-2	1	3	5	14173	endothelial cell fate commitment	PROX1
+60836	1.0581E-3	1.0822E-2	1	3	5	14173	lymphatic endothelial cell differentiation	PROX1
+60298	1.0581E-3	1.0822E-2	1	3	5	14173	positive regulation of sarcomere organization	PROX1
+45750	1.0581E-3	1.0822E-2	1	3	5	14173	positive regulation of S phase of mitotic cell cycle	PROX1
+71699	1.0581E-3	1.0822E-2	1	3	5	14173	olfactory placode morphogenesis	PROX1
+71698	1.0581E-3	1.0822E-2	1	3	5	14173	olfactory placode development	PROX1
+70309	1.0581E-3	1.0822E-2	1	3	5	14173	lens fiber cell morphogenesis	PROX1
+70857	1.0581E-3	1.0822E-2	1	3	5	14173	regulation of bile acid biosynthetic process	PROX1
+30910	1.0581E-3	1.0822E-2	1	3	5	14173	olfactory placode formation	PROX1
+10817	1.1187E-3	1.1125E-2	2	152	5	14173	regulation of hormone levels	CYP3A4|PCSK6
+55009	1.4105E-3	1.1222E-2	1	4	5	14173	atrial cardiac muscle tissue morphogenesis	PROX1
+3228	1.4105E-3	1.1222E-2	1	4	5	14173	atrial cardiac muscle tissue development	PROX1
+60214	1.4105E-3	1.1222E-2	1	4	5	14173	endocardium formation	PROX1
+60297	1.4105E-3	1.1222E-2	1	4	5	14173	regulation of sarcomere organization	PROX1
+71599	1.4105E-3	1.1222E-2	1	4	5	14173	otic vesicle development	PROX1
+71600	1.4105E-3	1.1222E-2	1	4	5	14173	otic vesicle morphogenesis	PROX1
+30916	1.4105E-3	1.1222E-2	1	4	5	14173	otic vesicle formation	PROX1
+70365	1.4105E-3	1.1222E-2	1	4	5	14173	hepatocyte differentiation	PROX1
+32455	1.4105E-3	1.1222E-2	1	4	5	14173	nerve growth factor processing	PCSK6
+3160	1.7629E-3	1.2375E-2	1	5	5	14173	endocardium morphogenesis	PROX1
+3157	1.7629E-3	1.2375E-2	1	5	5	14173	endocardium development	PROX1
+60841	1.7629E-3	1.2375E-2	1	5	5	14173	venous blood vessel development	PROX1
+60900	1.7629E-3	1.2375E-2	1	5	5	14173	embryonic camera-type eye formation	PROX1
+30240	1.7629E-3	1.2375E-2	1	5	5	14173	skeletal muscle thin filament assembly	PROX1
+1946	1.7629E-3	1.2375E-2	1	5	5	14173	lymphangiogenesis	PROX1
+8202	2.0819E-3	1.2621E-2	2	208	5	14173	steroid metabolic process	CYP3A4|CYP3A5
+55003	2.1152E-3	1.2621E-2	1	6	5	14173	cardiac myofibril assembly	PROX1
+3230	2.1152E-3	1.2621E-2	1	6	5	14173	cardiac atrium development	PROX1
+3209	2.1152E-3	1.2621E-2	1	6	5	14173	cardiac atrium morphogenesis	PROX1
+45071	2.1152E-3	1.2621E-2	1	6	5	14173	negative regulation of viral genome replication	PROX1
+60412	2.1152E-3	1.2621E-2	1	6	5	14173	ventricular septum morphogenesis	PROX1
+16098	2.1152E-3	1.2621E-2	1	6	5	14173	monoterpenoid metabolic process	CYP3A4
+70307	2.1152E-3	1.2621E-2	1	6	5	14173	lens fiber cell development	PROX1
+14866	2.1152E-3	1.2621E-2	1	6	5	14173	skeletal myofibril assembly	PROX1
+46622	2.4674E-3	1.3184E-2	1	7	5	14173	positive regulation of organ growth	PROX1
+42359	2.4674E-3	1.3184E-2	1	7	5	14173	vitamin D metabolic process	CYP3A4
+10894	2.4674E-3	1.3184E-2	1	7	5	14173	negative regulation of steroid biosynthetic process	PROX1
+60788	2.4674E-3	1.3184E-2	1	7	5	14173	ectodermal placode formation	PROX1
+48525	2.4674E-3	1.3184E-2	1	7	5	14173	negative regulation of viral reproduction	PROX1
+71697	2.4674E-3	1.3184E-2	1	7	5	14173	ectodermal placode morphogenesis	PROX1
+71696	2.4674E-3	1.3184E-2	1	7	5	14173	ectodermal placode development	PROX1
+55015	2.8195E-3	1.4420E-2	1	8	5	14173	ventricular cardiac muscle cell development	PROX1
+42738	2.8195E-3	1.4420E-2	1	8	5	14173	exogenous drug catabolic process	CYP3A4
+1945	2.8195E-3	1.4420E-2	1	8	5	14173	lymph vessel development	PROX1
+60411	3.5234E-3	1.7045E-2	1	10	5	14173	cardiac septum morphogenesis	PROX1
+48745	3.5234E-3	1.7045E-2	1	10	5	14173	smooth muscle tissue development	PROX1
+43584	3.5234E-3	1.7045E-2	1	10	5	14173	nose development	PROX1
+21516	3.5234E-3	1.7045E-2	1	10	5	14173	dorsal spinal cord development	PROX1
+3281	3.8751E-3	1.8017E-2	1	11	5	14173	ventricular septum development	PROX1
+55012	3.8751E-3	1.8017E-2	1	11	5	14173	ventricular cardiac muscle cell differentiation	PROX1
+70306	3.8751E-3	1.8017E-2	1	11	5	14173	lens fiber cell differentiation	PROX1
+2089	4.2268E-3	1.8915E-2	1	12	5	14173	lens morphogenesis in camera-type eye	PROX1
+45737	4.2268E-3	1.8915E-2	1	12	5	14173	positive regulation of cyclin-dependent protein kinase activity	PROX1
+45939	4.2268E-3	1.8915E-2	1	12	5	14173	negative regulation of steroid metabolic process	PROX1
+48596	4.5784E-3	2.0236E-2	1	13	5	14173	embryonic camera-type eye morphogenesis	PROX1
+55006	4.9299E-3	2.1011E-2	1	14	5	14173	cardiac cell development	PROX1
+55013	4.9299E-3	2.1011E-2	1	14	5	14173	cardiac muscle cell development	PROX1
+60420	4.9299E-3	2.1011E-2	1	14	5	14173	regulation of heart growth	PROX1
+8209	5.2813E-3	2.1985E-2	1	15	5	14173	androgen metabolic process	CYP3A4
+45069	5.2813E-3	2.1985E-2	1	15	5	14173	regulation of viral genome replication	PROX1
+3279	5.6326E-3	2.2657E-2	1	16	5	14173	cardiac septum development	PROX1
+48844	5.6326E-3	2.2657E-2	1	16	5	14173	artery morphogenesis	PROX1
+16486	5.6326E-3	2.2657E-2	1	16	5	14173	peptide hormone processing	PCSK6
+31076	5.9838E-3	2.3285E-2	1	17	5	14173	embryonic camera-type eye development	PROX1
+48048	5.9838E-3	2.3285E-2	1	17	5	14173	embryonic eye morphogenesis	PROX1
+30239	5.9838E-3	2.3285E-2	1	17	5	14173	myofibril assembly	PROX1
+7090	6.3349E-3	2.3624E-2	1	18	5	14173	regulation of S phase of mitotic cell cycle	PROX1
+51055	6.3349E-3	2.3624E-2	1	18	5	14173	negative regulation of lipid biosynthetic process	PROX1
+60840	6.3349E-3	2.3624E-2	1	18	5	14173	artery development	PROX1
+60042	6.3349E-3	2.3624E-2	1	18	5	14173	retina morphogenesis in camera-type eye	PROX1
+48639	6.6859E-3	2.4676E-2	1	19	5	14173	positive regulation of developmental growth	PROX1
+45931	7.3876E-3	2.6715E-2	1	21	5	14173	positive regulation of mitotic cell cycle	PROX1
+45446	7.3876E-3	2.6715E-2	1	21	5	14173	endothelial cell differentiation	PROX1
+55010	7.7383E-3	2.7429E-2	1	22	5	14173	ventricular cardiac muscle tissue morphogenesis	PROX1
+3229	7.7383E-3	2.7429E-2	1	22	5	14173	ventricular cardiac muscle tissue development	PROX1
+31032	8.0889E-3	2.8115E-2	1	23	5	14173	actomyosin structure organization	PROX1
+3158	8.0889E-3	2.8115E-2	1	23	5	14173	endothelium development	PROX1
+55007	8.4394E-3	2.8503E-2	1	24	5	14173	cardiac muscle cell differentiation	PROX1
+33261	8.4394E-3	2.8503E-2	1	24	5	14173	regulation of S phase	PROX1
+6706	8.4394E-3	2.8503E-2	1	24	5	14173	steroid catabolic process	CYP3A4
+3208	8.7898E-3	2.9136E-2	1	25	5	14173	cardiac ventricle morphogenesis	PROX1
+10595	8.7898E-3	2.9136E-2	1	25	5	14173	positive regulation of endothelial cell migration	PROX1
+55008	9.4903E-3	3.0608E-2	1	27	5	14173	cardiac muscle tissue morphogenesis	PROX1
+51153	9.4903E-3	3.0608E-2	1	27	5	14173	regulation of striated muscle cell differentiation	PROX1
+60415	9.4903E-3	3.0608E-2	1	27	5	14173	muscle tissue morphogenesis	PROX1
+50792	9.8404E-3	3.1176E-2	1	28	5	14173	regulation of viral reproduction	PROX1
+50810	9.8404E-3	3.1176E-2	1	28	5	14173	regulation of steroid biosynthetic process	PROX1
+30510	1.0540E-2	3.3100E-2	1	30	5	14173	regulation of BMP signaling pathway	PCSK6
+46620	1.0890E-2	3.3322E-2	1	31	5	14173	regulation of organ growth	PROX1
+3231	1.0890E-2	3.3322E-2	1	31	5	14173	cardiac ventricle development	PROX1
+10927	1.0890E-2	3.3322E-2	1	31	5	14173	cellular component assembly involved in morphogenesis	PROX1
+1709	1.1240E-2	3.3814E-2	1	32	5	14173	cell fate determination	PROX1
+1938	1.1240E-2	3.3814E-2	1	32	5	14173	positive regulation of endothelial cell proliferation	PROX1
+3206	1.1939E-2	3.5323E-2	1	34	5	14173	cardiac chamber morphogenesis	PROX1
+35051	1.1939E-2	3.5323E-2	1	34	5	14173	cardiac cell differentiation	PROX1
+2088	1.2288E-2	3.6059E-2	1	35	5	14173	lens development in camera-type eye	PROX1
+6721	1.2638E-2	3.6783E-2	1	36	5	14173	terpenoid metabolic process	CYP3A4
+60041	1.3336E-2	3.8502E-2	1	38	5	14173	retina development in camera-type eye	PROX1
+51147	1.3685E-2	3.8577E-2	1	39	5	14173	regulation of muscle cell differentiation	PROX1
+3205	1.3685E-2	3.8577E-2	1	39	5	14173	cardiac chamber development	PROX1
+6775	1.3685E-2	3.8577E-2	1	39	5	14173	fat-soluble vitamin metabolic process	CYP3A4
+45833	1.4034E-2	3.9251E-2	1	40	5	14173	negative regulation of lipid metabolic process	PROX1
+31016	1.4383E-2	3.9608E-2	1	41	5	14173	pancreas development	PROX1
+21510	1.4383E-2	3.9608E-2	1	41	5	14173	spinal cord development	PROX1
+10594	1.4731E-2	4.0258E-2	1	42	5	14173	regulation of endothelial cell migration	PROX1
+90068	1.5080E-2	4.0899E-2	1	43	5	14173	positive regulation of cell cycle process	PROX1
+19218	1.5429E-2	4.1529E-2	1	44	5	14173	regulation of steroid metabolic process	PROX1
+51495	1.6125E-2	4.3081E-2	1	46	5	14173	positive regulation of cytoskeleton organization	PROX1
+1936	1.6474E-2	4.3685E-2	1	47	5	14173	regulation of endothelial cell proliferation	PROX1
+55002	1.7170E-2	4.5197E-2	1	49	5	14173	striated muscle cell development	PROX1
+48638	1.7518E-2	4.5444E-2	1	50	5	14173	regulation of developmental growth	PROX1
+48593	1.7518E-2	4.5444E-2	1	50	5	14173	camera-type eye morphogenesis	PROX1
+42472	1.8561E-2	4.7804E-2	1	53	5	14173	inner ear morphogenesis	PROX1
+43524	1.9256E-2	4.9240E-2	1	55	5	14173	negative regulation of neuron apoptosis	PCSK6
+55001	1.9603E-2	4.9422E-2	1	56	5	14173	muscle cell development	PROX1
+46890	1.9603E-2	4.9422E-2	1	56	5	14173	regulation of lipid biosynthetic process	PROX1
+6720	1.9950E-2	4.9946E-2	1	57	5	14173	isoprenoid metabolic process	CYP3A4
