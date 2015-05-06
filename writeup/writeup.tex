@@ -353,14 +353,14 @@ To further validate and compare the generated modules, we used a tool in Cytosca
 
 \section*{Discussion}
 %%%% LING'S STUFF - NEEDS SOME EDITS
-This is the first study to examine the level of consensus of the inferred GRN by two different methods, MERLIN vs. SBM, using the same input data. We found relatively high correlations between the two GRNs.
-Unlike hierarchical clustering, which is rigid and difficult to tune, our model can adapt to user constraints in a number of ways, stochastic Block Model (SBM) is more flexible and robust. The input to MERLIN or SBM is a binary matrix, which could be as simple as correlations, or more compliated user-defined models. While some may argue that this divides the problem into two parts that may be better suited together, we provide a level of abstraction for generating this binary matrix and clustering. Furthermore, in SBM, the transition matrix was data-driven, priors on cluster assignments. It is possible to predefine some of these quantities given prior information, allowing for a richer set of models suited to these purposes.
+We examined level of consensus of the inferred GRN by two different methods, MERLIN vs. SBM, using the same input data. We found relatively high correlations between the two GRNs.
+Unlike hierarchical clustering, which is rigid and difficult to tune, our model can adapt to user constraints in a number of ways, Stochastic Block Model (SBM) is more flexible and robust. The input to MERLIN or SBM is a binary matrix, which could be as simple as correlations, or more complicated user-defined models. While some may argue that this divides the problem into two parts that may be better suited together, we provide a level of abstraction for generating this binary matrix and clustering. Furthermore, in SBM, the transition matrix was data-driven, priors on cluster assignments. It is possible to pre-define some of these quantities given prior information, allowing for a richer set of models suited to these purposes.
 As the field of network inference in biology is still in its infancy, our study faced several limitations:
 \begin{itemize}
 \item Using microarray data to determine exome-wide expression in cancer excludes any genes that are somatically mutated to the point where they would not bind the probe;
 \item Lack of normal tissue or healthy donor controls for comparison;
 \item Validating edges using ChipSeq data, it is unclear whether transcription factors interact with a specific set of genes that is conserved across cell types and disease states. If they differ we would fail to validate true edges important to breast cancer;
-\item Lack of true gold standard. However, studies like this one will contribute new knowledge regarding gene regulatory networks that can provide a jumping-off point to investigate further in the lab, thus it is studies like these that will stimulate directed research to construct a gold standard in understanding gene-regulatory networks.
+\item Lack of true gold standard. Although chip-seq data and gene ontology data is useful, novel pathways can only be verified with further experimentation. 
 \end{itemize}
 	
 
