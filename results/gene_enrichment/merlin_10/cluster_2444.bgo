@@ -1,0 +1,35 @@
+File created with bingo (c) on May 5, 2015 at 1:46:39 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+UNQ6975	ABCG8	C18ORF51	GP5	HAL	ZNF367	TMEM169	SMA4	FLJ32569	MKRN3	PNLIPRP3	
+
+No annotations were retrieved for the following entities:
+C18ORF51	UNQ6975	CT45-6	LOC91461	C22ORF27	TMEM169	MKRN3	TMEM55A	C1ORF64	TRIM43	ARPM1	SMA4	LOC399947	C12ORF5	RP13-36C9.6	MTUS1	BTBD11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+60457	8.4391E-4	2.8693E-2	1	2	6	14217	negative regulation of digestive system process	ABCG8
+10949	8.4391E-4	2.8693E-2	1	2	6	14217	negative regulation of intestinal phytosterol absorption	ABCG8
+45796	8.4391E-4	2.8693E-2	1	2	6	14217	negative regulation of intestinal cholesterol absorption	ABCG8
+30300	2.5300E-3	4.2956E-2	1	6	6	14217	regulation of intestinal cholesterol absorption	ABCG8
+32372	2.9511E-3	4.2956E-2	1	7	6	14217	negative regulation of sterol transport	ABCG8
+32375	2.9511E-3	4.2956E-2	1	7	6	14217	negative regulation of cholesterol transport	ABCG8
+30299	3.7929E-3	4.2956E-2	1	9	6	14217	intestinal cholesterol absorption	ABCG8
+9077	4.2136E-3	4.2956E-2	1	10	6	14217	histidine family amino acid catabolic process	HAL
+6548	4.2136E-3	4.2956E-2	1	10	6	14217	histidine catabolic process	HAL
+44241	4.6342E-3	4.2956E-2	1	11	6	14217	lipid digestion	ABCG8
+9075	5.0546E-3	4.2956E-2	1	12	6	14217	histidine family amino acid metabolic process	HAL
+6547	5.0546E-3	4.2956E-2	1	12	6	14217	histidine metabolic process	HAL
+44058	5.4748E-3	4.2956E-2	1	13	6	14217	regulation of digestive system process	ABCG8
+32369	6.3149E-3	4.6008E-2	1	15	6	14217	negative regulation of lipid transport	ABCG8
+50892	7.1544E-3	4.8650E-2	1	17	6	14217	intestinal absorption	ABCG8

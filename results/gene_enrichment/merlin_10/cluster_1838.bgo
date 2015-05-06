@@ -1,0 +1,47 @@
+File created with bingo (c) on May 5, 2015 at 1:47:04 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+GIMAP2	ETV7	HLA-A	PKIB	HLA-B	HLA-E	DDO	AMPD3	HLA-G	PSMB9	B2M	HLA-F	CFHR3	BTN3A1	TAP1	PLA2G7	JAZF1	JAK2	BTN3A3	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	CXORF9	SHE	MKRN3	MMRN2	TMEM140	C1ORF75	C8ORF46	TRIM43	GAB3	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	TMEM185B	LOC389199	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	C7ORF31	C6ORF48	GBP5	NUDT12	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	BTN3A3	FAM38B	BIN2	GBP1	CYORF15B	CYORF15A	CCDC18	LMNB1	C20ORF174	C1ORF131	C1ORF135	CD68	LYL1	CD69	FAM92A1	OTUD7A	SMA4	HLA-DRB6	WDHD1	C1ORF59	RP13-36C9.6	C4ORF12	GPR156	C18ORF51	HAVCR2	FLJ45803	PALM2-AKAP2	MRPS23	KIAA1586	CCDC83	MYO1G	SPPL2B	NCKAP1L	LOC439951	SMYD2	MGC34800	CAMK2N2	C18ORF54	SYNGR4	GPR153	FAM64A	WSCD1	C1ORF64	TRAF3IP3	FLJ45717	DHX40	C20ORF94	CLEC14A	FAM54A	BTBD11	HINT3	GYPC	WASF4	GREB1	LOC347273	C5ORF20	RG9MTD2	C22ORF27	CFHR3	TSPAN10	DLEU1	CELP	MGC45922	EVI2B	C2ORF32	FBXL17	UNQ6975	LAIR1	HMGCLL1	LOC91461	C17ORF60	GPRASP2	MYCT1	FAM62C	METTL2A	C9ORF82	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	DOK7	ZNF711	COMMD2	FLJ13195	SHCBP1	C16ORF59	GPR180	CXORF57	LRRC32	P15RS	KIAA0825	LOC201725	PLVAP	ITM2A	N4BP3	KIAA1432	C12ORF48	C1QTNF5	C2ORF15	ARMCX2	ARMCX1	C12ORF5	MS4A6A	GIMAP2	MS4A4A	CENPN	RNASE1	C1ORF162	LOC541471	LOC93349	GIMAP6	C9ORF62	TMC5	CENPQ	GIMAP8	FAM9A	LOC152485	FAM9B	C1ORF218	TMEM169	SAMD3	CENPK	SAMSN1	TMEM55A	GIMAP1	FEM1C	HCG_1990170	C5ORF34	PRELID2	MYPN	PSITPTE22	ARPM1	C14ORF129	LOC399947	FCGR2A	KIAA1545	C6ORF173	FAM126B	MAGED4B	C13ORF31	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+2474	9.5128E-18	5.3557E-15	7	17	16	14217	antigen processing and presentation of peptide antigen via MHC class I	TAP1|HLA-A|HLA-B|HLA-E|HLA-G|HLA-F|B2M
+48002	2.3409E-16	6.5896E-14	7	25	16	14217	antigen processing and presentation of peptide antigen	TAP1|HLA-A|HLA-B|HLA-E|HLA-G|HLA-F|B2M
+19882	7.7656E-16	1.4573E-13	8	60	16	14217	antigen processing and presentation	TAP1|HLA-A|HLA-B|HLA-E|HLA-G|HLA-F|B2M|PSMB9
+2376	1.8408E-7	2.5910E-5	9	946	16	14217	immune system process	TAP1|HLA-A|JAK2|HLA-B|HLA-E|HLA-G|HLA-F|B2M|PSMB9
+6955	3.6616E-5	4.1230E-3	6	619	16	14217	immune response	HLA-A|HLA-B|HLA-E|HLA-G|HLA-F|B2M
+51704	1.3610E-4	1.2771E-2	6	783	16	14217	multi-organism process	TAP1|HLA-A|HLA-B|DDO|B2M|PSMB9
+1910	3.2304E-4	2.5982E-2	2	24	16	14217	regulation of leukocyte mediated cytotoxicity	TAP1|B2M
+44419	4.0177E-4	2.7604E-2	4	327	16	14217	interspecies interaction between organisms	TAP1|HLA-A|HLA-B|PSMB9
+31341	4.4127E-4	2.7604E-2	2	28	16	14217	regulation of cell killing	TAP1|B2M
+2477	1.1254E-3	4.2241E-2	1	1	16	14217	antigen processing and presentation of exogenous peptide antigen via MHC class Ib	B2M
+2481	1.1254E-3	4.2241E-2	1	1	16	14217	antigen processing and presentation of exogenous protein antigen via MHC class Ib, TAP-dependent	B2M
+42270	1.1254E-3	4.2241E-2	1	1	16	14217	protection from natural killer cell mediated cytotoxicity	TAP1
+31959	1.1254E-3	4.2241E-2	1	1	16	14217	mineralocorticoid receptor signaling pathway	JAK2
+35409	1.1254E-3	4.2241E-2	1	1	16	14217	histone H3-Y41 phosphorylation	JAK2
+35406	1.1254E-3	4.2241E-2	1	1	16	14217	histone-tyrosine phosphorylation	JAK2
+2706	1.4095E-3	4.6909E-2	2	50	16	14217	regulation of lymphocyte mediated immunity	TAP1|B2M
+50896	1.8587E-3	4.6909E-2	10	3610	16	14217	response to stimulus	TAP1|PLA2G7|HLA-A|JAK2|HLA-B|HLA-E|DDO|HLA-G|HLA-F|B2M
+2703	2.0233E-3	4.6909E-2	2	60	16	14217	regulation of leukocyte mediated immunity	TAP1|B2M
+60399	2.2496E-3	4.6909E-2	1	2	16	14217	positive regulation of growth hormone receptor signaling pathway	JAK2
+46967	2.2496E-3	4.6909E-2	1	2	16	14217	cytosol to ER transport	TAP1
+6196	2.2496E-3	4.6909E-2	1	2	16	14217	AMP catabolic process	AMPD3
+9169	2.2496E-3	4.6909E-2	1	2	16	14217	purine ribonucleoside monophosphate catabolic process	AMPD3
+9158	2.2496E-3	4.6909E-2	1	2	16	14217	ribonucleoside monophosphate catabolic process	AMPD3
+45953	2.2496E-3	4.6909E-2	1	2	16	14217	negative regulation of natural killer cell mediated cytotoxicity	TAP1
+9128	2.2496E-3	4.6909E-2	1	2	16	14217	purine nucleoside monophosphate catabolic process	AMPD3
+2428	2.2496E-3	4.6909E-2	1	2	16	14217	antigen processing and presentation of peptide antigen via MHC class Ib	B2M
+2716	2.2496E-3	4.6909E-2	1	2	16	14217	negative regulation of natural killer cell mediated immunity	TAP1

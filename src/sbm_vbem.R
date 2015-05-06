@@ -2,11 +2,11 @@
 # Variational Bayes EM for Stochastic Block Model (Latouche et al., 2010)
 
 # Set working directory
-setwd("/Users/kevintee/Downloads/Predicting-Gene-Networks/src/")
+setwd("/Users/michaelliang/cs294/Predicting-Gene-Networks/src/")
 
 # Cancer Type
 outputDir <- "../results/sbm/"
-cancer <- "KIRC"
+cancer <- "UCEC"
 
 # Read in files
 # X is in the form: Genes vs Tumor Sample
@@ -18,7 +18,7 @@ rawData <- rawData[,-1] # Remove first column
 
 # Define constants
 EPSILON <- 1e1 # Threshold for termination
-Q <- 100 # Number of classes
+Q <- 2000 # Number of classes
 N <- 8499 # Number of genes
 LAMBDA <- 0.8 # Sparsity for binary matrix
 

@@ -1,0 +1,136 @@
+File created with bingo (c) on May 5, 2015 at 1:46:52 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+HOXB3	FCER1A	HOXB4	CDX2	HOXB2	HOXB7	HOXB8	HOXB5	HOXB9	SLC4A4	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	CXORF9	SHE	MKRN3	MMRN2	TMEM140	C1ORF75	C8ORF46	TRIM43	GAB3	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	TMEM185B	LOC389199	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	C7ORF31	C6ORF48	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	BIN2	GBP1	CYORF15B	CCDC18	LMNB1	C1ORF131	C1ORF135	CD68	LYL1	CD69	FAM92A1	OTUD7A	SMA4	HLA-DRB6	RP13-36C9.6	C4ORF12	GPR156	C18ORF51	HAVCR2	KIAA1586	CCDC83	SPPL2B	NCKAP1L	LOC439951	SMYD2	MGC34800	CAMK2N2	C18ORF54	SYNGR4	GPR153	FAM64A	WSCD1	C1ORF64	TRAF3IP3	FLJ45717	DHX40	CLEC14A	BTBD11	GREB1	LOC347273	C5ORF20	C22ORF27	TSPAN10	DLEU1	CELP	MGC45922	EVI2B	FBXL17	UNQ6975	LAIR1	HMGCLL1	LOC91461	C17ORF60	GPRASP2	MYCT1	FAM62C	METTL2A	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	P15RS	KIAA0825	LOC201725	PLVAP	N4BP3	KIAA1432	C1QTNF5	C2ORF15	C12ORF5	MS4A6A	MS4A4A	RNASE1	C1ORF162	GIMAP6	C9ORF62	TMC5	CENPQ	GIMAP8	LOC152485	TMEM169	CENPK	SAMSN1	TMEM55A	GIMAP1	PRELID2	MYPN	PSITPTE22	ARPM1	LOC399947	FCGR2A	KIAA1545	C6ORF173	FAM126B	MAGED4B	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+9952	4.7686E-15	1.7167E-12	8	147	10	14217	anterior/posterior pattern formation	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+48706	1.9344E-14	3.4820E-12	7	82	10	14217	embryonic skeletal system development	HOXB3|HOXB4|HOXB2|HOXB7|HOXB8|HOXB5|HOXB9
+3002	9.0456E-14	1.0855E-11	8	211	10	14217	regionalization	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+7389	6.8495E-13	6.1645E-11	8	271	10	14217	pattern specification process	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+48704	9.0577E-13	6.5216E-11	6	60	10	14217	embryonic skeletal system morphogenesis	HOXB3|HOXB4|HOXB2|HOXB7|HOXB8|HOXB5
+43009	6.7402E-12	3.7881E-10	8	360	10	14217	chordate embryonic development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+9792	7.3657E-12	3.7881E-10	8	364	10	14217	embryonic development ending in birth or egg hatching	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+48568	1.8949E-11	8.5271E-10	7	215	10	14217	embryonic organ development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5
+48705	5.8785E-11	2.3514E-9	6	118	10	14217	skeletal system morphogenesis	HOXB3|HOXB4|HOXB2|HOXB7|HOXB8|HOXB5
+48562	1.6648E-10	5.9931E-9	6	140	10	14217	embryonic organ morphogenesis	HOXB3|HOXB4|HOXB2|HOXB7|HOXB8|HOXB5
+1501	3.9353E-10	1.2206E-8	7	331	10	14217	skeletal system development	HOXB3|HOXB4|HOXB2|HOXB7|HOXB8|HOXB5|HOXB9
+9790	4.0687E-10	1.2206E-8	8	601	10	14217	embryonic development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+48598	3.2319E-8	8.9500E-7	6	336	10	14217	embryonic morphogenesis	HOXB3|HOXB4|HOXB2|HOXB7|HOXB8|HOXB5
+9887	3.6232E-8	9.3167E-7	7	634	10	14217	organ morphogenesis	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5
+48513	2.1847E-6	5.2432E-5	8	1787	10	14217	organ development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+6355	2.3614E-6	5.3132E-5	8	1805	10	14217	regulation of transcription, DNA-dependent	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+51252	2.9068E-6	6.1556E-5	8	1854	10	14217	regulation of RNA metabolic process	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+9653	3.1546E-6	6.3091E-5	7	1217	10	14217	anatomical structure morphogenesis	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5
+60216	4.4480E-6	8.1735E-5	2	5	10	14217	definitive hemopoiesis	HOXB3|HOXB4
+10556	4.5408E-6	8.1735E-5	9	2872	10	14217	regulation of macromolecule biosynthetic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+31326	6.9783E-6	1.1963E-4	9	3016	10	14217	regulation of cellular biosynthetic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+9889	7.4594E-6	1.2206E-4	9	3039	10	14217	regulation of biosynthetic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+2011	9.3339E-6	1.4610E-4	2	7	10	14217	morphogenesis of an epithelial sheet	HOXB4|HOXB2
+60255	1.8397E-5	2.7596E-4	9	3369	10	14217	regulation of macromolecule metabolic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+48731	2.2300E-5	3.2113E-4	8	2415	10	14217	system development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+21602	2.4409E-5	3.3797E-4	2	11	10	14217	cranial nerve morphogenesis	HOXB3|HOXB2
+80090	2.8838E-5	3.8451E-4	9	3547	10	14217	regulation of primary metabolic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+45449	4.1432E-5	5.3270E-4	8	2619	10	14217	regulation of transcription	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+31323	4.4592E-5	5.4225E-4	9	3729	10	14217	regulation of cellular metabolic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+48856	4.5188E-5	5.4225E-4	8	2649	10	14217	anatomical structure development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+19222	6.7471E-5	7.8353E-4	9	3911	10	14217	regulation of metabolic process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+21545	9.2850E-5	1.0432E-3	2	21	10	14217	cranial nerve development	HOXB3|HOXB2
+10468	9.5628E-5	1.0432E-3	8	2924	10	14217	regulation of gene expression	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+7275	1.0597E-4	1.1221E-3	8	2964	10	14217	multicellular organismal development	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+19219	1.1904E-4	1.2244E-3	8	3010	10	14217	regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+51171	1.2702E-4	1.2702E-3	8	3036	10	14217	regulation of nitrogen compound metabolic process	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+21675	1.6669E-4	1.6219E-3	2	28	10	14217	nerve development	HOXB3|HOXB2
+32502	2.0056E-4	1.9000E-3	8	3226	10	14217	developmental process	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+30097	4.7893E-4	4.4209E-3	3	233	10	14217	hemopoiesis	HOXB3|HOXB4|HOXB7
+48534	6.5233E-4	5.8709E-3	3	259	10	14217	hemopoietic or lymphoid organ development	HOXB3|HOXB4|HOXB7
+1812	7.0338E-4	6.0290E-3	1	1	10	14217	positive regulation of type I hypersensitivity	FCER1A
+1810	7.0338E-4	6.0290E-3	1	1	10	14217	regulation of type I hypersensitivity	FCER1A
+2520	7.7673E-4	6.5029E-3	3	275	10	14217	immune system development	HOXB3|HOXB4|HOXB7
+9888	1.2369E-3	9.9270E-3	4	748	10	14217	tissue development	HOXB3|HOXB4|HOXB2|HOXB5
+60429	1.3996E-3	9.9270E-3	3	337	10	14217	epithelium development	HOXB4|HOXB2|HOXB5
+32672	1.4063E-3	9.9270E-3	1	2	10	14217	regulation of interleukin-3 production	FCER1A
+45401	1.4063E-3	9.9270E-3	1	2	10	14217	positive regulation of interleukin-3 biosynthetic process	FCER1A
+45399	1.4063E-3	9.9270E-3	1	2	10	14217	regulation of interleukin-3 biosynthetic process	FCER1A
+21615	1.4063E-3	9.9270E-3	1	2	10	14217	glossopharyngeal nerve morphogenesis	HOXB3
+21563	1.4063E-3	9.9270E-3	1	2	10	14217	glossopharyngeal nerve development	HOXB3
+2885	1.4063E-3	9.9270E-3	1	2	10	14217	positive regulation of hypersensitivity	FCER1A
+32501	1.8814E-3	1.3025E-2	8	4367	10	14217	multicellular organismal process	HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+45425	2.1088E-3	1.3089E-2	1	3	10	14217	positive regulation of granulocyte macrophage colony-stimulating factor biosynthetic process	FCER1A
+48539	2.1088E-3	1.3089E-2	1	3	10	14217	bone marrow development	HOXB4
+1820	2.1088E-3	1.3089E-2	1	3	10	14217	serotonin secretion	FCER1A
+2863	2.1088E-3	1.3089E-2	1	3	10	14217	positive regulation of inflammatory response to antigenic stimulus	FCER1A
+2866	2.1088E-3	1.3089E-2	1	3	10	14217	positive regulation of acute inflammatory response to antigenic stimulus	FCER1A
+21570	2.1088E-3	1.3089E-2	1	3	10	14217	rhombomere 4 development	HOXB2
+32645	2.8109E-3	1.5568E-2	1	4	10	14217	regulation of granulocyte macrophage colony-stimulating factor production	FCER1A
+45423	2.8109E-3	1.5568E-2	1	4	10	14217	regulation of granulocyte macrophage colony-stimulating factor biosynthetic process	FCER1A
+6837	2.8109E-3	1.5568E-2	1	4	10	14217	serotonin transport	FCER1A
+21610	2.8109E-3	1.5568E-2	1	4	10	14217	facial nerve morphogenesis	HOXB2
+21612	2.8109E-3	1.5568E-2	1	4	10	14217	facial nerve structural organization	HOXB2
+21569	2.8109E-3	1.5568E-2	1	4	10	14217	rhombomere 3 development	HOXB2
+2883	2.8109E-3	1.5568E-2	1	4	10	14217	regulation of hypersensitivity	FCER1A
+50794	3.4517E-3	1.8326E-2	9	6199	10	14217	regulation of cellular process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+21604	3.5125E-3	1.8326E-2	1	5	10	14217	cranial nerve structural organization	HOXB2
+2864	3.5125E-3	1.8326E-2	1	5	10	14217	regulation of acute inflammatory response to antigenic stimulus	FCER1A
+21561	3.5125E-3	1.8326E-2	1	5	10	14217	facial nerve development	HOXB2
+43306	4.9143E-3	2.3908E-2	1	7	10	14217	positive regulation of mast cell degranulation	FCER1A
+21783	4.9143E-3	2.3908E-2	1	7	10	14217	preganglionic parasympathetic nervous system development	HOXB2
+43302	4.9143E-3	2.3908E-2	1	7	10	14217	positive regulation of leukocyte degranulation	FCER1A
+21546	4.9143E-3	2.3908E-2	1	7	10	14217	rhombomere development	HOXB2
+33008	4.9143E-3	2.3908E-2	1	7	10	14217	positive regulation of mast cell activation involved in immune response	FCER1A
+50789	5.3105E-3	2.5266E-2	9	6528	10	14217	regulation of biological process	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+2714	5.6146E-3	2.5266E-2	1	8	10	14217	positive regulation of B cell mediated immunity	FCER1A
+48857	5.6146E-3	2.5266E-2	1	8	10	14217	neural nucleus development	HOXB2
+48532	5.6146E-3	2.5266E-2	1	8	10	14217	anatomical structure arrangement	HOXB2
+2861	5.6146E-3	2.5266E-2	1	8	10	14217	regulation of inflammatory response to antigenic stimulus	FCER1A
+2891	5.6146E-3	2.5266E-2	1	8	10	14217	positive regulation of immunoglobulin mediated immune response	FCER1A
+7625	6.3144E-3	2.7062E-2	1	9	10	14217	grooming behavior	HOXB8
+48103	6.3144E-3	2.7062E-2	1	9	10	14217	somatic stem cell division	HOXB4
+48486	6.3144E-3	2.7062E-2	1	9	10	14217	parasympathetic nervous system development	HOXB2
+33005	6.3144E-3	2.7062E-2	1	9	10	14217	positive regulation of mast cell activation	FCER1A
+43304	7.0138E-3	2.9023E-2	1	10	10	14217	regulation of mast cell degranulation	FCER1A
+21516	7.0138E-3	2.9023E-2	1	10	10	14217	dorsal spinal cord development	HOXB8
+33006	7.0138E-3	2.9023E-2	1	10	10	14217	regulation of mast cell activation involved in immune response	FCER1A
+48732	7.6797E-3	3.1198E-2	2	193	10	14217	gland development	HOXB3|HOXB9
+43300	7.7128E-3	3.1198E-2	1	11	10	14217	regulation of leukocyte degranulation	FCER1A
+17145	8.4113E-3	3.2914E-2	1	12	10	14217	stem cell division	HOXB4
+35019	8.4113E-3	3.2914E-2	1	12	10	14217	somatic stem cell maintenance	CDX2
+2886	8.4113E-3	3.2914E-2	1	12	10	14217	regulation of myeloid leukocyte mediated immunity	FCER1A
+65007	8.5173E-3	3.2970E-2	9	6912	10	14217	biological regulation	FCER1A|HOXB3|HOXB4|HOXB2|CDX2|HOXB7|HOXB8|HOXB5|HOXB9
+2009	8.7093E-3	3.3355E-2	2	206	10	14217	morphogenesis of an epithelium	HOXB4|HOXB2
+1829	9.8069E-3	3.6776E-2	1	14	10	14217	trophectodermal cell differentiation	CDX2
+30878	9.8069E-3	3.6776E-2	1	14	10	14217	thyroid gland development	HOXB3
+15844	1.0504E-2	3.8587E-2	1	15	10	14217	monoamine transport	FCER1A
+33003	1.0504E-2	3.8587E-2	1	15	10	14217	regulation of mast cell activation	FCER1A
+45921	1.1201E-2	4.0730E-2	1	16	10	14217	positive regulation of exocytosis	FCER1A
+2675	1.1897E-2	4.2830E-2	1	17	10	14217	positive regulation of acute inflammatory response	FCER1A
+50850	1.2593E-2	4.4886E-2	1	18	10	14217	positive regulation of calcium-mediated signaling	FCER1A
+6357	1.3132E-2	4.5130E-2	3	747	10	14217	regulation of transcription from RNA polymerase II promoter	HOXB4|CDX2|HOXB9
+43450	1.3288E-2	4.5130E-2	1	19	10	14217	alkene biosynthetic process	FCER1A
+48536	1.3288E-2	4.5130E-2	1	19	10	14217	spleen development	HOXB4
+1825	1.3288E-2	4.5130E-2	1	19	10	14217	blastocyst formation	CDX2
+19370	1.3288E-2	4.5130E-2	1	19	10	14217	leukotriene biosynthetic process	FCER1A
+45446	1.3983E-2	4.7040E-2	1	20	10	14217	endothelial cell differentiation	HOXB5
+1568	1.4112E-2	4.7040E-2	2	265	10	14217	blood vessel development	HOXB3|CDX2
+2712	1.4678E-2	4.7179E-2	1	21	10	14217	regulation of B cell mediated immunity	FCER1A
+50848	1.4678E-2	4.7179E-2	1	21	10	14217	regulation of calcium-mediated signaling	FCER1A
+48483	1.4678E-2	4.7179E-2	1	21	10	14217	autonomic nervous system development	HOXB2
+2889	1.4678E-2	4.7179E-2	1	21	10	14217	regulation of immunoglobulin mediated immune response	FCER1A
+1944	1.4934E-2	4.7576E-2	2	273	10	14217	vasculature development	HOXB3|CDX2
+48729	1.5142E-2	4.7817E-2	2	275	10	14217	tissue morphogenesis	HOXB4|HOXB2
+3158	1.5372E-2	4.8121E-2	1	22	10	14217	endothelium development	HOXB5
+6691	1.6066E-2	4.9859E-2	1	23	10	14217	leukotriene metabolic process	FCER1A

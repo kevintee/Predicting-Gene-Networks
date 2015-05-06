@@ -1,0 +1,20 @@
+File created with bingo (c) on May 4, 2015 at 10:31:59 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://62.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://62.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+CYORF15B	MBL2	FGF5	PNMA2	KIAA0825	USP9Y	GYPA	PAX3	PRDM12	C8ORF46	NR1H4	HFM1	DAZ4	HMGCLL1	SNRPN	CCDC83	MGAT4C	RHD	FAM62C	EPHA5	NR1I2	NANOGP1	WSCD1	MYPN	SPTA1	SLC30A10	UNC13C	PON3	
+
+No annotations were retrieved for the following entities:
+PNMA2	LOC347273	C5ORF20	CXORF9	SHE	MMRN2	TMEM140	TSPAN10	C8ORF46	DLEU1	GAB3	WDR76	CELP	MOP-1	MGC45922	NLF1	NLF2	LOC389199	FBXL17	HFM1	LAIR1	MS4A7	HMGCLL1	C17ORF60	MYCT1	NUDT15	FAM62C	LOC201175	LRRC25	CCDC109B	CLECL1	FBXL8	CD300LF	BIN2	GBP1	CYORF15B	KIAA0825	PLVAP	CD68	C1QTNF5	CD69	LYL1	OTUD7A	HLA-DRB6	MS4A6A	MS4A4A	HAVCR2	GPR156	C1ORF162	RNASE1	GIMAP6	KIAA1586	CCDC83	GIMAP8	C9ORF62	CENPQ	SPPL2B	NCKAP1L	LOC439951	SAMSN1	MGC34800	CENPK	CAMK2N2	C18ORF54	GIMAP1	SYNGR4	GPR153	FAM64A	WSCD1	MYPN	TRAF3IP3	PSITPTE22	FLJ45717	FCGR2A	KIAA1545	CLEC14A	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set

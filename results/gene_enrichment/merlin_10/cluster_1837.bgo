@@ -1,0 +1,63 @@
+File created with bingo (c) on May 5, 2015 at 1:47:03 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+COP1	CASP10	LOC541471	LOC93349	PSME2	CD274	TEP1	MSN	CASP1	INCA	ZBP1	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	CXORF9	SHE	MKRN3	MMRN2	TMEM140	C1ORF75	C8ORF46	TRIM43	GAB3	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	TMEM185B	LOC389199	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	C7ORF31	C6ORF48	GBP5	NUDT12	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	FAM38B	BIN2	GBP1	CYORF15B	CYORF15A	CCDC18	LMNB1	C20ORF174	C1ORF131	C1ORF135	CD68	LYL1	CD69	FAM92A1	OTUD7A	SMA4	HLA-DRB6	WDHD1	C1ORF59	RP13-36C9.6	C4ORF12	GPR156	C18ORF51	HAVCR2	FLJ45803	PALM2-AKAP2	MRPS23	KIAA1586	CCDC83	MYO1G	SPPL2B	NCKAP1L	LOC439951	SMYD2	MGC34800	CAMK2N2	C18ORF54	SYNGR4	GPR153	FAM64A	WSCD1	C1ORF64	TRAF3IP3	FLJ45717	DHX40	C20ORF94	CLEC14A	FAM54A	BTBD11	HINT3	GYPC	WASF4	GREB1	LOC347273	C5ORF20	RG9MTD2	C22ORF27	TSPAN10	DLEU1	CELP	MGC45922	EVI2B	C2ORF32	FBXL17	UNQ6975	LAIR1	HMGCLL1	LOC91461	C17ORF60	GPRASP2	MYCT1	FAM62C	METTL2A	C9ORF82	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	DOK7	ZNF711	COMMD2	FLJ13195	SHCBP1	C16ORF59	GPR180	CXORF57	LRRC32	P15RS	KIAA0825	LOC201725	PLVAP	ITM2A	N4BP3	KIAA1432	C12ORF48	C1QTNF5	C2ORF15	ARMCX2	ARMCX1	C12ORF5	MS4A6A	MS4A4A	CENPN	RNASE1	C1ORF162	LOC541471	LOC93349	GIMAP6	C9ORF62	TMC5	CENPQ	GIMAP8	FAM9A	LOC152485	FAM9B	C1ORF218	TMEM169	SAMD3	CENPK	SAMSN1	TMEM55A	GIMAP1	FEM1C	HCG_1990170	C5ORF34	PRELID2	MYPN	PSITPTE22	ARPM1	C14ORF129	LOC399947	FCGR2A	KIAA1545	C6ORF173	FAM126B	MAGED4B	C13ORF31	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+6508	3.6586E-5	7.1334E-3	5	727	9	14217	proteolysis	COP1|CASP10|PSME2|CASP1|INCA
+33198	4.8211E-5	7.1334E-3	2	17	9	14217	response to ATP	TEP1|CASP1
+42981	7.9046E-5	7.1334E-3	5	853	9	14217	regulation of apoptosis	COP1|CASP10|TEP1|CASP1|INCA
+43067	8.2669E-5	7.1334E-3	5	861	9	14217	regulation of programmed cell death	COP1|CASP10|TEP1|CASP1|INCA
+10941	8.5945E-5	7.1334E-3	5	868	9	14217	regulation of cell death	COP1|CASP10|TEP1|CASP1|INCA
+32269	2.1325E-4	1.4750E-2	3	199	9	14217	negative regulation of cellular protein metabolic process	PSME2|TEP1|ZBP1
+51248	2.5700E-4	1.5237E-2	3	212	9	14217	negative regulation of protein metabolic process	PSME2|TEP1|ZBP1
+7613	3.3239E-4	1.7243E-2	2	44	9	14217	memory	TEP1|CASP1
+722	6.3304E-4	2.6271E-2	1	1	9	14217	telomere maintenance via recombination	TEP1
+10610	6.3304E-4	2.6271E-2	1	1	9	14217	regulation of mRNA stability involved in response to stress	ZBP1
+6917	8.2717E-4	2.8143E-2	3	316	9	14217	induction of apoptosis	CASP10|TEP1|CASP1
+12502	8.3481E-4	2.8143E-2	3	317	9	14217	induction of programmed cell death	CASP10|TEP1|CASP1
+10627	8.8158E-4	2.8143E-2	3	323	9	14217	regulation of intracellular protein kinase cascade	CASP10|TEP1|CASP1
+46010	1.2657E-3	3.5609E-2	1	2	9	14217	positive regulation of circadian sleep/wake cycle, non-REM sleep	CASP1
+19538	1.8814E-3	3.5609E-2	6	2600	9	14217	protein metabolic process	COP1|CASP10|PSME2|TEP1|CASP1|INCA
+45188	1.8981E-3	3.5609E-2	1	3	9	14217	regulation of circadian sleep/wake cycle, non-REM sleep	CASP1
+50765	1.8981E-3	3.5609E-2	1	3	9	14217	negative regulation of phagocytosis	TEP1
+50705	1.8981E-3	3.5609E-2	1	3	9	14217	regulation of interleukin-1 alpha secretion	CASP1
+50717	1.8981E-3	3.5609E-2	1	3	9	14217	positive regulation of interleukin-1 alpha secretion	CASP1
+7611	2.1736E-3	3.5609E-2	2	113	9	14217	learning or memory	TEP1|CASP1
+43065	2.1799E-3	3.5609E-2	3	442	9	14217	positive regulation of apoptosis	CASP10|TEP1|CASP1
+43068	2.2225E-3	3.5609E-2	3	445	9	14217	positive regulation of programmed cell death	CASP10|TEP1|CASP1
+43123	2.2501E-3	3.5609E-2	2	115	9	14217	positive regulation of I-kappaB kinase/NF-kappaB cascade	CASP10|CASP1
+10942	2.2802E-3	3.5609E-2	3	449	9	14217	positive regulation of cell death	CASP10|TEP1|CASP1
+32650	2.5300E-3	3.5609E-2	1	4	9	14217	regulation of interleukin-1 alpha production	CASP1
+32730	2.5300E-3	3.5609E-2	1	4	9	14217	positive regulation of interleukin-1 alpha production	CASP1
+46838	2.5300E-3	3.5609E-2	1	4	9	14217	phosphorylated carbohydrate dephosphorylation	TEP1
+46855	2.5300E-3	3.5609E-2	1	4	9	14217	inositol phosphate dephosphorylation	TEP1
+46856	2.5300E-3	3.5609E-2	1	4	9	14217	phosphoinositide dephosphorylation	TEP1
+43122	2.7356E-3	3.5609E-2	2	127	9	14217	regulation of I-kappaB kinase/NF-kappaB cascade	CASP10|CASP1
+43170	2.8242E-3	3.5609E-2	7	3994	9	14217	macromolecule metabolic process	COP1|CASP10|PSME2|TEP1|CASP1|INCA|ZBP1
+6312	3.1617E-3	3.5609E-2	1	5	9	14217	mitotic recombination	TEP1
+45938	3.1617E-3	3.5609E-2	1	5	9	14217	positive regulation of circadian sleep/wake cycle, sleep	CASP1
+22614	3.1617E-3	3.5609E-2	1	5	9	14217	membrane to membrane docking	MSN
+70934	3.1617E-3	3.5609E-2	1	5	9	14217	CRD-mediated mRNA stabilization	ZBP1
+51895	3.1617E-3	3.5609E-2	1	5	9	14217	negative regulation of focal adhesion assembly	TEP1
+31400	3.1748E-3	3.5609E-2	2	137	9	14217	negative regulation of protein modification process	PSME2|TEP1
+14070	3.7427E-3	4.0361E-2	2	149	9	14217	response to organic cyclic substance	TEP1|CASP1
+46839	3.7929E-3	4.0361E-2	1	6	9	14217	phospholipid dephosphorylation	TEP1
+32268	4.2311E-3	4.3712E-2	3	558	9	14217	regulation of cellular protein metabolic process	PSME2|TEP1|ZBP1
+42753	4.4238E-3	4.3712E-2	1	7	9	14217	positive regulation of circadian rhythm	CASP1
+2902	4.4238E-3	4.3712E-2	1	7	9	14217	regulation of B cell apoptosis	TEP1
+51898	5.0544E-3	4.8781E-2	1	8	9	14217	negative regulation of protein kinase B signaling cascade	TEP1

@@ -1,0 +1,46 @@
+File created with bingo (c) on May 4, 2015 at 10:31:55 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://62.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://62.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+CAV2	CAV1	RNASE1	MYCT1	PCDH12	PLVAP	GJA4	SHE	GJA5	NLRP2	CDH5	GPR4	MMRN2	CD93	SULT1B1	CD34	ROBO4	HLA-DRB6	SELE	CLEC14A	
+
+No annotations were retrieved for the following entities:
+LOC347273	PLVAP	SHE	MMRN2	C1QTNF5	TSPAN10	LYL1	MOP-1	CELP	MGC45922	OTUD7A	NLF1	HLA-DRB6	NLF2	LOC389199	FBXL17	GPR156	RNASE1	MYCT1	C9ORF62	SPPL2B	LOC439951	LOC201175	MGC34800	CAMK2N2	GPR153	SYNGR4	FBXL8	PSITPTE22	FLJ45717	KIAA1545	CLEC14A	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+1765	7.6635E-7	2.1228E-4	2	2	13	14268	membrane raft assembly	CAV2|CAV1
+70836	7.6635E-7	2.1228E-4	2	2	13	14268	caveola assembly	CAV2|CAV1
+1568	2.4250E-6	3.8867E-4	5	265	13	14268	blood vessel development	CAV1|ROBO4|GJA4|GJA5|CDH5
+1944	2.8063E-6	3.8867E-4	5	273	13	14268	vasculature development	CAV1|ROBO4|GJA4|GJA5|CDH5
+16337	3.7736E-6	4.1811E-4	5	290	13	14268	cell-cell adhesion	CD93|CD34|PCDH12|SELE|CDH5
+31579	1.6052E-5	1.4821E-3	2	7	13	14268	membrane raft organization	CAV2|CAV1
+1937	7.9931E-5	6.3260E-3	2	15	13	14268	negative regulation of endothelial cell proliferation	CAV2|CAV1
+7043	2.0913E-4	1.4483E-2	2	24	13	14268	cell-cell junction assembly	GJA4|GJA5
+7155	2.7715E-4	1.5455E-2	5	710	13	14268	cell adhesion	CD93|CD34|PCDH12|SELE|CDH5
+22610	2.7897E-4	1.5455E-2	5	711	13	14268	biological adhesion	CD93|CD34|PCDH12|SELE|CDH5
+48513	4.1605E-4	2.0954E-2	7	1790	13	14268	organ development	CAV2|CAV1|ROBO4|PCDH12|GJA4|GJA5|CDH5
+45807	5.2887E-4	2.4416E-2	2	38	13	14268	positive regulation of endocytosis	CAV1|SELE
+45216	7.0949E-4	3.0235E-2	2	44	13	14268	cell-cell junction organization	GJA4|GJA5
+1936	8.0948E-4	3.2032E-2	2	47	13	14268	regulation of endothelial cell proliferation	CAV2|CAV1
+34329	1.0677E-3	3.8345E-2	2	54	13	14268	cell junction assembly	GJA4|GJA5
+16050	1.1074E-3	3.8345E-2	2	55	13	14268	vesicle organization	CAV2|CAV1
+50900	1.4052E-3	4.0263E-2	2	62	13	14268	leukocyte migration	CD34|SELE
+7519	1.5432E-3	4.0263E-2	2	65	13	14268	skeletal muscle tissue development	CAV2|CAV1
+60538	1.6387E-3	4.0263E-2	2	67	13	14268	skeletal muscle organ development	CAV2|CAV1
+51050	1.6652E-3	4.0263E-2	3	270	13	14268	positive regulation of transport	CAV1|SELE|NLRP2
+60161	1.8215E-3	4.0263E-2	1	2	13	14268	positive regulation of dopamine receptor signaling pathway	CAV2
+42524	1.8215E-3	4.0263E-2	1	2	13	14268	negative regulation of tyrosine phosphorylation of Stat5 protein	CAV1
+2523	1.8215E-3	4.0263E-2	1	2	13	14268	leukocyte migration involved in inflammatory response	SELE
+33484	1.8215E-3	4.0263E-2	1	2	13	14268	nitric oxide homeostasis	CAV1
+30100	1.8896E-3	4.0263E-2	2	72	13	14268	regulation of endocytosis	CAV1|SELE
+34330	1.8896E-3	4.0263E-2	2	72	13	14268	cell junction organization	GJA4|GJA5

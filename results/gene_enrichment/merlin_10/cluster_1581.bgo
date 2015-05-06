@@ -1,0 +1,52 @@
+File created with bingo (c) on May 5, 2015 at 1:47:10 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+TST	MICALL2	CYBA	PIAS4	MAP2K3	BCL3	C19ORF28	TMEM102	CCDC57	ARHGEF10L	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	PVRIG	TMEM17	SHE	MAGEC1	TMEM140	ZNRF2	C1ORF75	CLEC4E	GAB3	WDR76	NLF1	NLF2	LOC389199	TMEM185B	HFM1	MTERFD1	C7ORF31	GBP5	NUDT12	NUDT15	CCDC138	TMEM130	FBXL8	BTN3A3	BIN2	LMNB1	C1ORF131	C1ORF135	CD68	CD69	LYL1	FAM92A1	HLA-DRB6	SMA4	C1ORF59	WDHD1	C4ORF12	C18ORF51	GPR156	FLJ45803	CCDC83	NCKAP1L	SMYD2	MGC34800	C18ORF54	CAMK2N2	GPR153	SYNGR4	FAM64A	C1ORF64	WSCD1	DHX40	BTBD11	FAM54A	LOC158830	GYPC	GREB1	WASF4	LOC347273	C22ORF27	RG9MTD2	CFHR3	DLEU1	GBAS	MGC45922	FBXL17	CCDC28B	LOC91461	METTL2A	LRRC25	PDCL2	CCDC109B	DOK7	GPR180	CA14	P15RS	LRRC32	DISP2	ITM2A	KIAA1432	FNDC5	C12ORF48	ARMCX2	C12ORF5	ARMCX1	C1ORF162	LOC541471	LOC93349	C1ORF218	SAMD3	FEM1C	PRELID2	FBLN2	PSITPTE22	C14ORF129	FCGR2A	KIAA1545	MAGED4B	FAM126B	TEX11	CXORF9	MKRN3	MMRN2	KRT81	C1ORF190	C8ORF46	TRIM43	MOP-1	SLMO2	RP11-679B17.1	MTUS1	CT45-6	MS4A7	C6ORF48	MS4A3	LOC201175	FAM118B	CD300LF	FAM38B	GBP1	CYORF15B	CYORF15A	CCDC18	C20ORF174	TRIM74	FLJ40125	OTUD7A	RP13-36C9.6	HAVCR2	PALM2-AKAP2	KIAA1586	MRPS23	SPPL2B	MYO1G	SPPL2A	LOC439951	TRAF3IP3	FLJ45717	FAM84B	CLEC14A	C20ORF94	HINT3	C5ORF20	TSPAN10	EVI2A	CELP	EVI2B	C2ORF32	UNQ6975	LAIR1	HMGCLL1	C17ORF60	MYCT1	GPRASP2	FAM62C	C9ORF82	TMEM65	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	FLJ13195	C16ORF59	SHCBP1	CXORF57	KIAA0825	LOC201725	PLVAP	CCDC57	N4BP3	C1QTNF5	C2ORF15	C16ORF24	MS4A6A	LACTB	MS4A4A	GIMAP2	CENPN	RNASE1	GIMAP6	GIMAP8	CENPQ	TMC5	C9ORF62	LOC152485	FAM9A	FAM9B	TMEM169	SAMSN1	CENPK	GIMAP1	TMEM55A	C3ORF54	HCG_1990170	C5ORF34	MYPN	ARPM1	LOC399947	C6ORF173	FAM26F	C13ORF31	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+45064	6.3304E-4	3.8183E-2	1	1	9	14217	T-helper 2 cell differentiation	BCL3
+2315	6.3304E-4	3.8183E-2	1	1	9	14217	marginal zone B cell differentiation	BCL3
+14895	6.3304E-4	3.8183E-2	1	1	9	14217	smooth muscle hypertrophy	CYBA
+2268	1.2657E-3	3.8183E-2	1	2	9	14217	follicular dendritic cell differentiation	BCL3
+2266	1.2657E-3	3.8183E-2	1	2	9	14217	follicular dendritic cell activation	BCL3
+45082	1.2657E-3	3.8183E-2	1	2	9	14217	positive regulation of interleukin-10 biosynthetic process	BCL3
+9439	1.2657E-3	3.8183E-2	1	2	9	14217	cyanate metabolic process	TST
+9440	1.2657E-3	3.8183E-2	1	2	9	14217	cyanate catabolic process	TST
+45415	1.2657E-3	3.8183E-2	1	2	9	14217	negative regulation of interleukin-8 biosynthetic process	BCL3
+19730	1.2657E-3	3.8183E-2	1	2	9	14217	antimicrobial humoral response	BCL3
+45074	1.8981E-3	3.8183E-2	1	3	9	14217	regulation of interleukin-10 biosynthetic process	BCL3
+17004	1.8981E-3	3.8183E-2	1	3	9	14217	cytochrome complex assembly	CYBA
+14805	2.5300E-3	3.8183E-2	1	4	9	14217	smooth muscle adaptation	CYBA
+42832	2.5300E-3	3.8183E-2	1	4	9	14217	defense response to protozoan	BCL3
+2294	2.5300E-3	3.8183E-2	1	4	9	14217	CD4-positive, alpha-beta T cell differentiation involved in immune response	BCL3
+42536	2.5300E-3	3.8183E-2	1	4	9	14217	negative regulation of tumor necrosis factor biosynthetic process	BCL3
+42092	2.5300E-3	3.8183E-2	1	4	9	14217	T-helper 2 type immune response	BCL3
+42093	2.5300E-3	3.8183E-2	1	4	9	14217	T-helper cell differentiation	BCL3
+2292	3.1617E-3	3.8183E-2	1	5	9	14217	T cell differentiation involved in immune response	BCL3
+2293	3.1617E-3	3.8183E-2	1	5	9	14217	alpha-beta T cell differentiation involved in immune response	BCL3
+2287	3.1617E-3	3.8183E-2	1	5	9	14217	alpha-beta T cell activation involved in immune response	BCL3
+1562	3.1617E-3	3.8183E-2	1	5	9	14217	response to protozoan	BCL3
+2467	3.1617E-3	3.8183E-2	1	5	9	14217	germinal center formation	BCL3
+2312	3.1617E-3	3.8183E-2	1	5	9	14217	B cell activation involved in immune response	BCL3
+2313	3.1617E-3	3.8183E-2	1	5	9	14217	mature B cell differentiation involved in immune response	BCL3
+14896	3.1617E-3	3.8183E-2	1	5	9	14217	muscle hypertrophy	CYBA
+33235	3.7929E-3	3.9699E-2	1	6	9	14217	positive regulation of protein sumoylation	PIAS4
+33233	3.7929E-3	3.9699E-2	1	6	9	14217	regulation of protein sumoylation	PIAS4
+2335	3.7929E-3	3.9699E-2	1	6	9	14217	mature B cell differentiation	BCL3
+10225	3.7929E-3	3.9699E-2	1	6	9	14217	response to UV-C	BCL3
+43367	4.4238E-3	4.4809E-2	1	7	9	14217	CD4-positive, alpha beta T cell differentiation	BCL3
+50665	5.0544E-3	4.9596E-2	1	8	9	14217	hydrogen peroxide biosynthetic process	CYBA

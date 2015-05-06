@@ -1,0 +1,35 @@
+File created with bingo (c) on May 5, 2015 at 1:46:42 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+ATP2B1	NMT2	EPS15	KIAA1432	CFLAR	REL	PIK3C2A	HSP90AB3P	BMPR2	PPM1A	TMEM185B	FAM126B	TMF1	
+
+No annotations were retrieved for the following entities:
+GREB1	LOC347273	C22ORF27	MKRN3	KIAA1432	C1QTNF5	TSPAN10	LYL1	TRIM43	CELP	MOP-1	MGC45922	OTUD7A	NLF1	EVI2B	SMA4	NLF2	TMEM185B	C12ORF5	LOC389199	FBXL17	MTUS1	RP13-36C9.6	GPR156	CT45-6	UNQ6975	C18ORF51	LOC91461	C9ORF62	TMC5	SPPL2B	LOC439951	TMEM169	LOC201175	SMYD2	MGC34800	CAMK2N2	SYNGR4	GPR153	TMEM55A	C1ORF64	FBXL8	PSITPTE22	FLJ45717	ARPM1	LOC399947	KIAA1545	FAM126B	BTBD11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+43123	5.9365E-5	9.9355E-3	3	115	10	14217	positive regulation of I-kappaB kinase/NF-kappaB cascade	CFLAR|REL|PPM1A
+43122	7.9800E-5	9.9355E-3	3	127	10	14217	regulation of I-kappaB kinase/NF-kappaB cascade	CFLAR|REL|PPM1A
+35468	9.2855E-5	9.9355E-3	4	380	10	14217	positive regulation of signaling pathway	CFLAR|REL|PPM1A|BMPR2
+10647	1.2826E-4	1.0293E-2	4	413	10	14217	positive regulation of cell communication	CFLAR|REL|PPM1A|BMPR2
+10740	4.1568E-4	2.6687E-2	3	222	10	14217	positive regulation of intracellular protein kinase cascade	CFLAR|REL|PPM1A
+14916	7.0338E-4	3.2245E-2	1	1	10	14217	regulation of lung blood pressure	BMPR2
+9967	7.8497E-4	3.2245E-2	3	276	10	14217	positive regulation of signal transduction	CFLAR|REL|PPM1A
+23056	8.2703E-4	3.2245E-2	3	281	10	14217	positive regulation of signaling process	CFLAR|REL|PPM1A
+10627	1.2383E-3	3.2245E-2	3	323	10	14217	regulation of intracellular protein kinase cascade	CFLAR|REL|PPM1A
+6499	1.4063E-3	3.2245E-2	1	2	10	14217	N-terminal protein myristoylation	NMT2
+45906	1.4063E-3	3.2245E-2	1	2	10	14217	negative regulation of vasoconstriction	BMPR2
+18377	1.4063E-3	3.2245E-2	1	2	10	14217	protein myristoylation	NMT2
+18319	1.4063E-3	3.2245E-2	1	2	10	14217	protein amino acid myristoylation	NMT2
+32456	1.4063E-3	3.2245E-2	1	2	10	14217	endocytic recycling	EPS15
+6498	2.1088E-3	4.5129E-2	1	3	10	14217	N-terminal protein lipidation	NMT2

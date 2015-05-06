@@ -1,0 +1,173 @@
+File created with bingo (c) on May 5, 2015 at 1:47:44 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+PRKAG1	NPM1	PGD	SLC25A3	TP53	RP11-529I10.4	HES6	RUVBL1	RBBP7	GNB2L1	RAD17	
+
+No annotations were retrieved for the following entities:
+PNMA2	DKFZP434B0335	C20ORF103	FAM110B	PVRIG	TMEM17	FLJ23049	SHE	ZNRF3	MAGEC1	FAM92B	TMEM140	ZNRF2	C1ORF75	DKFZP666G057	WDR78	CLEC4E	GAB3	WDR76	NLF1	NLF2	C21ORF121	LOC389199	TMEM185B	GOLGA8A	MUC13	FHAD1	HFM1	MTERFD1	C7ORF31	GBP5	KIAA1666	NUDT12	OLFML2B	MGC33212	C10ORF107	NUDT15	TIMD4	NAV3	LHFP	CCDC138	TMEM130	HERC2P2	C14ORF45	PARP12	FBXL8	C1ORF88	TMEM31	LOC130940	BTN3A3	CHGB	BIN2	TP53TG3	FLJ44379	C15ORF26	LMNB1	FAM132A	C3ORF15	C1ORF131	TMCC3	KIAA1913	AKAP14	KRT24	C1ORF135	C10ORF95	CD68	RIBC2	CD69	LYL1	ZDHHC9	MYO15B	FAM92A1	LOC619208	HLA-DRB6	SMA4	CCDC89	C1ORF59	WDHD1	FCHO1	C4ORF12	C18ORF51	GPR156	FLJ45803	CCDC83	LOC441054	C9ORF18	C21ORF90	MGC39606	NCKAP1L	CPXCR1	FLJ40298	C21ORF119	SMYD2	MGC34800	C18ORF54	CAMK2N2	GPR153	SYNGR4	CSPP1	KIAA1407	FAM64A	C1ORF64	WSCD1	LOC152573	C1ORF63	WDR63	DHX40	AGR3	GNB2L1	CCDC78	KIAA1377	BTBD11	FAM54A	LOC158830	GYPC	C10ORF65	LOC200383	ZMAT4	TTC26	GREB1	WASF4	LOC347273	TTC29	ARSJ	C22ORF27	RG9MTD2	CFHR3	DLEU1	C12ORF23	GBAS	MGC45922	FBXL17	CCDC28B	CEACAM20	KIAA1949	C10ORF56	LOC91461	SPECC1	TNMD	FAM113B	METTL2A	PIH1D2	MST150	LRRC25	PDCL2	CDR1	EFHC1	CCDC109B	DOK7	KIAA0888	SERPINB1	C10ORF63	LRRIQ1	GPR180	MEIG1	ABHD8	CA14	ABHD7	P15RS	LRRC32	ZMYND10	HOM-TES-103	DISP2	KIAA1737	SAMD9L	ITM2A	C7ORF23	KIAA1432	FNDC5	C12ORF48	MORC4	WDR16	ARMCX2	C12ORF5	ARMCX1	LIMS3	RBM24	C1ORF162	LOC541471	LOC93349	C10ORF35	LRRC43	MXRA7	LRRC48	C1ORF218	TTC16	SAMD3	FAAH2	LRRC49	TTC18	FAM78A	FEM1C	PRELID2	ANKRD46	FBLN2	SAMD9	C19ORF51	PSITPTE22	TMTC3	C14ORF129	FCGR2A	KIAA1545	PHLDB2	MAGED4B	FAM126B	TEX11	MGC61571	ASAM	C6ORF57	GPRIN2	CXORF9	MKRN3	MMRN2	KRT81	NLRC5	C1ORF192	PAGE2B	C1ORF190	C8ORF46	TRIM43	MOP-1	SLMO2	RP11-679B17.1	LGI2	MTUS1	CT45-6	MS4A7	C6ORF48	DYX1C1	MS4A3	LOC201175	C21ORF13	FAM118B	EVC2	CHPF	IQCG	CD300LF	ANXA8L2	INTU	FAM38B	GBP1	CYORF15B	CCDC17	CYORF15A	CCDC18	CCDC19	CCDC14	C13ORF1	C20ORF174	C2ORF50	COMMD8	CASD1	LOC654346	TRIM74	COMMD10	
+CAPS2	FLJ40125	C2ORF55	PACRG	OTUD7A	MGC33846	THAP10	LRFN5	RP13-36C9.6	MUC1	HAVCR2	TMEM59L	PALM2-AKAP2	KIAA1586	MRPS23	FANK1	ARMC3	SPPL2B	MYO1G	CRB3	SPPL2A	LOC439951	CASC1	ARMC2	EFHB	TRAF3IP3	FLJ45717	NKG7	FAM84B	CLEC14A	C20ORF94	HINT3	C5ORF20	CHSY-2	C9ORF116	SYNGR2	CCDC40	TSPAN10	C2ORF39	EVI2A	LOC402176	CELP	PXMP2	MS4A8B	EVI2B	C2ORF32	C16ORF45	UNQ6975	LAIR1	HMGCLL1	C17ORF60	CAPSL	MYCT1	GPRASP2	GPRASP1	C20ORF26	FAM62C	CCDC46	PIGR	C9ORF82	LDLRAD1	C3ORF34	TMEM65	CLECL1	C3ORF33	CFL2	PPM1H	TMEM182	ZNF711	COMMD2	RP11-529I10.4	FLJ13195	CXORF41	C16ORF59	SHCBP1	CXORF57	KNCN	KIAA0825	MUM1L1	LOC201725	LOC440248	MGC16025	PLVAP	CCDC57	SLC47A2	N4BP3	C1QTNF5	C2ORF15	FAM81B	SMOC1	DYDC2	C16ORF24	FGFBP2	MS4A6A	LACTB	MS4A4A	GIMAP2	CENPN	C6ORF165	RNASE1	MORN2	GIMAP6	C9ORF9	GIMAP7	GIMAP8	CENPQ	TMC5	C9ORF62	LOC152485	FAM9A	FAM9B	TMEM169	SAMSN1	CENPK	LOC136288	GIMAP1	TMEM55A	C3ORF54	SH3BGRL	RNF43	HCG_1990170	C5ORF34	C18ORF10	MYPN	C13ORF30	ARPM1	LOC399947	C6ORF173	IQUB	FAM26F	C13ORF31	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+6259	1.8270E-4	2.2352E-2	4	513	9	14217	DNA metabolic process	TP53|RUVBL1|RBBP7|RAD17
+51259	1.8891E-4	2.2352E-2	3	191	9	14217	protein oligomerization	PRKAG1|NPM1|TP53
+8156	1.9776E-4	2.2352E-2	2	34	9	14217	negative regulation of DNA replication	TP53|RAD17
+51276	2.0123E-4	2.2352E-2	4	526	9	14217	chromosome organization	NPM1|TP53|RUVBL1|RBBP7
+7569	2.0968E-4	2.2352E-2	2	35	9	14217	cell aging	NPM1|TP53
+8361	2.8281E-4	2.4987E-2	3	219	9	14217	regulation of cell size	NPM1|TP53|RBBP7
+51053	3.6342E-4	2.4987E-2	2	46	9	14217	negative regulation of DNA metabolic process	TP53|RAD17
+7093	4.6469E-4	2.4987E-2	2	52	9	14217	mitotic cell cycle checkpoint	TP53|RAD17
+77	5.9823E-4	2.4987E-2	2	59	9	14217	DNA damage checkpoint	TP53|RAD17
+32535	5.9979E-4	2.4987E-2	3	283	9	14217	regulation of cellular component size	NPM1|TP53|RBBP7
+55	6.3304E-4	2.4987E-2	1	1	9	14217	ribosomal large subunit export from nucleus	NPM1
+70370	6.3304E-4	2.4987E-2	1	1	9	14217	cellular heat acclimation	RBBP7
+10286	6.3304E-4	2.4987E-2	1	1	9	14217	heat acclimation	RBBP7
+31570	6.8194E-4	2.4987E-2	2	63	9	14217	DNA integrity checkpoint	TP53|RAD17
+90066	8.3481E-4	2.4987E-2	3	317	9	14217	regulation of anatomical structure size	NPM1|TP53|RBBP7
+6275	9.3972E-4	2.4987E-2	2	74	9	14217	regulation of DNA replication	TP53|RAD17
+60255	9.4640E-4	2.4987E-2	7	3369	9	14217	regulation of macromolecule metabolic process	PRKAG1|NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+7049	9.6116E-4	2.4987E-2	4	792	9	14217	cell cycle	NPM1|TP53|RUVBL1|RAD17
+40008	1.1977E-3	2.4987E-2	3	359	9	14217	regulation of growth	TP53|RUVBL1|RBBP7
+54	1.2657E-3	2.4987E-2	1	2	9	14217	ribosomal subunit export from nucleus	NPM1
+56	1.2657E-3	2.4987E-2	1	2	9	14217	ribosomal small subunit export from nucleus	NPM1
+6407	1.2657E-3	2.4987E-2	1	2	9	14217	rRNA export from nucleus	NPM1
+10825	1.2657E-3	2.4987E-2	1	2	9	14217	positive regulation of centrosome duplication	NPM1
+51097	1.2657E-3	2.4987E-2	1	2	9	14217	negative regulation of helicase activity	TP53
+51029	1.2657E-3	2.4987E-2	1	2	9	14217	rRNA transport	NPM1
+33750	1.2657E-3	2.4987E-2	1	2	9	14217	ribosome localization	NPM1
+33753	1.2657E-3	2.4987E-2	1	2	9	14217	establishment of ribosome localization	NPM1
+80090	1.3204E-3	2.5135E-2	7	3547	9	14217	regulation of primary metabolic process	PRKAG1|NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+10638	1.4168E-3	2.5373E-2	2	91	9	14217	positive regulation of organelle organization	NPM1|TP53
+42770	1.4791E-3	2.5373E-2	2	93	9	14217	DNA damage response, signal transduction	TP53|RAD17
+6325	1.8066E-3	2.5373E-2	3	414	9	14217	chromatin organization	NPM1|RUVBL1|RBBP7
+30308	1.8103E-3	2.5373E-2	2	103	9	14217	negative regulation of cell growth	TP53|RBBP7
+31323	1.8217E-3	2.5373E-2	7	3729	9	14217	regulation of cellular metabolic process	PRKAG1|NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+6564	1.8981E-3	2.5373E-2	1	3	9	14217	L-serine biosynthetic process	PGD
+10826	1.8981E-3	2.5373E-2	1	3	9	14217	negative regulation of centrosome duplication	NPM1
+9051	1.8981E-3	2.5373E-2	1	3	9	14217	pentose-phosphate shunt, oxidative branch	PGD
+48025	1.8981E-3	2.5373E-2	1	3	9	14217	negative regulation of nuclear mRNA splicing, via spliceosome	NPM1
+2309	1.8981E-3	2.5373E-2	1	3	9	14217	T cell proliferation involved in immune response	TP53
+19322	1.8981E-3	2.5373E-2	1	3	9	14217	pentose biosynthetic process	PGD
+44249	1.9085E-3	2.5373E-2	5	1679	9	14217	cellular biosynthetic process	PRKAG1|PGD|TP53|RBBP7|RAD17
+75	1.9518E-3	2.5373E-2	2	107	9	14217	cell cycle checkpoint	TP53|RAD17
+45792	2.0612E-3	2.6158E-2	2	110	9	14217	negative regulation of cell size	TP53|RBBP7
+51726	2.2368E-3	2.7724E-2	3	446	9	14217	regulation of cell cycle	NPM1|TP53|RAD17
+19222	2.4707E-3	2.7724E-2	7	3911	9	14217	regulation of metabolic process	PRKAG1|NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+6139	2.4720E-3	2.7724E-2	5	1777	9	14217	nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	PGD|TP53|RUVBL1|RBBP7|RAD17
+50686	2.5300E-3	2.7724E-2	1	4	9	14217	negative regulation of mRNA processing	NPM1
+31065	2.5300E-3	2.7724E-2	1	4	9	14217	positive regulation of histone deacetylation	TP53
+42149	2.5300E-3	2.7724E-2	1	4	9	14217	cellular response to glucose starvation	TP53
+9058	2.5488E-3	2.7724E-2	5	1789	9	14217	biosynthetic process	PRKAG1|PGD|TP53|RBBP7|RAD17
+45926	2.6934E-3	2.8648E-2	2	126	9	14217	negative regulation of growth	TP53|RBBP7
+51052	2.8641E-3	2.8648E-2	2	130	9	14217	regulation of DNA metabolic process	TP53|RAD17
+90312	3.1617E-3	2.8648E-2	1	5	9	14217	positive regulation of protein amino acid deacetylation	TP53
+7406	3.1617E-3	2.8648E-2	1	5	9	14217	negative regulation of neuroblast proliferation	TP53
+2326	3.1617E-3	2.8648E-2	1	5	9	14217	B cell lineage commitment	TP53
+2347	3.1617E-3	2.8648E-2	1	5	9	14217	response to tumor cell	TP53
+2360	3.1617E-3	2.8648E-2	1	5	9	14217	T cell lineage commitment	TP53
+31063	3.1617E-3	2.8648E-2	1	5	9	14217	regulation of histone deacetylation	TP53
+6461	3.2246E-3	2.8648E-2	3	507	9	14217	protein complex assembly	PRKAG1|NPM1|TP53
+70271	3.2246E-3	2.8648E-2	3	507	9	14217	protein complex biogenesis	PRKAG1|NPM1|TP53
+10556	3.2258E-3	2.8648E-2	6	2872	9	14217	regulation of macromolecule biosynthetic process	NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+42325	3.4462E-3	2.8648E-2	3	519	9	14217	regulation of phosphorylation	PRKAG1|NPM1|RAD17
+7568	3.5485E-3	2.8648E-2	2	145	9	14217	aging	NPM1|TP53
+6913	3.5485E-3	2.8648E-2	2	145	9	14217	nucleocytoplasmic transport	NPM1|TP53
+51169	3.5966E-3	2.8648E-2	2	146	9	14217	nuclear transport	NPM1|TP53
+90311	3.7929E-3	2.8648E-2	1	6	9	14217	regulation of protein amino acid deacetylation	TP53
+33119	3.7929E-3	2.8648E-2	1	6	9	14217	negative regulation of RNA splicing	NPM1
+34644	3.7929E-3	2.8648E-2	1	6	9	14217	cellular response to UV	TP53
+51174	3.9173E-3	2.8648E-2	3	543	9	14217	regulation of phosphorus metabolic process	PRKAG1|NPM1|RAD17
+19220	3.9173E-3	2.8648E-2	3	543	9	14217	regulation of phosphate metabolic process	PRKAG1|NPM1|RAD17
+43085	4.1248E-3	2.8648E-2	3	553	9	14217	positive regulation of catalytic activity	PRKAG1|NPM1|TP53
+19219	4.1496E-3	2.8648E-2	6	3010	9	14217	regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+45934	4.1884E-3	2.8648E-2	3	556	9	14217	negative regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process	NPM1|TP53|RAD17
+31326	4.1940E-3	2.8648E-2	6	3016	9	14217	regulation of cellular biosynthetic process	NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+51172	4.3173E-3	2.8648E-2	3	562	9	14217	negative regulation of nitrogen compound metabolic process	NPM1|TP53|RAD17
+51171	4.3448E-3	2.8648E-2	6	3036	9	14217	regulation of nitrogen compound metabolic process	NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+9889	4.3677E-3	2.8648E-2	6	3039	9	14217	regulation of biosynthetic process	NPM1|TP53|RUVBL1|HES6|RBBP7|RAD17
+76	4.4238E-3	2.8648E-2	1	7	9	14217	DNA replication checkpoint	RAD17
+71482	4.4238E-3	2.8648E-2	1	7	9	14217	cellular response to light stimulus	TP53
+10824	4.4238E-3	2.8648E-2	1	7	9	14217	regulation of centrosome duplication	NPM1
+32297	4.4238E-3	2.8648E-2	1	7	9	14217	negative regulation of DNA-dependent DNA replication initiation	RAD17
+51095	4.4238E-3	2.8648E-2	1	7	9	14217	regulation of helicase activity	TP53
+16053	4.4611E-3	2.8648E-2	2	163	9	14217	organic acid biosynthetic process	PRKAG1|PGD
+46394	4.4611E-3	2.8648E-2	2	163	9	14217	carboxylic acid biosynthetic process	PRKAG1|PGD
+22402	4.7418E-3	3.0088E-2	3	581	9	14217	cell cycle process	NPM1|TP53|RUVBL1
+34641	4.8841E-3	3.0346E-2	5	2067	9	14217	cellular nitrogen compound metabolic process	PGD|TP53|RUVBL1|RBBP7|RAD17
+46605	5.0544E-3	3.0346E-2	1	8	9	14217	regulation of centrosome cycle	NPM1
+6563	5.0544E-3	3.0346E-2	1	8	9	14217	L-serine metabolic process	PGD
+8635	5.0544E-3	3.0346E-2	1	8	9	14217	activation of caspase activity by cytochrome c	TP53
+7346	5.0671E-3	3.0346E-2	2	174	9	14217	regulation of mitotic cell cycle	TP53|RAD17
+33554	5.5641E-3	3.1236E-2	3	615	9	14217	cellular response to stress	TP53|RBBP7|RAD17
+6260	5.6495E-3	3.1236E-2	2	184	9	14217	DNA replication	RBBP7|RAD17
+42772	5.6846E-3	3.1236E-2	1	9	9	14217	DNA damage response, signal transduction resulting in transcription	TP53
+71478	5.6846E-3	3.1236E-2	1	9	9	14217	cellular response to radiation	TP53
+46902	5.6846E-3	3.1236E-2	1	9	9	14217	regulation of mitochondrial membrane permeability	TP53
+6098	5.6846E-3	3.1236E-2	1	9	9	14217	pentose-phosphate shunt	PGD
+48147	5.6846E-3	3.1236E-2	1	9	9	14217	negative regulation of fibroblast proliferation	TP53
+6978	5.6846E-3	3.1236E-2	1	9	9	14217	DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	TP53
+44093	6.1400E-3	3.3323E-2	3	637	9	14217	positive regulation of molecular function	PRKAG1|NPM1|TP53
+6807	6.2380E-3	3.3323E-2	5	2184	9	14217	nitrogen compound metabolic process	PGD|TP53|RUVBL1|RBBP7|RAD17
+6983	6.3144E-3	3.3323E-2	1	10	9	14217	ER overload response	TP53
+6740	6.3144E-3	3.3323E-2	1	10	9	14217	NADPH regeneration	PGD
+9070	6.9439E-3	3.4916E-2	1	11	9	14217	serine family amino acid biosynthetic process	PGD
+42255	6.9439E-3	3.4916E-2	1	11	9	14217	ribosome assembly	NPM1
+42273	6.9439E-3	3.4916E-2	1	11	9	14217	ribosomal large subunit biogenesis	NPM1
+43516	6.9439E-3	3.4916E-2	1	11	9	14217	regulation of DNA damage response, signal transduction by p53 class mediator	NPM1
+30174	6.9439E-3	3.4916E-2	1	11	9	14217	regulation of DNA-dependent DNA replication initiation	RAD17
+40007	7.1005E-3	3.5370E-2	2	207	9	14217	growth	NPM1|TP53
+65003	7.1885E-3	3.5477E-2	3	674	9	14217	macromolecular complex assembly	PRKAG1|NPM1|TP53
+1558	7.4363E-3	3.5721E-2	2	212	9	14217	regulation of cell growth	TP53|RBBP7
+6996	7.4869E-3	3.5721E-2	4	1381	9	14217	organelle organization	NPM1|TP53|RUVBL1|RBBP7
+43968	7.5731E-3	3.5721E-2	1	12	9	14217	histone H2A acetylation	RUVBL1
+6110	7.5731E-3	3.5721E-2	1	12	9	14217	regulation of glycolysis	PRKAG1
+19321	7.5731E-3	3.5721E-2	1	12	9	14217	pentose metabolic process	PGD
+51130	8.1293E-3	3.7047E-2	2	222	9	14217	positive regulation of cellular component organization	NPM1|TP53
+31571	8.2018E-3	3.7047E-2	1	13	9	14217	G1/S DNA damage checkpoint	TP53
+48024	8.2018E-3	3.7047E-2	1	13	9	14217	regulation of nuclear mRNA splicing, via spliceosome	NPM1
+71214	8.2018E-3	3.7047E-2	1	13	9	14217	cellular response to abiotic stimulus	TP53
+31058	8.2018E-3	3.7047E-2	1	13	9	14217	positive regulation of histone modification	TP53
+43933	8.7024E-3	3.8578E-2	3	722	9	14217	macromolecular complex subunit organization	PRKAG1|NPM1|TP53
+2286	8.8303E-3	3.8578E-2	1	14	9	14217	T cell activation involved in immune response	TP53
+42274	8.8303E-3	3.8578E-2	1	14	9	14217	ribosomal small subunit biogenesis	NPM1
+6884	8.8303E-3	3.8578E-2	1	14	9	14217	cell volume homeostasis	NPM1
+90304	8.9580E-3	3.8818E-2	4	1452	9	14217	nucleic acid metabolic process	TP53|RUVBL1|RBBP7|RAD17
+45860	9.2220E-3	3.9640E-2	2	237	9	14217	positive regulation of protein kinase activity	PRKAG1|NPM1
+42771	9.4583E-3	3.9666E-2	1	15	9	14217	DNA damage response, signal transduction by p53 class mediator resulting in induction of apoptosis	TP53
+10165	9.4583E-3	3.9666E-2	1	15	9	14217	response to X-ray	TP53
+9651	9.4583E-3	3.9666E-2	1	15	9	14217	response to salt stress	TP53
+6357	9.5615E-3	3.9666E-2	3	747	9	14217	regulation of transcription from RNA polymerase II promoter	TP53|RUVBL1|HES6
+33043	9.6002E-3	3.9666E-2	2	242	9	14217	regulation of organelle organization	NPM1|TP53
+33674	9.9078E-3	4.0622E-2	2	246	9	14217	positive regulation of kinase activity	PRKAG1|NPM1
+34605	1.0086E-2	4.1037E-2	1	16	9	14217	cellular response to heat	RBBP7
+51347	1.0616E-2	4.1987E-2	2	255	9	14217	positive regulation of transferase activity	PRKAG1|NPM1
+10149	1.0713E-2	4.1987E-2	1	17	9	14217	senescence	TP53
+43471	1.0713E-2	4.1987E-2	1	17	9	14217	regulation of cellular carbohydrate catabolic process	PRKAG1
+43470	1.0713E-2	4.1987E-2	1	17	9	14217	regulation of carbohydrate catabolic process	PRKAG1
+6739	1.0713E-2	4.1987E-2	1	17	9	14217	NADP metabolic process	PGD
+31324	1.1000E-2	4.2578E-2	3	786	9	14217	negative regulation of cellular metabolic process	NPM1|TP53|RAD17
+44237	1.1024E-2	4.2578E-2	7	4966	9	14217	cellular metabolic process	PRKAG1|PGD|TP53|SLC25A3|RUVBL1|RBBP7|RAD17
+90329	1.1340E-2	4.2868E-2	1	18	9	14217	regulation of DNA-dependent DNA replication	RAD17
+7098	1.1340E-2	4.2868E-2	1	18	9	14217	centrosome cycle	NPM1
+9303	1.1340E-2	4.2868E-2	1	18	9	14217	rRNA transcription	TP53
+10605	1.1626E-2	4.3639E-2	3	802	9	14217	negative regulation of macromolecule metabolic process	NPM1|TP53|RAD17
+2285	1.1967E-2	4.4605E-2	1	19	9	14217	lymphocyte activation involved in immune response	TP53
+16043	1.2468E-2	4.6149E-2	5	2559	9	14217	cellular component organization	PRKAG1|NPM1|TP53|RUVBL1|RBBP7
+43525	1.2593E-2	4.6292E-2	1	20	9	14217	positive regulation of neuron apoptosis	TP53
+50684	1.3219E-2	4.7931E-2	1	21	9	14217	regulation of mRNA processing	NPM1
+1836	1.3219E-2	4.7931E-2	1	21	9	14217	release of cytochrome c from mitochondria	TP53
+45449	1.3775E-2	4.9196E-2	5	2619	9	14217	regulation of transcription	NPM1|TP53|RUVBL1|HES6|RBBP7
+31056	1.3845E-2	4.9196E-2	1	22	9	14217	regulation of histone modification	TP53
+42098	1.3845E-2	4.9196E-2	1	22	9	14217	T cell proliferation	TP53
+6281	1.4211E-2	4.9968E-2	2	297	9	14217	DNA repair	TP53|RAD17
+9892	1.4250E-2	4.9968E-2	3	864	9	14217	negative regulation of metabolic process	NPM1|TP53|RAD17

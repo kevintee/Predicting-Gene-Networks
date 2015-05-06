@@ -1,0 +1,92 @@
+File created with bingo (c) on May 5, 2015 at 1:47:32 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+CIITA	CASP5	NLRC5	TNFRSF1B	TAPBPL	C9ORF167	HLA-DQA2	TRIM22	BTN3A2	EBI3	INDO	
+
+No annotations were retrieved for the following entities:
+PNMA2	DKFZP434B0335	FAM110B	PVRIG	TMEM17	FLJ23049	SHE	ZNRF3	MAGEC1	FAM92B	TMEM140	ZNRF2	C1ORF75	DKFZP666G057	WDR78	CLEC4E	GAB3	WDR76	NLF1	NLF2	C21ORF121	LOC389199	TMEM185B	GOLGA8A	MUC13	FHAD1	HFM1	MTERFD1	C7ORF31	GBP5	NUDT12	OLFML2B	MGC33212	C10ORF107	NUDT15	TIMD4	CCDC138	TMEM130	HERC2P2	C14ORF45	PARP12	FBXL8	C1ORF88	TMEM31	BTN3A3	BIN2	TP53TG3	FLJ44379	C15ORF26	LMNB1	FAM132A	C3ORF15	C1ORF131	TMCC3	KIAA1913	AKAP14	KRT24	C1ORF135	C10ORF95	CD68	RIBC2	CD69	LYL1	ZDHHC9	MYO15B	FAM92A1	LOC619208	HLA-DRB6	SMA4	CCDC89	C1ORF59	WDHD1	FCHO1	C4ORF12	C18ORF51	GPR156	FLJ45803	CCDC83	LOC441054	C9ORF18	C21ORF90	MGC39606	NCKAP1L	CPXCR1	FLJ40298	SMYD2	MGC34800	C18ORF54	CAMK2N2	GPR153	SYNGR4	CSPP1	KIAA1407	FAM64A	C1ORF64	WSCD1	C1ORF63	WDR63	DHX40	AGR3	CCDC78	KIAA1377	BTBD11	FAM54A	LOC158830	GYPC	LOC200383	TTC26	GREB1	WASF4	LOC347273	TTC29	ARSJ	C22ORF27	RG9MTD2	CFHR3	DLEU1	GBAS	MGC45922	FBXL17	CCDC28B	C10ORF56	LOC91461	SPECC1	FAM113B	METTL2A	PIH1D2	LRRC25	PDCL2	EFHC1	CCDC109B	DOK7	SERPINB1	C10ORF63	LRRIQ1	GPR180	MEIG1	ABHD8	CA14	P15RS	LRRC32	ZMYND10	HOM-TES-103	DISP2	KIAA1737	SAMD9L	ITM2A	C7ORF23	KIAA1432	FNDC5	C12ORF48	WDR16	ARMCX2	C12ORF5	ARMCX1	LIMS3	RBM24	C1ORF162	LOC541471	LOC93349	C10ORF35	LRRC43	MXRA7	LRRC48	C1ORF218	TTC16	SAMD3	TTC18	FAM78A	FEM1C	PRELID2	ANKRD46	FBLN2	SAMD9	C19ORF51	PSITPTE22	C14ORF129	FCGR2A	KIAA1545	MAGED4B	FAM126B	TEX11	MGC61571	ASAM	GPRIN2	CXORF9	MKRN3	MMRN2	KRT81	NLRC5	C1ORF192	PAGE2B	C1ORF190	C8ORF46	TRIM43	MOP-1	SLMO2	RP11-679B17.1	LGI2	MTUS1	CT45-6	MS4A7	C6ORF48	DYX1C1	MS4A3	LOC201175	C21ORF13	FAM118B	CHPF	IQCG	CD300LF	ANXA8L2	INTU	FAM38B	GBP1	CYORF15B	CCDC17	CYORF15A	CCDC18	CCDC19	CCDC14	C13ORF1	C20ORF174	C2ORF50	COMMD8	CASD1	LOC654346	TRIM74	COMMD10	CAPS2	FLJ40125	C2ORF55	PACRG	OTUD7A	MGC33846	RP13-36C9.6	MUC1	HAVCR2	TMEM59L	PALM2-AKAP2	KIAA1586	MRPS23	FANK1	ARMC3	SPPL2B	MYO1G	SPPL2A	LOC439951	CASC1	ARMC2	EFHB	TRAF3IP3	FLJ45717	NKG7	FAM84B	
+CLEC14A	C20ORF94	HINT3	C5ORF20	CHSY-2	C9ORF116	SYNGR2	CCDC40	TSPAN10	C2ORF39	EVI2A	LOC402176	CELP	PXMP2	MS4A8B	EVI2B	C2ORF32	UNQ6975	LAIR1	HMGCLL1	C17ORF60	CAPSL	MYCT1	GPRASP2	C20ORF26	FAM62C	PIGR	C9ORF82	LDLRAD1	C3ORF34	TMEM65	CLECL1	C3ORF33	CFL2	PPM1H	TMEM182	ZNF711	COMMD2	FLJ13195	CXORF41	C16ORF59	SHCBP1	CXORF57	KNCN	KIAA0825	LOC201725	LOC440248	MGC16025	PLVAP	CCDC57	SLC47A2	N4BP3	C1QTNF5	C2ORF15	FAM81B	SMOC1	DYDC2	C16ORF24	MS4A6A	LACTB	MS4A4A	GIMAP2	CENPN	C6ORF165	RNASE1	MORN2	GIMAP6	C9ORF9	GIMAP7	GIMAP8	CENPQ	TMC5	C9ORF62	LOC152485	FAM9A	FAM9B	TMEM169	SAMSN1	CENPK	LOC136288	GIMAP1	TMEM55A	C3ORF54	SH3BGRL	RNF43	HCG_1990170	C5ORF34	C18ORF10	MYPN	C13ORF30	ARPM1	LOC399947	C6ORF173	IQUB	FAM26F	C13ORF31	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+2376	1.4226E-5	3.8551E-3	6	946	10	14217	immune system process	CIITA|TNFRSF1B|TAPBPL|TRIM22|HLA-DQA2|EBI3
+6955	3.2332E-5	4.3810E-3	5	619	10	14217	immune response	CIITA|TNFRSF1B|TRIM22|HLA-DQA2|EBI3
+34276	7.0338E-4	2.9857E-2	1	1	10	14217	kynurenic acid biosynthetic process	INDO
+34275	7.0338E-4	2.9857E-2	1	1	10	14217	kynurenic acid metabolic process	INDO
+2534	7.0338E-4	2.9857E-2	1	1	10	14217	cytokine production involved in inflammatory response	INDO
+2830	7.0338E-4	2.9857E-2	1	1	10	14217	positive regulation of T-helper 2 type immune response	INDO
+19882	7.7122E-4	2.9857E-2	2	60	10	14217	antigen processing and presentation	TAPBPL|HLA-DQA2
+42129	9.6084E-4	3.2548E-2	2	67	10	14217	regulation of T cell proliferation	INDO|EBI3
+32693	1.4063E-3	3.3617E-2	1	2	10	14217	negative regulation of interleukin-10 production	INDO
+50779	1.4063E-3	3.3617E-2	1	2	10	14217	RNA destabilization	TNFRSF1B
+50727	1.7255E-3	3.3617E-2	2	90	10	14217	regulation of inflammatory response	TNFRSF1B|INDO
+50670	1.8804E-3	3.3617E-2	2	94	10	14217	regulation of lymphocyte proliferation	INDO|EBI3
+32944	1.9201E-3	3.3617E-2	2	95	10	14217	regulation of mononuclear cell proliferation	INDO|EBI3
+70663	1.9602E-3	3.3617E-2	2	96	10	14217	regulation of leukocyte proliferation	INDO|EBI3
+2678	2.1088E-3	3.3617E-2	1	3	10	14217	positive regulation of chronic inflammatory response	INDO
+2676	2.1088E-3	3.3617E-2	1	3	10	14217	regulation of chronic inflammatory response	INDO
+46007	2.1088E-3	3.3617E-2	1	3	10	14217	negative regulation of activated T cell proliferation	INDO
+32966	2.8109E-3	3.5994E-2	1	4	10	14217	negative regulation of collagen biosynthetic process	CIITA
+50863	3.1420E-3	3.5994E-2	2	122	10	14217	regulation of T cell activation	INDO|EBI3
+2666	3.5125E-3	3.5994E-2	1	5	10	14217	positive regulation of T cell tolerance induction	INDO
+2664	3.5125E-3	3.5994E-2	1	5	10	14217	regulation of T cell tolerance induction	INDO
+10713	3.5125E-3	3.5994E-2	1	5	10	14217	negative regulation of collagen metabolic process	CIITA
+44252	3.5125E-3	3.5994E-2	1	5	10	14217	negative regulation of multicellular organismal metabolic process	CIITA
+70233	3.5125E-3	3.5994E-2	1	5	10	14217	negative regulation of T cell apoptosis	INDO
+19441	3.5125E-3	3.5994E-2	1	5	10	14217	tryptophan catabolic process to kynurenine	INDO
+6569	4.2136E-3	3.5994E-2	1	6	10	14217	tryptophan catabolic process	INDO
+46218	4.2136E-3	3.5994E-2	1	6	10	14217	indolalkylamine catabolic process	INDO
+42436	4.2136E-3	3.5994E-2	1	6	10	14217	indole derivative catabolic process	INDO
+2483	4.2136E-3	3.5994E-2	1	6	10	14217	antigen processing and presentation of endogenous peptide antigen	TAPBPL
+2532	4.2136E-3	3.5994E-2	1	6	10	14217	production of molecular mediator involved in inflammatory response	INDO
+19885	4.2136E-3	3.5994E-2	1	6	10	14217	antigen processing and presentation of endogenous peptide antigen via MHC class I	TAPBPL
+6568	4.9143E-3	3.5994E-2	1	7	10	14217	tryptophan metabolic process	INDO
+46641	4.9143E-3	3.5994E-2	1	7	10	14217	positive regulation of alpha-beta T cell proliferation	EBI3
+2643	4.9143E-3	3.5994E-2	1	7	10	14217	regulation of tolerance induction	INDO
+2645	4.9143E-3	3.5994E-2	1	7	10	14217	positive regulation of tolerance induction	INDO
+70232	4.9143E-3	3.5994E-2	1	7	10	14217	regulation of T cell apoptosis	INDO
+45348	4.9143E-3	3.5994E-2	1	7	10	14217	positive regulation of MHC class II biosynthetic process	CIITA
+51249	5.2089E-3	3.7111E-2	2	158	10	14217	regulation of lymphocyte activation	INDO|EBI3
+31347	5.4032E-3	3.7111E-2	2	161	10	14217	regulation of defense response	TNFRSF1B|INDO
+51085	5.6146E-3	3.7111E-2	1	8	10	14217	chaperone mediated protein folding requiring cofactor	C9ORF167
+19883	5.6146E-3	3.7111E-2	1	8	10	14217	antigen processing and presentation of endogenous antigen	TAPBPL
+51241	6.2832E-3	3.8572E-2	2	174	10	14217	negative regulation of multicellular organismal process	CIITA|INDO
+70229	6.3144E-3	3.8572E-2	1	9	10	14217	negative regulation of lymphocyte apoptosis	INDO
+2694	6.7825E-3	3.8572E-2	2	181	10	14217	regulation of leukocyte activation	INDO|EBI3
+51084	7.0138E-3	3.8572E-2	1	10	10	14217	'de novo' posttranslational protein folding	C9ORF167
+32735	7.0138E-3	3.8572E-2	1	10	10	14217	positive regulation of interleukin-12 production	INDO
+45346	7.0138E-3	3.8572E-2	1	10	10	14217	regulation of MHC class II biosynthetic process	CIITA
+42088	7.0138E-3	3.8572E-2	1	10	10	14217	T-helper 1 type immune response	EBI3
+2828	7.0138E-3	3.8572E-2	1	10	10	14217	regulation of T-helper 2 type immune response	INDO
+32101	7.5266E-3	3.8572E-2	2	191	10	14217	regulation of response to external stimulus	TNFRSF1B|INDO
+50865	7.6797E-3	3.8572E-2	2	193	10	14217	regulation of cell activation	INDO|EBI3
+46640	7.7128E-3	3.8572E-2	1	11	10	14217	regulation of alpha-beta T cell proliferation	EBI3
+45078	7.7128E-3	3.8572E-2	1	11	10	14217	positive regulation of interferon-gamma biosynthetic process	EBI3
+61077	7.7128E-3	3.8572E-2	1	11	10	14217	chaperone-mediated protein folding	C9ORF167
+1817	8.3862E-3	3.8572E-2	2	202	10	14217	regulation of cytokine production	INDO|EBI3
+9074	8.4113E-3	3.8572E-2	1	12	10	14217	aromatic amino acid family catabolic process	INDO
+6586	9.1093E-3	3.8572E-2	1	13	10	14217	indolalkylamine metabolic process	INDO
+45072	9.1093E-3	3.8572E-2	1	13	10	14217	regulation of interferon-gamma biosynthetic process	EBI3
+32653	9.1093E-3	3.8572E-2	1	13	10	14217	regulation of interleukin-10 production	INDO
+6458	9.1093E-3	3.8572E-2	1	13	10	14217	'de novo' protein folding	C9ORF167
+42430	9.1093E-3	3.8572E-2	1	13	10	14217	indole and derivative metabolic process	INDO
+42434	9.1093E-3	3.8572E-2	1	13	10	14217	indole derivative metabolic process	INDO
+70228	9.1093E-3	3.8572E-2	1	13	10	14217	regulation of lymphocyte apoptosis	INDO
+46006	9.1093E-3	3.8572E-2	1	13	10	14217	regulation of activated T cell proliferation	INDO
+42402	1.0504E-2	4.3794E-2	1	15	10	14217	cellular biogenic amine catabolic process	INDO
+70206	1.1201E-2	4.4639E-2	1	16	10	14217	protein trimerization	TRIM22
+34341	1.1201E-2	4.4639E-2	1	16	10	14217	response to interferon-gamma	CIITA
+32965	1.1201E-2	4.4639E-2	1	16	10	14217	regulation of collagen biosynthetic process	CIITA
+10712	1.1897E-2	4.6059E-2	1	17	10	14217	regulation of collagen metabolic process	CIITA
+2474	1.1897E-2	4.6059E-2	1	17	10	14217	antigen processing and presentation of peptide antigen via MHC class I	TAPBPL
+2504	1.2593E-2	4.8066E-2	1	18	10	14217	antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	HLA-DQA2

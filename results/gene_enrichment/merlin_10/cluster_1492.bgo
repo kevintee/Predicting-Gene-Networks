@@ -1,0 +1,157 @@
+File created with bingo (c) on May 5, 2015 at 1:46:59 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+MTHFD2	CCK	SMCHD1	CLSTN2	TGFBR1	PLEKHK1	RHOQ	ARMCX2	PLA2R1	ITSN1	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	CXORF9	SHE	MKRN3	MMRN2	TMEM140	C1ORF75	C8ORF46	TRIM43	GAB3	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	TMEM185B	LOC389199	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	C7ORF31	C6ORF48	GBP5	NUDT12	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	FAM38B	BIN2	GBP1	CYORF15B	CCDC18	LMNB1	C20ORF174	C1ORF131	C1ORF135	CD68	LYL1	CD69	FAM92A1	OTUD7A	SMA4	HLA-DRB6	C1ORF59	RP13-36C9.6	C4ORF12	GPR156	C18ORF51	HAVCR2	PALM2-AKAP2	MRPS23	KIAA1586	CCDC83	MYO1G	SPPL2B	NCKAP1L	LOC439951	SMYD2	MGC34800	CAMK2N2	C18ORF54	SYNGR4	GPR153	FAM64A	WSCD1	C1ORF64	TRAF3IP3	FLJ45717	DHX40	CLEC14A	BTBD11	HINT3	GYPC	GREB1	LOC347273	C5ORF20	RG9MTD2	C22ORF27	TSPAN10	DLEU1	CELP	MGC45922	EVI2B	C2ORF32	FBXL17	UNQ6975	LAIR1	HMGCLL1	LOC91461	C17ORF60	GPRASP2	MYCT1	FAM62C	METTL2A	C9ORF82	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	FLJ13195	C16ORF59	GPR180	LRRC32	P15RS	KIAA0825	LOC201725	PLVAP	ITM2A	N4BP3	KIAA1432	C1QTNF5	C2ORF15	ARMCX2	ARMCX1	C12ORF5	MS4A6A	MS4A4A	RNASE1	C1ORF162	GIMAP6	C9ORF62	TMC5	CENPQ	GIMAP8	LOC152485	C1ORF218	TMEM169	SAMD3	CENPK	SAMSN1	TMEM55A	GIMAP1	FEM1C	PRELID2	MYPN	PSITPTE22	ARPM1	C14ORF129	LOC399947	FCGR2A	KIAA1545	C6ORF173	FAM126B	MAGED4B	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+51489	9.9552E-6	2.9418E-3	2	8	9	14217	regulation of filopodium assembly	TGFBR1|RHOQ
+51491	9.9552E-6	2.9418E-3	2	8	9	14217	positive regulation of filopodium assembly	TGFBR1|RHOQ
+60491	8.1754E-5	1.2731E-2	2	22	9	14217	regulation of cell projection assembly	TGFBR1|RHOQ
+51897	8.9510E-5	1.2731E-2	2	23	9	14217	positive regulation of protein kinase B signaling cascade	TGFBR1|ITSN1
+44087	1.0771E-4	1.2731E-2	3	158	9	14217	regulation of cellular component biogenesis	CCK|TGFBR1|RHOQ
+51896	1.7496E-4	1.7234E-2	2	32	9	14217	regulation of protein kinase B signaling cascade	TGFBR1|ITSN1
+51130	2.9436E-4	2.1746E-2	3	222	9	14217	positive regulation of cellular component organization	CCK|TGFBR1|RHOQ
+10740	2.9436E-4	2.1746E-2	3	222	9	14217	positive regulation of intracellular protein kinase cascade	CCK|TGFBR1|ITSN1
+9967	5.5747E-4	2.3383E-2	3	276	9	14217	positive regulation of signal transduction	CCK|TGFBR1|ITSN1
+23056	5.8749E-4	2.3383E-2	3	281	9	14217	positive regulation of signaling process	CCK|TGFBR1|ITSN1
+33091	6.3304E-4	2.3383E-2	1	1	9	14217	positive regulation of immature T cell proliferation	CCK
+90005	6.3304E-4	2.3383E-2	1	1	9	14217	negative regulation of establishment of protein localization in plasma membrane	RHOQ
+32461	6.3304E-4	2.3383E-2	1	1	9	14217	positive regulation of protein oligomerization	CCK
+60821	6.3304E-4	2.3383E-2	1	1	9	14217	inactivation of X chromosome by DNA methylation	SMCHD1
+70673	6.3304E-4	2.3383E-2	1	1	9	14217	response to interleukin-18	CCK
+70671	6.3304E-4	2.3383E-2	1	1	9	14217	response to interleukin-12	CCK
+31346	7.7102E-4	2.6804E-2	2	67	9	14217	positive regulation of cell projection organization	TGFBR1|RHOQ
+10627	8.8158E-4	2.8945E-2	3	323	9	14217	regulation of intracellular protein kinase cascade	CCK|TGFBR1|ITSN1
+34134	1.2657E-3	3.1169E-2	1	2	9	14217	toll-like receptor 2 signaling pathway	CCK
+70427	1.2657E-3	3.1169E-2	1	2	9	14217	nucleotide-binding oligomerization domain containing 1 signaling pathway	CCK
+45602	1.2657E-3	3.1169E-2	1	2	9	14217	negative regulation of endothelial cell differentiation	TGFBR1
+9048	1.2657E-3	3.1169E-2	1	2	9	14217	dosage compensation, by inactivation of X chromosome	SMCHD1
+6184	1.2657E-3	3.1169E-2	1	2	9	14217	GTP catabolic process	RHOQ
+32459	1.2657E-3	3.1169E-2	1	2	9	14217	regulation of protein oligomerization	CCK
+43066	1.3796E-3	3.1367E-2	3	377	9	14217	negative regulation of apoptosis	CCK|TGFBR1|ITSN1
+35468	1.4115E-3	3.1367E-2	3	380	9	14217	positive regulation of signaling pathway	CCK|TGFBR1|ITSN1
+43069	1.4330E-3	3.1367E-2	3	382	9	14217	negative regulation of programmed cell death	CCK|TGFBR1|ITSN1
+60548	1.5213E-3	3.2110E-2	3	390	9	14217	negative regulation of cell death	CCK|TGFBR1|ITSN1
+16043	1.7250E-3	3.3002E-2	6	2559	9	14217	cellular component organization	SMCHD1|CCK|TGFBR1|RHOQ|ITSN1|PLA2R1
+10647	1.7941E-3	3.3002E-2	3	413	9	14217	positive regulation of cell communication	CCK|TGFBR1|ITSN1
+33083	1.8981E-3	3.3002E-2	1	3	9	14217	regulation of immature T cell proliferation	CCK
+2827	1.8981E-3	3.3002E-2	1	3	9	14217	positive regulation of T-helper 1 type immune response	CCK
+43065	2.1799E-3	3.3002E-2	3	442	9	14217	positive regulation of apoptosis	CCK|TGFBR1|ITSN1
+43068	2.2225E-3	3.3002E-2	3	445	9	14217	positive regulation of programmed cell death	CCK|TGFBR1|ITSN1
+10942	2.2802E-3	3.3002E-2	3	449	9	14217	positive regulation of cell death	CCK|TGFBR1|ITSN1
+8284	2.4285E-3	3.3002E-2	3	459	9	14217	positive regulation of cell proliferation	CCK|TGFBR1|PLEKHK1
+1934	2.4469E-3	3.3002E-2	2	120	9	14217	positive regulation of protein amino acid phosphorylation	CCK|TGFBR1
+34142	2.5300E-3	3.3002E-2	1	4	9	14217	toll-like receptor 4 signaling pathway	CCK
+70423	2.5300E-3	3.3002E-2	1	4	9	14217	nucleotide-binding oligomerization domain containing signaling pathway	CCK
+70431	2.5300E-3	3.3002E-2	1	4	9	14217	nucleotide-binding oligomerization domain containing 2 signaling pathway	CCK
+45627	2.5300E-3	3.3002E-2	1	4	9	14217	positive regulation of T-helper 1 cell differentiation	CCK
+7549	2.5300E-3	3.3002E-2	1	4	9	14217	dosage compensation	SMCHD1
+32099	2.5300E-3	3.3002E-2	1	4	9	14217	negative regulation of appetite	CCK
+32096	2.5300E-3	3.3002E-2	1	4	9	14217	negative regulation of response to food	CCK
+51901	2.5300E-3	3.3002E-2	1	4	9	14217	positive regulation of mitochondrial depolarization	CCK
+32147	2.5687E-3	3.3002E-2	2	123	9	14217	activation of protein kinase activity	CCK|TGFBR1
+31344	2.7781E-3	3.3974E-2	2	128	9	14217	regulation of cell projection organization	TGFBR1|RHOQ
+42327	2.9075E-3	3.3974E-2	2	131	9	14217	positive regulation of phosphorylation	CCK|TGFBR1
+45937	3.0397E-3	3.3974E-2	2	134	9	14217	positive regulation of phosphate metabolic process	CCK|TGFBR1
+10562	3.0397E-3	3.3974E-2	2	134	9	14217	positive regulation of phosphorus metabolic process	CCK|TGFBR1
+7165	3.1376E-3	3.3974E-2	5	1873	9	14217	signal transduction	CCK|TGFBR1|PLEKHK1|RHOQ|ITSN1
+70391	3.1617E-3	3.3974E-2	1	5	9	14217	response to lipoteichoic acid	CCK
+34695	3.1617E-3	3.3974E-2	1	5	9	14217	response to prostaglandin E stimulus	TGFBR1
+34694	3.1617E-3	3.3974E-2	1	5	9	14217	response to prostaglandin stimulus	TGFBR1
+1961	3.1617E-3	3.3974E-2	1	5	9	14217	positive regulation of cytokine-mediated signaling pathway	CCK
+45601	3.7929E-3	3.7588E-2	1	6	9	14217	regulation of endothelial cell differentiation	TGFBR1
+45625	3.7929E-3	3.7588E-2	1	6	9	14217	regulation of T-helper 1 cell differentiation	CCK
+32743	3.7929E-3	3.7588E-2	1	6	9	14217	positive regulation of interleukin-2 production	CCK
+60017	3.7929E-3	3.7588E-2	1	6	9	14217	parathyroid gland development	TGFBR1
+51128	3.8160E-3	3.7588E-2	3	538	9	14217	regulation of cellular component organization	CCK|TGFBR1|RHOQ
+70201	3.9924E-3	3.8448E-2	2	154	9	14217	regulation of establishment of protein localization	TGFBR1|RHOQ
+48522	4.2435E-3	3.8448E-2	5	2003	9	14217	positive regulation of cellular process	CCK|TGFBR1|PLEKHK1|RHOQ|ITSN1
+46641	4.4238E-3	3.8448E-2	1	7	9	14217	positive regulation of alpha-beta T cell proliferation	CCK
+45624	4.4238E-3	3.8448E-2	1	7	9	14217	positive regulation of T-helper cell differentiation	CCK
+90003	4.4238E-3	3.8448E-2	1	7	9	14217	regulation of establishment of protein localization in plasma membrane	RHOQ
+32105	4.4238E-3	3.8448E-2	1	7	9	14217	negative regulation of response to extracellular stimulus	CCK
+32108	4.4238E-3	3.8448E-2	1	7	9	14217	negative regulation of response to nutrient levels	CCK
+70723	4.4238E-3	3.8448E-2	1	7	9	14217	response to cholesterol	TGFBR1
+32880	5.0105E-3	3.9829E-2	2	173	9	14217	regulation of protein localization	TGFBR1|RHOQ
+60391	5.0544E-3	3.9829E-2	1	8	9	14217	positive regulation of SMAD protein nuclear translocation	TGFBR1
+60037	5.0544E-3	3.9829E-2	1	8	9	14217	pharyngeal system development	TGFBR1
+32098	5.0544E-3	3.9829E-2	1	8	9	14217	regulation of appetite	CCK
+9396	5.0544E-3	3.9829E-2	1	8	9	14217	folic acid and derivative biosynthetic process	MTHFD2
+51900	5.0544E-3	3.9829E-2	1	8	9	14217	regulation of mitochondrial depolarization	CCK
+2825	5.0544E-3	3.9829E-2	1	8	9	14217	regulation of T-helper 1 type immune response	CCK
+46653	5.6846E-3	3.9995E-2	1	9	9	14217	tetrahydrofolate metabolic process	MTHFD2
+3254	5.6846E-3	3.9995E-2	1	9	9	14217	regulation of membrane depolarization	CCK
+60390	5.6846E-3	3.9995E-2	1	9	9	14217	regulation of SMAD protein nuclear translocation	TGFBR1
+9203	5.6846E-3	3.9995E-2	1	9	9	14217	ribonucleoside triphosphate catabolic process	RHOQ
+9207	5.6846E-3	3.9995E-2	1	9	9	14217	purine ribonucleoside triphosphate catabolic process	RHOQ
+32095	5.6846E-3	3.9995E-2	1	9	9	14217	regulation of response to food	CCK
+43372	5.6846E-3	3.9995E-2	1	9	9	14217	positive regulation of CD4-positive, alpha beta T cell differentiation	CCK
+8354	5.6846E-3	3.9995E-2	1	9	9	14217	germ cell migration	TGFBR1
+30857	5.6846E-3	3.9995E-2	1	9	9	14217	negative regulation of epithelial cell differentiation	TGFBR1
+23060	5.8431E-3	4.0154E-2	5	2152	9	14217	signal transmission	CCK|TGFBR1|PLEKHK1|RHOQ|ITSN1
+23046	5.8431E-3	4.0154E-2	5	2152	9	14217	signaling process	CCK|TGFBR1|PLEKHK1|RHOQ|ITSN1
+31663	6.3144E-3	4.2895E-2	1	10	9	14217	lipopolysaccharide-mediated signaling pathway	CCK
+48518	6.5207E-3	4.3658E-2	5	2206	9	14217	positive regulation of biological process	CCK|TGFBR1|PLEKHK1|RHOQ|ITSN1
+6916	6.6425E-3	4.3658E-2	2	200	9	14217	anti-apoptosis	CCK|TGFBR1
+46640	6.9439E-3	4.3658E-2	1	11	9	14217	regulation of alpha-beta T cell proliferation	CCK
+45622	6.9439E-3	4.3658E-2	1	11	9	14217	regulation of T-helper cell differentiation	CCK
+9146	6.9439E-3	4.3658E-2	1	11	9	14217	purine nucleoside triphosphate catabolic process	RHOQ
+32494	6.9439E-3	4.3658E-2	1	11	9	14217	response to peptidoglycan	CCK
+43330	6.9439E-3	4.3658E-2	1	11	9	14217	response to exogenous dsRNA	CCK
+32874	7.5731E-3	4.4882E-2	1	12	9	14217	positive regulation of stress-activated MAPK cascade	CCK
+46039	7.5731E-3	4.4882E-2	1	12	9	14217	GTP metabolic process	RHOQ
+48488	7.5731E-3	4.4882E-2	1	12	9	14217	synaptic vesicle endocytosis	ITSN1
+1932	7.7792E-3	4.4882E-2	2	217	9	14217	regulation of protein amino acid phosphorylation	CCK|TGFBR1
+10324	8.1293E-3	4.4882E-2	2	222	9	14217	membrane invagination	ITSN1|PLA2R1
+6897	8.1293E-3	4.4882E-2	2	222	9	14217	endocytosis	ITSN1|PLA2R1
+32729	8.2018E-3	4.4882E-2	1	13	9	14217	positive regulation of interferon-gamma production	CCK
+32760	8.2018E-3	4.4882E-2	1	13	9	14217	positive regulation of tumor necrosis factor production	CCK
+45885	8.2018E-3	4.4882E-2	1	13	9	14217	positive regulation of survival gene product expression	TGFBR1
+9154	8.2018E-3	4.4882E-2	1	13	9	14217	purine ribonucleotide catabolic process	RHOQ
+1662	8.2018E-3	4.4882E-2	1	13	9	14217	behavioral fear response	CCK
+43370	8.2018E-3	4.4882E-2	1	13	9	14217	regulation of CD4-positive, alpha beta T cell differentiation	CCK
+30866	8.2018E-3	4.4882E-2	1	13	9	14217	cortical actin cytoskeleton organization	RHOQ
+30865	8.2018E-3	4.4882E-2	1	13	9	14217	cortical cytoskeleton organization	RHOQ
+31401	8.7042E-3	4.4989E-2	2	230	9	14217	positive regulation of protein modification process	CCK|TGFBR1
+2209	8.8303E-3	4.4989E-2	1	14	9	14217	behavioral defense response	CCK
+60389	8.8303E-3	4.4989E-2	1	14	9	14217	pathway-restricted SMAD protein phosphorylation	TGFBR1
+51602	8.8303E-3	4.4989E-2	1	14	9	14217	response to electrical stimulus	TGFBR1
+32107	8.8303E-3	4.4989E-2	1	14	9	14217	regulation of response to nutrient levels	CCK
+32104	8.8303E-3	4.4989E-2	1	14	9	14217	regulation of response to extracellular stimulus	CCK
+51930	8.8303E-3	4.4989E-2	1	14	9	14217	regulation of sensory perception of pain	CCK
+51931	8.8303E-3	4.4989E-2	1	14	9	14217	regulation of sensory perception	CCK
+45860	9.2220E-3	4.5819E-2	2	237	9	14217	positive regulation of protein kinase activity	CCK|TGFBR1
+2224	9.4583E-3	4.5819E-2	1	15	9	14217	toll-like receptor signaling pathway	CCK
+33160	9.4583E-3	4.5819E-2	1	15	9	14217	positive regulation of protein import into nucleus, translocation	TGFBR1
+32722	9.4583E-3	4.5819E-2	1	15	9	14217	positive regulation of chemokine production	CCK
+9143	9.4583E-3	4.5819E-2	1	15	9	14217	nucleoside triphosphate catabolic process	RHOQ
+9261	9.4583E-3	4.5819E-2	1	15	9	14217	ribonucleotide catabolic process	RHOQ
+33674	9.9078E-3	4.7308E-2	2	246	9	14217	positive regulation of kinase activity	CCK|TGFBR1
+48844	1.0086E-2	4.7308E-2	1	16	9	14217	artery morphogenesis	TGFBR1
+32872	1.0086E-2	4.7308E-2	1	16	9	14217	regulation of stress-activated MAPK cascade	CCK
+6760	1.0086E-2	4.7308E-2	1	16	9	14217	folic acid and derivative metabolic process	MTHFD2
+9966	1.0507E-2	4.7967E-2	3	773	9	14217	regulation of signal transduction	CCK|TGFBR1|ITSN1
+51347	1.0616E-2	4.7967E-2	2	255	9	14217	positive regulation of transferase activity	CCK|TGFBR1
+23051	1.0695E-2	4.7967E-2	3	778	9	14217	regulation of signaling process	CCK|TGFBR1|ITSN1
+10862	1.0713E-2	4.7967E-2	1	17	9	14217	positive regulation of pathway-restricted SMAD protein phosphorylation	TGFBR1
+42596	1.0713E-2	4.7967E-2	1	17	9	14217	fear response	CCK
+71222	1.0713E-2	4.7967E-2	1	17	9	14217	cellular response to lipopolysaccharide	CCK
+48534	1.0938E-2	4.8604E-2	2	259	9	14217	hemopoietic or lymphoid organ development	TGFBR1|PLEKHK1
+50793	1.1194E-2	4.8921E-2	3	791	9	14217	regulation of developmental process	CCK|TGFBR1|RHOQ
+46638	1.1340E-2	4.8921E-2	1	18	9	14217	positive regulation of alpha-beta T cell differentiation	CCK
+2221	1.1340E-2	4.8921E-2	1	18	9	14217	pattern recognition receptor signaling pathway	CCK
+60840	1.1340E-2	4.8921E-2	1	18	9	14217	artery development	TGFBR1

@@ -1,0 +1,20 @@
+File created with bingo (c) on May 5, 2015 at 1:46:46 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+PLEKHG4	PRKAR2B	SEMA4F	PGAP1	FAM92A1	ZNF711	TMSL8	LOXL3	MERTK	TCEAL2	ADAMTS3	
+
+No annotations were retrieved for the following entities:
+GREB1	FAM110B	LOC347273	C22ORF27	SHE	MKRN3	MMRN2	TSPAN10	DLEU1	TRIM43	WDR76	MOP-1	CELP	MGC45922	RP11-679B17.1	NLF1	NLF2	EVI2B	LOC389199	TMEM185B	MTUS1	FBXL17	UNQ6975	CT45-6	C6ORF48	C7ORF31	LOC91461	MYCT1	NUDT15	LOC201175	CCDC109B	FBXL8	ZNF711	PLVAP	KIAA1432	C1QTNF5	LYL1	FAM92A1	OTUD7A	HLA-DRB6	SMA4	C12ORF5	RP13-36C9.6	C18ORF51	GPR156	RNASE1	KIAA1586	CENPQ	TMC5	C9ORF62	SPPL2B	TMEM169	LOC439951	SMYD2	CENPK	MGC34800	C18ORF54	CAMK2N2	TMEM55A	GPR153	SYNGR4	FAM64A	C1ORF64	PSITPTE22	ARPM1	FLJ45717	LOC399947	KIAA1545	MAGED4B	CLEC14A	FAM126B	BTBD11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set

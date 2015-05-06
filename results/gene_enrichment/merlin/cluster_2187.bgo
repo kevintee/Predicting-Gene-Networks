@@ -1,0 +1,120 @@
+File created with bingo (c) on May 4, 2015 at 10:32:02 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://62.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://62.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+PRF1	VSTM3	CD244	GBP5	CD247	CXCL9	EOMES	FASLG	CCL8	C20ORF174	SLAMF7	GZMH	SAMD3	HLA-DQA1	TLR8	ITM2A	CCL13	SIRPG	CXCL13	LAX1	ICOS	CXCR6	LAG3	
+
+No annotations were retrieved for the following entities:
+PNMA2	CXORF9	SHE	TMEM140	MMRN2	C1ORF75	C8ORF46	GAB3	WDR76	MOP-1	SLMO2	NLF1	NLF2	LOC389199	HFM1	MTERFD1	MS4A7	GBP5	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	BIN2	GBP1	CYORF15B	CCDC18	LMNB1	C20ORF174	C1ORF131	C1ORF135	CD68	LYL1	CD69	OTUD7A	HLA-DRB6	GPR156	HAVCR2	KIAA1586	CCDC83	SPPL2B	NCKAP1L	LOC439951	MGC34800	C18ORF54	CAMK2N2	GPR153	SYNGR4	FAM64A	WSCD1	TRAF3IP3	FLJ45717	DHX40	CLEC14A	LOC347273	C5ORF20	TSPAN10	DLEU1	CELP	MGC45922	FBXL17	LAIR1	HMGCLL1	C17ORF60	MYCT1	GPRASP2	FAM62C	METTL2A	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	COMMD2	KIAA0825	P15RS	LOC201725	PLVAP	ITM2A	N4BP3	C1QTNF5	MS4A6A	MS4A4A	RNASE1	C1ORF162	GIMAP6	CENPQ	C9ORF62	GIMAP8	SAMD3	CENPK	SAMSN1	GIMAP1	PRELID2	MYPN	PSITPTE22	FCGR2A	KIAA1545	C6ORF173	FAM26F	TEX11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+6955	5.1695E-11	2.0988E-8	11	619	19	14268	immune response	CCL13|LAX1|CXCL13|ICOS|EOMES|CXCL9|CCL8|FASLG|SLAMF7|TLR8|HLA-DQA1
+2376	2.2019E-10	4.4698E-8	12	946	19	14268	immune system process	CCL13|LAX1|CXCL13|ICOS|CD247|EOMES|CXCL9|CCL8|FASLG|SLAMF7|TLR8|HLA-DQA1
+2682	3.2889E-8	4.0990E-6	8	425	19	14268	regulation of immune system process	VSTM3|SIRPG|LAX1|ICOS|CD247|SLAMF7|LAG3|TLR8
+51249	4.0384E-8	4.0990E-6	6	158	19	14268	regulation of lymphocyte activation	VSTM3|SIRPG|LAX1|ICOS|SLAMF7|LAG3
+2694	8.7808E-8	7.1300E-6	6	180	19	14268	regulation of leukocyte activation	VSTM3|SIRPG|LAX1|ICOS|SLAMF7|LAG3
+50865	1.2880E-7	8.7153E-6	6	192	19	14268	regulation of cell activation	VSTM3|SIRPG|LAX1|ICOS|SLAMF7|LAG3
+50868	2.4343E-7	1.4119E-5	4	42	19	14268	negative regulation of T cell activation	VSTM3|LAX1|ICOS|LAG3
+50863	4.4471E-7	2.2569E-5	5	122	19	14268	regulation of T cell activation	VSTM3|SIRPG|LAX1|ICOS|LAG3
+51250	5.3939E-7	2.4332E-5	4	51	19	14268	negative regulation of lymphocyte activation	VSTM3|LAX1|ICOS|LAG3
+2695	7.8943E-7	3.2051E-5	4	56	19	14268	negative regulation of leukocyte activation	VSTM3|LAX1|ICOS|LAG3
+50866	1.1930E-6	4.4031E-5	4	62	19	14268	negative regulation of cell activation	VSTM3|LAX1|ICOS|LAG3
+2683	5.5775E-6	1.8871E-4	4	91	19	14268	negative regulation of immune system process	VSTM3|LAX1|ICOS|LAG3
+6952	8.8317E-6	2.7582E-4	7	618	19	14268	defense response	PRF1|CCL13|CXCL13|CXCL9|CCL8|SLAMF7|TLR8
+50776	1.1418E-5	3.3113E-4	5	236	19	14268	regulation of immune response	LAX1|ICOS|CD247|LAG3|TLR8
+2684	2.0361E-5	5.5109E-4	5	266	19	14268	positive regulation of immune system process	SIRPG|LAX1|CD247|LAG3|TLR8
+50778	3.7167E-5	9.4312E-4	4	147	19	14268	positive regulation of immune response	LAX1|CD247|LAG3|TLR8
+6954	4.4433E-5	1.0612E-3	5	313	19	14268	inflammatory response	CCL13|CXCL13|CXCL9|CCL8|TLR8
+42330	5.9761E-5	1.2770E-3	4	166	19	14268	taxis	CCL13|CXCL13|CXCL9|CCL8
+6935	5.9761E-5	1.2770E-3	4	166	19	14268	chemotaxis	CCL13|CXCL13|CXCL9|CCL8
+7267	8.0269E-5	1.6295E-3	6	586	19	14268	cell-cell signaling	SIRPG|CCL13|CXCL13|CXCL9|CCL8|FASLG
+23052	1.2511E-4	2.4189E-3	12	3123	19	14268	signaling	SIRPG|CCL13|CD244|LAX1|CXCL13|CXCR6|CD247|CXCL9|CCL8|FASLG|LAG3|TLR8
+19835	2.8344E-4	5.2308E-3	2	19	19	14268	cytolysis	PRF1|GZMH
+48584	3.8304E-4	6.5717E-3	4	269	19	14268	positive regulation of response to stimulus	LAX1|CD247|LAG3|TLR8
+7626	3.8847E-4	6.5717E-3	4	270	19	14268	locomotory behavior	CCL13|CXCL13|CXCL9|CCL8
+7154	4.7385E-4	7.6954E-3	6	811	19	14268	cell communication	SIRPG|CCL13|CXCL13|CXCL9|CCL8|FASLG
+48583	5.0115E-4	7.8257E-3	5	525	19	14268	regulation of response to stimulus	LAX1|ICOS|CD247|LAG3|TLR8
+50896	5.5268E-4	8.1273E-3	12	3618	19	14268	response to stimulus	PRF1|CCL13|LAX1|CXCL13|ICOS|EOMES|CXCL9|CCL8|FASLG|SLAMF7|TLR8|HLA-DQA1
+9611	5.6051E-4	8.1273E-3	5	538	19	14268	response to wounding	CCL13|CXCL13|CXCL9|CCL8|TLR8
+2252	6.5819E-4	9.2146E-3	3	131	19	14268	immune effector process	LAX1|SLAMF7|TLR8
+50851	9.7379E-4	1.3179E-2	2	35	19	14268	antigen receptor-mediated signaling pathway	LAX1|CD247
+6950	1.1663E-3	1.4656E-2	8	1768	19	14268	response to stress	PRF1|CCL13|CXCL13|CXCL9|CCL8|FASLG|SLAMF7|TLR8
+46666	1.3317E-3	1.4656E-2	1	1	19	14268	retinal cell programmed cell death	FASLG
+45590	1.3317E-3	1.4656E-2	1	1	19	14268	negative regulation of regulatory T cell differentiation	ICOS
+2302	1.3317E-3	1.4656E-2	1	1	19	14268	CD8-positive, alpha-beta T cell differentiation involved in immune response	EOMES
+60809	1.3317E-3	1.4656E-2	1	1	19	14268	mesodermal to mesenchymal transition involved in gastrulation	EOMES
+60554	1.3317E-3	1.4656E-2	1	1	19	14268	induction of necroptosis of activated-T cells	FASLG
+2429	1.3357E-3	1.4656E-2	2	41	19	14268	immune response-activating cell surface receptor signaling pathway	LAX1|CD247
+65007	1.4834E-3	1.5849E-2	16	6928	19	14268	biological regulation	PRF1|VSTM3|CD244|CD247|CXCL9|EOMES|FASLG|CCL8|SLAMF7|TLR8|CCL13|SIRPG|LAX1|CXCL13|ICOS|LAG3
+2768	1.6075E-3	1.6734E-2	2	45	19	14268	immune response-regulating cell surface receptor signaling pathway	LAX1|CD247
+46649	1.8111E-3	1.8383E-2	3	186	19	14268	lymphocyte activation	LAX1|EOMES|SLAMF7
+45089	1.9034E-3	1.8848E-2	2	49	19	14268	positive regulation of innate immune response	LAG3|TLR8
+1817	2.2918E-3	2.2035E-2	3	202	19	14268	regulation of cytokine production	VSTM3|LAG3|TLR8
+40011	2.3337E-3	2.2035E-2	4	437	19	14268	locomotion	CCL13|CXCL13|CXCL9|CCL8
+2757	2.3921E-3	2.2073E-2	2	55	19	14268	immune response-activating signal transduction	LAX1|CD247
+6925	2.6616E-3	2.4014E-2	1	2	19	14268	inflammatory cell apoptosis	FASLG
+45088	2.8400E-3	2.4309E-2	2	60	19	14268	regulation of innate immune response	LAG3|TLR8
+2764	2.8400E-3	2.4309E-2	2	60	19	14268	immune response-regulating signaling pathway	LAX1|CD247
+7610	2.8786E-3	2.4309E-2	4	463	19	14268	behavior	CCL13|CXCL13|CXCL9|CCL8
+6968	2.9339E-3	2.4309E-2	2	61	19	14268	cellular defense response	PRF1|CXCL9
+2449	3.1261E-3	2.5384E-2	2	63	19	14268	lymphocyte mediated immunity	SLAMF7|TLR8
+50789	3.4255E-3	2.6128E-2	15	6540	19	14268	regulation of biological process	PRF1|VSTM3|CD244|CD247|CXCL9|EOMES|FASLG|CCL8|SLAMF7|TLR8|CCL13|SIRPG|LAX1|ICOS|LAG3
+45321	3.4335E-3	2.6128E-2	3	233	19	14268	leukocyte activation	LAX1|EOMES|SLAMF7
+30644	3.9899E-3	2.6128E-2	1	3	19	14268	cellular chloride ion homeostasis	FASLG
+45589	3.9899E-3	2.6128E-2	1	3	19	14268	regulation of regulatory T cell differentiation	ICOS
+30320	3.9899E-3	2.6128E-2	1	3	19	14268	cellular monovalent inorganic anion homeostasis	FASLG
+60555	3.9899E-3	2.6128E-2	1	3	19	14268	induction of necroptosis by extracellular signals	FASLG
+60553	3.9899E-3	2.6128E-2	1	3	19	14268	induction of necroptosis	FASLG
+60545	3.9899E-3	2.6128E-2	1	3	19	14268	positive regulation of necroptosis	FASLG
+60544	3.9899E-3	2.6128E-2	1	3	19	14268	regulation of necroptosis	FASLG
+48388	3.9899E-3	2.6128E-2	1	3	19	14268	endosomal lumen acidification	FASLG
+55064	3.9899E-3	2.6128E-2	1	3	19	14268	chloride ion homeostasis	FASLG
+55083	3.9899E-3	2.6128E-2	1	3	19	14268	monovalent inorganic anion homeostasis	FASLG
+30003	4.2317E-3	2.7271E-2	3	251	19	14268	cellular cation homeostasis	CCL13|CXCL13|FASLG
+42035	4.6319E-3	2.9384E-2	2	77	19	14268	regulation of cytokine biosynthetic process	LAG3|TLR8
+48518	4.9302E-3	3.0233E-2	8	2207	19	14268	positive regulation of biological process	VSTM3|SIRPG|LAX1|CD247|FASLG|SLAMF7|LAG3|TLR8
+9605	5.2319E-3	3.0233E-2	4	547	19	14268	response to external stimulus	CCL13|CXCL13|CXCL9|CCL8
+10940	5.3165E-3	3.0233E-2	1	4	19	14268	positive regulation of necrotic cell death	FASLG
+48305	5.3165E-3	3.0233E-2	1	4	19	14268	immunoglobulin secretion	LAX1
+45085	5.3165E-3	3.0233E-2	1	4	19	14268	negative regulation of interleukin-2 biosynthetic process	LAG3
+45356	5.3165E-3	3.0233E-2	1	4	19	14268	positive regulation of interferon-alpha biosynthetic process	TLR8
+2443	5.3615E-3	3.0233E-2	2	83	19	14268	leukocyte mediated immunity	SLAMF7|TLR8
+31349	5.3615E-3	3.0233E-2	2	83	19	14268	positive regulation of defense response	LAG3|TLR8
+1775	5.4599E-3	3.0366E-2	3	275	19	14268	cell activation	LAX1|EOMES|SLAMF7
+55080	6.0289E-3	3.3077E-2	3	285	19	14268	cation homeostasis	CCL13|CXCL13|FASLG
+2292	6.6415E-3	3.3705E-2	1	5	19	14268	T cell differentiation involved in immune response	EOMES
+2293	6.6415E-3	3.3705E-2	1	5	19	14268	alpha-beta T cell differentiation involved in immune response	EOMES
+2287	6.6415E-3	3.3705E-2	1	5	19	14268	alpha-beta T cell activation involved in immune response	EOMES
+70265	6.6415E-3	3.3705E-2	1	5	19	14268	necrotic cell death	FASLG
+43374	6.6415E-3	3.3705E-2	1	5	19	14268	CD8-positive, alpha-beta T cell differentiation	EOMES
+45354	6.6415E-3	3.3705E-2	1	5	19	14268	regulation of interferon-alpha biosynthetic process	TLR8
+2253	7.1109E-3	3.5642E-2	2	96	19	14268	activation of immune response	LAX1|CD247
+50794	7.6489E-3	3.7795E-2	14	6210	19	14268	regulation of cellular process	PRF1|VSTM3|CD244|CXCL9|EOMES|FASLG|CCL8|SLAMF7|TLR8|CCL13|SIRPG|LAX1|ICOS|LAG3
+10939	7.9647E-3	3.7795E-2	1	6	19	14268	regulation of necrotic cell death	FASLG
+32695	7.9647E-3	3.7795E-2	1	6	19	14268	negative regulation of interleukin-12 production	VSTM3
+1706	7.9647E-3	3.7795E-2	1	6	19	14268	endoderm formation	EOMES
+7165	8.0059E-3	3.7795E-2	7	1876	19	14268	signal transduction	CCL13|CD244|LAX1|CXCL9|CCL8|FASLG|TLR8
+45416	9.2863E-3	4.2362E-2	1	7	19	14268	positive regulation of interleukin-8 biosynthetic process	TLR8
+45359	9.2863E-3	4.2362E-2	1	7	19	14268	positive regulation of interferon-beta biosynthetic process	TLR8
+45357	9.2863E-3	4.2362E-2	1	7	19	14268	regulation of interferon-beta biosynthetic process	TLR8
+42221	9.4841E-3	4.2784E-2	6	1458	19	14268	response to chemical stimulus	PRF1|CCL13|CXCL13|CXCL9|CCL8|FASLG
+2228	1.0606E-2	4.5810E-2	1	8	19	14268	natural killer cell mediated immunity	SLAMF7
+32733	1.0606E-2	4.5810E-2	1	8	19	14268	positive regulation of interleukin-10 production	VSTM3
+42267	1.0606E-2	4.5810E-2	1	8	19	14268	natural killer cell mediated cytotoxicity	SLAMF7
+10623	1.0606E-2	4.5810E-2	1	8	19	14268	developmental programmed cell death	FASLG
+51239	1.1040E-2	4.7182E-2	5	1065	19	14268	regulation of multicellular organismal process	VSTM3|ICOS|FASLG|LAG3|TLR8
+51707	1.1178E-2	4.7272E-2	3	357	19	14268	response to other organism	CCL8|FASLG|TLR8
+32647	1.1925E-2	4.8903E-2	1	9	19	14268	regulation of interferon-alpha production	TLR8
+32814	1.1925E-2	4.8903E-2	1	9	19	14268	regulation of natural killer cell activation	SLAMF7
+45414	1.1925E-2	4.8903E-2	1	9	19	14268	regulation of interleukin-8 biosynthetic process	TLR8
+6873	1.2312E-2	4.9987E-2	3	370	19	14268	cellular ion homeostasis	CCL13|CXCL13|FASLG

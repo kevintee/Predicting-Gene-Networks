@@ -1,0 +1,114 @@
+File created with bingo (c) on May 5, 2015 at 1:47:41 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+WNT5A	HMCN1	DKK1	TGFBI	MME	FGF13	NAV3	LOXL2	PHLDB2	CHGB	MST150	HS3ST3B1	
+
+No annotations were retrieved for the following entities:
+PNMA2	DKFZP434B0335	C20ORF103	FAM110B	PVRIG	TMEM17	FLJ23049	SHE	ZNRF3	MAGEC1	FAM92B	TMEM140	ZNRF2	C1ORF75	DKFZP666G057	WDR78	CLEC4E	GAB3	WDR76	NLF1	NLF2	C21ORF121	LOC389199	TMEM185B	GOLGA8A	MUC13	FHAD1	HFM1	MTERFD1	C7ORF31	GBP5	KIAA1666	NUDT12	OLFML2B	MGC33212	C10ORF107	NUDT15	TIMD4	NAV3	LHFP	CCDC138	TMEM130	HERC2P2	C14ORF45	PARP12	FBXL8	C1ORF88	TMEM31	LOC130940	BTN3A3	CHGB	BIN2	TP53TG3	FLJ44379	C15ORF26	LMNB1	FAM132A	C3ORF15	C1ORF131	TMCC3	KIAA1913	AKAP14	KRT24	C1ORF135	C10ORF95	CD68	RIBC2	CD69	LYL1	ZDHHC9	MYO15B	FAM92A1	LOC619208	HLA-DRB6	SMA4	CCDC89	C1ORF59	WDHD1	FCHO1	C4ORF12	C18ORF51	GPR156	FLJ45803	CCDC83	LOC441054	C9ORF18	C21ORF90	MGC39606	NCKAP1L	CPXCR1	FLJ40298	C21ORF119	SMYD2	MGC34800	C18ORF54	CAMK2N2	GPR153	SYNGR4	CSPP1	KIAA1407	FAM64A	C1ORF64	WSCD1	LOC152573	C1ORF63	WDR63	DHX40	AGR3	CCDC78	KIAA1377	BTBD11	FAM54A	LOC158830	GYPC	C10ORF65	LOC200383	TTC26	GREB1	WASF4	LOC347273	TTC29	ARSJ	C22ORF27	RG9MTD2	CFHR3	DLEU1	C12ORF23	GBAS	MGC45922	FBXL17	CCDC28B	CEACAM20	C10ORF56	LOC91461	SPECC1	TNMD	FAM113B	METTL2A	PIH1D2	MST150	LRRC25	PDCL2	EFHC1	CCDC109B	DOK7	KIAA0888	SERPINB1	C10ORF63	LRRIQ1	GPR180	MEIG1	ABHD8	CA14	ABHD7	P15RS	LRRC32	ZMYND10	HOM-TES-103	DISP2	KIAA1737	SAMD9L	ITM2A	C7ORF23	KIAA1432	FNDC5	C12ORF48	MORC4	WDR16	ARMCX2	C12ORF5	ARMCX1	LIMS3	RBM24	C1ORF162	LOC541471	LOC93349	C10ORF35	LRRC43	MXRA7	LRRC48	C1ORF218	TTC16	SAMD3	FAAH2	LRRC49	TTC18	FAM78A	FEM1C	PRELID2	ANKRD46	FBLN2	SAMD9	C19ORF51	PSITPTE22	TMTC3	C14ORF129	FCGR2A	KIAA1545	PHLDB2	MAGED4B	FAM126B	TEX11	MGC61571	ASAM	C6ORF57	GPRIN2	CXORF9	MKRN3	MMRN2	KRT81	NLRC5	C1ORF192	PAGE2B	C1ORF190	C8ORF46	TRIM43	MOP-1	SLMO2	RP11-679B17.1	LGI2	MTUS1	CT45-6	MS4A7	C6ORF48	DYX1C1	MS4A3	LOC201175	C21ORF13	FAM118B	EVC2	CHPF	IQCG	CD300LF	ANXA8L2	INTU	FAM38B	GBP1	CYORF15B	CCDC17	CYORF15A	CCDC18	CCDC19	CCDC14	C13ORF1	C20ORF174	C2ORF50	COMMD8	CASD1	LOC654346	TRIM74	COMMD10	CAPS2	FLJ40125	C2ORF55	PACRG	
+OTUD7A	MGC33846	THAP10	LRFN5	RP13-36C9.6	MUC1	HAVCR2	TMEM59L	PALM2-AKAP2	KIAA1586	MRPS23	FANK1	ARMC3	SPPL2B	MYO1G	CRB3	SPPL2A	LOC439951	CASC1	ARMC2	EFHB	TRAF3IP3	FLJ45717	NKG7	FAM84B	CLEC14A	C20ORF94	HINT3	C5ORF20	CHSY-2	C9ORF116	SYNGR2	CCDC40	TSPAN10	C2ORF39	EVI2A	LOC402176	CELP	PXMP2	MS4A8B	EVI2B	C2ORF32	UNQ6975	LAIR1	HMGCLL1	C17ORF60	CAPSL	MYCT1	GPRASP2	GPRASP1	C20ORF26	FAM62C	CCDC46	PIGR	C9ORF82	LDLRAD1	C3ORF34	TMEM65	CLECL1	C3ORF33	CFL2	PPM1H	TMEM182	ZNF711	COMMD2	FLJ13195	CXORF41	C16ORF59	SHCBP1	CXORF57	KNCN	KIAA0825	MUM1L1	LOC201725	LOC440248	MGC16025	PLVAP	CCDC57	SLC47A2	N4BP3	C1QTNF5	C2ORF15	FAM81B	SMOC1	DYDC2	C16ORF24	FGFBP2	MS4A6A	LACTB	MS4A4A	GIMAP2	CENPN	C6ORF165	RNASE1	MORN2	GIMAP6	C9ORF9	GIMAP7	GIMAP8	CENPQ	TMC5	C9ORF62	LOC152485	FAM9A	FAM9B	TMEM169	SAMSN1	CENPK	LOC136288	GIMAP1	TMEM55A	C3ORF54	SH3BGRL	RNF43	HCG_1990170	C5ORF34	C18ORF10	MYPN	C13ORF30	ARPM1	LOC399947	C6ORF173	IQUB	FAM26F	C13ORF31	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+60322	6.9688E-5	2.0214E-2	2	23	8	14217	head development	WNT5A|DKK1
+90090	8.9444E-5	2.0214E-2	2	26	8	14217	negative regulation of canonical Wnt receptor signaling pathway	WNT5A|DKK1
+60828	2.0319E-4	2.4796E-2	2	39	8	14217	regulation of canonical Wnt receptor signaling pathway	WNT5A|DKK1
+30178	3.9074E-4	2.4796E-2	2	54	8	14217	negative regulation of Wnt receptor signaling pathway	WNT5A|DKK1
+2741	5.6271E-4	2.4796E-2	1	1	8	14217	positive regulation of cytokine secretion involved in immune response	WNT5A
+50678	9.6632E-4	2.4796E-2	2	85	8	14217	regulation of epithelial cell proliferation	WNT5A|MME
+35113	1.0120E-3	2.4796E-2	2	87	8	14217	embryonic appendage morphogenesis	WNT5A|DKK1
+30326	1.0120E-3	2.4796E-2	2	87	8	14217	embryonic limb morphogenesis	WNT5A|DKK1
+30111	1.0120E-3	2.4796E-2	2	87	8	14217	regulation of Wnt receptor signaling pathway	WNT5A|DKK1
+3308	1.1251E-3	2.4796E-2	1	2	8	14217	negative regulation of Wnt receptor signaling pathway involved in heart development	DKK1
+48850	1.1251E-3	2.4796E-2	1	2	8	14217	hypophysis morphogenesis	WNT5A
+90082	1.1251E-3	2.4796E-2	1	2	8	14217	negative regulation of canonical Wnt receptor signaling pathway involved in heart induction	DKK1
+72201	1.1251E-3	2.4796E-2	1	2	8	14217	negative regulation of mesenchymal cell proliferation	WNT5A
+3408	1.1251E-3	2.4796E-2	1	2	8	14217	optic cup formation involved in camera-type eye development	WNT5A
+71346	1.1251E-3	2.4796E-2	1	2	8	14217	cellular response to interferon-gamma	WNT5A
+60599	1.1251E-3	2.4796E-2	1	2	8	14217	lateral sprouting involved in mammary gland duct morphogenesis	WNT5A
+35107	1.3342E-3	2.4796E-2	2	100	8	14217	appendage morphogenesis	WNT5A|DKK1
+35108	1.3342E-3	2.4796E-2	2	100	8	14217	limb morphogenesis	WNT5A|DKK1
+60173	1.4420E-3	2.4796E-2	2	104	8	14217	limb development	WNT5A|DKK1
+48736	1.4420E-3	2.4796E-2	2	104	8	14217	appendage development	WNT5A|DKK1
+3307	1.6873E-3	2.4796E-2	1	3	8	14217	regulation of Wnt receptor signaling pathway involved in heart development	DKK1
+48852	1.6873E-3	2.4796E-2	1	3	8	14217	diencephalon morphogenesis	WNT5A
+2072	1.6873E-3	2.4796E-2	1	3	8	14217	optic cup morphogenesis involved in camera-type eye development	WNT5A
+90081	1.6873E-3	2.4796E-2	1	3	8	14217	regulation of canonical Wnt receptor signaling pathway involved in heart induction	DKK1
+15015	1.6873E-3	2.4796E-2	1	3	8	14217	heparan sulfate proteoglycan biosynthetic process, enzymatic modification	HS3ST3B1
+60686	1.6873E-3	2.4796E-2	1	3	8	14217	negative regulation of prostatic bud formation	WNT5A
+60750	1.6873E-3	2.4796E-2	1	3	8	14217	epithelial cell proliferation involved in mammary gland duct elongation	WNT5A
+60760	1.6873E-3	2.4796E-2	1	3	8	14217	positive regulation of response to cytokine stimulus	WNT5A
+60762	1.6873E-3	2.4796E-2	1	3	8	14217	regulation of branching involved in mammary gland duct morphogenesis	WNT5A
+60907	1.6873E-3	2.4796E-2	1	3	8	14217	positive regulation of macrophage cytokine production	WNT5A
+10935	2.2492E-3	2.4796E-2	1	4	8	14217	regulation of macrophage cytokine production	WNT5A
+10819	2.2492E-3	2.4796E-2	1	4	8	14217	regulation of T cell chemotaxis	WNT5A
+10820	2.2492E-3	2.4796E-2	1	4	8	14217	positive regulation of T cell chemotaxis	WNT5A
+90036	2.2492E-3	2.4796E-2	1	4	8	14217	regulation of protein kinase C signaling cascade	WNT5A
+90037	2.2492E-3	2.4796E-2	1	4	8	14217	positive regulation of protein kinase C signaling cascade	WNT5A
+71277	2.2492E-3	2.4796E-2	1	4	8	14217	cellular response to calcium ion	WNT5A
+60157	2.2492E-3	2.4796E-2	1	4	8	14217	urinary bladder development	WNT5A
+61081	2.2492E-3	2.4796E-2	1	4	8	14217	positive regulation of myeloid leukocyte cytokine production involved in immune response	WNT5A
+60751	2.2492E-3	2.4796E-2	1	4	8	14217	branch elongation involved in mammary gland duct branching	WNT5A
+60759	2.2492E-3	2.4796E-2	1	4	8	14217	regulation of response to cytokine stimulus	WNT5A
+8218	2.2492E-3	2.4796E-2	1	4	8	14217	bioluminescence	HMCN1
+71425	2.8108E-3	2.6468E-2	1	5	8	14217	hemopoietic stem cell proliferation	WNT5A
+60054	2.8108E-3	2.6468E-2	1	5	8	14217	positive regulation of epithelial cell proliferation involved in wound healing	MME
+42695	2.8108E-3	2.6468E-2	1	5	8	14217	thelarche	WNT5A
+2739	2.8108E-3	2.6468E-2	1	5	8	14217	regulation of cytokine secretion involved in immune response	WNT5A
+60744	2.8108E-3	2.6468E-2	1	5	8	14217	mammary gland branching involved in thelarche	WNT5A
+60900	2.8108E-3	2.6468E-2	1	5	8	14217	embryonic camera-type eye formation	WNT5A
+60601	2.8108E-3	2.6468E-2	1	5	8	14217	lateral sprouting from an epithelium	WNT5A
+40037	3.3721E-3	2.9102E-2	1	6	8	14217	negative regulation of fibroblast growth factor receptor signaling pathway	WNT5A
+71560	3.3721E-3	2.9102E-2	1	6	8	14217	cellular response to transforming growth factor beta stimulus	WNT5A
+7442	3.3721E-3	2.9102E-2	1	6	8	14217	hindgut morphogenesis	WNT5A
+60685	3.3721E-3	2.9102E-2	1	6	8	14217	regulation of prostatic bud formation	WNT5A
+30900	3.4124E-3	2.9102E-2	2	161	8	14217	forebrain development	WNT5A|DKK1
+71559	3.9331E-3	3.2323E-2	1	7	8	14217	response to transforming growth factor beta stimulus	WNT5A
+71345	3.9331E-3	3.2323E-2	1	7	8	14217	cellular response to cytokine stimulus	WNT5A
+48853	4.4939E-3	3.4675E-2	1	8	8	14217	forebrain morphogenesis	WNT5A
+45080	4.4939E-3	3.4675E-2	1	8	8	14217	positive regulation of chemokine biosynthetic process	WNT5A
+46543	4.4939E-3	3.4675E-2	1	8	8	14217	development of secondary female sexual characteristics	WNT5A
+165	4.5262E-3	3.4675E-2	2	186	8	14217	MAPKKK cascade	WNT5A|FGF13
+33598	5.0544E-3	3.5744E-2	1	9	8	14217	mammary gland epithelial cell proliferation	WNT5A
+45136	5.0544E-3	3.5744E-2	1	9	8	14217	development of secondary sexual characteristics	WNT5A
+42060	5.1638E-3	3.5744E-2	2	199	8	14217	wound healing	WNT5A|MME
+71248	5.6146E-3	3.5744E-2	1	10	8	14217	cellular response to metal ion	WNT5A
+71241	5.6146E-3	3.5744E-2	1	10	8	14217	cellular response to inorganic substance	WNT5A
+15012	5.6146E-3	3.5744E-2	1	10	8	14217	heparan sulfate proteoglycan biosynthetic process	HS3ST3B1
+3401	5.6146E-3	3.5744E-2	1	10	8	14217	axis elongation	WNT5A
+42659	5.6146E-3	3.5744E-2	1	10	8	14217	regulation of cell fate specification	DKK1
+10453	5.6146E-3	3.5744E-2	1	10	8	14217	regulation of cell fate commitment	DKK1
+2720	5.6146E-3	3.5744E-2	1	10	8	14217	positive regulation of cytokine production involved in immune response	WNT5A
+32148	5.6146E-3	3.5744E-2	1	10	8	14217	activation of protein kinase B activity	WNT5A
+60602	5.6146E-3	3.5744E-2	1	10	8	14217	branch elongation of an epithelium	WNT5A
+7601	6.1117E-3	3.7212E-2	2	217	8	14217	visual perception	HMCN1|TGFBI
+50953	6.1117E-3	3.7212E-2	2	217	8	14217	sensory perception of light stimulus	HMCN1|TGFBI
+71363	6.1746E-3	3.7212E-2	1	11	8	14217	cellular response to growth factor stimulus	WNT5A
+45073	6.1746E-3	3.7212E-2	1	11	8	14217	regulation of chemokine biosynthetic process	WNT5A
+40036	7.2936E-3	4.2266E-2	1	13	8	14217	regulation of fibroblast growth factor receptor signaling pathway	WNT5A
+30201	7.2936E-3	4.2266E-2	1	13	8	14217	heparan sulfate proteoglycan metabolic process	HS3ST3B1
+48596	7.2936E-3	4.2266E-2	1	13	8	14217	embryonic camera-type eye morphogenesis	WNT5A
+904	7.4308E-3	4.2515E-2	2	240	8	14217	cell morphogenesis involved in differentiation	WNT5A|DKK1
+2702	7.8527E-3	4.4368E-2	1	14	8	14217	positive regulation of production of molecular mediator of immune response	WNT5A
+7154	8.3420E-3	4.5262E-2	3	811	8	14217	cell communication	WNT5A|MME|FGF13
+48854	8.4116E-3	4.5262E-2	1	15	8	14217	brain morphogenesis	WNT5A
+60323	8.4116E-3	4.5262E-2	1	15	8	14217	head morphogenesis	DKK1
+60444	8.4116E-3	4.5262E-2	1	15	8	14217	branching involved in mammary gland duct morphogenesis	WNT5A
+35467	8.8037E-3	4.6603E-2	2	262	8	14217	negative regulation of signaling pathway	WNT5A|DKK1
+45599	8.9701E-3	4.6603E-2	1	16	8	14217	negative regulation of fat cell differentiation	WNT5A
+34341	8.9701E-3	4.6603E-2	1	16	8	14217	response to interferon-gamma	WNT5A
+60324	9.5284E-3	4.6813E-2	1	17	8	14217	face development	WNT5A
+71222	9.5284E-3	4.6813E-2	1	17	8	14217	cellular response to lipopolysaccharide	WNT5A
+48048	9.5284E-3	4.6813E-2	1	17	8	14217	embryonic eye morphogenesis	WNT5A
+31076	9.5284E-3	4.6813E-2	1	17	8	14217	embryonic camera-type eye development	WNT5A
+18298	9.5284E-3	4.6813E-2	1	17	8	14217	protein-chromophore linkage	HMCN1
+2718	1.0086E-2	4.9022E-2	1	18	8	14217	regulation of cytokine production involved in immune response	WNT5A

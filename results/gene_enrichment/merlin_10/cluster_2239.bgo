@@ -1,0 +1,46 @@
+File created with bingo (c) on May 5, 2015 at 1:47:07 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+MTSS1	SNN	PDCL2	TMEM65	PPP2R3A	SQLE	OR2J3	SNCA	TCEAL5	CD22	CD79B	FAM84B	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	CXORF9	SHE	MKRN3	ZNRF2	MMRN2	TMEM140	KRT81	C1ORF75	CLEC4E	C8ORF46	TRIM43	GAB3	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	TMEM185B	LOC389199	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	C7ORF31	C6ORF48	GBP5	NUDT12	NUDT15	LOC201175	TMEM130	FAM118B	FBXL8	CD300LF	BTN3A3	FAM38B	BIN2	GBP1	CYORF15B	CYORF15A	CCDC18	LMNB1	C20ORF174	C1ORF131	TRIM74	C1ORF135	CD68	LYL1	CD69	FAM92A1	OTUD7A	SMA4	HLA-DRB6	WDHD1	C1ORF59	RP13-36C9.6	C4ORF12	GPR156	C18ORF51	HAVCR2	FLJ45803	PALM2-AKAP2	MRPS23	KIAA1586	CCDC83	MYO1G	SPPL2B	SPPL2A	NCKAP1L	LOC439951	SMYD2	MGC34800	CAMK2N2	C18ORF54	SYNGR4	GPR153	FAM64A	WSCD1	C1ORF64	TRAF3IP3	FLJ45717	DHX40	FAM84B	C20ORF94	CLEC14A	FAM54A	BTBD11	HINT3	GYPC	WASF4	GREB1	LOC347273	C5ORF20	RG9MTD2	C22ORF27	CFHR3	TSPAN10	DLEU1	CELP	MGC45922	EVI2B	C2ORF32	FBXL17	UNQ6975	LAIR1	HMGCLL1	LOC91461	C17ORF60	GPRASP2	MYCT1	FAM62C	METTL2A	C9ORF82	LRRC25	PDCL2	TMEM65	CCDC109B	CLECL1	C3ORF33	TMEM182	DOK7	ZNF711	COMMD2	FLJ13195	SHCBP1	C16ORF59	GPR180	CXORF57	LRRC32	P15RS	KIAA0825	LOC201725	PLVAP	ITM2A	N4BP3	KIAA1432	C12ORF48	C1QTNF5	C2ORF15	ARMCX2	C16ORF24	ARMCX1	C12ORF5	LACTB	MS4A6A	GIMAP2	MS4A4A	CENPN	RNASE1	C1ORF162	LOC541471	LOC93349	GIMAP6	C9ORF62	TMC5	CENPQ	GIMAP8	FAM9A	LOC152485	FAM9B	C1ORF218	TMEM169	SAMD3	CENPK	SAMSN1	TMEM55A	GIMAP1	C3ORF54	FEM1C	HCG_1990170	C5ORF34	PRELID2	FBLN2	MYPN	PSITPTE22	ARPM1	C14ORF129	LOC399947	FCGR2A	KIAA1545	C6ORF173	FAM126B	MAGED4B	C13ORF31	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+70495	6.3304E-4	2.0827E-2	1	1	9	14217	negative regulation of thrombin receptor signaling pathway	SNCA
+70494	6.3304E-4	2.0827E-2	1	1	9	14217	regulation of thrombin receptor signaling pathway	SNCA
+51581	6.3304E-4	2.0827E-2	1	1	9	14217	negative regulation of neurotransmitter uptake	SNCA
+51585	6.3304E-4	2.0827E-2	1	1	9	14217	negative regulation of dopamine uptake	SNCA
+51612	6.3304E-4	2.0827E-2	1	1	9	14217	negative regulation of serotonin uptake	SNCA
+51611	6.3304E-4	2.0827E-2	1	1	9	14217	regulation of serotonin uptake	SNCA
+51621	6.3304E-4	2.0827E-2	1	1	9	14217	regulation of norepinephrine uptake	SNCA
+51622	6.3304E-4	2.0827E-2	1	1	9	14217	negative regulation of norepinephrine uptake	SNCA
+50812	6.3304E-4	2.0827E-2	1	1	9	14217	regulation of acyl-CoA biosynthetic process	SNCA
+51945	6.3304E-4	2.0827E-2	1	1	9	14217	negative regulation of catecholamine uptake involved in synaptic transmission	SNCA
+60732	1.2657E-3	2.9745E-2	1	2	9	14217	positive regulation of inositol phosphate biosynthetic process	SNCA
+51589	1.2657E-3	2.9745E-2	1	2	9	14217	negative regulation of neurotransmitter transport	SNCA
+10040	1.2657E-3	2.9745E-2	1	2	9	14217	response to iron(II) ion	SNCA
+10642	1.2657E-3	2.9745E-2	1	2	9	14217	negative regulation of platelet-derived growth factor receptor signaling pathway	SNCA
+10919	1.8981E-3	3.9029E-2	1	3	9	14217	regulation of inositol phosphate biosynthetic process	SNCA
+35067	1.8981E-3	3.9029E-2	1	3	9	14217	negative regulation of histone acetylation	SNCA
+10640	2.5300E-3	4.6244E-2	1	4	9	14217	regulation of platelet-derived growth factor receptor signaling pathway	SNCA
+1956	2.5300E-3	4.6244E-2	1	4	9	14217	positive regulation of neurotransmitter secretion	SNCA
+60291	3.1617E-3	4.7995E-2	1	5	9	14217	long-term synaptic potentiation	SNCA
+45920	3.1617E-3	4.7995E-2	1	5	9	14217	negative regulation of exocytosis	SNCA
+1921	3.1617E-3	4.7995E-2	1	5	9	14217	positive regulation of receptor recycling	SNCA
+6725	3.5007E-3	4.7995E-2	2	144	9	14217	cellular aromatic compound metabolic process	SQLE|SNCA
+51580	3.7929E-3	4.7995E-2	1	6	9	14217	regulation of neurotransmitter uptake	SNCA
+51590	3.7929E-3	4.7995E-2	1	6	9	14217	positive regulation of neurotransmitter transport	SNCA
+51584	3.7929E-3	4.7995E-2	1	6	9	14217	regulation of dopamine uptake	SNCA
+51940	3.7929E-3	4.7995E-2	1	6	9	14217	regulation of catecholamine uptake involved in synaptic transmission	SNCA

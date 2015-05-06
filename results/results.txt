@@ -1,0 +1,10 @@
+# magical script that does counts how many unique clusters have a certain functional annotation 
+# that is significant.
+#
+
+grep -r 'apoptosis' . | cut -f1 | cut -d":" -f1 | uniq | wc -l
+
+function merlin sbm
+"apoptosis" 3 1
+"antigen processing and presentation" 1 2
+"endocytosis" 1 1

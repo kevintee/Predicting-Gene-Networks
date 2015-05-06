@@ -1,0 +1,37 @@
+File created with bingo (c) on May 5, 2015 at 1:46:51 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+PPP1R9A	TJP1	C2ORF15	SLC24A1	PKD2	LOC152485	ADRBK2	DFNB59	DOPEY1	IFT88	OPN3	C4ORF12	
+
+No annotations were retrieved for the following entities:
+PNMA2	FAM110B	CXORF9	SHE	MKRN3	MMRN2	TMEM140	C1ORF75	C8ORF46	TRIM43	GAB3	WDR76	MOP-1	SLMO2	NLF1	RP11-679B17.1	NLF2	TMEM185B	LOC389199	MTUS1	HFM1	MTERFD1	CT45-6	MS4A7	C7ORF31	C6ORF48	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	BIN2	GBP1	CYORF15B	CCDC18	LMNB1	C1ORF131	C1ORF135	CD68	LYL1	CD69	FAM92A1	OTUD7A	SMA4	HLA-DRB6	RP13-36C9.6	C4ORF12	GPR156	C18ORF51	HAVCR2	KIAA1586	CCDC83	SPPL2B	NCKAP1L	LOC439951	SMYD2	MGC34800	CAMK2N2	C18ORF54	SYNGR4	GPR153	FAM64A	WSCD1	C1ORF64	TRAF3IP3	FLJ45717	DHX40	CLEC14A	BTBD11	GREB1	LOC347273	C5ORF20	C22ORF27	TSPAN10	DLEU1	CELP	MGC45922	EVI2B	FBXL17	UNQ6975	LAIR1	HMGCLL1	LOC91461	C17ORF60	GPRASP2	MYCT1	FAM62C	METTL2A	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	ZNF711	COMMD2	P15RS	KIAA0825	LOC201725	PLVAP	N4BP3	KIAA1432	C1QTNF5	C2ORF15	C12ORF5	MS4A6A	MS4A4A	RNASE1	C1ORF162	GIMAP6	C9ORF62	TMC5	CENPQ	GIMAP8	LOC152485	TMEM169	CENPK	SAMSN1	TMEM55A	GIMAP1	PRELID2	MYPN	PSITPTE22	ARPM1	LOC399947	FCGR2A	KIAA1545	C6ORF173	FAM126B	MAGED4B	TEX11	FAM26F	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+7368	2.0968E-4	1.4867E-2	2	35	9	14217	determination of left/right symmetry	PKD2|IFT88
+9855	2.3455E-4	1.4867E-2	2	37	9	14217	determination of bilateral symmetry	PKD2|IFT88
+9799	2.3455E-4	1.4867E-2	2	37	9	14217	specification of symmetry	PKD2|IFT88
+1701	2.7155E-4	1.4867E-2	3	216	9	14217	in utero embryonic development	TJP1|PKD2|IFT88
+9582	6.6051E-4	2.7720E-2	2	62	9	14217	detection of abiotic stimulus	PKD2|OPN3
+9581	9.3972E-4	2.7720E-2	2	74	9	14217	detection of external stimulus	PKD2|OPN3
+43009	1.2073E-3	2.7720E-2	3	360	9	14217	chordate embryonic development	TJP1|PKD2|IFT88
+9792	1.2465E-3	2.7720E-2	3	364	9	14217	embryonic development ending in birth or egg hatching	TJP1|PKD2|IFT88
+60315	1.2657E-3	2.7720E-2	1	2	9	14217	negative regulation of ryanodine-sensitive calcium-release channel activity	PKD2
+9642	1.2657E-3	2.7720E-2	1	2	9	14217	response to light intensity	SLC24A1
+9628	1.6840E-3	3.3526E-2	3	404	9	14217	response to abiotic stimulus	SLC24A1|PKD2|OPN3
+51606	2.3672E-3	4.2621E-2	2	118	9	14217	detection of stimulus	PKD2|OPN3
+42487	2.5300E-3	4.2621E-2	1	4	9	14217	regulation of odontogenesis of dentine-containing tooth	IFT88
+6816	2.9075E-3	4.5482E-2	2	131	9	14217	calcium ion transport	SLC24A1|PKD2
+70838	3.2204E-3	4.7018E-2	2	138	9	14217	divalent metal ion transport	SLC24A1|PKD2
+9416	3.5007E-3	4.7915E-2	2	144	9	14217	response to light stimulus	SLC24A1|OPN3
+60426	3.7929E-3	4.8862E-2	1	6	9	14217	lung vasculature development	IFT88

@@ -1,0 +1,50 @@
+File created with bingo (c) on May 4, 2015 at 10:32:03 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://62.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://62.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+ADCY4	ZNF469	GPR124	LRRC32	CD248	AFAP1L2	MMP28	AQP1	HSPA2	ADRA2C	HTRA3	C2ORF32	NEFM	PTPRB	PALM2-AKAP2	COX7A1	OLFML2A	SNAI2	ECM1	MMP11	THY1	PRICKLE1	RGS5	CNTN4	COL1A1	C16ORF30	FAM38B	
+
+No annotations were retrieved for the following entities:
+PNMA2	CXORF9	SHE	TMEM140	MMRN2	C1ORF75	C8ORF46	GAB3	WDR76	MOP-1	SLMO2	NLF1	NLF2	LOC389199	HFM1	MTERFD1	MS4A7	GBP5	NUDT15	LOC201175	FAM118B	FBXL8	CD300LF	FAM38B	BIN2	GBP1	CYORF15B	CCDC18	LMNB1	C20ORF174	C1ORF131	C1ORF135	CD68	LYL1	CD69	OTUD7A	HLA-DRB6	GPR156	HAVCR2	PALM2-AKAP2	KIAA1586	CCDC83	SPPL2B	NCKAP1L	LOC439951	MGC34800	C18ORF54	CAMK2N2	GPR153	SYNGR4	FAM64A	WSCD1	TRAF3IP3	FLJ45717	DHX40	CLEC14A	LOC347273	C5ORF20	TSPAN10	DLEU1	CELP	MGC45922	C2ORF32	FBXL17	LAIR1	HMGCLL1	C17ORF60	MYCT1	GPRASP2	FAM62C	METTL2A	LRRC25	CCDC109B	CLECL1	C3ORF33	TMEM182	COMMD2	LRRC32	KIAA0825	P15RS	LOC201725	PLVAP	ITM2A	N4BP3	C1QTNF5	MS4A6A	MS4A4A	RNASE1	C1ORF162	GIMAP6	CENPQ	C9ORF62	GIMAP8	SAMD3	CENPK	SAMSN1	GIMAP1	PRELID2	MYPN	PSITPTE22	FCGR2A	KIAA1545	C6ORF173	FAM26F	TEX11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+45664	1.4432E-4	3.8748E-2	4	170	23	14268	regulation of neuron differentiation	CNTN4|ADRA2C|NEFM|THY1
+50767	3.1836E-4	3.8748E-2	4	209	23	14268	regulation of neurogenesis	CNTN4|ADRA2C|NEFM|THY1
+71300	4.1803E-4	3.8748E-2	2	19	23	14268	cellular response to retinoic acid	COL1A1|AQP1
+51960	4.3559E-4	3.8748E-2	4	227	23	14268	regulation of nervous system development	CNTN4|ADRA2C|NEFM|THY1
+71299	4.6402E-4	3.8748E-2	2	20	23	14268	cellular response to vitamin A	COL1A1|AQP1
+71295	6.1607E-4	3.8748E-2	2	23	23	14268	cellular response to vitamin	COL1A1|AQP1
+60284	6.2679E-4	3.8748E-2	4	250	23	14268	regulation of cell development	CNTN4|ADRA2C|NEFM|THY1
+31670	9.8283E-4	3.8748E-2	2	29	23	14268	cellular response to nutrient	COL1A1|AQP1
+32963	1.0520E-3	3.8748E-2	2	30	23	14268	collagen metabolic process	COL1A1|MMP11
+51239	1.0716E-3	3.8748E-2	7	1065	23	14268	regulation of multicellular organismal process	CNTN4|ADRA2C|AFAP1L2|AQP1|ECM1|NEFM|THY1
+22603	1.2523E-3	3.8748E-2	4	301	23	14268	regulation of anatomical structure morphogenesis	AQP1|ECM1|NEFM|THY1
+44259	1.2732E-3	3.8748E-2	2	33	23	14268	multicellular organismal macromolecule metabolic process	COL1A1|MMP11
+50793	1.2746E-3	3.8748E-2	6	791	23	14268	regulation of developmental process	CNTN4|ADRA2C|AQP1|ECM1|NEFM|THY1
+48856	1.3302E-3	3.8748E-2	11	2652	23	14268	anatomical structure development	PTPRB|HSPA2|CNTN4|ADRA2C|COL1A1|HTRA3|SNAI2|AQP1|ECM1|NEFM|THY1
+31214	1.5147E-3	3.8748E-2	2	36	23	14268	biomineral formation	COL1A1|ECM1
+71472	1.6120E-3	3.8748E-2	1	1	23	14268	cellular response to salt stress	AQP1
+71474	1.6120E-3	3.8748E-2	1	1	23	14268	cellular hyperosmotic response	AQP1
+85018	1.6120E-3	3.8748E-2	1	1	23	14268	maintenance of symbiont-containing vacuole via substance secreted by host	AQP1
+52047	1.6120E-3	3.8748E-2	1	1	23	14268	interaction with other organism via secreted substance involved in symbiotic interaction	AQP1
+52212	1.6120E-3	3.8748E-2	1	1	23	14268	modification of morphology or physiology of other organism via secreted substance involved in symbiotic interaction	AQP1
+52213	1.6120E-3	3.8748E-2	1	1	23	14268	interaction with symbiont via secreted substance involved in symbiotic interaction	AQP1
+52182	1.6120E-3	3.8748E-2	1	1	23	14268	modification by host of symbiont morphology or physiology via secreted substance	AQP1
+35378	1.6120E-3	3.8748E-2	1	1	23	14268	carbon dioxide transmembrane transport	AQP1
+35377	1.6120E-3	3.8748E-2	1	1	23	14268	transepithelial water transport	AQP1
+71731	1.6120E-3	3.8748E-2	1	1	23	14268	response to nitric oxide	AQP1
+71732	1.6120E-3	3.8748E-2	1	1	23	14268	cellular response to nitric oxide	AQP1
+30950	1.6120E-3	3.8748E-2	1	1	23	14268	establishment or maintenance of actin cytoskeleton polarity	AQP1
+44236	1.7763E-3	4.1172E-2	2	39	23	14268	multicellular organismal metabolic process	COL1A1|MMP11
+32502	1.8952E-3	4.2413E-2	12	3231	23	14268	developmental process	PTPRB|HSPA2|CNTN4|ADRA2C|COL1A1|HTRA3|SNAI2|AQP1|ECM1|NEFM|THY1|MMP11
+45766	2.1562E-3	4.6645E-2	2	43	23	14268	positive regulation of angiogenesis	AQP1|ECM1

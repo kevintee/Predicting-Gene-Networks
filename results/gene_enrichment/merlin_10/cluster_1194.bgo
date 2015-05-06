@@ -1,0 +1,21 @@
+File created with bingo (c) on May 5, 2015 at 1:46:41 PM
+
+ontology: namespace
+curator:  bingo
+
+Selected ontology file : bundle://112.0:1/data/GO_Biological_Process
+Selected annotation file : bundle://112.0:1/data/H_sapiens_default
+Discarded evidence codes : 
+Overrepresentation
+Selected statistical test : Hypergeometric test
+Selected correction : Benjamini & Hochberg False Discovery Rate (FDR) correction
+Selected significance level : 0.05
+Testing option : Use whole annotation as reference set
+The selected cluster :
+CTSZ	TAGAP	SLC2A5	RASGRP3	FCGR1A	IL21R	SIGLEC7	FPR1	MYO1F	EVI2B	PKD2L1	ELMO1	
+
+No annotations were retrieved for the following entities:
+GREB1	LOC347273	C22ORF27	MKRN3	C1QTNF5	TSPAN10	LYL1	TRIM43	CELP	MOP-1	MGC45922	OTUD7A	NLF1	EVI2B	SMA4	NLF2	C12ORF5	LOC389199	FBXL17	MTUS1	RP13-36C9.6	GPR156	CT45-6	UNQ6975	C18ORF51	LOC91461	C9ORF62	TMC5	SPPL2B	LOC439951	TMEM169	LOC201175	SMYD2	MGC34800	CAMK2N2	SYNGR4	GPR153	TMEM55A	C1ORF64	FBXL8	PSITPTE22	FLJ45717	ARPM1	LOC399947	KIAA1545	BTBD11	
+
+GO-ID	p-value	corr p-value	x	n	X	N	Description	Genes in test set
+6911	1.9536E-5	2.8522E-3	2	9	11	14217	phagocytosis, engulfment	FCGR1A|ELMO1
