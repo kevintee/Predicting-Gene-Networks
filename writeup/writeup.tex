@@ -128,7 +128,7 @@ For many human diseases, such as cancer, gene regulatory networks can provide in
 % suppress numbering.
 
 \section*{Introduction}
-Cancer is a disease of the genome that is associated with accumulation of mutational events that lead to disregulation of the cellular system. Genes involved in cancer development and progression are classified as oncogenes, tumor suppressor genes and genomic stability genes [1]. These genes have a key role in the regulation of the cell-cycle, proliferation and cell differentiation, and in the regulation of apoptosis [2]. Mutations in over 100 genes are known to drive tumorgenesis, affecting a broad classes of proteins such as transcription factors, chromatin remodelers, growth factors (e.g.,EGFR), growth factor receptors (e.g.,HER2), signal transducers, regulators of apoptosis and DNA repair genes [2]. Within any given tumor there are between 2-8 mutated Òdriver genesÓ modulating the activity of critical molecular pathways [3]. Pilot studies by TCGA and others demonstrated that patients harbor genomic alterations or aberrant expression in different genes and these genes often participate in a common pathway [4,5], indicating that pathway-level genomic perturbations are key features in the underlying cancer biology. Gene regulatory network (GRN) in these cancer pathways has been recognized as potentially important prognosis markers in risk of metastasis or ultimately the target for personalized treatments [6].
+Cancer is a disease of the genome that is associated with accumulation of mutational events that lead to disregulation of the cellular system. Genes involved in cancer development and progression are classified as oncogenes, tumor suppressor genes and genomic stability genes [1]. These genes have a key role in the regulation of the cell-cycle, proliferation and cell differentiation, and in the regulation of apoptosis [2]. Mutations in over 100 genes are known to drive tumorgenesis, affecting a broad classes of proteins such as transcription factors, chromatin remodelers, growth factors (e.g.,EGFR), growth factor receptors (e.g.,HER2), signal transducers, regulators of apoptosis and DNA repair genes [2]. Within any given tumor there are between 2-8 mutated ñdriver genesî modulating the activity of critical molecular pathways [3]. Pilot studies by TCGA and others demonstrated that patients harbor genomic alterations or aberrant expression in different genes and these genes often participate in a common pathway [4,5], indicating that pathway-level genomic perturbations are key features in the underlying cancer biology. Gene regulatory network (GRN) in these cancer pathways has been recognized as potentially important prognosis markers in risk of metastasis or ultimately the target for personalized treatments [6].
 
 High-throughput technologies have produced enormous amount of genome-wide gene expression data. Many data driven mathematical and computational approaches have been developed for probing the molecular interactions of cancer pathways. The molecular interactions between the genes and their products are complex and dynamic. Due to the high dimensionality of gene expression data and insufficient sample measures, the GRN with high prediction accuracy may not reveal the true biological relations. Further, different inference methods may yield different GRNs that are difficult to validate. Thus, the translational potential of gene expression profiling in cancer diagnosis, prognosis and in the development of personalized medicine may not be fulfilled due to the lack of consensus among the inferred GRNs and poor understanding of the underlying mechanisms.
 
@@ -280,9 +280,16 @@ and
 
 We run updates for the variational E and M step until $|\tau^{(t+1)} - \tau^{(t)}| < \epsilon$, which we define to be 0.01. 
 
-\section*{Results}
-We validate our results in two ways: using ChIP-seq data to validate the genes each transcription factor regulates and using Gene Ontology to validate the functional importance of certain clusters learned by each model.
 
+
+\section*{Results}%% LING'S STUFF%%%%%%%%%%%%%%%%
+In this paper, we applied MERLIN and Block Model methods to the UCEC microarray dataset from the TCGA database. The input data comprises 54 samples with 7449 target and 1050 regulator genes, where the regulators were known TFs or signaling proteins such as kinases and phosphatases.
+%[Summarize the number/size of modules predicted by these two methods (Table 1).] 
+MERLIN generated a total of 2533 calculated modules, 
+
+% TODO :Michael/Kevin: If you send me the ChIP-seq validation results -- 2 sets of p-values with their TF name/ID, I can write out the results for that
+
+\subsection*{ChIP-seq Data Comparison}
 For ChIP-seq data, we use data from ChipBase, an online database listing genes regulated by certain transcription factors. Because the universe of transcription factors and genes is different from our dataset and the online dataset, we take the intersection of possible genes and transcription factors into account when testing for significance. To test for significance, we use the hypergeometric test. The hypergeometric distribution is
 \[
 P(X=k) = {{{K \choose k} {{N-K} \choose {n-k}}}\over {N \choose n}}
@@ -309,13 +316,60 @@ where $N$ is the total number of items in the universe, $K$ of which are "succes
 
 To compare results, we have included histograms (for approximately 110 transcription factors) from both MERLIN and our stochastic block model in Figure 1. Note that the average p-value in the Stochastic Block Model is lower than MERLIN, indicating our method outperforms MERLIN. 
 
-\section*{Discussion}
+We also plotted the p-values associated with each transcription factor across each method, as shown in Figure 2. Despite what appears to be a positive correlation, it appears that there is some pointwise deviation across methods.
 
-\subsection*{Flexibility of Stochastic Block Model for Clustering}
-Using Stochastic Block Model gives a certain flexibility for defining models. Unlike hierarchical clustering, which is rigid and difficult to tune, our model can adapt to user constraints in a number of ways. The input is a binary matrix, which means any method to generate such a binary matrix can be adopted, from simple correlation to more complex models defined by the user. While some may argue that this divides the problem into two parts that may be better suited together, we provide a level of abstraction for generating this binary matrix and clustering. Additionally, our model has learned the transition matrix, priors on cluster assignments, etc. from the data. It is possible to predefine some of these quantities given prior information, allowing for a richer set of models suited to the task at hand. 
+\begin{figure}
+\centering
+\begin{subfigure}{.8\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{./plots/p_val_comparison_chip_seq.png}
+  \caption{Comparing P-values across methods}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{The figure compares p-values reported from Gene Ontology from various clusters.}
+\label{geneontology}
+\end{figure}
+
+\subsection*{Gene Ontology Comparison}
+To further validate and compare the generated modules, we used a tool in Cytoscape called BINGO. The main idea is that for each gene in a cluster, we query GO (gene ontology) database for a set of functional annotations or pathways associated with that gene. Then using a hyper-geometric distribution, we compute a p-value based on the significance of the overlap among all those sets of pathways. Results shown in Figure 3 shows the number of clusters (with gene count greater than 10) that have shown significant enrichment of a certain pathway ($P < 0.05$). The results show that some pathways are enriched in SBM method, such as DNA repair, while most other pathways are more enriched in the Merlin methods. In Gene Oncology (GO) enrichment analysis, the predicted modules (clusters) from both MERLIN and Block Model were highly expressed in immune system process ($p=10^{-39}$), developmental process ($p=10^{-38}$), regulation of cell death ($p=10^{-23}$), regulation of programmed cell death ($p=10^{-22}$), cell proliferation ($p=10^{-15}$). 
+%Additionally, in Figure 3 we see a comparison of the clusters generated by SBM and Merlin. The shade of the box represents the proportion of clusters generated by either SBM or Merlin that include at least one gene relating to the function listed on the left side of the graphic.
+
+
+
+
+\begin{figure}
+\centering
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{./plots/sbm_vs_merlin_pathway_enrichment.png}
+  \includegraphics[width=0.3\linewidth]{./plots/legend.png}
+  \caption{Gene Ontology: Stochastic Block Model vs Merlin}
+  \label{fig:sub3}
+\end{subfigure}
+\caption{The figure compares some selected annotations and resulting gene ontology reports.}
+\label{comparegeneontology}
+\end{figure}
+
+
+\section*{Discussion}
+%%%% LING'S STUFF - NEEDS SOME EDITS
+This is the first study to examine the level of consensus of the inferred GRN by two different methods, MERLIN vs. SBM, using the same input data. We found relatively high correlations between the two GRNs.
+Unlike hierarchical clustering, which is rigid and difficult to tune, our model can adapt to user constraints in a number of ways, stochastic Block Model (SBM) is more flexible and robust. The input to MERLIN or SBM is a binary matrix, which could be as simple as correlations, or more compliated user-defined models. While some may argue that this divides the problem into two parts that may be better suited together, we provide a level of abstraction for generating this binary matrix and clustering. Furthermore, in SBM, the transition matrix was data-driven, priors on cluster assignments. It is possible to predefine some of these quantities given prior information, allowing for a richer set of models suited to these purposes.
+As the field of network inference in biology is still in its infancy, our study faced several limitations:
+\begin{itemize}
+\item Using microarray data to determine exome-wide expression in cancer excludes any genes that are somatically mutated to the point where they would not bind the probe;
+\item Lack of normal tissue or healthy donor controls for comparison;
+\item Validating edges using ChipSeq data, it is unclear whether transcription factors interact with a specific set of genes that is conserved across cell types and disease states. If they differ we would fail to validate true edges important to breast cancer;
+\item Lack of true gold standard. However, studies like this one will contribute new knowledge regarding gene regulatory networks that can provide a jumping-off point to investigate further in the lab, thus it is studies like these that will stimulate directed research to construct a gold standard in understanding gene-regulatory networks.
+\end{itemize}
+	
+
+Functional RNAs and proteins do not act alone in cells. Technologies that allow us to examine exome-wide RNA expression will provide much more information as to how these RNAs and proteins interact compared to studying each unit independently. However, there are challenges facing the inference of these complex interactions.
+We utilized and evaluated these methods in the context of breast cancer, using RNA expression data derived from breast cancer tumor samples.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection*{Acknowledgements}
-We would like to thank Nir Yosef for his support and suggestions on the project, as well as Amelia Wallace, Ling Shen, and Jonathan Kim for their input several parts of the project. We would also like to thank Michael Cole for his discussion and suggestions on estimating the covariance and inverse covariance matrix. 
+We would like to thank Nir Yosef for his support and suggestions on the project, as well as Amelia Wallace, Ling Shen, and Jonathan Kim for their input on several parts of the project. We would also like to thank Michael Cole for his discussion and suggestions on estimating the covariance and inverse covariance matrix. Our code is publicly available at \begin{verbatim}http://github.com/kevintee/Predicting-Gene-Networks\end{verbatim}
 
 \subsection*{References}
 [1] Vogelstein, B. and Kinzler, K.W. Cancer genes and the pathways they control. Nat Med 10, 789-99 (2004).
@@ -328,8 +382,8 @@ We would like to thank Nir Yosef for his support and suggestions on the project,
 
 [5] Comprehensive genomic characterization defines human glioblastoma genes and core pathways. Nature 455, 1061-8 (2008).
 
-[6] Drier, Y., Sheffer, M. and Domany, E. Pathway-based personalized analysis of cancer. Proc Natl 
+[6] Drier, Y., Sheffer, M. and Domany, E. Pathway-based personalized analysis of cancer. Proc. Natl. Acad. Sci. USA 110, 6388-93 (2013).
 
-Acad Sci U S A 110, 6388-93 (2013).
+[7] P. Latouche, E. Birmele, and C. Ambroise, Variational Bayesian Inference and Complexity Control for Stochastic Block Models, Stat. Model. 12, 93 (2012).
 
 \end{document}
